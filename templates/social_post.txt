@@ -1,0 +1,7 @@
+{{business_name}} — {{description}}
+
+Discover reliable VoIP and business communication solutions designed to help companies streamline their phone systems, reduce costs, and scale with confidence.
+
+Learn more: {{website}}
+
+{{tags}}

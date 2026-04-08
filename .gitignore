@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+output/backlinks_log.csv
+.claude/
+config.json

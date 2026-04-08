@@ -1,0 +1,40 @@
+{
+  "search_queries": [
+    "VoIP \"write for us\"",
+    "telecom \"write for us\"",
+    "business phone system \"write for us\"",
+    "unified communications \"write for us\"",
+    "SIP trunking \"write for us\"",
+    "VoIP \"guest post\"",
+    "telecom \"guest post guidelines\"",
+    "business communication \"submit a guest post\"",
+    "cloud phone \"contribute\"",
+    "VoIP \"become a contributor\"",
+    "hosted PBX \"guest author\"",
+    "business VoIP blog \"write for us\"",
+    "small business technology \"write for us\"",
+    "IT blog \"write for us\" VoIP",
+    "startup technology \"guest post\" telecommunications",
+    "UCaaS blog \"contribute\"",
+    "cloud communications \"submit article\"",
+    "business phone blog \"guest blogger\""
+  ],
+  "seed_domains": [
+    "https://getvoip.com",
+    "https://www.voip-info.org",
+    "https://www.uctoday.com",
+    "https://nojitter.com",
+    "https://www.telecomreseller.com",
+    "https://www.cbronline.com",
+    "https://www.cloudcomputinginsider.com",
+    "https://techgenix.com",
+    "https://www.smashingtops.com",
+    "https://www.itprotoday.com",
+    "https://smallbiztrends.com",
+    "https://www.entrepreneur.com",
+    "https://www.businessnewsdaily.com",
+    "https://www.techrepublic.com",
+    "https://www.zdnet.com"
+  ],
+  "contact_page_paths": ["/contact", "/contact-us", "/about", "/about-us", "/write-for-us", "/contribute", "/guest-post"]
+}

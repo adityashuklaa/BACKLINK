@@ -1,0 +1,28 @@
+Subject: Guest Post Contribution — {{topic_suggestion}}
+
+Hi {{target_site}} editorial team,
+
+My name is {{sender_name}}, and I'm with {{business_name}} ({{website}}), a company specializing in VoIP and business communication solutions.
+
+I've been following your publication and really appreciate the quality of content you produce around telecom and unified communications. I'd love to contribute a guest article that I believe would resonate well with your readers.
+
+Here's a topic I had in mind:
+
+  {{topic_suggestion}}
+
+The article would be original, well-researched, and tailored to your audience. I'm happy to work with your editorial guidelines and adjust the angle as needed. I can have a draft ready within a week of confirmation.
+
+A few things I can bring to the table:
+- Hands-on industry experience in VoIP deployments and business phone systems
+- Data-driven insights from real-world implementations
+- Practical tips your readers can act on immediately
+
+Would you be open to discussing this? I'm flexible on topic and format — feel free to suggest alternatives if something else fits your editorial calendar better.
+
+Looking forward to hearing from you.
+
+Best regards,
+{{sender_name}}
+{{business_name}}
+{{website}}
+{{sender_email}}

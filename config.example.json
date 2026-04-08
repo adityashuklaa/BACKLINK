@@ -1,0 +1,83 @@
+{
+  "business": {
+    "name": "YOUR_BUSINESS_NAME",
+    "tagline": "Your Business Tagline",
+    "website": "https://yourdomain.com",
+    "phone": "+1-800-000-0000",
+    "email": "contact@yourdomain.com",
+    "address": {
+      "street": "123 Main St",
+      "city": "City",
+      "state": "ST",
+      "zip": "00000",
+      "country": "US"
+    },
+    "description": "Your business description here.",
+    "keywords": ["keyword1", "keyword2"],
+    "categories": ["Category1", "Category2"],
+    "founded_year": 2020,
+    "logo_url": "https://yourdomain.com/logo.png"
+  },
+  "smtp": {
+    "host": "smtp.gmail.com",
+    "port": 465,
+    "use_ssl": true,
+    "username": "your@gmail.com",
+    "password": "YOUR_GMAIL_APP_PASSWORD",
+    "from_name": "Your Name",
+    "from_email": "your@gmail.com",
+    "reply_to": "your@gmail.com"
+  },
+  "browser": {
+    "headless": true,
+    "proxy": "",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+    ]
+  },
+  "accounts": {
+    "yelp":    { "username": "", "password": "", "email": "" },
+    "quora":   { "username": "", "password": "", "email": "" },
+    "github":  { "username": "", "password": "", "email": "" },
+    "reddit": {
+      "client_id": "",
+      "client_secret": "",
+      "username": "",
+      "password": ""
+    }
+  },
+  "proxy": {
+    "enabled": false,
+    "server": "",
+    "rotate": false
+  },
+  "rate_limit": {
+    "min_delay_s": 8,
+    "max_delay_s": 15,
+    "strategy_pause_s": 60,
+    "email_delay_s": 30,
+    "inter_field_min_s": 0.3,
+    "inter_field_max_s": 1.5,
+    "reading_pause_min_s": 2,
+    "reading_pause_max_s": 5
+  },
+  "captcha": {
+    "enabled": false,
+    "api_key": "",
+    "timeout_s": 120
+  },
+  "email_verification": {
+    "enabled": false,
+    "imap_server": "imap.gmail.com",
+    "imap_port": 993,
+    "email": "",
+    "app_password": "",
+    "auto_run_after_strategies": true,
+    "search_last_hours": 24
+  },
+  "dry_run": true,
+  "output": {
+    "csv_path": "output/backlinks_log.csv",
+    "log_level": "INFO"
+  }
+}

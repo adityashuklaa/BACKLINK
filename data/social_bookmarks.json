@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Reddit",
+    "method": "api",
+    "subreddits": [
+      "r/VoIP",
+      "r/sysadmin",
+      "r/telecom",
+      "r/VOIP",
+      "r/selfhosted",
+      "r/entrepreneur"
+    ],
+    "post_type": "link",
+    "notes": "Use praw; account needs karma; text posts perform better than link-only posts"
+  },
+  {
+    "name": "Diigo",
+    "method": "playwright",
+    "submit_url": "https://www.diigo.com/post",
+    "login_url": "https://www.diigo.com/sign-in",
+    "captcha_required": false,
+    "notes": "Social bookmarking; login required"
+  },
+  {
+    "name": "Mix",
+    "method": "playwright",
+    "submit_url": "https://mix.com/submit",
+    "login_url": "https://mix.com/login",
+    "captcha_required": false,
+    "notes": "Content discovery platform"
+  },
+  {
+    "name": "Flipboard",
+    "method": "playwright",
+    "submit_url": "https://flipboard.com",
+    "login_url": "https://flipboard.com/login",
+    "captcha_required": false,
+    "notes": "Flip a magazine article; account required"
+  },
+  {
+    "name": "BizSugar",
+    "method": "playwright",
+    "submit_url": "https://www.bizsugar.com/submit-story/",
+    "login_url": "https://www.bizsugar.com/login/",
+    "captcha_required": false,
+    "notes": "Small business content sharing community"
+  },
+  {
+    "name": "Scoop.it",
+    "method": "playwright",
+    "submit_url": "https://www.scoop.it/suggest",
+    "login_url": "https://www.scoop.it/login",
+    "captcha_required": false,
+    "notes": "Content curation platform"
+  },
+  {
+    "name": "Folkd",
+    "method": "playwright",
+    "submit_url": "https://www.folkd.com/submit/",
+    "login_url": "https://www.folkd.com/login",
+    "captcha_required": false,
+    "notes": "Social bookmarking site"
+  },
+  {
+    "name": "GrowthHackers",
+    "method": "playwright",
+    "submit_url": "https://growthhackers.com/articles/submit",
+    "login_url": "https://growthhackers.com/login",
+    "captcha_required": false,
+    "notes": "Marketing and growth community"
+  },
+  {
+    "name": "Hacker News",
+    "method": "playwright",
+    "submit_url": "https://news.ycombinator.com/submit",
+    "login_url": "https://news.ycombinator.com/login",
+    "captcha_required": false,
+    "notes": "Tech community; only submit genuinely useful content to avoid downvotes"
+  }
+]

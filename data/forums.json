@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Quora",
+    "profile_url": "https://www.quora.com/profile/edit",
+    "login_url": "https://www.quora.com/",
+    "website_field_selector": "input[placeholder*='website'], input[name*='website'], input[type='url']",
+    "method": "playwright",
+    "captcha_required": false,
+    "notes": "Fill website field in profile settings"
+  },
+  {
+    "name": "GitHub",
+    "profile_url": "https://github.com/settings/profile",
+    "login_url": "https://github.com/login",
+    "website_field_selector": "input#user_profile_blog",
+    "method": "playwright",
+    "captcha_required": false,
+    "notes": "Website field in GitHub profile"
+  },
+  {
+    "name": "IndieHackers",
+    "profile_url": "https://www.indiehackers.com/settings",
+    "login_url": "https://www.indiehackers.com/sign-in",
+    "website_field_selector": "input[name='website'], input[placeholder*='website']",
+    "method": "playwright",
+    "captcha_required": false,
+    "notes": "Startup/indie community profile"
+  },
+  {
+    "name": "Dev.to",
+    "profile_url": "https://dev.to/settings/profile",
+    "login_url": "https://dev.to/enter",
+    "website_field_selector": "input#user_profile_website_url",
+    "method": "playwright",
+    "captcha_required": false,
+    "notes": "Developer community; website field in profile"
+  },
+  {
+    "name": "Hashnode",
+    "profile_url": "https://hashnode.com/settings",
+    "login_url": "https://hashnode.com/login",
+    "website_field_selector": "input[name='website'], input[placeholder*='website']",
+    "method": "playwright",
+    "captcha_required": false,
+    "notes": "Developer blogging platform"
+  },
+  {
+    "name": "Product Hunt",
+    "profile_url": "https://www.producthunt.com/settings/profile",
+    "login_url": "https://www.producthunt.com/login",
+    "website_field_selector": "input[name='website_url'], input[placeholder*='website']",
+    "method": "playwright",
+    "captcha_required": false,
+    "notes": "Product launch community"
+  },
+  {
+    "name": "Stack Overflow",
+    "profile_url": "https://stackoverflow.com/users/edit/current",
+    "login_url": "https://stackoverflow.com/users/login",
+    "website_field_selector": "input#website-url, input[name='WebsiteUrl']",
+    "method": "playwright",
+    "captcha_required": false,
+    "notes": "Developer Q&A; website field in profile"
+  },
+  {
+    "name": "G2",
+    "profile_url": "https://www.g2.com/products/vestacall/edit",
+    "login_url": "https://www.g2.com/users/sign_in",
+    "website_field_selector": "input[name='product[website_url]'], input[placeholder*='website']",
+    "method": "playwright",
+    "captcha_required": false,
+    "notes": "Claim and edit product profile"
+  },
+  {
+    "name": "Capterra",
+    "profile_url": "https://www.capterra.com/vendors/dashboard",
+    "login_url": "https://www.capterra.com/vendors/sign-in",
+    "website_field_selector": "input[name='website'], input[placeholder*='website']",
+    "method": "playwright",
+    "captcha_required": false,
+    "notes": "Software review platform vendor dashboard"
+  },
+  {
+    "name": "TrustRadius",
+    "profile_url": "https://www.trustradius.com/vendor/dashboard",
+    "login_url": "https://www.trustradius.com/login",
+    "website_field_selector": "input[name='website'], input[placeholder*='website']",
+    "method": "playwright",
+    "captcha_required": false,
+    "notes": "B2B software reviews"
+  },
+  {
+    "name": "SaaSHub",
+    "profile_url": "https://www.saashub.com/dashboard",
+    "login_url": "https://www.saashub.com/login",
+    "website_field_selector": "input[name='url'], input[placeholder*='website']",
+    "method": "playwright",
+    "captcha_required": false,
+    "notes": "Software discovery platform"
+  },
+  {
+    "name": "AlternativeTo",
+    "profile_url": "https://alternativeto.net/dashboard/",
+    "login_url": "https://alternativeto.net/account/login/",
+    "website_field_selector": "input[name='website'], input[name='url']",
+    "method": "playwright",
+    "captcha_required": false,
+    "notes": "List vestacall as alternative to Vonage, RingCentral, etc."
+  },
+  {
+    "name": "DSLReports",
+    "profile_url": "https://www.dslreports.com/profile",
+    "login_url": "https://www.dslreports.com/login",
+    "website_field_selector": "input[name='url'], input[name='website']",
+    "method": "playwright",
+    "captcha_required": false,
+    "notes": "ISP/VoIP community forum"
+  },
+  {
+    "name": "VoIP-info.org",
+    "profile_url": "https://www.voip-info.org/wiki/index.php?title=Special:Preferences",
+    "login_url": "https://www.voip-info.org/wiki/index.php?title=Special:UserLogin",
+    "website_field_selector": "input#wpEmailAddress",
+    "method": "playwright",
+    "captcha_required": false,
+    "notes": "VoIP-specific wiki community; edit user page with website link"
+  },
+  {
+    "name": "Spiceworks",
+    "profile_url": "https://community.spiceworks.com/profile/edit",
+    "login_url": "https://community.spiceworks.com/login",
+    "website_field_selector": "input[name='website'], input[placeholder*='website']",
+    "method": "playwright",
+    "captcha_required": false,
+    "notes": "IT professional community; relevant for business VoIP"
+  }
+]

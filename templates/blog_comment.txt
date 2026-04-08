@@ -1,0 +1,5 @@
+Great breakdown on {{post_title}}! {{comment_body}}
+
+We've seen similar results working with businesses migrating to VoIP — the cost savings and flexibility really do make a difference, especially for growing teams. Appreciate you putting this together.
+
+— {{commenter_name}} | {{website}}

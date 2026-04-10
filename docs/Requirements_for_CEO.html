@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>VestaCall Backlink Automation - Requirements Document</title>
+<style>
+  @page { margin: 1in; size: A4; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; color: #1a1a2e; line-height: 1.6; padding: 40px 50px; max-width: 850px; margin: 0 auto; }
+
+  .header { text-align: center; border-bottom: 3px solid #0f3460; padding-bottom: 20px; margin-bottom: 30px; }
+  .header h1 { font-size: 26px; color: #0f3460; margin-bottom: 5px; }
+  .header .subtitle { font-size: 14px; color: #555; }
+  .header .logo-text { font-size: 32px; font-weight: 800; color: #0f3460; letter-spacing: -1px; margin-bottom: 8px; }
+  .header .logo-text span { color: #e94560; }
+
+  .meta-table { width: 100%; border-collapse: collapse; margin-bottom: 25px; font-size: 13px; }
+  .meta-table td { padding: 6px 12px; border: 1px solid #ddd; }
+  .meta-table td:first-child { font-weight: 600; background: #f4f6f9; width: 160px; color: #333; }
+
+  h2 { font-size: 18px; color: #0f3460; margin: 28px 0 12px 0; padding-bottom: 6px; border-bottom: 2px solid #e94560; }
+  h3 { font-size: 15px; color: #16213e; margin: 18px 0 8px 0; }
+
+  p { font-size: 14px; margin-bottom: 10px; color: #333; }
+  .highlight { background: #fff3cd; padding: 10px 14px; border-left: 4px solid #ffc107; margin: 12px 0; font-size: 13px; border-radius: 4px; }
+  .success { background: #d4edda; padding: 10px 14px; border-left: 4px solid #28a745; margin: 12px 0; font-size: 13px; border-radius: 4px; }
+
+  table { width: 100%; border-collapse: collapse; margin: 12px 0 20px 0; font-size: 13px; }
+  th { background: #0f3460; color: white; padding: 10px 12px; text-align: left; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid #e0e0e0; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #e8f4fd; }
+
+  .req-box { border: 2px solid #0f3460; border-radius: 8px; padding: 16px 20px; margin: 16px 0; background: #f8faff; }
+  .req-box h3 { color: #0f3460; margin-top: 0; font-size: 16px; }
+  .req-box .tag { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 11px; font-weight: 700; margin-right: 8px; }
+  .tag-free { background: #d4edda; color: #155724; }
+  .tag-paid { background: #fff3cd; color: #856404; }
+  .tag-time { background: #d1ecf1; color: #0c5460; }
+
+  .steps { padding-left: 0; list-style: none; counter-reset: step; }
+  .steps li { position: relative; padding: 6px 0 6px 35px; font-size: 13px; margin-bottom: 4px; }
+  .steps li::before { counter-increment: step; content: counter(step); position: absolute; left: 0; top: 5px; width: 24px; height: 24px; background: #0f3460; color: white; border-radius: 50%; text-align: center; line-height: 24px; font-size: 12px; font-weight: 700; }
+
+  .summary-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 16px 0; }
+  .summary-card { border: 1px solid #ddd; border-radius: 8px; padding: 14px; text-align: center; }
+  .summary-card .num { font-size: 28px; font-weight: 800; color: #0f3460; }
+  .summary-card .label { font-size: 12px; color: #666; margin-top: 2px; }
+
+  .footer { text-align: center; margin-top: 40px; padding-top: 16px; border-top: 2px solid #e0e0e0; font-size: 11px; color: #888; }
+
+  @media print {
+    body { padding: 0; }
+    .req-box { break-inside: avoid; }
+    table { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="logo-text"><span>Vesta</span>Call</div>
+  <h1>Backlink Automation System - Requirements Document</h1>
+  <div class="subtitle">Items Needed to Achieve Full Automation Capability</div>
+</div>
+
+<table class="meta-table">
+  <tr><td>Document Type</td><td>Technical Requirements for Management Approval</td></tr>
+  <tr><td>Prepared By</td><td>Automation Engineering Team</td></tr>
+  <tr><td>Date</td><td>April 9, 2026</td></tr>
+  <tr><td>Project</td><td>SEO Backlink Generation for vestacall.com</td></tr>
+  <tr><td>Priority</td><td>High - Directly impacts backlink generation volume</td></tr>
+</table>
+
+<h2>1. Executive Summary</h2>
+
+<p>Our backlink automation system is built and operational. In the latest test run, we achieved <strong>21 confirmed successful backlink submissions</strong> across 28 directory sites (75% success rate on directories). However, the system is currently blocked from reaching its full potential due to 4 missing items.</p>
+
+<div class="summary-grid">
+  <div class="summary-card">
+    <div class="num">21</div>
+    <div class="label">Confirmed Backlinks (Current)</div>
+  </div>
+  <div class="summary-card">
+    <div class="num">40+</div>
+    <div class="label">Projected After These Items</div>
+  </div>
+  <div class="summary-card">
+    <div class="num">~$3</div>
+    <div class="label">Total Cost Required</div>
+  </div>
+  <div class="summary-card">
+    <div class="num">&lt;1 hr</div>
+    <div class="label">Total Setup Time</div>
+  </div>
+</div>
+
+<div class="success">
+  <strong>Bottom Line:</strong> With these 4 items provided, we project the system will generate 40+ confirmed backlinks per automated run (up from 21 currently). Total cost: approximately $3. Total setup time: under 1 hour.
+</div>
+
+<h2>2. Current System Status</h2>
+
+<table>
+  <tr><th>Metric</th><th>Current Value</th><th>After Requirements Met</th></tr>
+  <tr><td>Confirmed Backlinks per Run</td><td>21</td><td>40+</td></tr>
+  <tr><td>Directory Success Rate</td><td>75%</td><td>85-90%</td></tr>
+  <tr><td>Profile Sites Working</td><td>0 / 10</td><td>8-10 / 10</td></tr>
+  <tr><td>Social Platforms Working</td><td>3 / 9</td><td>7-9 / 9</td></tr>
+  <tr><td>CAPTCHA-Blocked Sites</td><td>9 sites stuck</td><td>0 (auto-solved)</td></tr>
+  <tr><td>Email Outreach</td><td>Disabled (no credentials)</td><td>Fully automated</td></tr>
+</table>
+
+<h2>3. Requirements (4 Items)</h2>
+
+<!-- Requirement 1 -->
+<div class="req-box">
+  <h3>Requirement 1: Platform Account Logins</h3>
+  <span class="tag tag-free">FREE</span>
+  <span class="tag tag-time">30 minutes setup</span>
+
+  <p><strong>What:</strong> Create free accounts on 10 websites using a company email address, then provide the login credentials (username/email + password) to the engineering team.</p>
+
+  <p><strong>Why it's needed:</strong> These websites require users to log in before they can add a company website link to their profile. Our automation system can fill forms and navigate pages perfectly, but it cannot create new accounts (that requires manual email verification and sometimes phone verification). Once an account exists, the system logs in automatically and adds vestacall.com to the profile page - creating a permanent backlink.</p>
+
+  <p><strong>Websites that need accounts:</strong></p>
+  <table>
+    <tr><th>#</th><th>Website</th><th>Type</th><th>Why It Matters</th></tr>
+    <tr><td>1</td><td>Quora</td><td>Q&A Platform</td><td>High domain authority (93), profile website link</td></tr>
+    <tr><td>2</td><td>GitHub</td><td>Developer Platform</td><td>Very high authority (95), profile website field</td></tr>
+    <tr><td>3</td><td>Dev.to</td><td>Developer Blog</td><td>High authority (72), profile with website</td></tr>
+    <tr><td>4</td><td>Stack Overflow</td><td>Developer Q&A</td><td>Very high authority (93), profile website field</td></tr>
+    <tr><td>5</td><td>Diigo</td><td>Social Bookmarking</td><td>Dofollow backlink, bookmark with URL</td></tr>
+    <tr><td>6</td><td>IndieHackers</td><td>Startup Community</td><td>Relevant audience, profile website link</td></tr>
+    <tr><td>7</td><td>Hashnode</td><td>Tech Blog</td><td>High authority, profile website field</td></tr>
+    <tr><td>8</td><td>Product Hunt</td><td>Product Launch</td><td>High authority, product listing with link</td></tr>
+    <tr><td>9</td><td>Spiceworks</td><td>IT Community</td><td>Directly relevant to VoIP/telecom audience</td></tr>
+    <tr><td>10</td><td>DSLReports</td><td>ISP/VoIP Forum</td><td>Niche-relevant, profile website link</td></tr>
+  </table>
+
+  <p><strong>How to create accounts:</strong></p>
+  <ol class="steps">
+    <li>Go to each website listed above</li>
+    <li>Click "Sign Up" or "Create Account"</li>
+    <li>Use a company email (e.g., contact@vestacall.com)</li>
+    <li>Set a password and verify the email</li>
+    <li>Record the email and password used</li>
+    <li>Share the credentials with the engineering team</li>
+  </ol>
+
+  <p><strong>Impact:</strong> Fixes 10 out of 13 current failures. These 10 profile sites become fully automated.</p>
+</div>
+
+<!-- Requirement 2 -->
+<div class="req-box">
+  <h3>Requirement 2: Gmail App Password</h3>
+  <span class="tag tag-free">FREE</span>
+  <span class="tag tag-time">5 minutes setup</span>
+
+  <p><strong>What:</strong> Generate a special 16-character password from Google that allows our system to send emails and read the inbox programmatically.</p>
+
+  <p><strong>Why it's needed:</strong> Google blocks regular passwords when software tries to send or read emails. An "App Password" is Google's official, secure way to allow this. We need it for two critical functions:</p>
+
+  <table>
+    <tr><th>Function</th><th>What It Does</th></tr>
+    <tr><td><strong>Guest Post Outreach</strong></td><td>Automatically discovers blogs that accept guest posts about VoIP topics, and sends professional pitch emails to their editors. Each accepted guest post creates a high-quality backlink to vestacall.com.</td></tr>
+    <tr><td><strong>Email Verification</strong></td><td>Many directory sites send a "Confirm your email" link after we submit a listing. Our system can automatically open the inbox, find these emails, and click the confirmation links - completing the registration without manual effort.</td></tr>
+  </table>
+
+  <p><strong>How to set up:</strong></p>
+  <ol class="steps">
+    <li>Open Google Account settings: myaccount.google.com/security</li>
+    <li>Turn on 2-Step Verification (required by Google)</li>
+    <li>Go to: myaccount.google.com/apppasswords</li>
+    <li>Enter app name: "Backlink Automation"</li>
+    <li>Click "Create" - Google shows a 16-character password</li>
+    <li>Copy this password and share with engineering team</li>
+  </ol>
+
+  <div class="highlight">
+    <strong>Security Note:</strong> App Passwords are secure and can be revoked at any time from the same Google settings page. They do not expose your main Google password.
+  </div>
+
+  <p><strong>Impact:</strong> Unlocks the entire email outreach strategy (20+ guest post opportunities per month) and automates confirmation of directory submissions.</p>
+</div>
+
+<!-- Requirement 3 -->
+<div class="req-box">
+  <h3>Requirement 3: Reddit API Keys</h3>
+  <span class="tag tag-free">FREE</span>
+  <span class="tag tag-time">2 minutes setup</span>
+
+  <p><strong>What:</strong> Register a free "developer application" on Reddit to get an API access key.</p>
+
+  <p><strong>Why it's needed:</strong> Reddit is one of the highest-authority websites on the internet (Domain Authority: 99). Backlinks from Reddit carry significant SEO weight. However, Reddit blocks all browser-based automation - the only approved way to post content is through their official API. Registering an app is free and takes 2 minutes.</p>
+
+  <p><strong>Target communities (combined 200,000+ members):</strong></p>
+  <table>
+    <tr><th>Subreddit</th><th>Members</th><th>Relevance</th></tr>
+    <tr><td>r/VoIP</td><td>15,000+</td><td>Directly relevant - VoIP discussions</td></tr>
+    <tr><td>r/sysadmin</td><td>850,000+</td><td>IT administrators who purchase phone systems</td></tr>
+    <tr><td>r/telecom</td><td>25,000+</td><td>Telecommunications industry</td></tr>
+    <tr><td>r/selfhosted</td><td>350,000+</td><td>Self-hosted PBX and phone system users</td></tr>
+    <tr><td>r/entrepreneur</td><td>1,200,000+</td><td>Business owners - potential customers</td></tr>
+  </table>
+
+  <p><strong>How to set up:</strong></p>
+  <ol class="steps">
+    <li>Log into Reddit (create account if needed)</li>
+    <li>Go to: reddit.com/prefs/apps</li>
+    <li>Click "Create Application" at the bottom</li>
+    <li>Select type: "script"</li>
+    <li>Enter name: "VestaCall Bot" and description: "Backlink automation"</li>
+    <li>Copy the Client ID and Client Secret</li>
+    <li>Share both values with engineering team</li>
+  </ol>
+
+  <p><strong>Impact:</strong> Unlocks 6 high-authority Reddit communities for backlink posting. Reddit links are among the most valuable for SEO.</p>
+</div>
+
+<!-- Requirement 4 -->
+<div class="req-box">
+  <h3>Requirement 4: 2Captcha API Key</h3>
+  <span class="tag tag-paid">~$3 ONE-TIME</span>
+  <span class="tag tag-time">5 minutes setup</span>
+
+  <p><strong>What:</strong> A paid service that automatically solves CAPTCHA puzzles ("prove you're human" challenges) that appear on some websites during submission.</p>
+
+  <p><strong>Why it's needed:</strong> 9 out of 49 target websites display a CAPTCHA puzzle when our system tries to submit a listing. Currently, the system stops at these sites and logs them as "pending" - someone has to manually go to each site, solve the puzzle, and complete the submission. With 2Captcha, the system sends the puzzle to real human solvers who complete it in 20-60 seconds, allowing the automation to continue without interruption.</p>
+
+  <table>
+    <tr><th>Without 2Captcha</th><th>With 2Captcha</th></tr>
+    <tr><td>9 sites blocked, require manual intervention</td><td>All 9 sites automated, no human needed</td></tr>
+    <tr><td>Each blocked site = 5-10 min manual work</td><td>Each CAPTCHA solved in 20-60 seconds automatically</td></tr>
+    <tr><td>Total manual time: 45-90 min per run</td><td>Total cost: ~$0.06 per run (~20 CAPTCHAs)</td></tr>
+  </table>
+
+  <p><strong>Cost breakdown:</strong></p>
+  <table>
+    <tr><th>Item</th><th>Cost</th></tr>
+    <tr><td>Initial deposit (minimum)</td><td>$3.00</td></tr>
+    <tr><td>Cost per CAPTCHA solve</td><td>$0.003 (three-tenths of a cent)</td></tr>
+    <tr><td>CAPTCHAs per run</td><td>~20</td></tr>
+    <tr><td>Cost per run</td><td>~$0.06</td></tr>
+    <tr><td>Estimated monthly cost</td><td>$1-2 (for daily runs)</td></tr>
+  </table>
+
+  <p><strong>How to set up:</strong></p>
+  <ol class="steps">
+    <li>Go to: 2captcha.com</li>
+    <li>Create an account</li>
+    <li>Add $3 balance (credit card or PayPal)</li>
+    <li>Go to Account Settings and copy the API Key</li>
+    <li>Share the API Key with engineering team</li>
+  </ol>
+
+  <p><strong>Impact:</strong> 9 CAPTCHA-blocked websites become fully automated. Success rate increases from 43% to an estimated 60%+.</p>
+</div>
+
+<h2>4. Combined Impact Summary</h2>
+
+<table>
+  <tr><th>Requirement</th><th>Cost</th><th>Setup Time</th><th>Sites Unlocked</th><th>Priority</th></tr>
+  <tr><td>Platform Account Logins</td><td>Free</td><td>30 min</td><td>10 profile sites</td><td>Highest</td></tr>
+  <tr><td>Gmail App Password</td><td>Free</td><td>5 min</td><td>Email outreach + auto-verification</td><td>High</td></tr>
+  <tr><td>Reddit API Keys</td><td>Free</td><td>2 min</td><td>6 Reddit communities</td><td>High</td></tr>
+  <tr><td>2Captcha API Key</td><td>~$3</td><td>5 min</td><td>9 CAPTCHA-blocked sites</td><td>Medium</td></tr>
+  <tr style="background: #d4edda; font-weight: 700;">
+    <td>TOTAL</td><td>~$3</td><td>&lt;1 hour</td><td>35 additional sites</td><td>-</td></tr>
+</table>
+
+<h2>5. Expected Results After Implementation</h2>
+
+<table>
+  <tr><th>Metric</th><th>Current (Without)</th><th>Projected (With)</th><th>Improvement</th></tr>
+  <tr><td>Confirmed backlinks per run</td><td>21</td><td>40-50</td><td>+90-138%</td></tr>
+  <tr><td>Monthly backlink output</td><td>~84 (weekly runs)</td><td>~160-200</td><td>+90-138%</td></tr>
+  <tr><td>Directory success rate</td><td>75%</td><td>85-90%</td><td>+10-15%</td></tr>
+  <tr><td>Profile success rate</td><td>0%</td><td>80%+</td><td>New capability</td></tr>
+  <tr><td>Manual work required</td><td>~60 min per run</td><td>~5 min per run</td><td>-92%</td></tr>
+  <tr><td>Human intervention needed</td><td>CAPTCHAs + email clicks + profiles</td><td>Occasional review only</td><td>Near-full automation</td></tr>
+</table>
+
+<h2>6. Information to Provide (Checklist)</h2>
+
+<p>Please provide the following to the engineering team:</p>
+
+<table>
+  <tr><th>#</th><th>Item</th><th>Format</th><th>Example</th></tr>
+  <tr><td>1</td><td>Quora login</td><td>Email + Password</td><td>contact@vestacall.com / MyPass123</td></tr>
+  <tr><td>2</td><td>GitHub login</td><td>Email + Password</td><td>contact@vestacall.com / MyPass123</td></tr>
+  <tr><td>3</td><td>Dev.to login</td><td>Email + Password</td><td>contact@vestacall.com / MyPass123</td></tr>
+  <tr><td>4</td><td>Stack Overflow login</td><td>Email + Password</td><td>contact@vestacall.com / MyPass123</td></tr>
+  <tr><td>5</td><td>Diigo login</td><td>Email + Password</td><td>contact@vestacall.com / MyPass123</td></tr>
+  <tr><td>6</td><td>Other platform logins</td><td>Email + Password each</td><td>(IndieHackers, Hashnode, etc.)</td></tr>
+  <tr><td>7</td><td>Gmail App Password</td><td>16-character code</td><td>abcd efgh ijkl mnop</td></tr>
+  <tr><td>8</td><td>Reddit Client ID</td><td>Alphanumeric string</td><td>aB3dE_fG7hI</td></tr>
+  <tr><td>9</td><td>Reddit Client Secret</td><td>Alphanumeric string</td><td>xY9zW_kL2mN</td></tr>
+  <tr><td>10</td><td>2Captcha API Key</td><td>Alphanumeric string</td><td>abc123def456ghi789</td></tr>
+</table>
+
+<div class="highlight">
+  <strong>Security:</strong> All credentials are stored locally on the automation server in a config file that is excluded from version control (git). They are never uploaded to GitHub or any external service. Credentials can be changed or revoked at any time.
+</div>
+
+<h2>7. Timeline</h2>
+
+<table>
+  <tr><th>Step</th><th>Who</th><th>Time</th><th>Outcome</th></tr>
+  <tr><td>Create platform accounts</td><td>Team Member</td><td>30 min</td><td>10 accounts ready</td></tr>
+  <tr><td>Generate Gmail App Password</td><td>Account Owner</td><td>5 min</td><td>Email automation enabled</td></tr>
+  <tr><td>Register Reddit API app</td><td>Team Member</td><td>2 min</td><td>Reddit posting enabled</td></tr>
+  <tr><td>Purchase 2Captcha credit</td><td>Team Member</td><td>5 min</td><td>CAPTCHA solving enabled</td></tr>
+  <tr><td>Engineering configures system</td><td>Engineering</td><td>15 min</td><td>All credentials applied</td></tr>
+  <tr><td>First full automated run</td><td>Engineering</td><td>45 min (automated)</td><td>40+ confirmed backlinks</td></tr>
+  <tr style="background: #d4edda; font-weight: 600;"><td>TOTAL</td><td></td><td>&lt;2 hours</td><td>Full automation achieved</td></tr>
+</table>
+
+<div class="footer">
+  <p>VestaCall Backlink Automation System | Prepared April 9, 2026</p>
+  <p>For questions, contact the Engineering Team</p>
+</div>
+
+</body>
+</html>

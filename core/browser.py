@@ -1,37 +1,19 @@
 """
-Stealth browser factory — every context gets anti-detection applied.
+Stealth browser factory with 50-profile rotation.
+Every page gets a unique device identity — different browser, OS, GPU, timezone, screen size.
 """
 import random
+import logging
 from playwright.sync_api import sync_playwright
+from core.browser_profiles import get_profile, get_fingerprint_script, PROFILES
 
-USER_AGENTS = [
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-]
+log = logging.getLogger("backlink")
 
-VIEWPORTS = [
-    {"width": 1366, "height": 768},
-    {"width": 1440, "height": 900},
-    {"width": 1536, "height": 864},
-    {"width": 1920, "height": 1080},
-    {"width": 1280, "height": 800},
-]
-
-FINGERPRINT_DOMAINS = ["datadome", "fingerprintjs", "perimeterx", "kasada", "queue-it", "hcaptcha.com/1"]
+FINGERPRINT_DOMAINS = ["datadome", "fingerprintjs", "perimeterx", "kasada", "queue-it"]
 
 
 def get_browser(config: dict, headed_override: bool = False):
-    """Launch browser. Returns (pw, browser). Callers use new_page() for pages."""
+    """Launch browser. Returns (pw, browser)."""
     browser_cfg = config.get("browser", {})
     headless = not headed_override and browser_cfg.get("headless", True)
     slow_mo = browser_cfg.get("slow_mo_ms", 200)
@@ -50,43 +32,42 @@ def get_browser(config: dict, headed_override: bool = False):
     return pw, browser
 
 
-def new_page(browser, config: dict):
-    """Create a stealth context + page. ALWAYS applies anti-detection.
-    Returns (context, page). Caller must close context when done.
+def new_page(browser, config: dict, site_name: str = ""):
+    """Create a stealth context + page with a unique rotated profile.
+    Each call gets a different device identity.
+    Returns (context, page).
     """
-    viewport = random.choice(VIEWPORTS)
-    ua = random.choice(USER_AGENTS)
+    # Get a unique profile for this session
+    profile = get_profile(site_name)
+    log.info("[browser] Using profile: %s (%s, %s)",
+             profile["id"], profile["platform"], profile["viewport"])
 
     context = browser.new_context(
-        viewport=viewport,
-        user_agent=ua,
-        locale="en-US",
-        timezone_id="America/New_York",
+        viewport=profile["viewport"],
+        user_agent=profile["user_agent"],
+        locale=profile["locale"],
+        timezone_id=profile["timezone"],
+        color_scheme=random.choice(["light", "dark", "no-preference"]),
         java_script_enabled=True,
     )
 
-    # Apply playwright-stealth to EVERY context
+    # Apply playwright-stealth
     try:
         from playwright_stealth import stealth_sync
         stealth_sync(context)
     except ImportError:
         pass
 
-    # Override navigator.webdriver
-    context.add_init_script("""
-        Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
-        Object.defineProperty(navigator, 'languages', {get: () => ['en-US', 'en']});
-        Object.defineProperty(navigator, 'plugins', {get: () => [1, 2, 3, 4, 5]});
-        window.chrome = {runtime: {}};
-    """)
+    # Inject full fingerprint (platform, GPU, memory, cores, webdriver, etc.)
+    context.add_init_script(get_fingerprint_script(profile))
 
     # Block fingerprint detection scripts
-    def _block_fingerprints(route):
+    def _block(route):
         route.abort()
 
     for domain in FINGERPRINT_DOMAINS:
         try:
-            context.route(f"**/*{domain}*", _block_fingerprints)
+            context.route(f"**/*{domain}*", _block)
         except Exception:
             pass
 

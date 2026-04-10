@@ -40,6 +40,29 @@ def analyze_page(page, before_url: str, site_name: str = "") -> SubmissionResult
         content_lower = content.lower()
         visible_text = page.evaluate("document.body ? document.body.innerText : ''").lower()
 
+        # --- CHECK 0: PAGE DEAD / 404 / ERROR PAGE ---
+        # This MUST run first — catches fake successes where page is actually broken
+        dead_signals = [
+            "page not found", "404", "doesn't exist", "does not exist",
+            "no longer available", "has been removed", "page is missing",
+            "we can't find", "we couldn't find", "not available",
+            "this page isn't available", "nothing here", "page has moved",
+            "go back home", "return to homepage",
+        ]
+        for signal in dead_signals:
+            if signal in visible_text:
+                return SubmissionResult(
+                    "failed", f"Page is dead/404 — contains '{signal}'",
+                    retry=False, retry_reason="page_dead"
+                )
+
+        # Check if page is mostly empty (Cloudflare challenge or blank page)
+        if len(visible_text.strip()) < 50:
+            return SubmissionResult(
+                "failed", "Page is blank or blocked (less than 50 chars of content)",
+                retry=True, retry_reason="page_blank"
+            )
+
         # --- CHECK 1: URL REDIRECT ---
         url_changed = current_url != before_url
         if url_changed:
@@ -50,11 +73,23 @@ def analyze_page(page, before_url: str, site_name: str = "") -> SubmissionResult
                     "failed", f"Redirected to login page — real account needed on {site_name}",
                     retry=False, retry_reason="needs_real_account"
                 )
+            # Redirected to 404/error page
+            if any(x in new_path for x in ["/404", "/error", "/not-found"]):
+                return SubmissionResult(
+                    "failed", f"Redirected to error page: {current_url[:100]}",
+                    retry=False, retry_reason="page_dead"
+                )
+            # Redirected to search page (Yellow Pages does this) = NOT success
+            if any(x in new_path for x in ["/search", "/results", "/find"]):
+                return SubmissionResult(
+                    "failed", f"Redirected to search page, not confirmation: {current_url[:100]}",
+                    retry=False, retry_reason="redirect_to_search"
+                )
             # Redirected to success/confirm/dashboard
-            if any(x in new_path for x in ["success", "thank", "confirm", "welcome", "dashboard", "profile", "verify-email"]):
+            if any(x in new_path for x in ["success", "thank", "confirm", "welcome", "dashboard", "verify-email"]):
                 return SubmissionResult("success", f"Redirected to confirmation: {current_url[:100]}")
-            # Any other redirect after submit is usually success
-            return SubmissionResult("success", f"Page redirected to: {current_url[:100]}")
+            # Any other redirect — check the page content before declaring success
+            # Don't blindly assume redirect = success
 
         # --- CHECK 2: ERROR MESSAGES ---
         error_patterns = [
@@ -142,7 +177,25 @@ def analyze_page(page, before_url: str, site_name: str = "") -> SubmissionResult
                 pass
 
         if not form_visible:
-            return SubmissionResult("success", "Form no longer visible — submission accepted")
+            # Form gone — but is the page actually a confirmation, or just broken/empty?
+            if len(visible_text.strip()) < 100:
+                return SubmissionResult(
+                    "failed", "Form gone but page is nearly empty — likely blocked or error",
+                    retry=True, retry_reason="page_blank"
+                )
+            # Check for actual confirmation content
+            has_positive = any(w in visible_text for w in [
+                "thank", "success", "submit", "receiv", "confirm", "verif",
+                "welcome", "dashboard", "account", "profile", "listing",
+                "saved", "added", "created", "complete",
+            ])
+            if has_positive:
+                return SubmissionResult("success", "Form gone + confirmation content detected")
+            # Form gone but no confirmation — uncertain
+            return SubmissionResult(
+                "pending", "Form gone but no confirmation text found — verify manually",
+                retry=False, retry_reason="uncertain"
+            )
 
         # --- CHECK 7: FORM STILL THERE, VALUES CLEARED ---
         try:
@@ -153,7 +206,11 @@ def analyze_page(page, before_url: str, site_name: str = "") -> SubmissionResult
                 if len(val) > 2:
                     filled_count += 1
             if filled_count == 0 and len(inputs) > 0:
-                return SubmissionResult("success", "Form fields cleared after submit — likely accepted")
+                # Fields cleared — but verify page has confirmation content
+                has_confirm = any(w in visible_text for w in ["thank", "success", "receiv", "confirm", "submit"])
+                if has_confirm:
+                    return SubmissionResult("success", "Form cleared + confirmation text found")
+                return SubmissionResult("pending", "Form fields cleared but no confirmation — verify manually")
         except Exception:
             pass
 

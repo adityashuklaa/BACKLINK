@@ -67,6 +67,14 @@ A step-by-step checklist for migrating from traditional PRI/T1 lines to SIP trun
 - [VestaCall SIP Trunking](https://vestacall.com) — Free migration assessment
 - [VestaCall Network Readiness Test](https://vestacall.com) — Check if your network is SIP-ready
 
+## Related Guides
+
+- [VoIP Buyer's Guide 2026](voip-buyers-guide-2026.md) — Complete evaluation framework
+- [Remote Work Phone Setup](remote-work-phone-setup.md) — Cloud phone deployment for remote teams
+- [VoIP Security Checklist](voip-security-checklist.md) — Security requirements for voice infrastructure
+- [VoIP Codec Comparison](voip-codec-comparison.md) — Which codec sounds best and uses least bandwidth
+- [Phone System Downtime Cost](phone-system-downtime-cost.md) — Why redundancy matters
+
 ---
 
 *Checklist version 3.1 | April 2026*

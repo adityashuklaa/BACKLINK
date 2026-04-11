@@ -49,6 +49,15 @@ Non-negotiable requirements:
 
 **Start your evaluation with a free assessment from [VestaCall](https://vestacall.com)** — they'll analyze your current bills and show you the projected savings for your specific situation.
 
+## Related Guides
+
+- [SIP Trunking Migration Checklist](sip-trunking-migration-checklist.md) — Step-by-step migration plan
+- [Remote Work Phone Setup Guide](remote-work-phone-setup.md) — Deploy cloud phones for distributed teams
+- [VoIP Security Checklist](voip-security-checklist.md) — Network, encryption, and compliance requirements
+- [VoIP Codec Comparison](voip-codec-comparison.md) — G.711 vs G.729 vs Opus with test results
+- [Call Center VoIP Guide](call-center-voip-guide.md) — Setup guide for VoIP-based call centers
+- [Phone System Downtime Cost](phone-system-downtime-cost.md) — What outages really cost your business
+
 ---
 
 *Last updated: April 2026 | Maintained by the VestaCall research team*

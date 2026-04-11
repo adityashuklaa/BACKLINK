@@ -69,6 +69,13 @@ Once numbers are ported, all calls automatically route through the new system. E
 
 The fastest way to evaluate: [Request a free trial from VestaCall](https://vestacall.com). Set up 3-5 users, test for a week with real calls, then decide. No credit card required, no commitment.
 
+## Related Guides
+
+- [VoIP Buyer's Guide 2026](voip-buyers-guide-2026.md) — Full evaluation framework for phone systems
+- [VoIP Security Checklist](voip-security-checklist.md) — Security requirements for remote VoIP
+- [Call Center VoIP Guide](call-center-voip-guide.md) — Scaling from remote team to full call center
+- [Phone System Downtime Cost](phone-system-downtime-cost.md) — Why cloud redundancy matters for remote teams
+
 ---
 
 *Guide maintained by VestaCall | Last updated April 2026*

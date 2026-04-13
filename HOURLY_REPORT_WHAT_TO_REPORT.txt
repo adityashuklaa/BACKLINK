@@ -1,0 +1,65 @@
+WHAT TO REPORT EVERY HOUR (For Excel Sheet)
+
+During your working hours, track and report THESE 11 things every hour:
+
+1. DATE
+   What: Today's date
+   Example: 2026-04-10
+
+2. HOUR
+   What: What hour are you reporting
+   Example: 7 PM = 19:00, 8 PM = 20:00
+
+3. TOTAL SUBMISSIONS
+   What: How many backlinks did you try to submit this hour
+   Example: 12 (you attempted 12 submissions)
+
+4. SUCCESSFUL
+   What: How many of those actually worked/got accepted
+   Example: 9 (out of 12, 9 were successful)
+
+5. FAILED
+   What: How many did NOT work/got rejected
+   Example: 3 (rejected or failed)
+
+6. SUCCESS RATE
+   What: Calculate = Successful ÷ Total × 100
+   Example: 9 ÷ 12 × 100 = 75%
+
+7. DIRECTORIES
+   What: How many successful backlinks from directory sites (Yelp, BBB, etc)
+   Example: 3
+
+8. SOCIAL BOOKMARKING
+   What: How many successful backlinks from social sites (Reddit, Diigo, etc)
+   Example: 2
+
+9. FORUM PROFILES
+   What: How many successful backlinks from forum/profile sites
+   Example: 1
+
+10. GUEST POST OUTREACH
+    What: How many successful backlinks from guest post emails sent/accepted
+    Example: 4
+
+11. BLOG COMMENTS
+    What: How many successful backlinks from blog comment submissions
+    Example: 2
+
+12. ISSUES
+    What: Any problems this hour? (rate-limits, CAPTCHAs, errors, etc)
+    Example: "1 rate-limit on Yelp", or "None"
+
+13. OWNER
+    What: Your name / who worked this hour
+    Example: Backend Engineer
+
+════════════════════════════════════════════════════════════════
+
+SIMPLE VERSION - WHAT TO WRITE IN EXCEL EACH HOUR:
+
+Date: 2026-04-10, Hour: 19:00, Submissions: 12, Successful: 9, Failed: 3, Success Rate: 75%, Directories: 3, Social: 2, Forums: 1, Guest: 4, Blog: 2, Issues: None, Owner: Your Name
+
+That's it. Do this for 19:00, 20:00, 21:00, 22:00, 23:00 (7 PM to 11 PM)
+
+Then paste all 5 lines into one Excel sheet.

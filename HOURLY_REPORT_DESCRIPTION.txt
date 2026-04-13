@@ -1,0 +1,28 @@
+HOURLY REPORT DESCRIPTION
+
+What is this?
+A simple tracker that records backlink submissions every hour (7 PM to 11 PM).
+
+What do we track?
+- How many backlinks we submitted
+- How many were successful
+- Success rate (%)
+- Breakdown by strategy (Directories, Social, Forums, Guest Posts, Blog Comments)
+- Any issues (rate-limits, CAPTCHAs, etc)
+- Who was in charge
+
+Why?
+So leadership knows how much work we're doing every hour and if we're on track to meet daily targets.
+
+How do we use it?
+1. Every hour, fill in: submissions, successful, failed numbers
+2. Calculate success rate
+3. Paste into Excel sheet
+4. At end of day, send to boss
+
+Example for 7 PM:
+- Submitted: 12 backlinks
+- Successful: 9
+- Failed: 3
+- Success Rate: 75%
+- Directories: 3, Social: 2, Forums: 1, Guest: 4, Blog: 1

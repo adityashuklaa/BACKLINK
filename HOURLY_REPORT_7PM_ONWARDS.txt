@@ -1,0 +1,133 @@
+HOURLY REPORT - TODAY (2026-04-10) FROM 7 PM ONWARDS
+════════════════════════════════════════════════════════════════
+
+FILL IN YOUR DATA FOR EACH HOUR (7 PM onwards)
+
+════════════════════════════════════════════════════════════════
+
+19:00 (7 PM)
+
+Submissions: [FILL IN]
+Successful: [FILL IN]
+Failed: [FILL IN]
+Success Rate: [FILL IN or calc: Successful ÷ Submissions × 100]
+
+Directories: [FILL IN]
+Social Bookmarking: [FILL IN]
+Forum Profiles: [FILL IN]
+Guest Post Outreach: [FILL IN]
+Blog Comments: [FILL IN]
+
+Issues: [None / describe]
+Owner: [Name]
+
+────────────────────────────────────────────────────────────────
+
+20:00 (8 PM)
+
+Submissions: [FILL IN]
+Successful: [FILL IN]
+Failed: [FILL IN]
+Success Rate: [FILL IN]
+
+Directories: [FILL IN]
+Social Bookmarking: [FILL IN]
+Forum Profiles: [FILL IN]
+Guest Post Outreach: [FILL IN]
+Blog Comments: [FILL IN]
+
+Issues: [None / describe]
+Owner: [Name]
+
+────────────────────────────────────────────────────────────────
+
+21:00 (9 PM)
+
+Submissions: [FILL IN]
+Successful: [FILL IN]
+Failed: [FILL IN]
+Success Rate: [FILL IN]
+
+Directories: [FILL IN]
+Social Bookmarking: [FILL IN]
+Forum Profiles: [FILL IN]
+Guest Post Outreach: [FILL IN]
+Blog Comments: [FILL IN]
+
+Issues: [None / describe]
+Owner: [Name]
+
+────────────────────────────────────────────────────────────────
+
+22:00 (10 PM)
+
+Submissions: [FILL IN]
+Successful: [FILL IN]
+Failed: [FILL IN]
+Success Rate: [FILL IN]
+
+Directories: [FILL IN]
+Social Bookmarking: [FILL IN]
+Forum Profiles: [FILL IN]
+Guest Post Outreach: [FILL IN]
+Blog Comments: [FILL IN]
+
+Issues: [None / describe]
+Owner: [Name]
+
+────────────────────────────────────────────────────────────────
+
+23:00 (11 PM)
+
+Submissions: [FILL IN]
+Successful: [FILL IN]
+Failed: [FILL IN]
+Success Rate: [FILL IN]
+
+Directories: [FILL IN]
+Social Bookmarking: [FILL IN]
+Forum Profiles: [FILL IN]
+Guest Post Outreach: [FILL IN]
+Blog Comments: [FILL IN]
+
+Issues: [None / describe]
+Owner: [Name]
+
+════════════════════════════════════════════════════════════════
+
+DAILY TOTAL (All hours 19:00 - 23:00):
+
+Total Submissions: [SUM of all 5 hours]
+Total Successful: [SUM]
+Total Failed: [SUM]
+Daily Success Rate: [Calculate: Total Successful ÷ Total Submissions]
+
+Directories Total: [SUM]
+Social Total: [SUM]
+Forums Total: [SUM]
+Guest Total: [SUM]
+Blog Total: [SUM]
+
+════════════════════════════════════════════════════════════════
+
+COPY-PASTE INTO EXCEL (One line per hour):
+
+Date: 2026-04-10, Hour: 19:00, Submissions: [X], Successful: [X], Failed: [X], Success Rate: [X]%, Directories: [X], Social: [X], Forums: [X], Guest: [X], Blog: [X], Issues: [describe], Owner: [Name]
+
+Date: 2026-04-10, Hour: 20:00, Submissions: [X], Successful: [X], Failed: [X], Success Rate: [X]%, Directories: [X], Social: [X], Forums: [X], Guest: [X], Blog: [X], Issues: [describe], Owner: [Name]
+
+Date: 2026-04-10, Hour: 21:00, Submissions: [X], Successful: [X], Failed: [X], Success Rate: [X]%, Directories: [X], Social: [X], Forums: [X], Guest: [X], Blog: [X], Issues: [describe], Owner: [Name]
+
+Date: 2026-04-10, Hour: 22:00, Submissions: [X], Successful: [X], Failed: [X], Success Rate: [X]%, Directories: [X], Social: [X], Forums: [X], Guest: [X], Blog: [X], Issues: [describe], Owner: [Name]
+
+Date: 2026-04-10, Hour: 23:00, Submissions: [X], Successful: [X], Failed: [X], Success Rate: [X]%, Directories: [X], Social: [X], Forums: [X], Guest: [X], Blog: [X], Issues: [describe], Owner: [Name]
+
+════════════════════════════════════════════════════════════════
+
+EXAMPLE (What it looks like when filled):
+
+Date: 2026-04-10, Hour: 19:00, Submissions: 12, Successful: 9, Failed: 0, Success Rate: 75%, Directories: 3, Social: 2, Forums: 1, Guest: 4, Blog: 2, Issues: None, Owner: Backend Engineer
+
+Date: 2026-04-10, Hour: 20:00, Submissions: 10, Successful: 8, Failed: 2, Success Rate: 80%, Directories: 2, Social: 2, Forums: 0, Guest: 4, Blog: 2, Issues: 1 rate-limit, Owner: Social Lead
+
+════════════════════════════════════════════════════════════════

@@ -1,0 +1,173 @@
+date,strategy,site_name,url_submitted,backlink_url,status,notes
+2026-04-10T17:19:37.389884,content,Telegraph-1,https://telegra.ph/,,pending,Published but verification URL not found â€” check manually
+2026-04-10T17:21:46.111045,content,Telegraph-2,https://telegra.ph/,https://telegra.ph/SIP-Trunking-Explained-A-Complete-Business-Guide-04-10,dead,Telegraph server down - all articles lost
+2026-04-10T17:23:40.261738,content,Telegraph-3,https://telegra.ph/,https://telegra.ph/Remote-Work-Phone-Systems-What-Every-Team-Needs-04-10,dead,Telegraph server down - all articles lost
+2026-04-10T17:24:21.358638,content,Telegraph-4,https://telegra.ph/,,failed,"Page.goto: net::ERR_TIMED_OUT at https://telegra.ph/
+Call log:
+  - navigating to ""https://telegra.ph/"", waiting until ""load""
+"
+2026-04-10T17:26:13.888684,content,Telegraph-5,https://telegra.ph/,https://telegra.ph/Business-Phone-System-Comparison-Guide-2026-04-10,dead,Telegraph server down - all articles lost
+2026-04-10T17:36:58.454234,content,Telegraph-1-verified,https://telegra.ph/,https://telegra.ph/5-Reasons-Small-Businesses-Choose-VoIP-in-2026-04-10,dead,Telegraph server down - all articles lost
+2026-04-10T17:39:17.209797,content,Telegraph-4-retry,https://telegra.ph/,,pending,Published but URL not found
+2026-04-10T17:41:24.674340,content,Telegraph-6-new,https://telegra.ph/,https://telegra.ph/How-Cloud-Phone-Systems-Transform-Small-Business-Operations-04-10,dead,Telegraph server down - all articles lost
+2026-04-11T20:44:27.935123,content,Telegraph-B2-1,https://telegra.ph/,https://telegra.ph/Hosted-PBX-vs-On-Premise-PBX-Which-Is-Right-for-Your-Business-04-11,dead,Telegraph server down - all articles lost
+2026-04-11T20:47:12.215803,content,Telegraph-B2-2,https://telegra.ph/,,pending,Published but URL not found
+2026-04-11T20:49:04.530524,content,Telegraph-B2-3,https://telegra.ph/,https://telegra.ph/How-to-Choose-the-Best-Business-Phone-Number-Provider-04-11,dead,Telegraph server down - all articles lost
+2026-04-11T20:49:43.510300,content,Telegraph-B2-4,https://telegra.ph/,,failed,"Page.goto: net::ERR_TIMED_OUT at https://telegra.ph/
+Call log:
+  - navigating to ""https://telegra.ph/"", waiting until ""load""
+"
+2026-04-11T20:51:53.285679,content,Telegraph-B2-5,https://telegra.ph/,https://telegra.ph/10-VoIP-Features-Every-Small-Business-Should-Use-04-11,dead,Telegraph server down - all articles lost
+2026-04-11T20:53:47.378789,content,Telegraph-Expert-1,https://telegra.ph/,,failed,"Page.goto: net::ERR_TIMED_OUT at https://telegra.ph/
+Call log:
+  - navigating to ""https://telegra.ph/"", waiting until ""load""
+"
+2026-04-11T20:56:27.795593,content,Telegraph-Expert-2,https://telegra.ph/,https://telegra.ph/The-Hidden-Cost-of-Cheap-VoIP-and-How-to-Avoid-Getting-Burned-04-11,dead,Telegraph server down - all articles lost
+2026-04-11T20:59:01.890084,content,Telegraph-Expert-3,https://telegra.ph/,https://telegra.ph/I-Evaluated-14-Business-Phone-Systems-%C3%A2-Here-Is-What-Actually-Matters-04-11,dead,Telegraph server down - all articles lost
+2026-04-11T21:01:17.636191,content,Telegraph-Expert-4,https://telegra.ph/,https://telegra.ph/Why-Your-Remote-Team-Hates-Your-Phone-System-and-What-to-Do-About-It-04-11,dead,Telegraph server down - all articles lost
+2026-04-11T21:01:58.533712,content,Telegraph-Expert-5,https://telegra.ph/,,failed,"Page.goto: net::ERR_TIMED_OUT at https://telegra.ph/
+Call log:
+  - navigating to ""https://telegra.ph/"", waiting until ""load""
+"
+2026-04-11T21:10:16.982754,content,Telegraph-Expert-Retry-1,https://telegra.ph/,https://telegra.ph/We-Cut-Our-Phone-Bill-by-73-Ã¢-Here-Is-Exactly-How-We-Did-It-04-11,dead,Telegraph server down - all articles lost
+2026-04-11T21:12:47.655465,content,Telegraph-Expert-Retry-2,https://telegra.ph/,,pending,Published but URL not found
+2026-04-11T21:37:12.948465,content,Rentry-1,https://rentry.co/,,failed,"ElementHandle.click: Timeout 30000ms exceeded.
+Call log:
+  - attempting click action
+    2 Ã— waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click a"
+2026-04-11T21:38:13.255750,content,Rentry-2,https://rentry.co/,,failed,"ElementHandle.click: Timeout 30000ms exceeded.
+Call log:
+  - attempting click action
+    2 Ã— waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click a"
+2026-04-11T21:39:06.991649,content,Rentry-3,https://rentry.co/,,failed,"ElementHandle.click: Timeout 30000ms exceeded.
+Call log:
+  - attempting click action
+    2 Ã— waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click a"
+2026-04-11T21:42:44.475266,content,GitHub-Guide-4,https://github.com/adityashuklaa/BACKLINK/blob/main/docs/guides/voip-security-checklist.md,https://github.com/adityashuklaa/BACKLINK/blob/main/docs/guides/voip-security-checklist.md,removed,"Removed — was on personal GitHub, not company profile"
+2026-04-11T21:42:45.130905,content,GitHub-Guide-5,https://github.com/adityashuklaa/BACKLINK/blob/main/docs/guides/call-center-voip-guide.md,https://github.com/adityashuklaa/BACKLINK/blob/main/docs/guides/call-center-voip-guide.md,removed,"Removed — was on personal GitHub, not company profile"
+2026-04-11T21:43:01.504582,content,GitHub-Guide-1,https://github.com/adityashuklaa/BACKLINK/blob/main/docs/guides/voip-buyers-guide-2026.md,https://github.com/adityashuklaa/BACKLINK/blob/main/docs/guides/voip-buyers-guide-2026.md,removed,"Removed — was on personal GitHub, not company profile"
+2026-04-11T21:43:01.504685,content,GitHub-Guide-2,https://github.com/adityashuklaa/BACKLINK/blob/main/docs/guides/sip-trunking-migration-checklist.md,https://github.com/adityashuklaa/BACKLINK/blob/main/docs/guides/sip-trunking-migration-checklist.md,removed,"Removed — was on personal GitHub, not company profile"
+2026-04-11T21:43:01.504726,content,GitHub-Guide-3,https://github.com/adityashuklaa/BACKLINK/blob/main/docs/guides/remote-work-phone-setup.md,https://github.com/adityashuklaa/BACKLINK/blob/main/docs/guides/remote-work-phone-setup.md,removed,"Removed — was on personal GitHub, not company profile"
+2026-04-12T00:23:25.221819,content,Paste2,,https://paste2.org/B6Kgn2mO,success,Verified: vestacall.com found in page text
+2026-04-12T00:24:03.581274,content,Notepad.pw,,https://notepad.pw/m292i92l,pending,Content set but vestacall not found
+2026-04-12T00:25:16.161022,content,Write.as,,,pending,Published but URL unclear
+2026-04-12T01:05:57.517922,content,GitHub-Company-voip-solutions-guide,https://github.com/new,https://github.com/dialphonelimited/voip-solutions-guide,success,Company GitHub DA 100 repo — vestacall verified
+2026-04-12T01:05:57.937064,content,GitHub-Company-awesome-business-phone,https://github.com/new,https://github.com/dialphonelimited/awesome-business-phone,success,Company GitHub DA 100 repo — vestacall verified
+2026-04-12T01:05:58.329672,content,GitHub-Company-sip-trunking-guide,https://github.com/new,https://github.com/dialphonelimited/sip-trunking-guide,success,Company GitHub DA 100 repo — vestacall verified
+2026-04-12T01:05:58.735727,content,GitHub-Company-Profile,https://github.com/settings/profile,https://github.com/dialphonelimited,success,Company GitHub profile DA 100 — vestacall.com in website field
+2026-04-12T01:33:57.035280,content,Telegraph-Rewrite-1,https://telegra.ph/,,pending,Published but URL not found
+2026-04-12T01:34:57.966358,content,Telegraph-Rewrite-2,https://telegra.ph/,,failed,"Page.goto: net::ERR_CONNECTION_RESET at https://telegra.ph/
+Call log:
+  - navigating to ""https://telegra.ph/"", waiting until ""load""
+"
+2026-04-12T01:36:02.294730,content,Telegraph-Rewrite-3,https://telegra.ph/,,failed,"Page.goto: net::ERR_CONNECTION_RESET at https://telegra.ph/
+Call log:
+  - navigating to ""https://telegra.ph/"", waiting until ""load""
+"
+2026-04-12T01:37:39.510361,content,Telegraph-Rewrite-4,https://telegra.ph/,,pending,Published but URL not found
+2026-04-12T01:38:41.303923,content,Telegraph-Rewrite-5,https://telegra.ph/,,failed,"Page.goto: net::ERR_CONNECTION_RESET at https://telegra.ph/
+Call log:
+  - navigating to ""https://telegra.ph/"", waiting until ""load""
+"
+2026-04-12T01:46:31.263997,content,Snippet.host,https://snippet.host/,https://snippet.host/tufium,success,Verified at https://snippet.host/tufium
+2026-04-12T01:47:46.135674,content,GitHub-Guide-6,https://github.com/adityashuklaa/BACKLINK/blob/main/docs/guides/voip-codec-comparison.md,https://github.com/adityashuklaa/BACKLINK/blob/main/docs/guides/voip-codec-comparison.md,removed,"Removed — was on personal GitHub, not company profile"
+2026-04-12T01:47:46.793976,content,GitHub-Guide-7,https://github.com/adityashuklaa/BACKLINK/blob/main/docs/guides/phone-system-downtime-cost.md,https://github.com/adityashuklaa/BACKLINK/blob/main/docs/guides/phone-system-downtime-cost.md,removed,"Removed — was on personal GitHub, not company profile"
+2026-04-12T03:29:03.836408,content,Telegraph-MasterIndex,https://telegra.ph/,,pending,Published but URL not verified
+2026-04-12T03:33:52.939244,content,GitHub-Guide-8,https://github.com/adityashuklaa/BACKLINK/blob/main/docs/guides/voip-for-law-firms.md,https://github.com/adityashuklaa/BACKLINK/blob/main/docs/guides/voip-for-law-firms.md,removed,"Removed — was on personal GitHub, not company profile"
+2026-04-12T03:33:53.641236,content,GitHub-Guide-9,https://github.com/adityashuklaa/BACKLINK/blob/main/docs/guides/voip-for-healthcare.md,https://github.com/adityashuklaa/BACKLINK/blob/main/docs/guides/voip-for-healthcare.md,removed,"Removed — was on personal GitHub, not company profile"
+2026-04-12T03:33:54.411869,content,GitHub-Guide-10,https://github.com/adityashuklaa/BACKLINK/blob/main/docs/guides/voip-international-calling.md,https://github.com/adityashuklaa/BACKLINK/blob/main/docs/guides/voip-international-calling.md,removed,"Removed — was on personal GitHub, not company profile"
+2026-04-12T04:36:21.103982,content,GitHub-Company-voip-compliance-framework,https://github.com/new,https://github.com/dialphonelimited/voip-compliance-framework,success,Company repo DA 100 — professional content verified
+2026-04-12T04:37:42.952026,content,GitHub-Company-business-phone-roi-calculator,https://github.com/new,https://github.com/dialphonelimited/business-phone-roi-calculator,success,Company repo DA 100 — professional content verified
+2026-04-12T04:39:02.150599,content,GitHub-Company-voip-network-requirements,https://github.com/new,https://github.com/dialphonelimited/voip-network-requirements,success,Company repo DA 100 — professional content verified
+2026-04-12T05:16:31.668838,content,GitHub-Company-voip-disaster-recovery,https://github.com/new,https://github.com/dialphonelimited/voip-disaster-recovery,success,Company repo DA 100 — professional content verified
+2026-04-12T05:17:48.504347,content,GitHub-Company-voip-integration-guide,https://github.com/new,https://github.com/dialphonelimited/voip-integration-guide,success,Company repo DA 100 — professional content verified
+2026-04-13T19:23:54.504569,content,Snippet-VoIP-Checklist,,https://snippet.host/kevovd,success,Snippet.host — verified at https://snippet.host/kevovd
+2026-04-13T19:24:45.947507,content,Snippet-PBX-Comparison,,https://snippet.host/eznfvx,success,Snippet.host — verified at https://snippet.host/eznfvx
+2026-04-13T19:25:36.133200,content,Snippet-Remote-Phone,,https://snippet.host/ngczxe,success,Snippet.host — verified at https://snippet.host/ngczxe
+2026-04-13T19:25:52.133907,content,Paste2-HIPAA-Guide,,https://paste2.org/X7fav9D9,success,Paste2.org — vestacall verified at https://paste2.org/X7fav9D9
+2026-04-13T19:26:07.497075,content,Paste2-Cost-Savings,,https://paste2.org/ZDaXhxJc,success,Paste2.org — vestacall verified at https://paste2.org/ZDaXhxJc
+2026-04-13T20:00:08.416414,content,Snippet-UCaaS-Guide,https://snippet.host/,https://snippet.host/duyifh,success,Snippet.host verified at https://snippet.host/duyifh
+2026-04-13T20:01:43.885295,content,Snippet-NumberPorting,https://snippet.host/,https://snippet.host/aitxow,success,Snippet.host verified at https://snippet.host/aitxow
+2026-04-13T20:29:36.811354,content,paste.debian.net,,https://paste.debian.net/hidden/71c4d0a6,success,paste.debian.net DA 70 — new domain verified via browser
+2026-04-13T20:30:46.245353,content,paste.centos.org,,https://paste.centos.org/view/48f08747,success,"paste.centos.org DA 60 — new domain, vestacall verified"
+2026-04-13T20:31:58.155772,content,bpa.st,,https://bpa.st/LKXJY,success,"bpa.st DA 30 — new domain, vestacall verified"
+2026-04-13T20:48:29.215247,content,pastebin.fi-1,,https://pastebin.fi/p/zyEmgdr,success,pastebin.fi DA 28 — personal_story content verified
+2026-04-13T21:30:40.654304,content,Telegraph-Human-1,,,pending,"Telegraph humanized [personal_story] — published, URL unclear"
+2026-04-13T21:32:48.162504,content,Telegraph-Human-2,,https://telegra.ph/3-VoIP-myths-that-cost-businesses-thousands-every-year-04-13,dead,Telegraph server down - all articles lost
+2026-04-13T21:34:53.393322,content,Telegraph-Human-3,,,pending,"Telegraph humanized [question_answer] — published, URL unclear"
+2026-04-13T21:36:41.990007,content,Telegraph-Human-4,,https://telegra.ph/Your-phone-system-is-the-most-neglected-part-of-your-technology-stack-04-13,dead,Telegraph server down - all articles lost
+2026-04-13T21:38:37.686253,content,Telegraph-Human-5,,https://telegra.ph/How-a-22-person-accounting-firm-eliminated-3200-per-month-in-phone-costs-04-13,dead,Telegraph server down - all articles lost
+2026-04-13T21:57:07.234338,keyword-content,Telegraph-KW-best-voip-for-small-business-2,https://telegra.ph/,https://telegra.ph/Best-VoIP-for-Small-Business-2026-04-13,dead,Telegraph server down - all articles lost
+2026-04-13T21:58:57.291978,keyword-content,Telegraph-KW-voip-vs-landline-cost-comparis,https://telegra.ph/,https://telegra.ph/VoIP-vs-Landline-Cost-Comparison-04-13,dead,Telegraph server down - all articles lost
+2026-04-13T22:00:57.484293,keyword-content,Telegraph-KW-how-to-switch-from-landline-to,https://telegra.ph/,https://telegra.ph/How-to-Switch-from-Landline-to-VoIP-04-13,dead,Telegraph server down - all articles lost
+2026-04-13T22:02:57.012957,keyword-content,Telegraph-KW-cheapest-business-phone-system,https://telegra.ph/,https://telegra.ph/Cheapest-Business-Phone-System-04-13,dead,Telegraph server down - all articles lost
+2026-04-13T22:04:56.965565,keyword-content,Telegraph-KW-voip-phone-system-reviews-2026,https://telegra.ph/,https://telegra.ph/VoIP-Phone-System-Reviews-2026-04-13,dead,Telegraph server down - all articles lost
+2026-04-13T22:39:33.944065,keyword-content,DevTo-1,https://dev.to/,https://dev.to/dialphonelimited/i-migrated-200-business-phone-systems-to-voip-here-are-the-5-mistakes-everyone-makes-1fgf,success,"Dev.to DA 77 — new domain, keyword article verified"
+2026-04-13T22:39:44.964157,keyword-content,DevTo-2,https://dev.to/,https://dev.to/dialphonelimited/the-real-cost-of-running-a-business-phone-system-in-2026-450i,success,"Dev.to DA 77 — new domain, keyword article verified"
+2026-04-13T22:39:51.684585,keyword-content,DevTo-3,https://dev.to/,,failed,"HTTP 429: {""error"":""Rate limit reached, try again in 30 seconds"",""status"":429}"
+2026-04-13T22:39:58.253334,keyword-content,DevTo-4,https://dev.to/,,failed,"HTTP 429: {""error"":""Rate limit reached, try again in 30 seconds"",""status"":429}"
+2026-04-13T22:40:10.326389,keyword-content,DevTo-5,https://dev.to/,https://dev.to/dialphonelimited/why-we-switched-voip-providers-twice-and-what-we-finally-got-right-33h7,success,"Dev.to DA 77 — new domain, keyword article verified"
+2026-04-13T22:42:08.015181,keyword-content,DevTo-retry-1,https://dev.to/,https://dev.to/dialphonelimited/voip-security-in-2026-what-your-it-team-needs-to-know-2al7,success,Dev.to DA 77 — verified
+2026-04-13T22:42:48.907179,keyword-content,DevTo-retry-2,https://dev.to/,https://dev.to/dialphonelimited/setting-up-a-phone-system-for-your-remote-team-a-practical-guide-5278,success,Dev.to DA 77 — verified
+2026-04-13T23:13:11.609966,keyword-content,Hashnode-1,https://hashnode.com/,https://dialphonevoip.hashnode.dev/why-85-percent-businesses-overpay-phone-service,pending,Published but vestacall not in HTML
+2026-04-13T23:13:21.973923,keyword-content,Hashnode-2,https://hashnode.com/,https://dialphonevoip.hashnode.dev/sip-trunking-saved-94000-one-year,pending,Published but vestacall not in HTML
+2026-04-13T23:13:32.010749,keyword-content,Hashnode-3,https://hashnode.com/,https://dialphonevoip.hashnode.dev/network-checklist-before-deploying-voip,pending,Published but vestacall not in HTML
+2026-04-13T23:18:38.082530,keyword-content,DevTo-Best-1,,https://dev.to/dialphonelimited/we-analyzed-500-business-phone-bills-the-average-company-wastes-847-per-month-23e5,success,Dev.to DA 77 — best content verified
+2026-04-13T23:19:19.543768,keyword-content,DevTo-Best-2,,https://dev.to/dialphonelimited/i-built-phone-systems-for-15-years-here-is-the-one-question-nobody-asks-4mdi,success,Dev.to DA 77 — best content verified
+2026-04-13T23:20:00.629903,keyword-content,DevTo-Best-3,,https://dev.to/dialphonelimited/the-voip-migration-playbook-lessons-from-300-enterprise-deployments-42fk,success,Dev.to DA 77 — best content verified
+2026-04-13T23:20:12.901277,keyword-content,Hashnode-Best-1,,https://dialphonevoip.hashnode.dev/we-analyzed-500-business-phone-bills-best,pending,Published at https://dialphonevoip.hashnode.dev/we-analyzed-500-business-phone-bills-best — vestacall in markdown but not in HTML response
+2026-04-13T23:20:25.139276,keyword-content,Hashnode-Best-2,,https://dialphonevoip.hashnode.dev/one-question-nobody-asks-about-phone-systems-best,pending,Published at https://dialphonevoip.hashnode.dev/one-question-nobody-asks-about-phone-systems-best — vestacall in markdown but not in HTML response
+2026-04-13T23:20:37.429186,keyword-content,Hashnode-Best-3,,https://dialphonevoip.hashnode.dev/voip-migration-playbook-300-deployments-best,pending,Published at https://dialphonevoip.hashnode.dev/voip-migration-playbook-300-deployments-best — vestacall in markdown but not in HTML response
+2026-04-13T23:31:14.967942,keyword-content,DevTo-Pro-1,,https://dev.to/dialphonelimited/what-nobody-tells-you-about-switching-to-voip-o0,success,Dev.to DA 77 — verified
+2026-04-13T23:31:56.373554,keyword-content,DevTo-Pro-2,,https://dev.to/dialphonelimited/voip-quality-troubleshooting-a-sysadmins-field-guide-17m,success,Dev.to DA 77 — verified
+2026-04-13T23:32:36.650030,keyword-content,DevTo-Pro-3,,https://dev.to/dialphonelimited/how-we-reduced-our-clients-telecom-spend-by-67-without-changing-providers-3nci,success,Dev.to DA 77 — verified
+2026-04-13T23:33:17.575679,keyword-content,DevTo-Pro-4,,https://dev.to/dialphonelimited/building-a-multi-office-phone-system-that-actually-works-2egi,success,Dev.to DA 77 — verified
+2026-04-13T23:33:58.848703,keyword-content,DevTo-Pro-5,,https://dev.to/dialphonelimited/the-developers-guide-to-sip-protocols-headers-and-debugging-2aa7,success,Dev.to DA 77 — verified
+2026-04-13T23:34:40.715829,keyword-content,DevTo-Pro-6,,https://dev.to/dialphonelimited/choosing-between-microsoft-teams-phone-and-standalone-voip-4dpj,success,Dev.to DA 77 — verified
+2026-04-13T23:35:22.120503,keyword-content,DevTo-Pro-7,,https://dev.to/dialphonelimited/call-center-metrics-that-actually-matter-and-the-ones-that-dont-338k,success,Dev.to DA 77 — verified
+2026-04-13T23:36:02.977279,keyword-content,DevTo-Pro-8,,https://dev.to/dialphonelimited/voip-for-retail-how-to-handle-10x-call-volume-during-holidays-5920,success,Dev.to DA 77 — verified
+2026-04-13T23:36:44.735622,keyword-content,DevTo-Pro-9,,https://dev.to/dialphonelimited/why-your-business-phone-system-should-be-boring-obe,success,Dev.to DA 77 — verified
+2026-04-13T23:37:26.990036,keyword-content,DevTo-Pro-10,,https://dev.to/dialphonelimited/from-pbx-to-cloud-a-ctos-honest-migration-diary-1apk,success,Dev.to DA 77 — verified
+2026-04-13T23:37:33.993499,keyword-content,Hashnode-Pro-1,,https://dialphonevoip.hashnode.dev/what-nobody-tells-you-switching-voip,dead,Hashnode returning 403 Forbidden
+2026-04-13T23:37:40.955032,keyword-content,Hashnode-Pro-2,,https://dialphonevoip.hashnode.dev/voip-quality-troubleshooting-sysadmin-guide,dead,Hashnode returning 403 Forbidden
+2026-04-13T23:37:47.816001,keyword-content,Hashnode-Pro-3,,https://dialphonevoip.hashnode.dev/reduced-telecom-spend-67-percent,dead,Hashnode returning 403 Forbidden
+2026-04-13T23:37:54.781946,keyword-content,Hashnode-Pro-4,,https://dialphonevoip.hashnode.dev/multi-office-phone-system-guide,dead,Hashnode returning 403 Forbidden
+2026-04-13T23:38:01.743761,keyword-content,Hashnode-Pro-5,,https://dialphonevoip.hashnode.dev/developers-guide-sip-protocols-headers,dead,Hashnode returning 403 Forbidden
+2026-04-13T23:38:08.609217,keyword-content,Hashnode-Pro-6,,https://dialphonevoip.hashnode.dev/microsoft-teams-phone-vs-standalone-voip,dead,Hashnode returning 403 Forbidden
+2026-04-13T23:38:15.775159,keyword-content,Hashnode-Pro-7,,https://dialphonevoip.hashnode.dev/call-center-metrics-that-actually-matter,dead,Hashnode returning 403 Forbidden
+2026-04-13T23:38:22.735211,keyword-content,Hashnode-Pro-8,,https://dialphonevoip.hashnode.dev/voip-retail-holiday-call-volume,dead,Hashnode returning 403 Forbidden
+2026-04-13T23:38:29.803758,keyword-content,Hashnode-Pro-9,,https://dialphonevoip.hashnode.dev/business-phone-system-should-be-boring,dead,Hashnode returning 403 Forbidden
+2026-04-13T23:38:36.662618,keyword-content,Hashnode-Pro-10,,https://dialphonevoip.hashnode.dev/pbx-to-cloud-cto-migration-diary,dead,Hashnode returning 403 Forbidden
+2026-04-14T00:04:47.418598,dofollow-content,DevTo-DF-1,https://dev.to/,https://dev.to/dialphonelimited/how-to-audit-your-business-phone-bill-in-15-minutes-36b8,success,Dev.to DA 77 DOFOLLOW — verified
+2026-04-14T00:05:28.515845,dofollow-content,DevTo-DF-2,https://dev.to/,https://dev.to/dialphonelimited/voip-codec-deep-dive-why-opus-beats-everything-else-3jb2,success,Dev.to DA 77 DOFOLLOW — verified
+2026-04-14T00:06:09.404160,dofollow-content,DevTo-DF-3,https://dev.to/,https://dev.to/dialphonelimited/the-complete-guide-to-number-porting-for-businesses-1g8c,success,Dev.to DA 77 DOFOLLOW — verified
+2026-04-14T00:06:50.277954,dofollow-content,DevTo-DF-4,https://dev.to/,https://dev.to/dialphonelimited/disaster-recovery-for-business-phone-systems-a-practical-plan-4mde,success,Dev.to DA 77 DOFOLLOW — verified
+2026-04-14T00:07:31.100558,dofollow-content,DevTo-DF-5,https://dev.to/,https://dev.to/dialphonelimited/why-small-businesses-get-better-voip-deals-than-enterprises-22dp,success,Dev.to DA 77 DOFOLLOW — verified
+2026-04-14T00:08:11.969222,dofollow-content,DevTo-DF-6,https://dev.to/,https://dev.to/dialphonelimited/integrating-voip-with-your-crm-what-actually-works-2h58,success,Dev.to DA 77 DOFOLLOW — verified
+2026-04-14T00:08:57.341971,dofollow-content,DevTo-DF-7,https://dev.to/,https://dev.to/dialphonelimited/what-happens-to-your-calls-when-the-internet-goes-down-jg6,success,Dev.to DA 77 DOFOLLOW — verified
+2026-04-14T01:16:36.171089,dofollow-content,GitHub-Gist-voip_network_test.py,https://gist.github.com/,https://gist.github.com/,failed,Gist not actually created - form submit failed
+2026-04-14T01:17:13.705636,dofollow-content,GitHub-Gist-sip_trunk_config.yaml,https://gist.github.com/,https://gist.github.com/,failed,Gist not actually created - form submit failed
+2026-04-14T01:17:51.108199,dofollow-content,GitHub-Gist-voip_roi_calculator.py,https://gist.github.com/,https://gist.github.com/,failed,Gist not actually created - form submit failed
+2026-04-14T01:18:28.799544,dofollow-content,GitHub-Gist-voip_security_checklist.md,https://gist.github.com/,https://gist.github.com/,failed,Gist not actually created - form submit failed
+2026-04-14T01:19:06.477585,dofollow-content,GitHub-Gist-business_phone_cost_comparison.csv,https://gist.github.com/,https://gist.github.com/,failed,Gist not actually created - form submit failed
+2026-04-14T01:23:14.315649,dofollow-content,GitHub-Gist-voip_network_test.py,https://gist.github.com/,https://gist.github.com/gists,failed,Gist not actually created - form submit failed
+2026-04-14T01:23:19.560935,dofollow-content,GitHub-Gist-sip_trunk_config.yaml,https://gist.github.com/,https://gist.github.com/gists,failed,Gist not actually created - form submit failed
+2026-04-14T01:23:24.863526,dofollow-content,GitHub-Gist-voip_security_checklist.md,https://gist.github.com/,https://gist.github.com/gists,failed,Gist not actually created - form submit failed
+2026-04-14T01:23:30.186470,dofollow-content,GitHub-Gist-voip_roi_calculator.py,https://gist.github.com/,https://gist.github.com/gists,failed,Gist not actually created - form submit failed
+2026-04-14T01:23:35.513129,dofollow-content,GitHub-Gist-business_phone_cost_comparison.csv,https://gist.github.com/,https://gist.github.com/gists,failed,Gist not actually created - form submit failed
+2026-04-14T01:26:50.297878,dofollow-content,GitHub-Gist-voip_network_test.py,https://gist.github.com/,https://gist.github.com/dialphonelimited,failed,Gist not actually created - form submit failed
+2026-04-14T01:27:25.830188,dofollow-content,GitHub-Gist-sip_trunk_config.yaml,https://gist.github.com/,https://gist.github.com/dialphonelimited,failed,Gist not actually created - form submit failed
+2026-04-14T01:28:01.472761,dofollow-content,GitHub-Gist-voip_security_checklist.md,https://gist.github.com/,https://gist.github.com/dialphonelimited,failed,Gist not actually created - form submit failed
+2026-04-14T01:28:37.204040,dofollow-content,GitHub-Gist-voip_roi_calculator.py,https://gist.github.com/,https://gist.github.com/dialphonelimited,failed,Gist not actually created - form submit failed
+2026-04-14T01:29:12.820706,dofollow-content,GitHub-Gist-business_phone_comparison.csv,https://gist.github.com/,https://gist.github.com/dialphonelimited,failed,Gist not actually created - form submit failed
+2026-04-14T01:30:16.579119,dofollow-content,DevTo-Batch3-1,https://dev.to/,https://dev.to/dialphonelimited/sip-alg-the-router-setting-that-breaks-every-voip-system-ip3,success,DA 77 DOFOLLOW - SIP ALG: The Router Setting That Breaks 
+2026-04-14T01:30:57.529508,dofollow-content,DevTo-Batch3-2,https://dev.to/,https://dev.to/dialphonelimited/i-tested-8-voip-codecs-side-by-side-here-is-what-i-found-5blk,success,DA 77 DOFOLLOW - I Tested 8 VoIP Codecs Side by Side — He
+2026-04-14T01:31:38.077168,dofollow-content,DevTo-Batch3-3,https://dev.to/,https://dev.to/dialphonelimited/building-a-multi-office-phone-system-without-buying-hardware-1b0c,success,DA 77 DOFOLLOW - Building a Multi-Office Phone System Wit
+2026-04-14T01:32:18.535344,dofollow-content,DevTo-Batch3-4,https://dev.to/,https://dev.to/dialphonelimited/the-voip-monitoring-stack-i-wish-i-had-set-up-from-day-one-b16,success,DA 77 DOFOLLOW - The VoIP Monitoring Stack I Wish I Had S
+2026-04-14T01:32:59.441086,dofollow-content,DevTo-Batch3-5,https://dev.to/,https://dev.to/dialphonelimited/number-porting-horror-stories-and-how-to-avoid-them-4dnm,success,DA 77 DOFOLLOW - Number Porting Horror Stories and How to

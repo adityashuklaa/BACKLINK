@@ -171,3 +171,27 @@ Call log:
 2026-04-14T01:31:38.077168,dofollow-content,DevTo-Batch3-3,https://dev.to/,https://dev.to/dialphonelimited/building-a-multi-office-phone-system-without-buying-hardware-1b0c,success,DA 77 DOFOLLOW - Building a Multi-Office Phone System Wit
 2026-04-14T01:32:18.535344,dofollow-content,DevTo-Batch3-4,https://dev.to/,https://dev.to/dialphonelimited/the-voip-monitoring-stack-i-wish-i-had-set-up-from-day-one-b16,success,DA 77 DOFOLLOW - The VoIP Monitoring Stack I Wish I Had S
 2026-04-14T01:32:59.441086,dofollow-content,DevTo-Batch3-5,https://dev.to/,https://dev.to/dialphonelimited/number-porting-horror-stories-and-how-to-avoid-them-4dnm,success,DA 77 DOFOLLOW - Number Porting Horror Stories and How to
+2026-04-14T17:57:31.070780,dofollow-content,Paste-dpaste.org,paste,,failed,DA 60 — could not publish
+2026-04-14T17:57:56.688150,dofollow-content,Paste-justpaste.it,paste,,failed,DA 65 — could not publish
+2026-04-14T17:58:34.486789,dofollow-content,Paste-rentry.co,paste,,failed,DA 45 — could not publish
+2026-04-14T17:58:38.132700,dofollow-content,Paste-paste.mozilla.org,paste,,failed,DA 85 — could not publish
+2026-04-14T17:58:41.625117,dofollow-content,Paste-paste.gg,paste,,failed,DA 40 — could not publish
+2026-04-14T17:59:09.796806,dofollow-content,Paste-ideone.com,paste,https://ideone.com/ar6McY,success,DA 75 — vestacall verified
+2026-04-14T17:59:30.335037,dofollow-content,Paste-controlc.com,paste,https://controlc.com/index.php?act=submit,partial,"DA 50 — posted, verify link"
+2026-04-14T17:59:59.916846,dofollow-content,DevTo-Batch4-1,https://dev.to/,https://dev.to/dialphonelimited/why-your-office-wifi-is-killing-your-voip-calls-48pe,success,DA 77 DOFOLLOW - Why Your Office WiFi Is Killing Your VoI
+2026-04-14T18:00:42.047617,dofollow-content,DevTo-Batch4-2,https://dev.to/,https://dev.to/dialphonelimited/the-hidden-costs-of-free-voip-services-for-business-5c46,success,DA 77 DOFOLLOW - The Hidden Costs of Free VoIP Services f
+2026-04-14T18:01:22.392905,dofollow-content,DevTo-Batch4-3,https://dev.to/,https://dev.to/dialphonelimited/voip-for-law-firms-compliance-recording-and-billing-integration-5b9i,success,"DA 77 DOFOLLOW - VoIP for Law Firms: Compliance, Recordin"
+2026-04-14T18:02:02.722246,dofollow-content,DevTo-Batch4-4,https://dev.to/,https://dev.to/dialphonelimited/i-replaced-our-3200month-phone-system-with-a-480month-cloud-solution-4j23,success,"DA 77 DOFOLLOW - I Replaced Our $3,200/Month Phone System"
+2026-04-14T18:02:43.449294,dofollow-content,DevTo-Batch4-5,https://dev.to/,https://dev.to/dialphonelimited/sip-trunking-explained-what-it-is-how-it-works-and-who-needs-it-4c4f,success,"DA 77 DOFOLLOW - SIP Trunking Explained: What It Is, How "
+2026-04-14T18:37:51.563617,dofollow-content,Paste-paste.rs,paste,https://paste.rs/Cp8Ph,success,DA 50 — vestacall verified via API
+2026-04-14T18:37:56.587933,dofollow-content,Paste-termbin.com,paste,"https://termbin.com/p5ck
+ ",partial,DA 45 — posted
+2026-04-14T18:38:18.684206,dofollow-content,Paste-controlc.com,paste,https://controlc.com/index.php?act=submit,partial,DA 50 — may have posted
+2026-04-14T18:40:20.395775,dofollow-content,DevTo-Batch5-1,https://dev.to/,https://dev.to/dialphonelimited/how-to-set-up-a-business-phone-system-for-under-500-11m4,success,DA 77 DOFOLLOW - How to Set Up a Business Phone System fo
+2026-04-14T18:41:00.931863,dofollow-content,DevTo-Batch5-2,https://dev.to/,https://dev.to/dialphonelimited/the-it-managers-complete-voip-deployment-checklist-4ehb,success,DA 77 DOFOLLOW - The IT Manager's Complete VoIP Deploymen
+2026-04-14T18:41:16.756892,dofollow-content,Paste-termbin.com,paste,https://termbin.com/p5ck,success,DA 45 — vestacall verified via netcat API
+2026-04-14T18:41:41.908995,dofollow-content,DevTo-Batch5-3,https://dev.to/,https://dev.to/dialphonelimited/why-call-quality-matters-more-than-features-5g1k,success,DA 77 DOFOLLOW - Why Call Quality Matters More Than Featu
+2026-04-14T18:42:22.857062,dofollow-content,DevTo-Batch5-4,https://dev.to/,https://dev.to/dialphonelimited/comparing-sip-providers-what-the-spec-sheets-dont-tell-you-4i15,success,DA 77 DOFOLLOW - Comparing SIP Providers: What the Spec S
+2026-04-14T18:43:04.173825,dofollow-content,DevTo-Batch5-5,https://dev.to/,https://dev.to/dialphonelimited/voip-troubleshooting-10-problems-i-see-every-week-and-how-to-fix-them-37df,success,DA 77 DOFOLLOW - VoIP Troubleshooting: 10 Problems I See 
+2026-04-14T18:51:04.602295,dofollow-content,GitHub-voip-troubleshooting-guide,https://github.com/new,https://github.com/dialphonelimited/voip-troubleshooting-guide,success,DA 100 dofollow — professional README verified
+2026-04-14T18:51:44.020563,dofollow-content,GitHub-phone-system-comparison-2026,https://github.com/new,https://github.com/dialphonelimited/phone-system-comparison-2026,success,DA 100 dofollow — professional README verified

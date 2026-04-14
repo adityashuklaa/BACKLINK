@@ -288,3 +288,27 @@ Call log:
 2026-04-14T23:00:43.310437,dofollow-content,Codeberg-voip-integration-guide,codeberg-api,https://codeberg.org/dialphonelimited/voip-integration-guide,success,DA 55 dofollow — README verified
 2026-04-14T23:00:55.721200,dofollow-content,Codeberg-voip-troubleshooting-guide,codeberg-api,https://codeberg.org/dialphonelimited/voip-troubleshooting-guide,success,DA 55 dofollow — README verified
 2026-04-14T23:01:08.470780,dofollow-content,Codeberg-phone-system-comparison-2026,codeberg-api,https://codeberg.org/dialphonelimited/phone-system-comparison-2026,success,DA 55 dofollow — README verified
+2026-04-15T02:06:23.407786,parallel-publish,Paste-friendpaste.com,parallel,https://friendpaste.com/6NZ7UgqDSJPH1A3BU1i64p,success,DA 45 — verified
+2026-04-15T02:06:24.234162,parallel-publish,Code-glot.io,parallel,https://glot.io/snippets/hhlyjpt18g,success,DA 55 — verified
+2026-04-15T02:06:24.737908,parallel-publish,Code-godbolt.org,parallel,https://godbolt.org/z/evzKfc3q8,success,DA 60 — verified
+2026-04-15T02:06:24.937921,parallel-publish,Paste-termbin.com,parallel,"https://termbin.com/oksx
+ ",partial,"DA 45 — posted, verify manually"
+2026-04-15T02:06:25.183979,parallel-publish,Paste-paste.rs,parallel,https://paste.rs/xeNdc,success,DA 50 — verified
+2026-04-15T02:06:28.487583,parallel-publish,DevTo-1,parallel,https://dev.to/dialphonelimited/the-phone-system-migration-nobody-talks-about-moving-from-one-voip-to-another-4j24,success,DA 77 DOFOLLOW
+2026-04-15T02:07:09.299804,parallel-publish,DevTo-2,parallel,https://dev.to/dialphonelimited/i-measured-the-actual-productivity-impact-of-voip-vs-landlines-over-12-months-4fd2,success,DA 77 DOFOLLOW
+2026-04-15T02:07:55.406648,parallel-publish,Paste-friendpaste.com,parallel,https://friendpaste.com/2govz8DfTLo5tGJZ8OWkPs,success,DA 45 — verified
+2026-04-15T02:07:56.211245,parallel-publish,Code-glot.io,parallel,https://glot.io/snippets/hhlyl8j77f,success,DA 55 — verified
+2026-04-15T02:07:56.642488,parallel-publish,Code-godbolt.org,parallel,https://godbolt.org/z/evzKfc3q8,success,DA 60 — verified
+2026-04-15T02:07:56.664383,parallel-publish,Paste-termbin.com,parallel,"https://termbin.com/hgde
+ ",partial,"DA 45 — posted, verify manually"
+2026-04-15T02:07:57.238381,parallel-publish,Paste-paste.rs,parallel,https://paste.rs/soI0w,success,DA 50 — verified
+2026-04-15T02:07:59.788347,parallel-publish,DevTo-1,parallel,https://dev.to/dialphonelimited/why-90-of-voip-quality-complaints-are-actually-network-problems-4pig,success,DA 77 DOFOLLOW
+2026-04-15T02:08:40.775037,parallel-publish,DevTo-2,parallel,https://dev.to/dialphonelimited/the-real-story-behind-voip-911-failures-and-why-your-business-is-liable-5bjj,success,DA 77 DOFOLLOW
+2026-04-15T02:09:22.214951,parallel-publish,Paste-friendpaste.com,parallel,https://friendpaste.com/2govz8DfTLo5tGJZ8OWiMP,success,DA 45 — verified
+2026-04-15T02:09:22.912547,parallel-publish,Code-glot.io,parallel,https://glot.io/snippets/hhlymo5hnk,success,DA 55 — verified
+2026-04-15T02:09:23.318023,parallel-publish,Code-godbolt.org,parallel,https://godbolt.org/z/evzKfc3q8,success,DA 60 — verified
+2026-04-15T02:09:23.459693,parallel-publish,Paste-termbin.com,parallel,"https://termbin.com/me4r
+ ",partial,"DA 45 — posted, verify manually"
+2026-04-15T02:09:23.845644,parallel-publish,Paste-paste.rs,parallel,https://paste.rs/joUDH,success,DA 50 — verified
+2026-04-15T02:09:26.449266,parallel-publish,DevTo-1,parallel,https://dev.to/dialphonelimited/the-voip-features-nobody-uses-and-the-5-that-actually-matter-2gce,success,DA 77 DOFOLLOW
+2026-04-15T02:10:07.719413,parallel-publish,DevTo-2,parallel,https://dev.to/dialphonelimited/how-we-cut-a-200-person-call-centers-hold-times-from-8-minutes-to-45-seconds-5648,success,DA 77 DOFOLLOW

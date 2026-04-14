@@ -105,7 +105,22 @@
   },
   "gitlab_account": {
     "username": "commercial@dialphone.com",
-    "password": "6b@YcNDm!Aw"
+    "password": "6b@YcNDm!AwTSG9"
+  },
+  "bitbucket": {
+    "username": "dialphonelimited",
+    "email": "commercial@dialphone.com",
+    "password": "Dh5247bn3789@#!"
+  },
+  "codeberg": {
+    "username": "dialphonelimited",
+    "email": "commercial@dialphone.com",
+    "password": "7#ffcRKFH7$sS4$"
+  },
+  "tumblr": {
+    "username": "dialphonelimited",
+    "email": "commercial@dialphone.com",
+    "password": "g@a%.X4Ght2bDdn3"
   },
   "dry_run": false,
   "output": {

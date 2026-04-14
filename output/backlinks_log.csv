@@ -281,3 +281,10 @@ Call log:
 2026-04-14T22:16:06.353224,parallel-publish,Code-godbolt.org,parallel,https://godbolt.org/z/evzKfc3q8,success,DA 60 — verified
 2026-04-14T22:16:06.544514,parallel-publish,Paste-paste.rs,parallel,https://paste.rs/BvocE,success,DA 50 — verified
 2026-04-14T22:16:06.611241,parallel-publish,Paste-dpaste.com,parallel,https://dpaste.com/FPJDUL2KG,dead,dpaste.com expires pastes after 24h
+2026-04-14T22:59:52.044152,dofollow-content,Codeberg-voip-compliance-framework,codeberg-api,https://codeberg.org/dialphonelimited/voip-compliance-framework,success,DA 55 dofollow — README verified
+2026-04-14T23:00:01.491979,dofollow-content,Codeberg-business-phone-roi-calculator,codeberg-api,https://codeberg.org/dialphonelimited/business-phone-roi-calculator,success,DA 55 dofollow — README verified
+2026-04-14T23:00:18.343401,dofollow-content,Codeberg-voip-network-requirements,codeberg-api,https://codeberg.org/dialphonelimited/voip-network-requirements,success,DA 55 dofollow — README verified
+2026-04-14T23:00:32.580158,dofollow-content,Codeberg-voip-disaster-recovery,codeberg-api,https://codeberg.org/dialphonelimited/voip-disaster-recovery,success,DA 55 dofollow — README verified
+2026-04-14T23:00:43.310437,dofollow-content,Codeberg-voip-integration-guide,codeberg-api,https://codeberg.org/dialphonelimited/voip-integration-guide,success,DA 55 dofollow — README verified
+2026-04-14T23:00:55.721200,dofollow-content,Codeberg-voip-troubleshooting-guide,codeberg-api,https://codeberg.org/dialphonelimited/voip-troubleshooting-guide,success,DA 55 dofollow — README verified
+2026-04-14T23:01:08.470780,dofollow-content,Codeberg-phone-system-comparison-2026,codeberg-api,https://codeberg.org/dialphonelimited/phone-system-comparison-2026,success,DA 55 dofollow — README verified

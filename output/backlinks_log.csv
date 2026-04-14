@@ -257,3 +257,10 @@ Call log:
 2026-04-14T19:51:06.545962,dofollow-content,Paste-paste.rs,parallel-publish,https://paste.rs/75iV5,success,DA 50 — verified
 2026-04-14T19:51:08.076454,dofollow-content,DevTo-Parallel-1,parallel-publish,https://dev.to/dialphonelimited/the-telecom-bill-audit-that-found-340000-in-annual-waste-5coh,success,DA 77 DOFOLLOW
 2026-04-14T19:51:48.964453,dofollow-content,DevTo-Parallel-2,parallel-publish,https://dev.to/dialphonelimited/what-i-learned-running-voip-over-starlink-for-6-months-4m9o,success,DA 77 DOFOLLOW
+2026-04-14T20:39:01.669029,dofollow-content,GitLab-voip-compliance-framework,https://gitlab.com/,https://gitlab.com/dialphonelimited/voip-compliance-framework,success,DA 92 dofollow — README with vestacall.com link verified
+2026-04-14T20:39:10.574065,dofollow-content,GitLab-business-phone-roi-calculator,https://gitlab.com/,https://gitlab.com/dialphonelimited/business-phone-roi-calculator,success,DA 92 dofollow — README with vestacall.com link verified
+2026-04-14T20:39:21.368439,dofollow-content,GitLab-voip-network-requirements,https://gitlab.com/,https://gitlab.com/dialphonelimited/voip-network-requirements,success,DA 92 dofollow — README with vestacall.com link verified
+2026-04-14T20:39:30.831185,dofollow-content,GitLab-voip-disaster-recovery,https://gitlab.com/,https://gitlab.com/dialphonelimited/voip-disaster-recovery,success,DA 92 dofollow — README with vestacall.com link verified
+2026-04-14T20:39:40.203695,dofollow-content,GitLab-voip-integration-guide,https://gitlab.com/,https://gitlab.com/dialphonelimited/voip-integration-guide,success,DA 92 dofollow — README with vestacall.com link verified
+2026-04-14T20:40:21.314277,dofollow-content,GitLab-voip-troubleshooting-guide,gitlab-api,https://gitlab.com/dialphonelimited/voip-troubleshooting-guide,success,DA 92 dofollow — README verified via API
+2026-04-14T20:40:26.788464,dofollow-content,GitLab-phone-system-comparison-2026,gitlab-api,https://gitlab.com/dialphonelimited/phone-system-comparison-2026,success,DA 92 dofollow — README verified via API

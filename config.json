@@ -1,0 +1,115 @@
+{
+  "business": {
+    "name": "VestaCall",
+    "tagline": "Reliable VoIP & Business Phone Solutions for Modern Teams",
+    "website": "https://vestacall.com",
+    "phone": "+1-800-555-0192",
+    "email": "vestacall.testing@gmail.com",
+    "address": {
+      "street": "1234 Tech Avenue, Suite 500",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94105",
+      "country": "US"
+    },
+    "description": "VestaCall provides enterprise-grade VoIP and business phone systems for small and mid-sized companies. Features include virtual phone numbers, SIP trunking, auto-attendant, call analytics, and seamless CRM integrations.",
+    "keywords": ["VoIP", "business phone system", "SIP trunking", "virtual phone number", "hosted PBX", "cloud phone system"],
+    "categories": ["VoIP", "Telecommunications", "Business Phone Systems", "Unified Communications"],
+    "founded_year": 2018,
+    "logo_url": "https://vestacall.com/logo.png"
+  },
+  "smtp": {
+    "host": "smtp.gmail.com",
+    "port": 465,
+    "use_ssl": true,
+    "username": "vestacall.testing@gmail.com",
+    "password": "18012005@Adi",
+    "from_name": "Adir Shukla",
+    "from_email": "vestacall.testing@gmail.com",
+    "reply_to": "vestacall.testing@gmail.com"
+  },
+  "browser": {
+    "headless": true,
+    "proxy": "",
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15",
+      "Mozilla/5.0 (X11; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0"
+    ]
+  },
+  "accounts": {
+    "yelp":        { "username": "vestacall_demo", "password": "DemoPass#2024", "email": "vestacall.testing@gmail.com" },
+    "clutch":      { "username": "vestacall_demo", "password": "DemoPass#2024", "email": "vestacall.testing@gmail.com" },
+    "crunchbase":  { "username": "vestacall_demo", "password": "DemoPass#2024", "email": "vestacall.testing@gmail.com" },
+    "g2":          { "username": "vestacall_demo", "password": "DemoPass#2024", "email": "vestacall.testing@gmail.com" },
+    "capterra":    { "username": "vestacall_demo", "password": "DemoPass#2024", "email": "vestacall.testing@gmail.com" },
+    "quora":       { "username": "commercial@dialphone.com", "password": "%.XbDdn3eW33pZz", "email": "commercial@dialphone.com" },
+    "producthunt": { "username": "vestacall_demo", "password": "DemoPass#2024", "email": "vestacall.testing@gmail.com" },
+    "diigo":       { "username": "commercial@dialphone.com", "password": "g@a%.X4Ght2bDdn3", "email": "commercial@dialphone.com" },
+    "mix":         { "username": "vestacall_demo", "password": "DemoPass#2024", "email": "vestacall.testing@gmail.com" },
+    "devto":       { "username": "commercial@dialphone.com", "password": "D4qJ%@Rt4^q5f3(", "email": "commercial@dialphone.com" },
+    "hashnode":    { "username": "vestacall_demo", "password": "DemoPass#2024", "email": "vestacall.testing@gmail.com" },
+    "indiehackers":{ "username": "commercial@dialphone.com", "password": "@Rt4^Ght2g@Ddn3eW", "email": "commercial@dialphone.com" },
+    "github":      { "username": "vestacall_demo", "password": "DemoPass#2024", "email": "vestacall.testing@gmail.com" },
+    "stackoverflow": { "username": "commercial@dialphone.com", "password": "4Ght2g@aQmCeb6t", "email": "commercial@dialphone.com" },
+    "dslreports":  { "username": "vestacall_demo", "password": "DemoPass#2024", "email": "vestacall.testing@gmail.com" },
+    "voipinfoorg": { "username": "vestacall_demo", "password": "DemoPass#2024", "email": "vestacall.testing@gmail.com" },
+    "spiceworks":  { "username": "commercial@dialphone.com", "password": "Vf#~Kzqq&5sX3-T", "email": "commercial@dialphone.com" },
+    "trustradius": { "username": "vestacall_demo", "password": "DemoPass#2024", "email": "vestacall.testing@gmail.com" },
+    "saashub":     { "username": "vestacall_demo", "password": "DemoPass#2024", "email": "vestacall.testing@gmail.com" },
+    "alternativeto":{ "username": "vestacall_demo", "password": "DemoPass#2024", "email": "vestacall.testing@gmail.com" },
+    "reddit": {
+      "client_id": "demo_client_id_replace_me",
+      "client_secret": "demo_client_secret_replace_me",
+      "username": "vestacall_demo",
+      "password": "DemoPass#2024"
+    }
+  },
+  "proxy": {
+    "enabled": false,
+    "server": "http://user:pass@proxy.example.com:8080",
+    "rotate": false
+  },
+  "rate_limit": {
+    "min_delay_s": 8,
+    "max_delay_s": 15,
+    "strategy_pause_s": 60,
+    "email_delay_s": 30,
+    "inter_field_min_s": 0.3,
+    "inter_field_max_s": 1.5,
+    "reading_pause_min_s": 2,
+    "reading_pause_max_s": 5
+  },
+  "captcha": {
+    "enabled": false,
+    "api_key": "",
+    "timeout_s": 120
+  },
+  "email_verification": {
+    "enabled": false,
+    "imap_server": "imap.gmail.com",
+    "imap_port": 993,
+    "email": "vestacall.testing@gmail.com",
+    "app_password": "18012005@Adi",
+    "auto_run_after_strategies": true,
+    "search_last_hours": 24
+  },
+  "api_keys": {
+    "devto": "uxv8YjB7oK9ybwmPCdh5gTsJ",
+    "hashnode": "b6658af2-825d-46ad-8ab6-59b48d777292",
+    "gitlab": "glpat-k3wOFdFF9_kZjmwT4bHHnmM6MQpvOjEKdTptNXI5dw8.01.170jc1b2w"
+  },
+  "github": {
+    "username": "dialphonelimited",
+    "password": "DevD!alph0ne@0912@#"
+  },
+  "gitlab_account": {
+    "username": "commercial@dialphone.com",
+    "password": "6b@YcNDm!Aw"
+  },
+  "dry_run": false,
+  "output": {
+    "csv_path": "output/backlinks_log.csv",
+    "log_level": "INFO"
+  }
+}

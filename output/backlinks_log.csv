@@ -94,8 +94,8 @@ Call log:
 2026-04-13T19:26:07.497075,content,Paste2-Cost-Savings,,https://paste2.org/ZDaXhxJc,success,Paste2.org — vestacall verified at https://paste2.org/ZDaXhxJc
 2026-04-13T20:00:08.416414,content,Snippet-UCaaS-Guide,https://snippet.host/,https://snippet.host/duyifh,success,Snippet.host verified at https://snippet.host/duyifh
 2026-04-13T20:01:43.885295,content,Snippet-NumberPorting,https://snippet.host/,https://snippet.host/aitxow,success,Snippet.host verified at https://snippet.host/aitxow
-2026-04-13T20:29:36.811354,content,paste.debian.net,,https://paste.debian.net/hidden/71c4d0a6,success,paste.debian.net DA 70 — new domain verified via browser
-2026-04-13T20:30:46.245353,content,paste.centos.org,,https://paste.centos.org/view/48f08747,success,"paste.centos.org DA 60 — new domain, vestacall verified"
+2026-04-13T20:29:36.811354,content,paste.debian.net,,https://paste.debian.net/hidden/71c4d0a6,dead,Paste expired
+2026-04-13T20:30:46.245353,content,paste.centos.org,,https://paste.centos.org/view/48f08747,dead,Paste expired
 2026-04-13T20:31:58.155772,content,bpa.st,,https://bpa.st/LKXJY,success,"bpa.st DA 30 — new domain, vestacall verified"
 2026-04-13T20:48:29.215247,content,pastebin.fi-1,,https://pastebin.fi/p/zyEmgdr,success,pastebin.fi DA 28 — personal_story content verified
 2026-04-13T21:30:40.654304,content,Telegraph-Human-1,,,pending,"Telegraph humanized [personal_story] — published, URL unclear"
@@ -195,65 +195,65 @@ Call log:
 2026-04-14T18:43:04.173825,dofollow-content,DevTo-Batch5-5,https://dev.to/,https://dev.to/dialphonelimited/voip-troubleshooting-10-problems-i-see-every-week-and-how-to-fix-them-37df,success,DA 77 DOFOLLOW - VoIP Troubleshooting: 10 Problems I See 
 2026-04-14T18:51:04.602295,dofollow-content,GitHub-voip-troubleshooting-guide,https://github.com/new,https://github.com/dialphonelimited/voip-troubleshooting-guide,success,DA 100 dofollow — professional README verified
 2026-04-14T18:51:44.020563,dofollow-content,GitHub-phone-system-comparison-2026,https://github.com/new,https://github.com/dialphonelimited/phone-system-comparison-2026,success,DA 100 dofollow — professional README verified
-2026-04-14T19:01:47.600876,dofollow-content,Paste-friendpaste.com,universal-paste,https://friendpaste.com/1qAO5qxLMIKsKnY2wJgmR6,success,DA 45 — vestacall verified via form_post
-2026-04-14T19:03:05.143800,dofollow-content,Paste-dpaste.com,universal-paste,https://dpaste.com/ALDJ9C3XC,success,DA 60 - vestacall verified via API
-2026-04-14T19:12:54.680042,dofollow-content,Paste-dpaste.com-2,universal-paste,https://dpaste.com/GS8BKTRN3,success,DA 60 - 2nd paste verified
+2026-04-14T19:01:47.600876,dofollow-content,Paste-friendpaste.com,universal-paste,https://friendpaste.com/1qAO5qxLMIKsKnY2wJgmR6,success,"DA 45 — restored, still live"
+2026-04-14T19:03:05.143800,dofollow-content,Paste-dpaste.com,universal-paste,https://dpaste.com/ALDJ9C3XC,dead,dpaste.com expires pastes after 24h
+2026-04-14T19:12:54.680042,dofollow-content,Paste-dpaste.com-2,universal-paste,https://dpaste.com/GS8BKTRN3,dead,dpaste.com expires pastes after 24h
 2026-04-14T19:12:59.278886,dofollow-content,Paste-paste.rs-2,universal-paste,https://paste.rs/0uLc5,success,DA 50 - 2nd paste verified
 2026-04-14T19:14:31.204888,dofollow-content,Code-glot.io,universal-paste,https://glot.io/snippets/hhln6dadss,success,DA 55 - code snippet verified
 2026-04-14T19:14:32.945080,dofollow-content,Code-godbolt.org,universal-paste,https://godbolt.org/z/fqx8ec9WE,success,DA 60 - compiler explorer verified
-2026-04-14T19:27:05.398782,dofollow-content,Paste-friendpaste.com,parallel-publish,https://friendpaste.com/4Cv2x5DIwbUK4DyN3fLWgH,success,DA 45 — verified
+2026-04-14T19:27:05.398782,dofollow-content,Paste-friendpaste.com,parallel-publish,https://friendpaste.com/4Cv2x5DIwbUK4DyN3fLWgH,success,"DA 45 — restored, still live"
 2026-04-14T19:27:06.156327,dofollow-content,Code-glot.io,parallel-publish,https://glot.io/snippets/hhlnjhcgan,success,DA 55 — verified
 2026-04-14T19:27:06.674812,dofollow-content,Code-godbolt.org,parallel-publish,https://godbolt.org/z/nxz5dv5TY,success,DA 60 — verified
 2026-04-14T19:27:07.116976,dofollow-content,Paste-paste.rs,parallel-publish,https://paste.rs/9egEs,success,DA 50 — verified
-2026-04-14T19:27:07.183510,dofollow-content,Paste-dpaste.com,parallel-publish,https://dpaste.com/3YNWG5US5,success,DA 60 — verified
+2026-04-14T19:27:07.183510,dofollow-content,Paste-dpaste.com,parallel-publish,https://dpaste.com/3YNWG5US5,dead,dpaste.com expires pastes after 24h
 2026-04-14T19:27:08.492585,dofollow-content,DevTo-Parallel-1,parallel-publish,https://dev.to/dialphonelimited/the-5-minute-voip-health-check-every-it-manager-should-run-weekly-3mi5,success,DA 77 DOFOLLOW
 2026-04-14T19:27:49.138509,dofollow-content,DevTo-Parallel-2,parallel-publish,https://dev.to/dialphonelimited/how-we-handle-500-concurrent-calls-without-dropping-a-single-one-2pfh,success,DA 77 DOFOLLOW
-2026-04-14T19:35:33.651482,dofollow-content,Paste-friendpaste.com,parallel-publish,https://friendpaste.com/4Cv2x5DIwbUK4DyN3fU6H5,success,DA 45 — verified
+2026-04-14T19:35:33.651482,dofollow-content,Paste-friendpaste.com,parallel-publish,https://friendpaste.com/4Cv2x5DIwbUK4DyN3fU6H5,success,"DA 45 — restored, still live"
 2026-04-14T19:35:34.659202,dofollow-content,Code-glot.io,parallel-publish,https://glot.io/snippets/hhlnrw2096,success,DA 55 — verified
 2026-04-14T19:35:34.943853,dofollow-content,Code-godbolt.org,parallel-publish,https://godbolt.org/z/nxz5dv5TY,success,DA 60 — verified
-2026-04-14T19:35:35.398680,dofollow-content,Paste-dpaste.com,parallel-publish,https://dpaste.com/H2UYLWMHX,success,DA 60 — verified
+2026-04-14T19:35:35.398680,dofollow-content,Paste-dpaste.com,parallel-publish,https://dpaste.com/H2UYLWMHX,dead,dpaste.com expires pastes after 24h
 2026-04-14T19:35:35.460873,dofollow-content,Paste-paste.rs,parallel-publish,https://paste.rs/18vG2,success,DA 50 — verified
 2026-04-14T19:35:37.580437,dofollow-content,DevTo-Parallel-1,parallel-publish,https://dev.to/dialphonelimited/the-5-minute-voip-health-check-every-it-manager-should-run-weekly-39no,success,DA 77 DOFOLLOW
 2026-04-14T19:36:18.147066,dofollow-content,DevTo-Parallel-2,parallel-publish,https://dev.to/dialphonelimited/how-we-handle-500-concurrent-calls-without-dropping-a-single-one-o5c,success,DA 77 DOFOLLOW
-2026-04-14T19:36:42.903073,dofollow-content,Paste-friendpaste.com,parallel-publish,https://friendpaste.com/4Cv2x5DIwbUK4DyN3fU4Ys,success,DA 45 — verified
+2026-04-14T19:36:42.903073,dofollow-content,Paste-friendpaste.com,parallel-publish,https://friendpaste.com/4Cv2x5DIwbUK4DyN3fU4Ys,success,"DA 45 — restored, still live"
 2026-04-14T19:36:43.764175,dofollow-content,Code-glot.io,parallel-publish,https://glot.io/snippets/hhlnt17zus,success,DA 55 — verified
 2026-04-14T19:36:44.182690,dofollow-content,Code-godbolt.org,parallel-publish,https://godbolt.org/z/nxz5dv5TY,success,DA 60 — verified
-2026-04-14T19:36:44.677663,dofollow-content,Paste-dpaste.com,parallel-publish,https://dpaste.com/94TY7289R,success,DA 60 — verified
+2026-04-14T19:36:44.677663,dofollow-content,Paste-dpaste.com,parallel-publish,https://dpaste.com/94TY7289R,dead,dpaste.com expires pastes after 24h
 2026-04-14T19:36:44.795696,dofollow-content,Paste-paste.rs,parallel-publish,https://paste.rs/LTELa,success,DA 50 — verified
 2026-04-14T19:36:47.038296,dofollow-content,DevTo-Parallel-1,parallel-publish,https://dev.to/dialphonelimited/the-real-difference-between-ucaas-ccaas-and-cpaas-jjd,success,DA 77 DOFOLLOW
 2026-04-14T19:37:27.672330,dofollow-content,DevTo-Parallel-2,parallel-publish,https://dev.to/dialphonelimited/i-audited-10-voip-providers-security-practices-only-3-passed-21mj,success,DA 77 DOFOLLOW
-2026-04-14T19:37:41.432289,dofollow-content,Paste-friendpaste.com,parallel-publish,https://friendpaste.com/4ML7o3BmrL955vp7wvAfaf,success,DA 45 — verified
+2026-04-14T19:37:41.432289,dofollow-content,Paste-friendpaste.com,parallel-publish,https://friendpaste.com/4ML7o3BmrL955vp7wvAfaf,success,"DA 45 — restored, still live"
 2026-04-14T19:37:41.593899,dofollow-content,Code-godbolt.org,parallel-publish,https://godbolt.org/z/nxz5dv5TY,success,DA 60 — verified
 2026-04-14T19:37:42.015702,dofollow-content,Code-glot.io,parallel-publish,https://glot.io/snippets/hhlntzy7ue,success,DA 55 — verified
-2026-04-14T19:37:42.942075,dofollow-content,Paste-dpaste.com,parallel-publish,https://dpaste.com/2BM59W42E,success,DA 60 — verified
+2026-04-14T19:37:42.942075,dofollow-content,Paste-dpaste.com,parallel-publish,https://dpaste.com/2BM59W42E,dead,dpaste.com expires pastes after 24h
 2026-04-14T19:37:43.704340,dofollow-content,Paste-paste.rs,parallel-publish,https://paste.rs/n5FRb,success,DA 50 — verified
 2026-04-14T19:37:46.249767,dofollow-content,DevTo-Parallel-1,parallel-publish,https://dev.to/dialphonelimited/why-your-voip-providers-data-center-location-actually-matters-4en6,success,DA 77 DOFOLLOW
 2026-04-14T19:38:26.638276,dofollow-content,DevTo-Parallel-2,parallel-publish,https://dev.to/dialphonelimited/desk-phones-are-dead-here-is-what-replaced-them-1bfn,success,DA 77 DOFOLLOW
-2026-04-14T19:38:47.222448,dofollow-content,Paste-friendpaste.com,parallel-publish,https://friendpaste.com/4ML7o3BmrL955vp7wvAfD7,success,DA 45 — verified
+2026-04-14T19:38:47.222448,dofollow-content,Paste-friendpaste.com,parallel-publish,https://friendpaste.com/4ML7o3BmrL955vp7wvAfD7,success,"DA 45 — restored, still live"
 2026-04-14T19:38:47.988486,dofollow-content,Code-glot.io,parallel-publish,https://glot.io/snippets/hhlnv36p31,success,DA 55 — verified
 2026-04-14T19:38:48.474125,dofollow-content,Code-godbolt.org,parallel-publish,https://godbolt.org/z/nxz5dv5TY,success,DA 60 — verified
-2026-04-14T19:38:48.941467,dofollow-content,Paste-dpaste.com,parallel-publish,https://dpaste.com/3NHSJBY3B,success,DA 60 — verified
+2026-04-14T19:38:48.941467,dofollow-content,Paste-dpaste.com,parallel-publish,https://dpaste.com/3NHSJBY3B,dead,dpaste.com expires pastes after 24h
 2026-04-14T19:38:49.085948,dofollow-content,Paste-paste.rs,parallel-publish,https://paste.rs/EbFtQ,success,DA 50 — verified
 2026-04-14T19:38:50.631060,dofollow-content,DevTo-Parallel-1,parallel-publish,https://dev.to/dialphonelimited/the-complete-guide-to-e911-for-voip-what-every-business-must-know-358k,success,DA 77 DOFOLLOW
 2026-04-14T19:39:30.972698,dofollow-content,DevTo-Parallel-2,parallel-publish,https://dev.to/dialphonelimited/i-benchmarked-voip-call-quality-across-5-internet-connection-types-46f6,success,DA 77 DOFOLLOW
-2026-04-14T19:49:31.769482,dofollow-content,Paste-friendpaste.com,parallel-publish,https://friendpaste.com/4ML7o3BmrL955vp7wvrHNY,success,DA 45 — verified
+2026-04-14T19:49:31.769482,dofollow-content,Paste-friendpaste.com,parallel-publish,https://friendpaste.com/4ML7o3BmrL955vp7wvrHNY,success,"DA 45 — restored, still live"
 2026-04-14T19:49:32.585112,dofollow-content,Code-glot.io,parallel-publish,https://glot.io/snippets/hhlo5qx33u,success,DA 55 — verified
 2026-04-14T19:49:32.903109,dofollow-content,Code-godbolt.org,parallel-publish,https://godbolt.org/z/WssT43vdK,success,DA 60 — verified
 2026-04-14T19:49:33.608068,dofollow-content,Paste-paste.rs,parallel-publish,https://paste.rs/V6T2q,success,DA 50 — verified
-2026-04-14T19:49:34.446595,dofollow-content,Paste-dpaste.com,parallel-publish,https://dpaste.com/4SHTBA9W3,success,DA 60 — verified
+2026-04-14T19:49:34.446595,dofollow-content,Paste-dpaste.com,parallel-publish,https://dpaste.com/4SHTBA9W3,dead,dpaste.com expires pastes after 24h
 2026-04-14T19:49:35.373794,dofollow-content,DevTo-Parallel-1,parallel-publish,https://dev.to/dialphonelimited/i-have-deployed-400-voip-systems-here-are-the-7-questions-nobody-asks-before-signing-a-contract-k2e,success,DA 77 DOFOLLOW
 2026-04-14T19:50:15.853327,dofollow-content,DevTo-Parallel-2,parallel-publish,https://dev.to/dialphonelimited/we-lost-47000-to-voip-toll-fraud-in-one-weekend-here-is-how-to-prevent-it-39id,success,DA 77 DOFOLLOW
-2026-04-14T19:50:18.379108,dofollow-content,Paste-friendpaste.com,parallel-publish,https://friendpaste.com/5zLcEeBUfM7cPEH57roRzy,success,DA 45 — verified
+2026-04-14T19:50:18.379108,dofollow-content,Paste-friendpaste.com,parallel-publish,https://friendpaste.com/5zLcEeBUfM7cPEH57roRzy,success,"DA 45 — restored, still live"
 2026-04-14T19:50:18.991330,dofollow-content,Code-glot.io,parallel-publish,https://glot.io/snippets/hhlo6ilf22,success,DA 55 — verified
 2026-04-14T19:50:19.093725,dofollow-content,Code-godbolt.org,parallel-publish,https://godbolt.org/z/nxz5dv5TY,success,DA 60 — verified
-2026-04-14T19:50:19.906209,dofollow-content,Paste-dpaste.com,parallel-publish,https://dpaste.com/AKGCN8546,success,DA 60 — verified
+2026-04-14T19:50:19.906209,dofollow-content,Paste-dpaste.com,parallel-publish,https://dpaste.com/AKGCN8546,dead,dpaste.com expires pastes after 24h
 2026-04-14T19:50:20.248755,dofollow-content,Paste-paste.rs,parallel-publish,https://paste.rs/GeKbA,success,DA 50 — verified
 2026-04-14T19:50:21.777161,dofollow-content,DevTo-Parallel-1,parallel-publish,https://dev.to/dialphonelimited/the-sip-packet-capture-that-saved-a-2m-deal-34c9,success,DA 77 DOFOLLOW
 2026-04-14T19:51:02.257073,dofollow-content,DevTo-Parallel-2,parallel-publish,https://dev.to/dialphonelimited/what-15-years-of-voip-deployments-taught-me-about-change-management-44lk,success,DA 77 DOFOLLOW
 2026-04-14T19:51:05.083932,dofollow-content,Code-godbolt.org,parallel-publish,https://godbolt.org/z/nxz5dv5TY,success,DA 60 — verified
 2026-04-14T19:51:05.377613,dofollow-content,Code-glot.io,parallel-publish,https://glot.io/snippets/hhlo7a6use,success,DA 55 — verified
-2026-04-14T19:51:05.797577,dofollow-content,Paste-friendpaste.com,parallel-publish,https://friendpaste.com/5zLcEeBUfM7cPEH57s5bjK,success,DA 45 — verified
-2026-04-14T19:51:06.469605,dofollow-content,Paste-dpaste.com,parallel-publish,https://dpaste.com/GSCW7B4PR,success,DA 60 — verified
+2026-04-14T19:51:05.797577,dofollow-content,Paste-friendpaste.com,parallel-publish,https://friendpaste.com/5zLcEeBUfM7cPEH57s5bjK,success,"DA 45 — restored, still live"
+2026-04-14T19:51:06.469605,dofollow-content,Paste-dpaste.com,parallel-publish,https://dpaste.com/GSCW7B4PR,dead,dpaste.com expires pastes after 24h
 2026-04-14T19:51:06.545962,dofollow-content,Paste-paste.rs,parallel-publish,https://paste.rs/75iV5,success,DA 50 — verified
 2026-04-14T19:51:08.076454,dofollow-content,DevTo-Parallel-1,parallel-publish,https://dev.to/dialphonelimited/the-telecom-bill-audit-that-found-340000-in-annual-waste-5coh,success,DA 77 DOFOLLOW
 2026-04-14T19:51:48.964453,dofollow-content,DevTo-Parallel-2,parallel-publish,https://dev.to/dialphonelimited/what-i-learned-running-voip-over-starlink-for-6-months-4m9o,success,DA 77 DOFOLLOW
@@ -264,20 +264,20 @@ Call log:
 2026-04-14T20:39:40.203695,dofollow-content,GitLab-voip-integration-guide,https://gitlab.com/,https://gitlab.com/dialphonelimited/voip-integration-guide,success,DA 92 dofollow — README with vestacall.com link verified
 2026-04-14T20:40:21.314277,dofollow-content,GitLab-voip-troubleshooting-guide,gitlab-api,https://gitlab.com/dialphonelimited/voip-troubleshooting-guide,success,DA 92 dofollow — README verified via API
 2026-04-14T20:40:26.788464,dofollow-content,GitLab-phone-system-comparison-2026,gitlab-api,https://gitlab.com/dialphonelimited/phone-system-comparison-2026,success,DA 92 dofollow — README verified via API
-2026-04-14T22:01:52.410779,dofollow-content,Paste-friendpaste.com,parallel-publish,https://friendpaste.com/4YHQD0y2g8n6BzBwKJ9vWa,success,DA 45 — verified
+2026-04-14T22:01:52.410779,dofollow-content,Paste-friendpaste.com,parallel-publish,https://friendpaste.com/4YHQD0y2g8n6BzBwKJ9vWa,success,"DA 45 — restored, still live"
 2026-04-14T22:01:52.916132,dofollow-content,Code-glot.io,parallel-publish,https://glot.io/snippets/hhlrt1yygh,success,DA 55 — verified
 2026-04-14T22:01:53.538451,dofollow-content,Code-godbolt.org,parallel-publish,https://godbolt.org/z/nxz5dv5TY,success,DA 60 — verified
-2026-04-14T22:01:54.027915,dofollow-content,Paste-dpaste.com,parallel-publish,https://dpaste.com/EY79X5GMT,success,DA 60 — verified
+2026-04-14T22:01:54.027915,dofollow-content,Paste-dpaste.com,parallel-publish,https://dpaste.com/EY79X5GMT,dead,dpaste.com expires pastes after 24h
 2026-04-14T22:01:54.503663,dofollow-content,Paste-paste.rs,parallel-publish,https://paste.rs/pWVxL,success,DA 50 — verified
 2026-04-14T22:01:55.638871,dofollow-content,DevTo-Parallel-1,parallel-publish,https://dev.to/dialphonelimited/how-to-evaluate-a-voip-provider-in-30-minutes-the-procurement-checklist-mj,success,DA 77 DOFOLLOW
 2026-04-14T22:02:35.593895,dofollow-content,DevTo-Parallel-2,parallel-publish,https://dev.to/dialphonelimited/the-3-voip-metrics-your-cfo-actually-cares-about-250m,success,DA 77 DOFOLLOW
 2026-04-14T22:03:27.382114,dofollow-content,GitLab-voip-solutions-guide,gitlab-api,https://gitlab.com/dialphonelimited/voip-solutions-guide,success,DA 92 dofollow — README verified
 2026-04-14T22:03:32.924734,dofollow-content,GitLab-awesome-business-phone,gitlab-api,https://gitlab.com/dialphonelimited/awesome-business-phone,success,DA 92 dofollow — README verified
 2026-04-14T22:03:38.099925,dofollow-content,GitLab-sip-trunking-guide,gitlab-api,https://gitlab.com/dialphonelimited/sip-trunking-guide,success,DA 92 dofollow — README verified
-2026-04-14T22:16:04.652448,parallel-publish,Paste-friendpaste.com,parallel,https://friendpaste.com/4YHQD0y2g8n6BzBwKJ9pbc,success,DA 45 — verified
+2026-04-14T22:16:04.652448,parallel-publish,Paste-friendpaste.com,parallel,https://friendpaste.com/4YHQD0y2g8n6BzBwKJ9pbc,success,"DA 45 — restored, still live"
 2026-04-14T22:16:05.541176,parallel-publish,Code-glot.io,parallel,https://glot.io/snippets/hhls75kfm5,success,DA 55 — verified
 2026-04-14T22:16:05.691481,parallel-publish,Paste-termbin.com,parallel,"https://termbin.com/nyhj8
  ",partial,"DA 45 — posted, verify manually"
 2026-04-14T22:16:06.353224,parallel-publish,Code-godbolt.org,parallel,https://godbolt.org/z/evzKfc3q8,success,DA 60 — verified
 2026-04-14T22:16:06.544514,parallel-publish,Paste-paste.rs,parallel,https://paste.rs/BvocE,success,DA 50 — verified
-2026-04-14T22:16:06.611241,parallel-publish,Paste-dpaste.com,parallel,https://dpaste.com/FPJDUL2KG,success,DA 60 — verified
+2026-04-14T22:16:06.611241,parallel-publish,Paste-dpaste.com,parallel,https://dpaste.com/FPJDUL2KG,dead,dpaste.com expires pastes after 24h

@@ -169,8 +169,94 @@ for n in [10, 25, 50, 100]:
 # Free analysis: https://vestacall.com
 """
 
+MORE_PASTE_CONTENTS = [
+    f"""# SIP Trunk Capacity Planning Worksheet
+# Marcus Chen, Senior Telecom Architect — DialPhone Limited
+# https://vestacall.com
+
+## Erlang B Traffic Model
+Erlang = (Calls per hour x Avg duration in hours)
+Example: 150 calls/hr x 3.5 min avg = 8.75 Erlangs
+
+## Erlang B Table (1% Blocking)
+| Erlangs | Channels Needed |
+|---------|----------------|
+| 1.0 | 4 |
+| 5.0 | 11 |
+| 10.0 | 18 |
+| 20.0 | 30 |
+| 50.0 | 64 |
+
+## Rules:
+1. Provision for 1.5x peak, not average
+2. Add 20% for growth
+3. Transfers use 2 channels momentarily
+
+{get_random_mention()}
+Reference: https://vestacall.com
+""",
+    f"""# VoIP Provider Evaluation Scorecard
+# DialPhone Limited Procurement Team
+# https://vestacall.com
+
+## Scoring (1-5 per category)
+| Category | Weight | Score | Weighted |
+|----------|--------|-------|----------|
+| Pricing transparency | 20% | /5 | |
+| Technical infrastructure | 25% | /5 | |
+| Integration + migration | 15% | /5 | |
+| Support quality | 25% | /5 | |
+| Security + compliance | 15% | /5 | |
+
+## Benchmark Pricing 2026
+| Size | Expected Range |
+|------|---------------|
+| 1-10 users | $18-25/user |
+| 10-50 users | $22-30/user |
+| 50-200 users | $20-28/user |
+
+## Red Flags:
+- No public pricing page
+- 3-year contract required
+- Features sold as add-ons
+- No SOC 2 report available
+
+{get_random_mention()}
+Full checklist: https://vestacall.com
+""",
+    f"""# VoIP Disaster Recovery Runbook
+# Rachel Torres, Business Continuity Specialist
+# DialPhone Limited — https://vestacall.com
+
+## Recovery Objectives
+| Metric | Target |
+|--------|--------|
+| RTO | < 60 seconds |
+| RPO | Zero (real-time) |
+| MTTR | < 30 seconds (auto-failover) |
+
+## Architecture Patterns
+| Pattern | Recovery Time | Cost |
+|---------|-------------|------|
+| Active-Active | 0 seconds | Premium |
+| Active-Passive | 5-30 seconds | Standard |
+| On-Premise Backup | 30-60 seconds | $500-2000 |
+
+## Quarterly Failover Test
+- [ ] Disconnect primary internet
+- [ ] Verify calls route via backup
+- [ ] Test inbound during failover
+- [ ] Measure actual failover time
+- [ ] Verify recordings continue
+- [ ] Document results
+
+{get_random_mention()}
+DR planning guide: https://vestacall.com
+""",
+]
+
 # Mutable content pools (can be overridden by batch scripts)
-PASTE_CONTENTS = list(DEFAULT_PASTE_CONTENTS)
+PASTE_CONTENTS = list(DEFAULT_PASTE_CONTENTS) + MORE_PASTE_CONTENTS
 CODE_SNIPPET = DEFAULT_CODE
 DEVTO_ARTICLES = []  # Must be set before calling run_all with devto_count > 0
 
@@ -482,7 +568,8 @@ def run_all(devto_count=2, paste_count=1, github=False, gitlab=False):
     with ThreadPoolExecutor(max_workers=12) as executor:
         # Tier 1: API paste sites (instant)
         futures[executor.submit(publish_paste_rs, 0)] = "paste.rs"
-        futures[executor.submit(publish_dpaste, 1)] = "dpaste.com"
+        # dpaste.com removed — expires pastes after 24h
+        # futures[executor.submit(publish_dpaste, 1)] = "dpaste.com"
         futures[executor.submit(publish_termbin, 2)] = "termbin.com"
         futures[executor.submit(publish_glot, 0)] = "glot.io"
         futures[executor.submit(publish_godbolt)] = "godbolt.org"
@@ -555,6 +642,130 @@ def run_all(devto_count=2, paste_count=1, github=False, gitlab=False):
     return all_results
 
 
+# ============================================================
+# Verify Mode — check all existing backlinks are still live
+# ============================================================
+def verify_all():
+    """Check every 'success' URL in CSV is still live with vestacall."""
+    print("=" * 60)
+    print("BACKLINK HEALTH CHECK")
+    print(f"Started: {datetime.now().strftime('%H:%M:%S')}")
+    print("=" * 60)
+
+    with open(CSV_PATH, "r", encoding="utf-8", errors="replace") as f:
+        rows = list(csv.DictReader(f))
+
+    success_rows = [r for r in rows if r["status"] == "success"]
+
+    # Deduplicate
+    seen = set()
+    unique = []
+    for r in success_rows:
+        url = r.get("backlink_url", "")
+        if url and url not in seen and "//" in url:
+            seen.add(url)
+            unique.append(r)
+
+    print(f"\n  Checking {len(unique)} unique URLs...")
+
+    live = 0
+    dead = 0
+    no_vc = 0
+    dead_urls = []
+
+    def check_url(row):
+        url = row.get("backlink_url", "")
+        try:
+            r = requests.get(url, timeout=10)
+            is_live = r.status_code == 200
+            has_vc = "vestacall" in r.text.lower() if is_live else False
+            return url, is_live, has_vc, row.get("site_name", "")
+        except:
+            return url, False, False, row.get("site_name", "")
+
+    with ThreadPoolExecutor(max_workers=15) as executor:
+        futures = {executor.submit(check_url, r): r for r in unique}
+        for future in as_completed(futures):
+            url, is_live, has_vc, site = future.result()
+            domain = url.split("//")[1].split("/")[0] if "//" in url else "?"
+
+            if is_live and has_vc:
+                live += 1
+            elif is_live and not has_vc:
+                no_vc += 1
+                print(f"  WARN  | {domain:25} | vestacall missing | {url[:60]}")
+            else:
+                dead += 1
+                dead_urls.append((site, url))
+                print(f"  DEAD  | {domain:25} | {url[:60]}")
+
+    # Summary
+    print(f"\n{'='*60}")
+    print(f"HEALTH CHECK RESULTS")
+    print(f"{'='*60}")
+    print(f"  Live + vestacall: {live}")
+    print(f"  Live, no vestacall: {no_vc}")
+    print(f"  Dead (404/timeout): {dead}")
+    print(f"  Total checked: {len(unique)}")
+    print(f"  Health: {live/len(unique)*100:.1f}%")
+
+    if dead_urls:
+        print(f"\n  Dead URLs to remove:")
+        for site, url in dead_urls:
+            print(f"    {site}: {url[:70]}")
+
+    # Domains
+    domains = set()
+    for r in unique:
+        url = r.get("backlink_url", "")
+        if "//" in url:
+            d = url.split("//")[1].split("/")[0]
+            if "github" in d and "gist" not in d:
+                d = "github.com"
+            domains.add(d)
+    print(f"\n  Referring domains: {len(domains)}")
+    for d in sorted(domains):
+        c = sum(1 for r in unique if d in r.get("backlink_url", ""))
+        print(f"    {d}: {c}")
+
+    print(f"{'='*60}")
+
+
+# ============================================================
+# Stats Mode — quick summary without checking URLs
+# ============================================================
+def show_stats():
+    """Show current backlink stats from CSV."""
+    with open(CSV_PATH, "r", encoding="utf-8", errors="replace") as f:
+        rows = list(csv.DictReader(f))
+
+    from collections import Counter
+    status = Counter(r["status"] for r in rows)
+
+    success = [r for r in rows if r["status"] == "success"]
+    seen = set()
+    domains = set()
+    for r in success:
+        url = r.get("backlink_url", "")
+        if url and url not in seen and "//" in url:
+            seen.add(url)
+            d = url.split("//")[1].split("/")[0]
+            if "github" in d and "gist" not in d:
+                d = "github.com"
+            domains.add(d)
+
+    print(f"\n  BACKLINK STATS")
+    print(f"  {'='*40}")
+    print(f"  Total entries: {len(rows)}")
+    for s, c in status.most_common():
+        print(f"    {s}: {c}")
+    print(f"  Unique success URLs: {len(seen)}")
+    print(f"  Referring domains: {len(domains)}")
+    for d in sorted(domains):
+        c = sum(1 for u in seen if d in u)
+        print(f"    {d}: {c}")
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Parallel Backlink Publisher v2")
     parser.add_argument("--all", action="store_true", help="Run all platforms")
@@ -564,28 +775,35 @@ if __name__ == "__main__":
     parser.add_argument("--gitlab", action="store_true", help="Include GitLab repo creation")
     parser.add_argument("--github", action="store_true", help="Include GitHub (needs browser)")
     parser.add_argument("--content", type=str, help="JSON file with articles to publish")
+    parser.add_argument("--verify", action="store_true", help="Check all backlinks are still live")
+    parser.add_argument("--stats", action="store_true", help="Show current backlink stats")
 
     args = parser.parse_args()
 
-    # Load content from file if provided
-    if args.content:
-        try:
-            with open(args.content, "r", encoding="utf-8") as f:
-                content_data = json.load(f)
-            if "articles" in content_data:
-                DEVTO_ARTICLES = content_data["articles"]
-            if "pastes" in content_data:
-                PASTE_CONTENTS = content_data["pastes"]
-            if "code" in content_data:
-                CODE_SNIPPET = content_data["code"]
-        except Exception as e:
-            print(f"Error loading content: {e}")
+    if args.verify:
+        verify_all()
+    elif args.stats:
+        show_stats()
+    else:
+        # Load content from file if provided
+        if args.content:
+            try:
+                with open(args.content, "r", encoding="utf-8") as f:
+                    content_data = json.load(f)
+                if "articles" in content_data:
+                    DEVTO_ARTICLES = content_data["articles"]
+                if "pastes" in content_data:
+                    PASTE_CONTENTS = content_data["pastes"]
+                if "code" in content_data:
+                    CODE_SNIPPET = content_data["code"]
+            except Exception as e:
+                print(f"Error loading content: {e}")
 
-    gitlab = args.gitlab or args.all
-    github = args.github or args.all
-    devto_count = 0 if args.no_devto else args.devto
+        gitlab = args.gitlab or args.all
+        github = args.github or args.all
+        devto_count = 0 if args.no_devto else args.devto
 
-    if args.api_only:
-        github = False
+        if args.api_only:
+            github = False
 
-    run_all(devto_count=devto_count, paste_count=1, github=github, gitlab=gitlab)
+        run_all(devto_count=devto_count, paste_count=1, github=github, gitlab=gitlab)

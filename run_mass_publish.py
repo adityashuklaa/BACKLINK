@@ -155,11 +155,11 @@ for platform in all_working:
                 url = pg.url
                 if url != platform["url"] and platform["name"].split(".")[0] in url:
                     # Verify
-                    has_vc = "vestacall" in pg.content().lower()
+                    has_vc = "dialphone" in pg.content().lower()
                     if not has_vc:
                         try:
                             r = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
-                            has_vc = "vestacall" in r.text.lower()
+                            has_vc = "dialphone" in r.text.lower()
                         except:
                             pass
 
@@ -168,8 +168,8 @@ for platform in all_working:
                         log_result(site_label, url, "success",
                                    f"{name} DA {platform['da']} — {piece['style']} content verified")
                     else:
-                        print(f"  Published but vestacall not found")
-                        log_result(site_label, url, "pending", "Published but vestacall not in page")
+                        print(f"  Published but dialphone not found")
+                        log_result(site_label, url, "pending", "Published but dialphone not in page")
                 else:
                     print(f"  URL didn't change")
             else:

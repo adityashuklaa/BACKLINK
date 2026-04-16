@@ -142,13 +142,13 @@ for i, article in enumerate(articles):
             if url:
                 time.sleep(3)
                 v = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
-                has_vc = "vestacall" in v.text.lower()
-                print(f"  vestacall: {has_vc}")
+                has_vc = "dialphone" in v.text.lower()
+                print(f"  dialphone: {has_vc}")
                 if has_vc:
                     log_result(f"Hashnode-{i+1}", url, "success", "Hashnode DA 68 — new domain verified")
                     print("  === VERIFIED ===")
                 else:
-                    log_result(f"Hashnode-{i+1}", url, "pending", "Published but vestacall not in HTML")
+                    log_result(f"Hashnode-{i+1}", url, "pending", "Published but dialphone not in HTML")
         else:
             errors = result.get("errors", [])
             msg = errors[0].get("message", "") if errors else json.dumps(result)[:200]

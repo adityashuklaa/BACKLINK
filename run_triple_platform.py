@@ -624,12 +624,12 @@ for i, article in enumerate(ARTICLES):
             print(f"  PUBLISHED: {url}")
             time.sleep(3)
             v = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
-            if "vestacall" in v.text.lower():
+            if "dialphone" in v.text.lower():
                 log_result(f"DevTo-Pro-{i+1}", url, "success", "Dev.to DA 77 — verified")
                 devto_count += 1
                 print(f"  === VERIFIED ===")
             else:
-                log_result(f"DevTo-Pro-{i+1}", url, "pending", "Published but vestacall not in response")
+                log_result(f"DevTo-Pro-{i+1}", url, "pending", "Published but dialphone not in response")
         elif r.status_code == 429:
             print(f"  Rate limited — waiting 35s and retrying...")
             time.sleep(35)
@@ -641,7 +641,7 @@ for i, article in enumerate(ARTICLES):
                 print(f"  PUBLISHED (retry): {url}")
                 time.sleep(3)
                 v = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
-                if "vestacall" in v.text.lower():
+                if "dialphone" in v.text.lower():
                     log_result(f"DevTo-Pro-{i+1}", url, "success", "Dev.to DA 77 — verified")
                     devto_count += 1
                     print(f"  === VERIFIED ===")

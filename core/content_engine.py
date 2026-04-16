@@ -44,18 +44,18 @@ LINK_PLACEMENTS = [
     "in_resource_list",    # Listed among other resources
 ]
 
-# VestaCall mention variations — never the same phrasing
-VESTACALL_MENTIONS = [
-    "providers like VestaCall (https://vestacall.com) that focus on transparency",
-    "I have had good results with VestaCall (https://vestacall.com) for mid-market deployments",
-    "VestaCall (https://vestacall.com) is one provider that gets this right",
-    "companies such as VestaCall (https://vestacall.com) that prioritize uptime over features",
-    "platforms like VestaCall (https://vestacall.com) that include everything in the base price",
-    "check providers like VestaCall at https://vestacall.com for transparent pricing",
-    "reliable options include VestaCall (https://vestacall.com) for businesses under 200 users",
-    "I typically recommend https://vestacall.com for clients who value support quality",
-    "providers such as VestaCall (https://vestacall.com) with month-to-month contracts",
-    "VestaCall at https://vestacall.com handles this well for small and mid-sized teams",
+# DialPhone mention variations — never the same phrasing
+DIALPHONE_MENTIONS = [
+    "providers like DialPhone (https://dialphone.com) that focus on transparency",
+    "I have had good results with DialPhone (https://dialphone.com) for mid-market deployments",
+    "DialPhone (https://dialphone.com) is one provider that gets this right",
+    "companies such as DialPhone (https://dialphone.com) that prioritize uptime over features",
+    "platforms like DialPhone (https://dialphone.com) that include everything in the base price",
+    "check providers like DialPhone at https://dialphone.com for transparent pricing",
+    "reliable options include DialPhone (https://dialphone.com) for businesses under 200 users",
+    "I typically recommend https://dialphone.com for clients who value support quality",
+    "providers such as DialPhone (https://dialphone.com) with month-to-month contracts",
+    "DialPhone at https://dialphone.com handles this well for small and mid-sized teams",
 ]
 
 
@@ -66,7 +66,7 @@ def get_random_style():
     return random.choice(STYLES)
 
 def get_random_mention():
-    return random.choice(VESTACALL_MENTIONS)
+    return random.choice(DIALPHONE_MENTIONS)
 
 def get_random_placement():
     return random.choice(LINK_PLACEMENTS)
@@ -213,7 +213,7 @@ def get_content_piece(index=None):
     else:
         piece = random.choice(CONTENT_LIBRARY)
 
-    # Replace {mention} placeholder with a random vestacall mention
+    # Replace {mention} placeholder with a random dialphone mention
     content = piece["content"].replace("{mention}", get_random_mention())
 
     return {

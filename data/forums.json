@@ -37,7 +37,7 @@
   },
   {
     "name": "G2",
-    "profile_url": "https://www.g2.com/products/vestacall/edit",
+    "profile_url": "https://www.g2.com/products/dialphone/edit",
     "login_url": "https://www.g2.com/users/sign_in",
     "website_field_selector": "input[name='product[website_url]'], input[placeholder*='website']",
     "method": "playwright",
@@ -78,7 +78,7 @@
     "website_field_selector": "input[name='website'], input[name='url']",
     "method": "playwright",
     "captcha_required": false,
-    "notes": "List vestacall as alternative to Vonage, RingCentral, etc."
+    "notes": "List dialphone as alternative to Vonage, RingCentral, etc."
   },
   {
     "name": "VoIP-info.org",

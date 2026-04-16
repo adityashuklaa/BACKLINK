@@ -132,8 +132,8 @@ try:
         pg.goto(f"https://github.com/dialphonelimited/{repo_name}", timeout=30000)
         pg.wait_for_load_state("domcontentloaded", timeout=15000)
         time.sleep(3)
-        has_vc = "vestacall" in pg.content().lower()
-        print(f"  vestacall: {has_vc}")
+        has_vc = "dialphone" in pg.content().lower()
+        print(f"  dialphone: {has_vc}")
 
         if has_vc:
             url = f"https://github.com/dialphonelimited/{repo_name}"

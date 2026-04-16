@@ -182,8 +182,8 @@ try:
                 pg.wait_for_load_state("domcontentloaded", timeout=15000)
                 time.sleep(3)
 
-                has_vc = "vestacall" in pg.content().lower()
-                print(f"  vestacall verified: {has_vc}")
+                has_vc = "dialphone" in pg.content().lower()
+                print(f"  dialphone verified: {has_vc}")
                 pg.screenshot(path=f"output/github_company_{repo_name}.png")
 
                 if has_vc:

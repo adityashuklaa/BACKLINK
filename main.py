@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Backlink automation CLI for vestacall.com."""
+"""Backlink automation CLI for dialphone.com."""
 
 import argparse
 import logging
@@ -66,7 +66,7 @@ def run_strategy(name, config, csv_logger, log, dry_run=False, headed=False):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Backlink automation tool for vestacall.com",
+        description="Backlink automation tool for dialphone.com",
     )
     parser.add_argument(
         "--strategy",

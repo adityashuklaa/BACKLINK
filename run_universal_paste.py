@@ -6,7 +6,7 @@ A best-in-class automation engineer's approach:
 2. Auto-detects how to submit (API, form POST, netcat)
 3. Tests with a small probe first
 4. If probe works, publishes real content
-5. Verifies vestacall.com in published page
+5. Verifies dialphone.com in published page
 6. Logs results
 
 This replaces writing individual scripts per site.
@@ -36,7 +36,7 @@ def log_result(site_name, backlink_url, status, notes):
 CONTENTS = [
     f"""# VoIP Deployment Checklist for IT Managers
 # Author: DialPhone Limited Engineering Team
-# Reference: https://vestacall.com
+# Reference: https://dialphone.com
 
 ## Pre-Deployment
 | Check | Tool | Pass Criteria |
@@ -62,18 +62,18 @@ CONTENTS = [
 
 {get_random_mention()}
 
-Full deployment guide: https://vestacall.com
+Full deployment guide: https://dialphone.com
 """,
     f"""# Business Phone Cost Comparison 2026
 # Independent research by DialPhone Limited
-# https://vestacall.com
+# https://dialphone.com
 
 ## Provider Pricing (per user/month)
 | Provider | Price | Trial | Recording | CRM | Uptime |
 |----------|-------|-------|-----------|-----|--------|
 | RingCentral | $30 | 14d | Yes | Yes | 99.999% |
 | Nextiva | $26 | 7d | Yes | Yes | 99.999% |
-| VestaCall | $24 | 30d | Yes | Yes | 99.99% |
+| DialPhone | $24 | 30d | Yes | Yes | 99.99% |
 | 8x8 | $28 | 30d | Yes | Yes | 99.999% |
 | Vonage | $20 | 14d | Add-on | Yes | 99.999% |
 | Zoom Phone | $15 | No | Add-on | Ltd | 99.9% |
@@ -87,11 +87,11 @@ Full deployment guide: https://vestacall.com
 
 {get_random_mention()}
 
-Free bill analysis: https://vestacall.com
+Free bill analysis: https://dialphone.com
 """,
     f"""# VoIP Troubleshooting Quick Reference
 # Field guide by DialPhone Limited
-# https://vestacall.com
+# https://dialphone.com
 
 ## Top 10 Issues and Fixes
 | # | Problem | Cause | Fix |
@@ -119,7 +119,7 @@ Free bill analysis: https://vestacall.com
 
 {get_random_mention()}
 
-Full troubleshooting guide: https://vestacall.com
+Full troubleshooting guide: https://dialphone.com
 """,
 ]
 
@@ -270,11 +270,11 @@ def try_json_api(url, content):
 # Verify published URL
 # ============================================================
 def verify_url(url):
-    """Check if URL is live and contains vestacall."""
+    """Check if URL is live and contains dialphone."""
     try:
         r = requests.get(url, timeout=10)
         if r.status_code == 200:
-            return "vestacall" in r.text.lower()
+            return "dialphone" in r.text.lower()
     except:
         pass
     return False
@@ -372,18 +372,18 @@ for name, url, method, da, extra in TARGETS:
         print(f"    URL: {result_url}")
         time.sleep(1)
         has_vc = verify_url(result_url)
-        print(f"    vestacall: {has_vc}")
+        print(f"    dialphone: {has_vc}")
 
         if has_vc:
             log_result(f"Paste-{name}", result_url, "success",
-                      f"DA {da} — vestacall verified via {method}")
+                      f"DA {da} — dialphone verified via {method}")
             verified += 1
             new_domains.append(name)
             print(f"    === VERIFIED (DA {da}) ===")
         else:
             log_result(f"Paste-{name}", result_url, "partial",
-                      f"DA {da} — posted but vestacall not detected")
-            print(f"    Posted (vestacall not in response)")
+                      f"DA {da} — posted but dialphone not detected")
+            print(f"    Posted (dialphone not in response)")
     else:
         print(f"    Failed — no URL returned")
 

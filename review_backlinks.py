@@ -38,7 +38,7 @@ for r in success:
     try:
         resp = session.get(url, timeout=10)
         is_live = resp.status_code == 200
-        has_vc = "vestacall" in resp.text.lower()
+        has_vc = "dialphone" in resp.text.lower()
         content_len = len(resp.text)
         has_tables = "<table" in resp.text.lower() or "---|" in resp.text
         has_code = "<code" in resp.text.lower() or "```" in resp.text

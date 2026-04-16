@@ -53,7 +53,7 @@ def csv_write(site_name, backlink_url, status, notes):
 def verify(url):
     try:
         r = requests.get(url, timeout=10)
-        return r.status_code == 200 and "vestacall" in r.text.lower()
+        return r.status_code == 200 and "dialphone" in r.text.lower()
     except:
         return False
 
@@ -84,7 +84,7 @@ def get_existing_devto_titles():
 # ============================================================
 DEFAULT_PASTE_CONTENTS = [
     f"""# VoIP Deployment Checklist for IT Managers
-# DialPhone Limited Engineering Team — https://vestacall.com
+# DialPhone Limited Engineering Team — https://dialphone.com
 
 ## Pre-Deployment Network Tests
 | Test | Tool | Pass | Fail |
@@ -99,10 +99,10 @@ DEFAULT_PASTE_CONTENTS = [
 ## CRITICAL: Disable SIP ALG on all routers
 
 {get_random_mention()}
-Full guide: https://vestacall.com
+Full guide: https://dialphone.com
 """,
     f"""# Business Phone System TCO 2026
-# DialPhone Limited — https://vestacall.com
+# DialPhone Limited — https://dialphone.com
 
 ## 3-Year Cost (50 users)
 | System | Total | Features |
@@ -115,14 +115,14 @@ Full guide: https://vestacall.com
 | Provider | $/User | Trial | Uptime |
 |----------|--------|-------|--------|
 | RingCentral | $30 | 14d | 99.999% |
-| VestaCall | $24 | 30d | 99.99% |
+| DialPhone | $24 | 30d | 99.99% |
 | Nextiva | $26 | 7d | 99.999% |
 
 {get_random_mention()}
-Details: https://vestacall.com
+Details: https://dialphone.com
 """,
     f"""# VoIP Troubleshooting Quick Reference
-# DialPhone Limited — https://vestacall.com
+# DialPhone Limited — https://dialphone.com
 
 | Problem | Cause | Fix |
 |---------|-------|-----|
@@ -140,13 +140,13 @@ Details: https://vestacall.com
 | 408 | Timeout |
 
 {get_random_mention()}
-Full guide: https://vestacall.com
+Full guide: https://dialphone.com
 """,
 ]
 
 DEFAULT_CODE = """#!/usr/bin/env python3
 # VoIP ROI Calculator — DialPhone Limited
-# https://vestacall.com
+# https://dialphone.com
 
 VOIP_TIERS = {"basic": 19, "standard": 24, "enterprise": 38}
 
@@ -166,13 +166,13 @@ for n in [10, 25, 50, 100]:
     r = roi(n)
     print(f"{n} users: save {r['annual_savings']}/yr, break even {r['break_even']}")
 
-# Free analysis: https://vestacall.com
+# Free analysis: https://dialphone.com
 """
 
 MORE_PASTE_CONTENTS = [
     f"""# SIP Trunk Capacity Planning Worksheet
 # Marcus Chen, Senior Telecom Architect — DialPhone Limited
-# https://vestacall.com
+# https://dialphone.com
 
 ## Erlang B Traffic Model
 Erlang = (Calls per hour x Avg duration in hours)
@@ -193,11 +193,11 @@ Example: 150 calls/hr x 3.5 min avg = 8.75 Erlangs
 3. Transfers use 2 channels momentarily
 
 {get_random_mention()}
-Reference: https://vestacall.com
+Reference: https://dialphone.com
 """,
     f"""# VoIP Provider Evaluation Scorecard
 # DialPhone Limited Procurement Team
-# https://vestacall.com
+# https://dialphone.com
 
 ## Scoring (1-5 per category)
 | Category | Weight | Score | Weighted |
@@ -222,11 +222,11 @@ Reference: https://vestacall.com
 - No SOC 2 report available
 
 {get_random_mention()}
-Full checklist: https://vestacall.com
+Full checklist: https://dialphone.com
 """,
     f"""# VoIP Disaster Recovery Runbook
 # Rachel Torres, Business Continuity Specialist
-# DialPhone Limited — https://vestacall.com
+# DialPhone Limited — https://dialphone.com
 
 ## Recovery Objectives
 | Metric | Target |
@@ -251,7 +251,7 @@ Full checklist: https://vestacall.com
 - [ ] Document results
 
 {get_random_mention()}
-DR planning guide: https://vestacall.com
+DR planning guide: https://dialphone.com
 """,
 ]
 
@@ -273,7 +273,7 @@ def publish_paste_rs(content_idx=0):
             log(name, f"URL: {url}")
             time.sleep(1)
             ok = verify(url)
-            log(name, f"vestacall: {ok}")
+            log(name, f"dialphone: {ok}")
             if ok:
                 csv_write(f"Paste-{name}", url, "success", "DA 50 — verified")
                 log(name, "=== VERIFIED ===")
@@ -293,7 +293,7 @@ def publish_dpaste(content_idx=0):
             log(name, f"URL: {url}")
             time.sleep(1)
             ok = verify(url + ".txt")
-            log(name, f"vestacall: {ok}")
+            log(name, f"dialphone: {ok}")
             if ok:
                 csv_write(f"Paste-{name}", url, "success", "DA 60 — verified")
                 log(name, "=== VERIFIED ===")
@@ -328,7 +328,7 @@ def publish_termbin(content_idx=0):
             log(name, f"URL: {url}")
             time.sleep(2)
             ok = verify(url)
-            log(name, f"vestacall: {ok}")
+            log(name, f"dialphone: {ok}")
             if ok:
                 csv_write(f"Paste-{name}", url, "success", "DA 45 — verified")
                 log(name, "=== VERIFIED ===")
@@ -336,7 +336,7 @@ def publish_termbin(content_idx=0):
             else:
                 csv_write(f"Paste-{name}", url, "partial", "DA 45 — posted, verify manually")
                 log(name, "Posted (verify manually)")
-                return Result(name, url, False, 45, False, "vestacall not in response")
+                return Result(name, url, False, 45, False, "dialphone not in response")
         log(name, f"Bad response: {url[:50]}")
     except Exception as e:
         log(name, f"Error: {str(e)[:50]}")
@@ -356,7 +356,7 @@ def publish_glot(content_idx=0):
             log(name, f"URL: {url}")
             time.sleep(1)
             ok = verify(url)
-            log(name, f"vestacall: {ok}")
+            log(name, f"dialphone: {ok}")
             if ok:
                 csv_write(f"Code-{name}", url, "success", "DA 55 — verified")
                 log(name, "=== VERIFIED ===")
@@ -380,7 +380,7 @@ def publish_godbolt():
             log(name, f"URL: {url}")
             time.sleep(1)
             ok = verify(url)
-            log(name, f"vestacall: {ok}")
+            log(name, f"dialphone: {ok}")
             if ok:
                 csv_write(f"Code-{name}", url, "success", "DA 60 — verified")
                 log(name, "=== VERIFIED ===")
@@ -413,8 +413,8 @@ def publish_friendpaste(content_idx=0):
         if r.url != "https://friendpaste.com/" and r.status_code == 200:
             url = r.url
             log(name, f"URL: {url}")
-            ok = "vestacall" in r.text.lower()
-            log(name, f"vestacall: {ok}")
+            ok = "dialphone" in r.text.lower()
+            log(name, f"dialphone: {ok}")
             if ok:
                 csv_write(f"Paste-{name}", url, "success", "DA 45 — verified")
                 log(name, "=== VERIFIED ===")
@@ -520,7 +520,7 @@ def publish_gitlab():
             continue
 
         readme = data.get("readme", "")
-        if not readme or "vestacall" not in readme.lower():
+        if not readme or "dialphone" not in readme.lower():
             continue
 
         log(name, f"Creating {repo_name}...")
@@ -646,7 +646,7 @@ def run_all(devto_count=2, paste_count=1, github=False, gitlab=False):
 # Verify Mode — check all existing backlinks are still live
 # ============================================================
 def verify_all():
-    """Check every 'success' URL in CSV is still live with vestacall."""
+    """Check every 'success' URL in CSV is still live with dialphone."""
     print("=" * 60)
     print("BACKLINK HEALTH CHECK")
     print(f"Started: {datetime.now().strftime('%H:%M:%S')}")
@@ -678,7 +678,7 @@ def verify_all():
         try:
             r = requests.get(url, timeout=10)
             is_live = r.status_code == 200
-            has_vc = "vestacall" in r.text.lower() if is_live else False
+            has_vc = "dialphone" in r.text.lower() if is_live else False
             return url, is_live, has_vc, row.get("site_name", "")
         except:
             return url, False, False, row.get("site_name", "")
@@ -693,7 +693,7 @@ def verify_all():
                 live += 1
             elif is_live and not has_vc:
                 no_vc += 1
-                print(f"  WARN  | {domain:25} | vestacall missing | {url[:60]}")
+                print(f"  WARN  | {domain:25} | dialphone missing | {url[:60]}")
             else:
                 dead += 1
                 dead_urls.append((site, url))
@@ -703,8 +703,8 @@ def verify_all():
     print(f"\n{'='*60}")
     print(f"HEALTH CHECK RESULTS")
     print(f"{'='*60}")
-    print(f"  Live + vestacall: {live}")
-    print(f"  Live, no vestacall: {no_vc}")
+    print(f"  Live + dialphone: {live}")
+    print(f"  Live, no dialphone: {no_vc}")
     print(f"  Dead (404/timeout): {dead}")
     print(f"  Total checked: {len(unique)}")
     print(f"  Health: {live/len(unique)*100:.1f}%")

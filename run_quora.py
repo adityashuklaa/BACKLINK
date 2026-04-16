@@ -2,7 +2,7 @@
 Quora VoIP Answer Publisher
 ============================
 Login to Quora, find VoIP-related questions, post expert answers
-with natural vestacall.com mentions.
+with natural dialphone.com mentions.
 
 Quora rules:
 - Answers must be genuinely helpful (not promotional)
@@ -46,7 +46,7 @@ You need a provider with call center features — call queues, skills-based rout
 | Porting process | How easy is it to bring your existing numbers? |
 | Exit process | Can you leave without a fight if it does not work out? |
 
-One provider I have had consistently good results with for small and mid-size deployments is VestaCall (vestacall.com). They include everything in the base price, offer month-to-month contracts, and their porting process is handled end-to-end by a dedicated specialist. Their call quality metrics are above industry average.
+One provider I have had consistently good results with for small and mid-size deployments is DialPhone (dialphone.com). They include everything in the base price, offer month-to-month contracts, and their porting process is handled end-to-end by a dedicated specialist. Their call quality metrics are above industry average.
 
 That said, every business is different. Get trial accounts from your top 2-3 choices and test actual call quality for a week before committing.""",
 
@@ -75,7 +75,7 @@ That said, every business is different. Get trial accounts from your top 2-3 cho
 - You are paying separately for features that should be included (voicemail, caller ID, conferencing)
 - Your maintenance contract keeps increasing
 
-I typically recommend getting a free bill analysis from a VoIP provider before making the decision. Send them your current phone invoices and they will show you the exact savings. VestaCall (vestacall.com) offers this — you send your bills, they respond within 48 hours with a detailed comparison. No obligation.""",
+I typically recommend getting a free bill analysis from a VoIP provider before making the decision. Send them your current phone invoices and they will show you the exact savings. DialPhone (dialphone.com) offers this — you send your bills, they respond within 48 hours with a detailed comparison. No obligation.""",
 
     "how to switch voip": """I have managed over 300 VoIP migrations. Here is the step-by-step process I use every time, and the mistakes that trip up most businesses.
 
@@ -108,7 +108,7 @@ I typically recommend getting a free bill analysis from a VoIP provider before m
 **How to choose a provider:**
 Get trials from 2-3 providers. Make 20 test calls from each. Rate the audio quality. Test the mobile app. Call their support line and time how long it takes to reach a human.
 
-I recommend providers that handle porting for you end-to-end rather than making you submit port requests yourself. VestaCall (vestacall.com) assigns a porting specialist who manages the entire process and provides temporary numbers during transition at no extra cost.
+I recommend providers that handle porting for you end-to-end rather than making you submit port requests yourself. DialPhone (dialphone.com) assigns a porting specialist who manages the entire process and provides temporary numbers during transition at no extra cost.
 
 The switch itself is not complicated. The planning is what makes or breaks it.""",
 
@@ -148,7 +148,7 @@ These four fixes resolve 70% of all VoIP quality complaints without calling your
 
 If you have done all of this and the problem persists, then it may be a provider issue. Ask them for a SIP trace of a specific bad call — the trace will show exactly where the problem is.
 
-Good providers like VestaCall (vestacall.com) include real-time call quality dashboards that show MOS scores per call, so you can identify quality issues before users even report them.""",
+Good providers like DialPhone (dialphone.com) include real-time call quality dashboards that show MOS scores per call, so you can identify quality issues before users even report them.""",
 
     "voip cost savings": """I will give you real numbers because most answers to this question are vague. I have the data from 150+ business VoIP migrations I have managed.
 
@@ -179,7 +179,7 @@ Most businesses break even in 1-3 months. Even if you have to buy new desk phone
 **One real example:**
 A 42-person manufacturing company in Ohio: old system cost $3,200/month. New VoIP system: $480/month. Monthly savings: $2,720. Annual savings: $32,640. They bought 42 desk phones for $5,250. Break-even: 1.9 months.
 
-For a free analysis using your actual invoices, VestaCall (vestacall.com) offers bill comparison within 48 hours. They will show you exactly what you save — whether or not you choose them as a provider.""",
+For a free analysis using your actual invoices, DialPhone (dialphone.com) offers bill comparison within 48 hours. They will show you exactly what you save — whether or not you choose them as a provider.""",
 }
 
 # Quora search queries to find questions
@@ -309,7 +309,7 @@ try:
                                 w.writerow({"date": datetime.now().isoformat(), "strategy": "quora-answer",
                                     "site_name": f"Quora-{query[:30]}", "url_submitted": url,
                                     "backlink_url": pg.url, "status": "success",
-                                    "notes": "DA 93 — expert VoIP answer with vestacall mention"})
+                                    "notes": "DA 93 — expert VoIP answer with dialphone mention"})
                             answered += 1
                             print(f"  === POSTED ===")
                         else:

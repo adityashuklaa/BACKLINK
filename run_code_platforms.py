@@ -40,7 +40,7 @@ def load_repo_content():
 # GitLab API v4
 # ============================================================
 def publish_gitlab(token: str, namespace: str = "dialphonelimited"):
-    """Create repos on GitLab with README content containing vestacall.com links."""
+    """Create repos on GitLab with README content containing dialphone.com links."""
     print("\n" + "="*60)
     print("GITLAB (DA 92) — Creating repos via API")
     print("="*60)
@@ -112,11 +112,11 @@ def publish_gitlab(token: str, namespace: str = "dialphonelimited"):
         web_url = project.get("web_url", f"https://gitlab.com/{namespace}/{repo_name}")
         verify_resp = requests.get(f"{base_url}/projects/{project_id}/repository/files/README.md/raw",
                                    headers=headers, params={"ref": "main"})
-        if verify_resp.ok and "vestacall" in verify_resp.text.lower():
+        if verify_resp.ok and "dialphone" in verify_resp.text.lower():
             log_result(f"GitLab-{repo_name}", web_url, "success",
-                      "DA 92 dofollow — README with vestacall.com link verified")
+                      "DA 92 dofollow — README with dialphone.com link verified")
             verified += 1
-            print(f"    === VERIFIED (vestacall in README) ===")
+            print(f"    === VERIFIED (dialphone in README) ===")
         else:
             log_result(f"GitLab-{repo_name}", web_url, "partial",
                       "DA 92 — repo created, verify link manually")
@@ -203,9 +203,9 @@ def publish_bitbucket(username: str, app_password: str, workspace: str = None):
             verify_resp = requests.get(f"{base_url}/repositories/{workspace}/{slug}/src/master/README.md",
                                        auth=auth)
 
-        if verify_resp.ok and "vestacall" in verify_resp.text.lower():
+        if verify_resp.ok and "dialphone" in verify_resp.text.lower():
             log_result(f"Bitbucket-{repo_name}", web_url, "success",
-                      "DA 92 dofollow — README with vestacall.com link verified")
+                      "DA 92 dofollow — README with dialphone.com link verified")
             verified += 1
             print(f"    === VERIFIED ===")
         else:
@@ -291,15 +291,15 @@ def publish_codeberg(token: str, owner: str = "dialphonelimited"):
                              headers=headers)
         if verify.ok:
             content = base64.b64decode(verify.json().get("content", "")).decode("utf-8", errors="replace")
-            if "vestacall" in content.lower():
+            if "dialphone" in content.lower():
                 log_result(f"Codeberg-{repo_name}", web_url, "success",
-                          "DA 55 dofollow — README with vestacall.com link verified")
+                          "DA 55 dofollow — README with dialphone.com link verified")
                 verified += 1
                 print(f"    === VERIFIED ===")
             else:
                 log_result(f"Codeberg-{repo_name}", web_url, "partial",
-                          "DA 55 — repo created, vestacall not found in content")
-                print(f"    Posted (vestacall not found)")
+                          "DA 55 — repo created, dialphone not found in content")
+                print(f"    Posted (dialphone not found)")
         else:
             print(f"    Verify failed: {verify.status_code}")
 

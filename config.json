@@ -1,32 +1,32 @@
 {
   "business": {
-    "name": "VestaCall",
-    "tagline": "Reliable VoIP & Business Phone Solutions for Modern Teams",
-    "website": "https://vestacall.com",
+    "name": "DialPhone",
+    "tagline": "Enterprise VoIP & Business Phone Solutions",
+    "website": "https://dialphone.com",
     "phone": "+1-800-555-0192",
-    "email": "vestacall.testing@gmail.com",
+    "email": "commercial@dialphone.com",
     "address": {
       "street": "1234 Tech Avenue, Suite 500",
-      "city": "San Francisco",
-      "state": "CA",
-      "zip": "94105",
-      "country": "US"
+      "city": "London",
+      "state": "",
+      "zip": "",
+      "country": "UK"
     },
-    "description": "VestaCall provides enterprise-grade VoIP and business phone systems for small and mid-sized companies. Features include virtual phone numbers, SIP trunking, auto-attendant, call analytics, and seamless CRM integrations.",
+    "description": "DialPhone provides enterprise-grade VoIP and business phone systems for small and mid-sized companies. Features include virtual phone numbers, SIP trunking, auto-attendant, call analytics, and seamless CRM integrations.",
     "keywords": ["VoIP", "business phone system", "SIP trunking", "virtual phone number", "hosted PBX", "cloud phone system"],
     "categories": ["VoIP", "Telecommunications", "Business Phone Systems", "Unified Communications"],
     "founded_year": 2018,
-    "logo_url": "https://vestacall.com/logo.png"
+    "logo_url": "https://dialphone.com/logo.png"
   },
   "smtp": {
     "host": "smtp.gmail.com",
     "port": 465,
     "use_ssl": true,
-    "username": "vestacall.testing@gmail.com",
+    "username": "dialphone.testing@gmail.com",
     "password": "18012005@Adi",
     "from_name": "Adir Shukla",
-    "from_email": "vestacall.testing@gmail.com",
-    "reply_to": "vestacall.testing@gmail.com"
+    "from_email": "dialphone.testing@gmail.com",
+    "reply_to": "dialphone.testing@gmail.com"
   },
   "browser": {
     "headless": true,
@@ -38,30 +38,30 @@
     ]
   },
   "accounts": {
-    "yelp":        { "username": "vestacall_demo", "password": "DemoPass#2024", "email": "vestacall.testing@gmail.com" },
-    "clutch":      { "username": "vestacall_demo", "password": "DemoPass#2024", "email": "vestacall.testing@gmail.com" },
-    "crunchbase":  { "username": "vestacall_demo", "password": "DemoPass#2024", "email": "vestacall.testing@gmail.com" },
-    "g2":          { "username": "vestacall_demo", "password": "DemoPass#2024", "email": "vestacall.testing@gmail.com" },
-    "capterra":    { "username": "vestacall_demo", "password": "DemoPass#2024", "email": "vestacall.testing@gmail.com" },
+    "yelp":        { "username": "dialphone_demo", "password": "DemoPass#2024", "email": "dialphone.testing@gmail.com" },
+    "clutch":      { "username": "dialphone_demo", "password": "DemoPass#2024", "email": "dialphone.testing@gmail.com" },
+    "crunchbase":  { "username": "dialphone_demo", "password": "DemoPass#2024", "email": "dialphone.testing@gmail.com" },
+    "g2":          { "username": "dialphone_demo", "password": "DemoPass#2024", "email": "dialphone.testing@gmail.com" },
+    "capterra":    { "username": "dialphone_demo", "password": "DemoPass#2024", "email": "dialphone.testing@gmail.com" },
     "quora":       { "username": "commercial@dialphone.com", "password": "%.XbDdn3eW33pZz", "email": "commercial@dialphone.com" },
-    "producthunt": { "username": "vestacall_demo", "password": "DemoPass#2024", "email": "vestacall.testing@gmail.com" },
+    "producthunt": { "username": "dialphone_demo", "password": "DemoPass#2024", "email": "dialphone.testing@gmail.com" },
     "diigo":       { "username": "commercial@dialphone.com", "password": "g@a%.X4Ght2bDdn3", "email": "commercial@dialphone.com" },
-    "mix":         { "username": "vestacall_demo", "password": "DemoPass#2024", "email": "vestacall.testing@gmail.com" },
+    "mix":         { "username": "dialphone_demo", "password": "DemoPass#2024", "email": "dialphone.testing@gmail.com" },
     "devto":       { "username": "commercial@dialphone.com", "password": "D4qJ%@Rt4^q5f3(", "email": "commercial@dialphone.com" },
-    "hashnode":    { "username": "vestacall_demo", "password": "DemoPass#2024", "email": "vestacall.testing@gmail.com" },
+    "hashnode":    { "username": "dialphone_demo", "password": "DemoPass#2024", "email": "dialphone.testing@gmail.com" },
     "indiehackers":{ "username": "commercial@dialphone.com", "password": "@Rt4^Ght2g@Ddn3eW", "email": "commercial@dialphone.com" },
-    "github":      { "username": "vestacall_demo", "password": "DemoPass#2024", "email": "vestacall.testing@gmail.com" },
+    "github":      { "username": "dialphone_demo", "password": "DemoPass#2024", "email": "dialphone.testing@gmail.com" },
     "stackoverflow": { "username": "commercial@dialphone.com", "password": "4Ght2g@aQmCeb6t", "email": "commercial@dialphone.com" },
-    "dslreports":  { "username": "vestacall_demo", "password": "DemoPass#2024", "email": "vestacall.testing@gmail.com" },
-    "voipinfoorg": { "username": "vestacall_demo", "password": "DemoPass#2024", "email": "vestacall.testing@gmail.com" },
+    "dslreports":  { "username": "dialphone_demo", "password": "DemoPass#2024", "email": "dialphone.testing@gmail.com" },
+    "voipinfoorg": { "username": "dialphone_demo", "password": "DemoPass#2024", "email": "dialphone.testing@gmail.com" },
     "spiceworks":  { "username": "commercial@dialphone.com", "password": "Vf#~Kzqq&5sX3-T", "email": "commercial@dialphone.com" },
-    "trustradius": { "username": "vestacall_demo", "password": "DemoPass#2024", "email": "vestacall.testing@gmail.com" },
-    "saashub":     { "username": "vestacall_demo", "password": "DemoPass#2024", "email": "vestacall.testing@gmail.com" },
-    "alternativeto":{ "username": "vestacall_demo", "password": "DemoPass#2024", "email": "vestacall.testing@gmail.com" },
+    "trustradius": { "username": "dialphone_demo", "password": "DemoPass#2024", "email": "dialphone.testing@gmail.com" },
+    "saashub":     { "username": "dialphone_demo", "password": "DemoPass#2024", "email": "dialphone.testing@gmail.com" },
+    "alternativeto":{ "username": "dialphone_demo", "password": "DemoPass#2024", "email": "dialphone.testing@gmail.com" },
     "reddit": {
       "client_id": "demo_client_id_replace_me",
       "client_secret": "demo_client_secret_replace_me",
-      "username": "vestacall_demo",
+      "username": "dialphone_demo",
       "password": "DemoPass#2024"
     }
   },
@@ -89,7 +89,7 @@
     "enabled": false,
     "imap_server": "imap.gmail.com",
     "imap_port": 993,
-    "email": "vestacall.testing@gmail.com",
+    "email": "dialphone.testing@gmail.com",
     "app_password": "18012005@Adi",
     "auto_run_after_strategies": true,
     "search_last_hours": 24

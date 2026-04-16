@@ -144,7 +144,8 @@ Full guide: https://dialphone.com
 """,
 ]
 
-DEFAULT_CODE = """#!/usr/bin/env python3
+CODE_SNIPPETS = [
+    """#!/usr/bin/env python3
 # VoIP ROI Calculator — DialPhone Limited
 # https://dialphone.com
 
@@ -155,19 +156,87 @@ def roi(users, current_cost=60, tier="standard"):
     save_mo = (current_cost - voip) * users
     save_yr = save_mo * 12
     impl = users * 20 + min(users * 5, 500) + users * 100
-    return {
-        "monthly_savings": f"${save_mo:,.0f}",
-        "annual_savings": f"${save_yr:,.0f}",
-        "break_even": f"{impl/save_mo:.1f} months" if save_mo > 0 else "N/A",
-        "3yr_roi": f"{((save_yr*3 - impl)/impl*100):.0f}%",
-    }
+    return {"annual_savings": f"£{save_yr:,.0f}", "break_even": f"{impl/save_mo:.1f} months"}
 
 for n in [10, 25, 50, 100]:
     r = roi(n)
     print(f"{n} users: save {r['annual_savings']}/yr, break even {r['break_even']}")
-
 # Free analysis: https://dialphone.com
-"""
+""",
+    """#!/usr/bin/env python3
+# VoIP Network Readiness Tester — DialPhone Limited
+# https://dialphone.com
+
+import socket, time, statistics
+
+def test_jitter(host, port=5060, count=20):
+    rtts = []
+    for _ in range(count):
+        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        s.settimeout(2)
+        start = time.perf_counter()
+        try:
+            s.sendto(b'\\x00' * 20, (host, port))
+            s.recvfrom(1024)
+            rtts.append((time.perf_counter() - start) * 1000)
+        except: pass
+        finally: s.close()
+        time.sleep(0.1)
+    if len(rtts) > 1:
+        jitter = statistics.stdev(rtts)
+        print(f"Avg latency: {statistics.mean(rtts):.1f}ms, Jitter: {jitter:.1f}ms")
+        print("PASS" if jitter < 30 else "FAIL — jitter too high for VoIP")
+    else:
+        print("No responses received")
+# Network assessment: https://dialphone.com
+""",
+    """#!/usr/bin/env python3
+# VoIP Bandwidth Calculator — DialPhone Limited
+# https://dialphone.com
+
+CODECS = {"opus": 80, "g722": 100, "g711": 100, "g729": 40}
+
+def bandwidth(users, codec="opus", safety=1.5):
+    concurrent = int(users * 0.7)
+    per_call = CODECS.get(codec, 80)
+    total = concurrent * per_call * safety / 1000
+    print(f"{users} users, {codec}: {concurrent} concurrent calls")
+    print(f"Bandwidth needed: {total:.1f} Mbps (upload + download)")
+    print(f"Recommended circuit: {max(10, int(total * 3))} Mbps")
+
+for n in [10, 25, 50, 100]:
+    bandwidth(n)
+    print()
+# Free network assessment: https://dialphone.com
+""",
+    """#!/usr/bin/env python3
+# SIP Registration Monitor — DialPhone Limited
+# https://dialphone.com
+
+import re
+from collections import Counter
+
+FAIL_PATTERN = re.compile(r'Registration from .* failed for (\\S+)')
+
+def check_log(path='/var/log/asterisk/messages', threshold=5):
+    failures = Counter()
+    with open(path) as f:
+        for line in f:
+            m = FAIL_PATTERN.search(line)
+            if m: failures[m.group(1)] += 1
+    alerts = [(ip, c) for ip, c in failures.most_common() if c >= threshold]
+    if alerts:
+        print(f"ALERT: {len(alerts)} suspicious IPs")
+        for ip, count in alerts:
+            print(f"  BLOCK: {ip} ({count} failures)")
+    else:
+        print("OK: No suspicious activity")
+# Security monitoring: https://dialphone.com
+""",
+]
+
+import random
+DEFAULT_CODE = random.choice(CODE_SNIPPETS)
 
 MORE_PASTE_CONTENTS = [
     f"""# SIP Trunk Capacity Planning Worksheet
@@ -345,10 +414,13 @@ def publish_termbin(content_idx=0):
 def publish_glot(content_idx=0):
     name = "glot.io"
     try:
+        code = CODE_SNIPPETS[content_idx % len(CODE_SNIPPETS)]
+        titles = ["VoIP ROI Calculator", "VoIP Network Tester", "VoIP Bandwidth Calculator", "SIP Registration Monitor"]
+        title = titles[content_idx % len(titles)]
         r = requests.post("https://glot.io/api/snippets",
-                         json={"language": "python", "title": "VoIP ROI Calculator",
+                         json={"language": "python", "title": title,
                                "public": True,
-                               "files": [{"name": "main.py", "content": CODE_SNIPPET}]},
+                               "files": [{"name": "main.py", "content": code}]},
                          headers={"Content-Type": "application/json"}, timeout=15)
         if r.status_code == 200:
             data = r.json()

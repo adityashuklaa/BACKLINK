@@ -1,5 +1,5 @@
 {
-  "last_used": "win-chrome-9",
+  "last_used": "win-firefox-1",
   "site_profiles": {
     "site_0": "win-chrome-6",
     "site_1": "linux-chrome-1",
@@ -213,7 +213,7 @@
     "github-batch3": "win-chrome-4",
     "github-fix-batch3": "win-firefox-3",
     "gitlab-publish": "linux-firefox-2",
-    "quora": "mac-chrome-7",
+    "quora": "win-firefox-1",
     "quora-batch": "mac-safari-3",
     "github-profile": "win-chrome-9"
   },
@@ -241,7 +241,7 @@
     "win-chrome-10": 7,
     "mac-chrome-7": 7,
     "win-firefox-5": 7,
-    "win-firefox-1": 7,
+    "win-firefox-1": 8,
     "mac-chrome-8": 7,
     "win-chrome-1": 7,
     "linux-firefox-3": 7,

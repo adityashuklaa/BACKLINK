@@ -1,0 +1,54 @@
+# Competitor Backlink URLs — 170+ links from 8 VoIP competitors
+# Use this list to identify platforms for dialphone.com backlinks
+
+## My Country Mobile
+https://github.com/Mycountrymobile-com/my-country-mobile/
+https://github.com/Mycountrymobile-com/mcm-python
+https://gitlab.com/my-country-mobile1/mcm/-/wikis/My-Country-Mobile
+https://codepen.io/Mycountrymobile-com/full/ByBoNxb
+https://www.npmjs.com/package/mycountrymobile
+https://sites.google.com/mycountrymobile.com/mcm
+https://www.f6s.com/member/mycountrymobile
+https://www.npmjs.com/package/mycountrymobile-sdk
+https://mastodon.social/@mycountrymobile/114595511401094242
+https://my-country-mobile.vercel.app/
+
+## Teloz
+https://github.com/Teloz1/Teloz
+https://codepen.io/Teloz1/pen/LEPpMdE
+https://codeberg.org/teloz/teloz/src/branch/main
+https://openhub.net/p/Teloz1/
+https://vercel.com/telozs-projects/teloz
+https://www.producthunt.com/products/teloz
+https://dev.to/teloz1/teloz-12p0
+https://sites.google.com/teloz.com/teloz/home
+https://gitea.com/Teloz/Teloz1
+
+## Ringflow
+https://github.com/Ringflow-com/Ringflow
+https://www.npmjs.com/package/ringflow
+https://jsfiddle.net/ringflow/4xqw509d/15/
+https://opencollective.com/ringflow-com/projects/ringflow
+https://codeberg.org/ringflow/Ringflow
+https://rubygems.org/gems/ringflow
+https://codepen.io/Ringflow-com/full/bNbRdRZ
+https://stackshare.io/ringflow/ringflow
+https://www.tumblr.com/ringflow/771266878326882304/ringflow
+https://gitlab.com/Ringflow-com/ringflow-gitlab/-/tree/main
+https://substack.com/profile/164908208-ringflow/note/c-86478949
+https://dev.to/ringflowcom/ringflow-revolutionizing-communication
+
+## MeraTalk
+https://meratalk.netlify.app/
+https://meratalk.pages.dev/
+https://meratalk.onrender.com/
+https://meratalk.carrd.co/
+https://meratalk.github.io/wholesale-voice/
+https://github.com/meratalk/wholesale-voice
+https://www.crunchbase.com/organization/meratalk
+https://www.producthunt.com/@meratalk
+https://crates.io/crates/meratalk
+https://www.g2.com/products/meratalk/reviews
+https://alternativeto.net/software/mera-talk/about/
+https://gitea.com/MeraTalk/Meratalk
+https://bitbucket.org/meratalk/mt_meratalk/src/main/

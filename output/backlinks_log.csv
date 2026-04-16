@@ -589,3 +589,11 @@ Call log:
 2026-04-16T19:58:13.718344,parallel-publish,DevTo-1,parallel,https://dev.to/dialphonelimited/the-uk-smb-phone-system-comparison-dialphone-vs-bt-cloud-voice-vs-gamma-horizon-1aac,success,DA 77 DOFOLLOW
 2026-04-16T19:58:56.964326,parallel-publish,DevTo-2,parallel,https://dev.to/dialphonelimited/how-to-move-your-business-phone-system-to-the-cloud-without-any-downtime-aeu-the-definitive-uk-guide-29n1,success,DA 77 DOFOLLOW
 2026-04-16T20:25:35.927728,dofollow-content,GitHub-Pages,github-pages,https://dialphonelimited.github.io,success,DA 100 dofollow — GitHub Pages site with dialphone.com links
+2026-04-16T20:28:44.307427,dofollow-content,GitLab-Pages,deploy,https://dialphonelimited.gitlab.io/dialphone-site,success,DA 92 — GitLab Pages deployed with dialphone.com links
+2026-04-16T20:31:03.718858,dofollow-content,Codeberg-Pages,deploy,https://dialphonelimited.codeberg.page,success,DA 55 — Codeberg Pages deployed
+2026-04-16T20:31:21.914480,dofollow-content,Codeberg-voip-buyers-guide,deploy,https://codeberg.org/dialphonelimited/voip-buyers-guide,success,DA 55 — dialphone.com repo
+2026-04-16T20:31:44.732222,dofollow-content,Codeberg-uk-telecom-costs,deploy,https://codeberg.org/dialphonelimited/uk-telecom-costs,success,DA 55 — dialphone.com repo
+2026-04-16T20:32:01.527384,dofollow-content,Codeberg-business-phone-migration,deploy,https://codeberg.org/dialphonelimited/business-phone-migration,success,DA 55 — dialphone.com repo
+2026-04-16T20:32:06.241837,dofollow-content,GitLab-voip-buyers-guide-uk,deploy,https://gitlab.com/dialphonelimited/voip-buyers-guide-uk,success,DA 92 — dialphone.com repo
+2026-04-16T20:32:12.481316,dofollow-content,GitLab-uk-business-phone-costs,deploy,https://gitlab.com/dialphonelimited/uk-business-phone-costs,success,DA 92 — dialphone.com repo
+2026-04-16T20:32:16.986840,dofollow-content,GitLab-voip-security-framework,deploy,https://gitlab.com/dialphonelimited/voip-security-framework,success,DA 92 — dialphone.com repo

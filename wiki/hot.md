@@ -18,8 +18,10 @@ User: Bhavesh (bhavesh@dialphone.com), commercial handle `commercial@dialphone.c
 
 - **161 clean backlinks** in `output/backlinks_final_truth.csv` (dashboard at :5001). Was 483 before spam-quarantine.
 - **326 links quarantined** (paste.rs, glot.io, friendpaste, godbolt, termbin) — all high-spam-score. Can't delete (anonymous posts). Disavow file at `output/disavow.txt` ready to upload to GSC.
-- **Concentration problem**: dev.to now at 49% of clean portfolio — above Penguin flag line. Stop publishing Dev.to until other domains catch up.
-- **Pre-publish gate live** in `core/humanize.py::source_quality_gate()` — blocks any publish to spam domains.
+- **Concentration problem**: dev.to now at 49.1% of clean portfolio (79/161) — above Penguin flag line. Stop publishing Dev.to until other domains catch up.
+- **Pre-publish gates live** in `core/humanize.py`:
+  - `source_quality_gate()` — blocks publish to spam domains (paste.rs, glot.io, etc.)
+  - `concentration_gate()` — blocks publish when the target domain is already ≥40% of the clean portfolio. Wired into `publish_devto()` in `run_parallel_publish.py` so the 40% rule is now code-enforced, not just documented.
 - **Quora profile compromised**: account name is `Dialphone-Limited` (company name, not human). Only 3 real posts visible. Needs manual rename by user.
 - **Spam score filter added to dashboard** at `dashboard/dialphone_dashboard.py` (port 5001). Shows clean/moderate/high tiers + footprint concentration.
 

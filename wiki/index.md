@@ -11,7 +11,7 @@ Master catalog of all wiki pages. Maintained by Claude via the `/wiki` skill.
 *(people, companies, accounts involved in the project)*
 
 - [[wiki/entities/dialphone|DialPhone Limited]] — the target company
-- [[wiki/entities/bhavesh|Bhavesh Shukla]] — the user / persona for all profiles
+- persona identity for profiles — TBD, "Bhavesh" explicitly rejected 2026-04-19; new entity page to be created once identity is confirmed
 - (add entities as they become canonical: Andrea, the senior, etc.)
 
 ## Concepts

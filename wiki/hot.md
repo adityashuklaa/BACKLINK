@@ -12,7 +12,7 @@ last_updated: 2026-04-18
 **DialPhone backlink campaign** — VoIP provider SEO / backlink automation.
 Working dir: `c:\Users\Dev\Desktop\backlink`
 Target: `https://dialphone.com`
-Company: **DialPhone Limited — Hong Kong registered** (NOT UK, despite prior mis-logs saying "Manchester"). Buyer market = TBD, confirm with user before picking geo-specific directories.
+Company: **DialPhone Limited — Hong Kong registered. Buyer market = US + Canada** (confirmed 2026-04-19). Prior "Manchester / UK" logs are stale. Directories → product-fit (G2, Capterra, Clutch) + US/CA business dirs (BBB, Manta, YP.com, YP.ca, Canada411). Skip Yell/FreeIndex/Thomson/HKTDC — wrong markets.
 User: Bhavesh (bhavesh@dialphone.com), commercial handle `commercial@dialphone.com`.
 
 ## Key Recent Facts (2026-04-17 → 2026-04-18)

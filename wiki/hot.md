@@ -32,6 +32,7 @@ User: Bhavesh (bhavesh@dialphone.com), commercial handle `commercial@dialphone.c
 - Created vault scaffolding: `wiki/` (concepts, entities, sources, meta, pages) + `.raw/`
 - Batch 37 published: 3 fresh humanized Dev.to articles (voicemail test, SIP trunk pricing, UK law firm guide)
 - Batch 36 published earlier: 3 articles (QoS deep dive, hospitality guide, contact centre deployment)
+- **Added `concentration_gate()`** to `core/humanize.py` + wired into `publish_devto()`. Dry-run confirms dev.to is now blocked at 49.1%; gitlab/codeberg/github/quora still pass.
 
 ## Active Threads (things in flight)
 

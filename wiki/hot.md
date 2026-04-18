@@ -37,7 +37,7 @@ User: Bhavesh (bhavesh@dialphone.com), commercial handle `commercial@dialphone.c
 
 ## Active Threads (things in flight)
 
-1. **Waiting on user** for: UK phone, UK address, Companies House number, year founded, employee count, logo file, 1 product screenshot, LinkedIn company page creation. Unlocks 15-20 real buyer-intent backlinks (G2, Capterra, Trustpilot, AlternativeTo, SaaSHub, Crunchbase, Yell, 5+ UK dirs).
+1. **Waiting on user** for (buyer market = US + CA): US phone number (+1), US OR Canada mailing address (or virtual mailbox), DUNS application start (30-day wait, needed for Crunchbase), EIN if US subsidiary exists (else declare HK parent), year founded, employee count, logo file, 2-3 product screenshots, LinkedIn company page creation. Unlocks 14-18 buyer-intent backlinks in week 1 (G2, Capterra/GetApp/SWA, TrustRadius, Clutch, GoodFirms, AlternativeTo, SaaSHub, Product Hunt, BBB, Manta, YP.com, Yelp, Foursquare, Bing Places, YP.ca, Canada411, Goldbook, GetVoIP, VoIP Review).
 2. **Blocked on user**: disavow.txt upload to Google Search Console (5 min), Quora profile rename to Bhavesh Shukla.
 3. **Do NOT do**: publish more Dev.to articles (concentration too high), npm publish (wrong audience), paste site posting (gate enforces).
 

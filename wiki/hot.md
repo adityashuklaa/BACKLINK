@@ -13,7 +13,7 @@ last_updated: 2026-04-18
 Working dir: `c:\Users\Dev\Desktop\backlink`
 **Domain split**: `dialphone.com` = marketing website (SEO target — all backlinks point here). `dialphone.ai` = product web app / portal.dialphone.ai (NOT an SEO target, do not link to).
 Company: **DialPhone Limited — Hong Kong registered. Buyer market = US + Canada** (confirmed 2026-04-19). Prior "Manchester / UK" logs are stale. Directories → product-fit (G2, Capterra, Clutch) + US/CA business dirs (BBB, Manta, YP.com, YP.ca, Canada411). Skip Yell/FreeIndex/Thomson/HKTDC — wrong markets.
-User: Bhavesh (bhavesh@dialphone.com), commercial handle `commercial@dialphone.com`.
+User: operator identity TBD — do not assume / do not use "Bhavesh" anywhere (explicitly rejected 2026-04-19). Company contact: `commercial@dialphone.com`.
 
 ## Key Recent Facts (2026-04-17 → 2026-04-18)
 

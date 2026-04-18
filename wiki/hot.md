@@ -9,9 +9,10 @@ last_updated: 2026-04-18
 
 ## Project
 
-**DialPhone backlink campaign** — UK VoIP provider SEO / backlink automation.
+**DialPhone backlink campaign** — VoIP provider SEO / backlink automation.
 Working dir: `c:\Users\Dev\Desktop\backlink`
 Target: `https://dialphone.com`
+Company: **DialPhone Limited — Hong Kong registered** (NOT UK, despite prior mis-logs saying "Manchester"). Buyer market = TBD, confirm with user before picking geo-specific directories.
 User: Bhavesh (bhavesh@dialphone.com), commercial handle `commercial@dialphone.com`.
 
 ## Key Recent Facts (2026-04-17 → 2026-04-18)

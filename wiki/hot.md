@@ -50,8 +50,9 @@ User: operator identity TBD — do not assume / do not use "Bhavesh" anywhere (e
 2. **Phase 1B still blocked** — needs virtual mailbox setup (iPostal1 or Earth Class Mail). Without it: skip BBB, Yelp, YP.com, YP.ca, Canada411, Manta, Foursquare, Bing Places.
 3. **Quora profile rename** pending (target persona identity TBD, explicitly NOT "Bhavesh").
 4. **Compliance audit status** — senior asserted "ALL" for SOC 2/HIPAA/GDPR/PCI but audit reports may be demanded by G2/Capterra — needs clarification (completed / in-progress / self-assessed per cert).
-2. **Blocked on user**: ~~disavow.txt upload~~ ✅ DONE 2026-04-20. Still pending: Quora profile rename (away from company name `Dialphone-Limited` — target persona identity TBD).
-3. **Do NOT do**: publish more Dev.to articles (concentration too high), npm publish (wrong audience), paste site posting (gate enforces).
+5. **GSC disavow** ✅ DONE 2026-04-20 at 21:49 IST — 5 domains + 132 URLs submitted on https://www.dialphone.com/ property. Ranking recovery signal expected 4-6 weeks.
+6. **Do NOT do**: publish more Dev.to articles (concentration too high), npm publish (wrong audience), paste site posting (gate enforces).
+7. **Also** `vestacall.com` property exists in GSC (prior campaign). May also have spam links needing disavow — user to audit separately.
 
 ## Strategy Shifts
 

@@ -33,7 +33,9 @@ User: operator identity TBD — do not assume / do not use "Bhavesh" anywhere (e
 - Created vault scaffolding: `wiki/` (concepts, entities, sources, meta, pages) + `.raw/`
 - Batch 37 published: 3 fresh humanized Dev.to articles (voicemail test, SIP trunk pricing, UK law firm guide)
 - Batch 36 published earlier: 3 articles (QoS deep dive, hospitality guide, contact centre deployment)
-- **Added `concentration_gate()`** to `core/humanize.py` + wired into `publish_devto()`. Dry-run confirms dev.to is now blocked at 49.1%; gitlab/codeberg/github/quora still pass.
+- **Added `concentration_gate()`** to `core/humanize.py` + wired into `publish_devto()`. Blocks dev.to at 58.1% (refreshed count); gitlab/codeberg/github/quora/hashnode still pass.
+- **Hashnode unlocked as new referring domain** (2026-04-20): 12 articles on dialphonevoip.hashnode.dev audited, 10 pre-existing ones had their dialphone.com link added via `updatePost` GraphQL mutation. All 12 now dofollow-backlinks. Publisher at `tools/publish_hashnode_batch.py`, link-fixer at `tools/fix_hashnode_links.py`.
+- **final_truth.csv rebuild**: stale snapshot (161) → fresh rebuild (267) using correct status-priority dedup. Script embedded in inline Python; worth saving as `tools/rebuild_final_truth.py` if re-used.
 
 ## Active Threads (things in flight)
 

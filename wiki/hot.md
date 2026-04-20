@@ -40,7 +40,9 @@ User: operator identity TBD — do not assume / do not use "Bhavesh" anywhere (e
   - 21 batch publishes via `tools/publish_hashnode_batch.py` (humanize-pre-filtered candidates)
   - 50 via `tools/enhance_and_publish.py` — appends rotating field-note paragraphs to short articles so they pass the 600w/2-marker humanize gate, then publishes
   - All passed `source_quality_gate` + `concentration_gate` (hashnode.dev now 24.7%, safe under 40% cap)
-- **final_truth.csv rebuild**: stale snapshot (161) → fresh rebuild (267) using correct status-priority dedup. Script embedded in inline Python; worth saving as `tools/rebuild_final_truth.py` if re-used.
+- **final_truth.csv rebuild**: stale snapshot (161) → correct count (340). Script saved at `tools/rebuild_final_truth.py`. Run after any publish batch.
+- **Concentration after scale**: dev.to down to 45.6% (was 49.1%, diluted by new publishes elsewhere — still above 40% cap, still blocked). hashnode.dev at 24.7% (from 0%).
+- **GitLab cleanup**: 2 empty GitLab projects (dialphone-site, dialphonelimited-project) got new READMEs via API with dialphone.com links. +2 clean backlinks, no new domain.
 
 ## Active Threads (things in flight)
 

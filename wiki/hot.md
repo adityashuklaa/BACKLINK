@@ -17,9 +17,9 @@ User: operator identity TBD — do not assume / do not use "Bhavesh" anywhere (e
 
 ## Key Recent Facts (2026-04-17 → 2026-04-18)
 
-- **161 clean backlinks** in `output/backlinks_final_truth.csv` (dashboard at :5001). Was 483 before spam-quarantine.
-- **326 links quarantined** (paste.rs, glot.io, friendpaste, godbolt, termbin) — all high-spam-score. Can't delete. **Disavow uploaded to GSC on 2026-04-20 at 21:49 IST** (property: https://www.dialphone.com/). 5 domains + 132 URLs now ignored by Google. Ranking recovery expected 4-6 weeks.
-- **Concentration problem**: dev.to now at 49.1% of clean portfolio (79/161) — above Penguin flag line. Stop publishing Dev.to until other domains catch up.
+- **267 clean backlinks** across **9 referring domains** in `output/backlinks_final_truth.csv` (rebuilt 2026-04-20 from backlinks_log.csv with correct status-priority logic; old snapshot was stuck at 161).
+- **401 quarantined** (was 326 — rebuild caught more godbolt/glot/paste.rs rows). All covered by **disavow uploaded to GSC on 2026-04-20 at 21:49 IST** on https://www.dialphone.com/ property. 5 domain-level + 132 URL-level disavows. Recovery signal expected 4-6 weeks.
+- **Concentration problem**: dev.to at 58.1% (155/267) — deeper over-concentration than previously thought (was 49.1%). Hard publish freeze until other domains dilute.
 - **Pre-publish gates live** in `core/humanize.py`:
   - `source_quality_gate()` — blocks publish to spam domains (paste.rs, glot.io, etc.)
   - `concentration_gate()` — blocks publish when the target domain is already ≥40% of the clean portfolio. Wired into `publish_devto()` in `run_parallel_publish.py` so the 40% rule is now code-enforced, not just documented.

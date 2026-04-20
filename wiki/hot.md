@@ -18,7 +18,7 @@ User: operator identity TBD — do not assume / do not use "Bhavesh" anywhere (e
 ## Key Recent Facts (2026-04-17 → 2026-04-18)
 
 - **161 clean backlinks** in `output/backlinks_final_truth.csv` (dashboard at :5001). Was 483 before spam-quarantine.
-- **326 links quarantined** (paste.rs, glot.io, friendpaste, godbolt, termbin) — all high-spam-score. Can't delete (anonymous posts). Disavow file at `output/disavow.txt` ready to upload to GSC.
+- **326 links quarantined** (paste.rs, glot.io, friendpaste, godbolt, termbin) — all high-spam-score. Can't delete. **Disavow uploaded to GSC on 2026-04-20 at 21:49 IST** (property: https://www.dialphone.com/). 5 domains + 132 URLs now ignored by Google. Ranking recovery expected 4-6 weeks.
 - **Concentration problem**: dev.to now at 49.1% of clean portfolio (79/161) — above Penguin flag line. Stop publishing Dev.to until other domains catch up.
 - **Pre-publish gates live** in `core/humanize.py`:
   - `source_quality_gate()` — blocks publish to spam domains (paste.rs, glot.io, etc.)

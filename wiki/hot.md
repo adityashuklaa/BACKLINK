@@ -17,7 +17,7 @@ User: operator identity TBD — do not assume / do not use "Bhavesh" anywhere (e
 
 ## Key Recent Facts (2026-04-17 → 2026-04-18)
 
-- **267 clean backlinks** across **9 referring domains** in `output/backlinks_final_truth.csv` (rebuilt 2026-04-20 from backlinks_log.csv with correct status-priority logic; old snapshot was stuck at 161).
+- **340 clean backlinks** across **9 referring domains** (rebuilt 2026-04-20; old snapshot was stuck at 161). Session gain: **+179 clean, +3 new referring domains**.
 - **401 quarantined** (was 326 — rebuild caught more godbolt/glot/paste.rs rows). All covered by **disavow uploaded to GSC on 2026-04-20 at 21:49 IST** on https://www.dialphone.com/ property. 5 domain-level + 132 URL-level disavows. Recovery signal expected 4-6 weeks.
 - **Concentration problem**: dev.to at 58.1% (155/267) — deeper over-concentration than previously thought (was 49.1%). Hard publish freeze until other domains dilute.
 - **Pre-publish gates live** in `core/humanize.py`:

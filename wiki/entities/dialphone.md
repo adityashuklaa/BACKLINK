@@ -45,23 +45,34 @@ Small and mid-sized businesses in the US and Canada. Typical segments:
 
 RingCentral, 8x8, Dialpad, GoTo Connect, Vonage Business, Nextiva, Zoom Phone, Ooma Office.
 
-## What we do not yet have confirmed
+## Confirmed facts (2026-04-19)
 
-These are placeholders in `docs/directory_submission_pack_PASTE_READY.md` — values pending from senior:
+- **Founded**: 2024
+- **Employees**: 50 (falls in `11-50` directory range)
+- **Customers**: ~20 early-stage — avoid quoting a specific number in directory descriptions; use generic language like "business customers across North America"
+- **HQ address**: Level 7, Suite C, World Trust Tower, Hong Kong Central, Hong Kong
+- **Compliance**: SOC 2, HIPAA, GDPR, PCI-DSS (asserted by senior; directory reviewers may ask for audit reports, be prepared)
+- **Integrations**: Salesforce, HubSpot, Pipedrive, Zoho, Zapier
+- **Free trial**: 14 days, no credit card required (confirmed from pricing page meta)
+- **Pricing page**: https://dialphone.com/pricing-overview/ (JS-rendered, cannot auto-extract)
 
-- `[PRICING_USD]` — monthly per-user price on annual billing
-- `[MONTHLY_PRICING_USD]` — month-to-month price
-- `[FREE_TRIAL_DAYS]`
-- `[FOUNDED_YEAR]`
-- `[EMPLOYEE_COUNT_RANGE]`
-- `[CUSTOMER_COUNT]`
-- `[UPTIME_SLA]`
-- `[COMPLIANCE_CERTS]`
-- `[DATA_REGIONS]`
-- `[HQ_LOCATION]` — decide whether to list HK (registered) or a US/CA virtual address
-- `[US_PHONE]`
-- `[MAILING_ADDRESS]`
-- `[SERVICE_HOURS]`
+## Still pending from senior
+
+- `[PRICING_USD]` — starting-tier USD per user/month (annual billing) — **critical for every directory**
+- `[LINKEDIN_URL]` — create company page (blocks G2 + Crunchbase + TrustRadius)
+- `[SUBMITTER_NAME]` + `[SUBMITTER_TITLE]` — real person for signups
+- `[US_PHONE]` + `[MAILING_ADDRESS]` + `[SERVICE_HOURS]` — for Phase 1B local-biz dirs
+- `[UPTIME_SLA]` — if senior wants to quote one, otherwise drop it from copy
+
+## Brand assets received / still needed
+
+- ✅ Monogram PNG (user provided 2026-04-19, to be saved at `assets/logos/dialphone_monogram.png`)
+- ✅ Horizontal lockup PNG (to be saved at `assets/logos/dialphone_horizontal.png`)
+- ❌ Monogram SVG vector
+- ❌ Horizontal lockup SVG vector
+- ❌ 2-3 product UI screenshots (for G2, Capterra, AlternativeTo, SaaSHub)
+- ❌ 1 demo video (for Product Hunt, YouTube description)
+- ❌ Favicon 32×32
 
 ## Brand assets still needed
 

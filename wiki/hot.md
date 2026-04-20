@@ -37,7 +37,19 @@ User: operator identity TBD — do not assume / do not use "Bhavesh" anywhere (e
 
 ## Active Threads (things in flight)
 
-1. **Waiting on user** for (buyer market = US + CA): US phone number (+1), US OR Canada mailing address (or virtual mailbox), DUNS application start (30-day wait, needed for Crunchbase), EIN if US subsidiary exists (else declare HK parent), year founded, employee count, logo file, 2-3 product screenshots, LinkedIn company page creation. Unlocks 14-18 buyer-intent backlinks in week 1 (G2, Capterra/GetApp/SWA, TrustRadius, Clutch, GoodFirms, AlternativeTo, SaaSHub, Product Hunt, BBB, Manta, YP.com, Yelp, Foursquare, Bing Places, YP.ca, Canada411, Goldbook, GetVoIP, VoIP Review).
+1. **Phase 1A READY TO SHIP** — all facts filled in `docs/directory_submission_pack_PASTE_READY.md`:
+   - Pricing: Core $20 / Advanced $30 / Ultra $40 / Customer Engagement $55 per user/month (scraped from dialphone.com/pricing-overview/ via Playwright stealth 2026-04-20)
+   - Founded 2024, employees 11-50, compliance SOC 2/HIPAA/GDPR/PCI-DSS
+   - HQ: Level 7 Suite C World Trust Tower Hong Kong
+   - US phone (public): +1 (914) 431-7523
+   - LinkedIn company page exists: https://www.linkedin.com/company/dialphone
+   - Uptime SLA 99.999% (public claim)
+   - Submitter default: Aditya Shukla, Growth Operations
+   - **10 Phase 1A dirs ready for human signup**: G2, Capterra trio (Capterra/GetApp/SWA), TrustRadius, Clutch, GoodFirms, AlternativeTo, SaaSHub, Product Hunt, Crunchbase basic, LinkedIn (page exists, connect only). Blocker = human at browser for CAPTCHA + email verification.
+   - Logos received as PNG 2026-04-19 (user to save at assets/logos/dialphone_monogram.png + dialphone_horizontal.png)
+2. **Phase 1B still blocked** — needs virtual mailbox setup (iPostal1 or Earth Class Mail). Without it: skip BBB, Yelp, YP.com, YP.ca, Canada411, Manta, Foursquare, Bing Places.
+3. **Quora profile rename** pending (target persona identity TBD, explicitly NOT "Bhavesh").
+4. **Compliance audit status** — senior asserted "ALL" for SOC 2/HIPAA/GDPR/PCI but audit reports may be demanded by G2/Capterra — needs clarification (completed / in-progress / self-assessed per cert).
 2. **Blocked on user**: ~~disavow.txt upload~~ ✅ DONE 2026-04-20. Still pending: Quora profile rename (away from company name `Dialphone-Limited` — target persona identity TBD).
 3. **Do NOT do**: publish more Dev.to articles (concentration too high), npm publish (wrong audience), paste site posting (gate enforces).
 

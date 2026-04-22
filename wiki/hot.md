@@ -17,15 +17,15 @@ User: operator identity TBD — do NOT use "Bhavesh" in any public byline (expli
 
 ## Current State (verified 2026-04-22)
 
-- **458 verified clean backlinks** across **7 referring domains** (source: `output/backlinks_final_truth.csv`, rebuilt today).
+- **460 verified clean backlinks** across **7 referring domains** (source: `output/backlinks_final_truth.csv`, rebuilt after session work).
 - Domain breakdown:
-  - gitlab.com 177 (38.6%) — **at cap**, ≤8 more safe
-  - dev.to 160 (34.9%) — 25+ more possible
-  - codeberg.org 99 (21.6%) — API soft-limit hit, cannot create more repos
+  - gitlab.com 177 (38.5%) — **at cap**, ≤8 more safe
+  - dev.to 161 (35.0%) — +1 from calculator announcement (scraping-stealth build-log)
+  - codeberg.org 99 (21.5%) — API soft-limit hit, cannot create more repos
+  - dialphonevoip.hashnode.dev 11 (2.4%) — +1 from calculator announcement (build-log angle, different from Dev.to)
   - github.com 10 (2.2%) — blocked on GitHub PAT
-  - dialphonevoip.hashnode.dev 10 (2.2%) — avoid bulk (74-article moderation incident)
   - dialphonelimited.gitlab.io 1 — Pages subdomain
-  - dialphonelimited.codeberg.page 1 — **calculator live here** (new as of today)
+  - dialphonelimited.codeberg.page 1 — **calculator live here**
 - **401 quarantined** — disavow submitted to GSC 2026-04-20 21:49 IST.
 
 ## Session 2026-04-22 — completed

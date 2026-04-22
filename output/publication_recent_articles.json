@@ -1,0 +1,65 @@
+{
+  "UC Today": [],
+  "No Jitter": [
+    {
+      "title": "Cloud Infrastructure",
+      "url": "/infrastructure/cloud-infrastructure"
+    },
+    {
+      "title": "AI and integration are shaping UCaaS market",
+      "url": "/infrastructure/ai-and-integration-are-shaping-ucaas-market"
+    },
+    {
+      "title": "Genesys boasts rising Cloud platform revenues",
+      "url": "/contact-centers/genesys-boasts-rising-cloud-platform-revenues"
+    }
+  ],
+  "GetVoIP": [
+    {
+      "title": "Best Business VoIP Providers",
+      "url": "https://getvoip.com/business/"
+    },
+    {
+      "title": "Best Enterprise VoIP Providers",
+      "url": "https://getvoip.com/enterprise-voip/"
+    },
+    {
+      "title": "Best Hosted PBX Providers",
+      "url": "https://getvoip.com/hosted-pbx/"
+    },
+    {
+      "title": "Best SIP Trunking Providers",
+      "url": "https://getvoip.com/sip-trunking/"
+    },
+    {
+      "title": "Best Unified Communications Platforms",
+      "url": "https://getvoip.com/unified-communications/"
+    }
+  ],
+  "WhichVoIP": [
+    {
+      "title": "Business VoIP Providers",
+      "url": "https://www.whichvoip.com/business.htm"
+    },
+    {
+      "title": "Residential VoIP Providers",
+      "url": "https://www.whichvoip.com/residential.htm"
+    },
+    {
+      "title": "Canada VoIP Providers",
+      "url": "https://www.whichvoip.com/canada.htm"
+    },
+    {
+      "title": "Price Comparison Tool",
+      "url": "https://www.whichvoip.com/tools/compare-provider-pricing.php"
+    },
+    {
+      "title": "Compare User Ratings",
+      "url": "https://www.whichvoip.com/tools/compare-provider-ratings.php"
+    }
+  ],
+  "Forbes Advisor": [],
+  "BusinessNewsDaily": [],
+  "TechRadar Pro": [],
+  "PCMag": []
+}

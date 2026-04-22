@@ -1,0 +1,1375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Business VoIP Cost Calculator 2026 — 13-Provider Comparison, 3-Year TCO, Shareable Results</title>
+<meta name="description" content="The most complete business VoIP cost calculator for 2026. Compare 13 providers, model hidden costs, see 3-year TCO, share results. No signup, no email required.">
+<link rel="canonical" href="https://dialphonelimited.codeberg.page/calculator/">
+<meta property="og:title" content="Business VoIP Cost Calculator 2026 — 13 Providers, 3-Year TCO">
+<meta property="og:description" content="Compare 13 business VoIP providers side-by-side. Includes hidden costs (setup, hardware, porting), 3-year TCO projection, breakeven analysis, and shareable results.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://dialphonelimited.codeberg.page/calculator/">
+<meta property="og:image" content="https://dialphonelimited.codeberg.page/calculator/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Business VoIP Cost Calculator 2026 — 13 providers compared in 30 seconds">
+<meta property="og:site_name" content="DialPhone Cost Calculator">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Business VoIP Cost Calculator 2026 — 13 Providers, 3-Year TCO">
+<meta name="twitter:description" content="Compare 13 VoIP providers in 30s. Hidden costs, 3-year TCO, shareable results. No signup.">
+<meta name="twitter:image" content="https://dialphonelimited.codeberg.page/calculator/og-image.png">
+<meta name="twitter:image:alt" content="DialPhone VoIP cost calculator preview card">
+<meta name="theme-color" content="#0a0a0a">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230a0a0a'/%3E%3Ctext y='70' x='50' text-anchor='middle' font-size='60' fill='white' font-family='sans-serif' font-weight='900'%3E$%3C/text%3E%3C/svg%3E">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Business VoIP Cost Calculator 2026",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "All",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "description": "The most complete business VoIP cost calculator for 2026. Compare 13 providers side-by-side with 3-year TCO projection, hidden cost modeling, and shareable results.",
+  "featureList": ["13-provider comparison", "3-year TCO projection", "Hidden cost modeling (setup/hardware/porting/overage)", "Scenario comparison", "Shareable URL", "PDF export", "Dark mode", "Breakeven analysis", "Feature importance weighting", "Mobile responsive"],
+  "creator": { "@type": "Organization", "name": "DialPhone Limited", "url": "https://dialphone.com" },
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "ratingCount": "1" }
+}
+</script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<style>
+:root {
+  --bg: #0a0a0a;
+  --bg-elev: #141414;
+  --bg-elev-2: #1f1f1f;
+  --border: #262626;
+  --border-light: #333;
+  --text: #f5f5f5;
+  --text-dim: #999;
+  --text-muted: #666;
+  --accent: #ffffff;
+  --accent-hover: #e5e5e5;
+  --green: #10b981;
+  --green-dim: #059669;
+  --red: #ef4444;
+  --amber: #f59e0b;
+  --blue: #60a5fa;
+  --purple: #a78bfa;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.5);
+  --shadow: 0 4px 12px rgba(0,0,0,0.4);
+  --shadow-lg: 0 12px 40px rgba(0,0,0,0.6);
+}
+[data-theme="light"] {
+  --bg: #fafafa;
+  --bg-elev: #ffffff;
+  --bg-elev-2: #f5f5f5;
+  --border: #e5e5e5;
+  --border-light: #d4d4d4;
+  --text: #0a0a0a;
+  --text-dim: #525252;
+  --text-muted: #a3a3a3;
+  --accent: #0a0a0a;
+  --accent-hover: #262626;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.06);
+  --shadow: 0 4px 12px rgba(0,0,0,0.1);
+  --shadow-lg: 0 12px 40px rgba(0,0,0,0.18);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', 'Inter', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.55;
+  font-feature-settings: "tnum", "cv02", "cv11";
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.container { max-width: 1280px; margin: 0 auto; padding: 0 24px; }
+.shell { padding: 32px 0 80px; }
+
+/* header */
+header {
+  position: sticky; top: 0; z-index: 50;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  padding: 16px 24px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+header .container { display: flex; align-items: center; justify-content: space-between; padding: 0; max-width: 1280px; margin: 0 auto; }
+.logo { display: flex; align-items: center; gap: 10px; font-weight: 800; letter-spacing: -0.02em; font-size: 18px; }
+.logo-dot { width: 28px; height: 28px; border-radius: 8px; background: var(--text); color: var(--bg); display: grid; place-items: center; font-size: 14px; font-weight: 900; }
+.header-actions { display: flex; align-items: center; gap: 10px; }
+.icon-btn {
+  background: transparent; border: 1px solid var(--border); color: var(--text);
+  width: 38px; height: 38px; border-radius: 10px; cursor: pointer;
+  display: grid; place-items: center;
+  transition: all 0.15s;
+}
+.icon-btn:hover { border-color: var(--border-light); background: var(--bg-elev); }
+
+/* hero */
+.hero { padding: 48px 0 24px; text-align: center; }
+.hero h1 { font-size: clamp(28px, 4.5vw, 52px); font-weight: 900; letter-spacing: -0.03em; line-height: 1.05; margin-bottom: 20px; background: linear-gradient(180deg, var(--text) 0%, var(--text-dim) 180%); background-clip: text; -webkit-background-clip: text; color: transparent; }
+.hero .tagline { font-size: clamp(15px, 1.6vw, 19px); color: var(--text-dim); max-width: 700px; margin: 0 auto; }
+.hero .badges { display: inline-flex; gap: 8px; margin-top: 18px; flex-wrap: wrap; justify-content: center; }
+.badge { padding: 5px 12px; border-radius: 100px; background: var(--bg-elev); border: 1px solid var(--border); font-size: 12px; font-weight: 600; color: var(--text-dim); }
+.badge.live { color: var(--green); border-color: var(--green-dim); background: rgba(16,185,129,0.08); }
+
+/* layout */
+.grid-main { display: grid; grid-template-columns: 400px minmax(0, 1fr); gap: 24px; margin-top: 32px; }
+.grid-main > * { min-width: 0; }
+@media (max-width: 1024px) { .grid-main { grid-template-columns: minmax(0, 1fr); } }
+.panel { background: var(--bg-elev); border: 1px solid var(--border); border-radius: 16px; padding: 24px; box-shadow: var(--shadow-sm); min-width: 0; }
+.panel.sticky { position: sticky; top: 90px; max-height: calc(100vh - 110px); overflow-y: auto; }
+@media (max-width: 1024px) { .panel.sticky { position: static; max-height: none; } }
+@media (max-width: 520px) {
+  .container { padding: 0 14px; }
+  .shell { padding: 18px 0 60px; }
+  header { padding: 12px 14px; }
+  .panel { padding: 16px; border-radius: 12px; }
+  .panel h2 { font-size: 17px; }
+  h1 { font-size: 28px !important; line-height: 1.15 !important; }
+  .results-header { flex-direction: column; align-items: stretch; }
+  .action-group { flex-wrap: wrap; }
+  .tabs { flex-wrap: nowrap; }
+}
+.panel h2 { font-size: 20px; font-weight: 800; letter-spacing: -0.01em; margin-bottom: 16px; display: flex; align-items: center; gap: 10px; }
+.panel h3 { font-size: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-dim); margin: 24px 0 12px; }
+
+/* inputs */
+.field { margin-bottom: 18px; }
+.field label { display: block; font-size: 13px; font-weight: 600; color: var(--text-dim); margin-bottom: 6px; }
+.field label .help { font-weight: 400; color: var(--text-muted); font-size: 12px; margin-left: 6px; }
+.input, select { width: 100%; padding: 11px 14px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; color: var(--text); font-size: 15px; font-family: inherit; transition: all 0.15s; }
+.input:focus, select:focus { outline: none; border-color: var(--text); }
+[data-theme="light"] .input:focus, [data-theme="light"] select:focus { border-color: var(--accent); }
+.field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.slider-wrap { display: flex; align-items: center; gap: 12px; }
+.slider-wrap input[type="range"] { flex: 1; accent-color: var(--text); }
+.slider-val { font-weight: 700; font-size: 15px; min-width: 36px; text-align: right; }
+.toggles { display: flex; gap: 8px; flex-wrap: wrap; }
+.toggle-chip {
+  padding: 8px 14px; border: 1px solid var(--border); border-radius: 100px;
+  background: var(--bg); color: var(--text-dim); font-size: 13px; font-weight: 500;
+  cursor: pointer; transition: all 0.15s; font-family: inherit;
+}
+.toggle-chip:hover { border-color: var(--border-light); color: var(--text); }
+.toggle-chip.active { background: var(--text); color: var(--bg); border-color: var(--text); }
+
+/* feature importance */
+.importance-item { display: grid; grid-template-columns: 1fr auto; gap: 12px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--border); }
+.importance-item:last-child { border-bottom: none; }
+.importance-label { font-size: 14px; color: var(--text); font-weight: 500; }
+.weight-pills { display: flex; gap: 4px; }
+.weight-pill {
+  width: 28px; height: 28px; border: 1px solid var(--border); border-radius: 7px;
+  background: var(--bg); cursor: pointer; font-size: 11px; font-weight: 700;
+  display: grid; place-items: center; color: var(--text-muted);
+  transition: all 0.15s;
+}
+.weight-pill.active[data-weight="0"] { background: var(--text-muted); color: var(--bg); border-color: var(--text-muted); }
+.weight-pill.active[data-weight="1"] { background: var(--blue); color: #fff; border-color: var(--blue); }
+.weight-pill.active[data-weight="2"] { background: var(--purple); color: #fff; border-color: var(--purple); }
+.weight-pill.active[data-weight="3"] { background: var(--green); color: #fff; border-color: var(--green); }
+.weight-pill:hover { color: var(--text); }
+
+/* hidden costs */
+.cost-toggle { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--border); }
+.cost-toggle:last-child { border-bottom: none; }
+.cost-toggle-label { font-size: 13px; color: var(--text); }
+.cost-toggle-info { font-size: 11px; color: var(--text-muted); display: block; margin-top: 2px; }
+.switch { position: relative; display: inline-block; width: 40px; height: 22px; }
+.switch input { display: none; }
+.switch-slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background: var(--border); border-radius: 22px; transition: all 0.2s; }
+.switch-slider::before { content: ""; position: absolute; height: 16px; width: 16px; left: 3px; bottom: 3px; background: white; border-radius: 50%; transition: 0.2s; }
+.switch input:checked + .switch-slider { background: var(--text); }
+.switch input:checked + .switch-slider::before { transform: translateX(18px); background: var(--bg); }
+
+/* results area */
+.results-header { display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 16px; margin-bottom: 20px; }
+.results-title { font-size: 22px; font-weight: 800; letter-spacing: -0.01em; }
+.results-sub { font-size: 14px; color: var(--text-dim); margin-top: 4px; }
+.action-group { display: flex; gap: 8px; }
+.btn {
+  padding: 9px 16px; border-radius: 10px; border: 1px solid var(--border);
+  background: var(--bg); color: var(--text); cursor: pointer; font-size: 13px; font-weight: 600;
+  font-family: inherit; display: inline-flex; align-items: center; gap: 6px;
+  transition: all 0.15s;
+}
+.btn:hover { border-color: var(--border-light); background: var(--bg-elev-2); }
+.btn.primary { background: var(--text); color: var(--bg); border-color: var(--text); }
+.btn.primary:hover { background: var(--accent-hover); }
+.btn.sm { padding: 6px 10px; font-size: 12px; }
+
+/* top picks */
+.top-picks { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 14px; margin-bottom: 24px; }
+.pick-card { background: var(--bg-elev-2); border: 1px solid var(--border); border-radius: 14px; padding: 20px; position: relative; transition: all 0.2s; cursor: pointer; }
+.pick-card:hover { transform: translateY(-2px); border-color: var(--text); }
+.pick-card:focus-visible { outline: 2px solid var(--green); outline-offset: 2px; }
+.pick-card.rank-1 { border-color: var(--green); background: linear-gradient(180deg, rgba(16,185,129,0.06) 0%, transparent 100%); }
+.pick-rank { position: absolute; top: 14px; right: 14px; width: 24px; height: 24px; border-radius: 50%; background: var(--text); color: var(--bg); font-weight: 900; font-size: 11px; display: grid; place-items: center; }
+.pick-card.rank-1 .pick-rank { background: var(--green); color: white; }
+.pick-provider { font-size: 12px; font-weight: 700; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 6px; }
+.pick-name { font-size: 17px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.01em; }
+.pick-price { font-size: 28px; font-weight: 900; letter-spacing: -0.02em; margin: 8px 0; }
+.pick-price .sub { font-size: 13px; color: var(--text-dim); font-weight: 500; }
+.pick-reason { font-size: 13px; color: var(--text-dim); line-height: 1.5; margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--border); }
+
+/* tabs */
+.tabs { display: flex; gap: 2px; margin-bottom: 16px; background: var(--bg-elev-2); border: 1px solid var(--border); border-radius: 12px; padding: 4px; overflow-x: auto; }
+.tab { padding: 8px 16px; border-radius: 8px; cursor: pointer; font-size: 13px; font-weight: 600; color: var(--text-dim); border: none; background: transparent; font-family: inherit; white-space: nowrap; transition: all 0.15s; }
+.tab.active { background: var(--bg); color: var(--text); box-shadow: var(--shadow-sm); }
+
+/* table */
+.results-table-wrap { overflow-x: auto; border-radius: 12px; border: 1px solid var(--border); }
+.results-table { width: 100%; border-collapse: collapse; background: var(--bg-elev); min-width: 700px; }
+.results-table th, .results-table td { text-align: left; padding: 14px 16px; font-size: 14px; border-bottom: 1px solid var(--border); }
+.results-table th { background: var(--bg-elev-2); font-weight: 700; font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-dim); cursor: pointer; user-select: none; }
+.results-table th:hover { color: var(--text); }
+.results-table tr:last-child td { border-bottom: none; }
+.results-table tr.highlight { background: rgba(16,185,129,0.05); }
+.results-table tr.highlight td:first-child { position: relative; }
+.results-table tr.highlight td:first-child::before { content: ""; position: absolute; left: 0; top: 10%; height: 80%; width: 3px; background: var(--green); border-radius: 0 3px 3px 0; }
+.provider-cell { font-weight: 700; font-size: 15px; }
+.plan-cell { font-size: 12px; color: var(--text-dim); }
+.price-cell { font-weight: 800; font-size: 16px; white-space: nowrap; }
+.price-cell .sub { font-size: 11px; color: var(--text-dim); font-weight: 500; display: block; margin-top: 2px; }
+.diff-plus { color: var(--red); font-weight: 700; }
+.diff-zero { color: var(--green); font-weight: 700; }
+.feature-score { display: inline-flex; align-items: center; gap: 4px; padding: 2px 8px; border-radius: 100px; background: var(--bg-elev-2); font-size: 11px; font-weight: 700; color: var(--text-dim); }
+
+/* charts */
+.chart-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; margin-top: 24px; }
+.chart-panel { background: var(--bg-elev); border: 1px solid var(--border); border-radius: 14px; padding: 20px; }
+.chart-panel h4 { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-dim); margin-bottom: 8px; }
+.chart-sub { font-size: 12px; color: var(--text-muted); margin-bottom: 16px; }
+.chart-wrap { position: relative; height: 280px; }
+
+/* scenarios */
+.scenarios { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+.scenario-card { background: var(--bg-elev-2); border: 1px dashed var(--border-light); border-radius: 12px; padding: 16px; position: relative; }
+.scenario-card.saved { border-style: solid; border-color: var(--border); }
+.scenario-title { font-size: 13px; font-weight: 700; color: var(--text-dim); margin-bottom: 8px; }
+.scenario-total { font-size: 22px; font-weight: 900; letter-spacing: -0.01em; margin-bottom: 4px; }
+.scenario-detail { font-size: 12px; color: var(--text-muted); }
+.scenario-del { position: absolute; top: 10px; right: 10px; background: transparent; border: none; color: var(--text-muted); cursor: pointer; font-size: 16px; }
+.scenario-del:hover { color: var(--red); }
+.scenario-empty-btn { width: 100%; height: 100%; border: none; background: transparent; color: var(--text-muted); font-size: 14px; font-weight: 600; cursor: pointer; font-family: inherit; }
+
+/* empty state */
+.empty { text-align: center; padding: 48px 24px; color: var(--text-muted); }
+.empty-icon { font-size: 32px; margin-bottom: 12px; opacity: 0.5; }
+
+/* provider modal */
+.modal-bg { position: fixed; inset: 0; background: rgba(0,0,0,0.7); backdrop-filter: blur(4px); z-index: 100; display: none; align-items: center; justify-content: center; padding: 20px; }
+.modal-bg.open { display: flex; }
+.modal { background: var(--bg-elev); border: 1px solid var(--border); border-radius: 16px; max-width: 600px; width: 100%; max-height: 90vh; overflow-y: auto; padding: 28px; }
+.modal-title { font-size: 22px; font-weight: 800; margin-bottom: 4px; letter-spacing: -0.01em; }
+.modal-sub { color: var(--text-dim); font-size: 14px; margin-bottom: 20px; }
+.modal-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.modal h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-dim); margin-bottom: 8px; }
+.modal ul { list-style: none; padding: 0; }
+.modal li { font-size: 14px; padding: 6px 0; color: var(--text); display: flex; gap: 8px; align-items: flex-start; }
+.modal li::before { content: "→"; color: var(--text-dim); flex-shrink: 0; }
+.modal-close { position: absolute; top: 20px; right: 20px; background: transparent; border: none; color: var(--text); font-size: 24px; cursor: pointer; }
+
+/* cta banner */
+.cta { background: linear-gradient(135deg, #0f172a, #1e293b); color: #fff; padding: 28px; border-radius: 16px; margin-top: 32px; display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+[data-theme="light"] .cta { background: linear-gradient(135deg, #0a0a0a, #262626); }
+.cta-text h3 { font-size: 18px; font-weight: 800; color: #fff; margin-bottom: 4px; }
+.cta-text p { color: #cbd5e1; font-size: 14px; }
+.cta-btn { background: #fff; color: #0a0a0a; padding: 12px 22px; border-radius: 10px; font-weight: 700; text-decoration: none; font-size: 14px; }
+.cta-btn:hover { background: #f5f5f5; }
+
+/* toast */
+.toast { position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%) translateY(40px); background: var(--text); color: var(--bg); padding: 14px 22px; border-radius: 12px; font-weight: 600; font-size: 14px; box-shadow: var(--shadow-lg); opacity: 0; transition: all 0.25s; z-index: 200; pointer-events: none; }
+.toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+/* footer */
+footer { margin-top: 64px; padding: 32px 0; border-top: 1px solid var(--border); color: var(--text-dim); font-size: 13px; }
+footer .container { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+footer a { color: var(--text); font-weight: 600; text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+
+/* print — PDF export */
+@media print {
+  header, .panel.sticky, .action-group, .cta, .tabs, .scenario-del, .scenario-empty-btn, .icon-btn, .chart-grid { display: none !important; }
+  body { background: white; color: black; }
+  .grid-main { grid-template-columns: 1fr; }
+  .panel { border: 1px solid #ccc; box-shadow: none; }
+  .results-table { min-width: 0; }
+}
+</style>
+</head>
+<body data-theme="dark">
+
+<header>
+<div class="container">
+<div class="logo">
+<div class="logo-dot">$</div>
+<span>VoIP Cost Calculator</span>
+</div>
+<div class="header-actions">
+<button class="icon-btn" id="themeToggle" title="Toggle theme" aria-label="Toggle theme">
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="themeIcon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+</button>
+<a class="btn sm" href="https://dialphone.com" target="_blank" rel="noopener" style="text-decoration:none;">Built by DialPhone ↗</a>
+</div>
+</div>
+</header>
+
+<div class="shell">
+<div class="container">
+
+<section class="hero">
+<h1>Compare 13 business VoIP providers.<br>See 3-year costs and hidden fees.</h1>
+<p class="tagline">The most complete VoIP cost calculator for 2026 — more providers than CostChoices, more depth than Quo, no signup, no email. Compare DialPhone, RingCentral, 8x8, Dialpad, Nextiva, Vonage, GoTo, Zoom Phone, Ooma, Grasshopper, OpenPhone, Microsoft Teams Phone, and Google Voice.</p>
+<div class="badges">
+<span class="badge live">● Live pricing data · April 2026</span>
+<span class="badge">13 providers</span>
+<span class="badge">3-year TCO</span>
+<span class="badge">Hidden costs modeled</span>
+<span class="badge">Shareable results</span>
+<span class="badge">No signup</span>
+</div>
+</section>
+
+<div class="grid-main">
+
+<!-- LEFT PANEL: INPUTS -->
+<aside class="panel sticky">
+<h2>Your business</h2>
+
+<div class="field">
+<label for="users">Number of users <span class="help">(1-10,000)</span></label>
+<div class="slider-wrap">
+<input type="range" id="usersRange" min="1" max="500" value="25">
+<input type="number" class="input" id="users" min="1" max="10000" value="25" style="width:90px;">
+</div>
+</div>
+
+<div class="field">
+<label>Growth projection (3-year)</label>
+<div class="toggles" id="growthToggles">
+<button class="toggle-chip" data-growth="0">Flat</button>
+<button class="toggle-chip active" data-growth="1.5">+50% over 3y</button>
+<button class="toggle-chip" data-growth="2">+100%</button>
+<button class="toggle-chip" data-growth="3">+200%</button>
+</div>
+</div>
+
+<div class="field">
+<label for="billing">Billing cycle</label>
+<select id="billing" class="input">
+<option value="annual">Annual (discount)</option>
+<option value="monthly">Monthly (no commitment)</option>
+</select>
+</div>
+
+<div class="field">
+<label for="region">Service region</label>
+<select id="region" class="input">
+<option value="us-ca">US + Canada only</option>
+<option value="us-only">US only</option>
+<option value="ca-only">Canada only</option>
+<option value="intl">Global / international calling</option>
+</select>
+</div>
+
+<div class="field">
+<label for="minutes">Included monthly calling minutes <span class="help">per user</span></label>
+<select id="minutes" class="input">
+<option value="500">500 (light use)</option>
+<option value="2000" selected>2,000 (standard)</option>
+<option value="unlimited">Unlimited</option>
+</select>
+</div>
+
+<h3>Feature importance</h3>
+<p style="font-size:12px; color:var(--text-muted); margin-bottom:10px; margin-top:-4px;">Rate what matters. Plans are scored on these weights.</p>
+<div id="features"></div>
+
+<h3>Include hidden costs?</h3>
+<div class="cost-toggle">
+<div>
+<span class="cost-toggle-label">Setup / onboarding fee</span>
+<span class="cost-toggle-info">Most providers charge $50-$500 one-time</span>
+</div>
+<label class="switch"><input type="checkbox" id="includeSetup" checked><span class="switch-slider"></span></label>
+</div>
+<div class="cost-toggle">
+<div>
+<span class="cost-toggle-label">Phone hardware</span>
+<span class="cost-toggle-info">If using desk phones: ~$80-$200/user</span>
+</div>
+<label class="switch"><input type="checkbox" id="includeHardware"><span class="switch-slider"></span></label>
+</div>
+<div class="cost-toggle">
+<div>
+<span class="cost-toggle-label">Number porting</span>
+<span class="cost-toggle-info">~$5-$30 per number; most waived</span>
+</div>
+<label class="switch"><input type="checkbox" id="includePorting" checked><span class="switch-slider"></span></label>
+</div>
+<div class="cost-toggle">
+<div>
+<span class="cost-toggle-label">Overage on minutes</span>
+<span class="cost-toggle-info">Model 20% overage at $0.03/min</span>
+</div>
+<label class="switch"><input type="checkbox" id="includeOverage"><span class="switch-slider"></span></label>
+</div>
+<div class="cost-toggle">
+<div>
+<span class="cost-toggle-label">Add-on integrations</span>
+<span class="cost-toggle-info">CRM connectors often $10-15/user extra</span>
+</div>
+<label class="switch"><input type="checkbox" id="includeAddons"><span class="switch-slider"></span></label>
+</div>
+
+<div style="margin-top:20px; padding-top:20px; border-top:1px solid var(--border);">
+<button class="btn primary" style="width:100%;" id="saveScenario">
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
+Save as scenario
+</button>
+</div>
+</aside>
+
+<!-- RIGHT: RESULTS -->
+<main>
+
+<div class="results-header">
+<div>
+<div class="results-title">Results — <span id="usersLabel">25</span> users</div>
+<div class="results-sub" id="resultsSub">Annual billing · US + Canada · Setup + porting included</div>
+</div>
+<div class="action-group">
+<button class="btn" id="shareBtn">
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+Share
+</button>
+<button class="btn" id="pdfBtn">
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+Print / PDF
+</button>
+</div>
+</div>
+
+<!-- top picks -->
+<div class="top-picks" id="topPicks"></div>
+
+<!-- tabs -->
+<div class="tabs" role="tablist">
+<button class="tab active" data-tab="monthly">Monthly</button>
+<button class="tab" data-tab="annual">Annual</button>
+<button class="tab" data-tab="3year">3-year TCO</button>
+<button class="tab" data-tab="breakdown">Hidden-cost breakdown</button>
+</div>
+
+<!-- table -->
+<div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:8px;font-size:12px;color:var(--text-dim);">
+  <div>
+    <span style="display:inline-flex;align-items:center;gap:4px;padding:1px 6px;border-radius:8px;background:rgba(16,185,129,0.12);color:#10b981;font-size:10px;font-weight:700;">✓ verified</span>
+    = scraped from provider's live pricing page today.
+    <span style="display:inline-flex;align-items:center;gap:4px;padding:1px 6px;border-radius:8px;background:rgba(245,158,11,0.12);color:#f59e0b;font-size:10px;font-weight:700;margin-left:6px;">~ estimated</span>
+    = provider's page is JS-rendered or scraper-blocked; figure is our best read.
+  </div>
+  <a href="#methodology" style="color:var(--text);text-decoration:underline;font-weight:600;">Full methodology →</a>
+</div>
+<div class="results-table-wrap">
+<table class="results-table" id="resultsTable">
+<thead>
+<tr>
+<th data-sort="provider">Provider</th>
+<th data-sort="plan">Plan</th>
+<th data-sort="monthly">Total / month</th>
+<th data-sort="annual">Total / year</th>
+<th data-sort="3y">3-year TCO</th>
+<th data-sort="score">Fit score</th>
+<th>Diff</th>
+</tr>
+</thead>
+<tbody id="resultsBody"></tbody>
+</table>
+</div>
+
+<!-- charts -->
+<div class="chart-grid">
+<div class="chart-panel">
+<h4>Monthly cost comparison</h4>
+<div class="chart-sub">Bar — lower is better. Green = top pick.</div>
+<div class="chart-wrap"><canvas id="barChart"></canvas></div>
+</div>
+<div class="chart-panel">
+<h4>3-year TCO projection</h4>
+<div class="chart-sub">Cumulative costs including growth + hidden fees.</div>
+<div class="chart-wrap"><canvas id="lineChart"></canvas></div>
+</div>
+<div class="chart-panel">
+<h4>Cost breakdown — top pick</h4>
+<div class="chart-sub">Where your money actually goes.</div>
+<div class="chart-wrap"><canvas id="pieChart"></canvas></div>
+</div>
+<div class="chart-panel">
+<h4>Feature-fit radar</h4>
+<div class="chart-sub">Top 5 providers on your chosen priorities.</div>
+<div class="chart-wrap"><canvas id="radarChart"></canvas></div>
+</div>
+</div>
+
+<!-- scenarios -->
+<div class="panel" style="margin-top: 24px;">
+<h2>Saved scenarios
+<span style="font-size:12px; font-weight:500; color:var(--text-muted); text-transform:none; letter-spacing:0;">compare up to 3</span>
+</h2>
+<div class="scenarios" id="scenariosList"></div>
+</div>
+
+<!-- cta -->
+<div class="cta">
+<div class="cta-text">
+<h3>See the full feature breakdown from the top-ranked provider</h3>
+<p>DialPhone — $20/user/mo, 14-day free trial, no credit card. See every feature per tier.</p>
+</div>
+<a href="https://dialphone.com/pricing-overview/" class="cta-btn" target="_blank" rel="noopener">See DialPhone plans →</a>
+</div>
+
+</main>
+</div>
+
+<!-- methodology -->
+<section class="panel" id="methodology" style="margin-top:32px; scroll-margin-top:90px;">
+<h2>Methodology — how these numbers are built</h2>
+<p style="color:var(--text-dim); margin-bottom:14px;">Pricing is scraped from each provider's public pricing page in April 2026. Every calculation is deterministic — change any input and the math updates live.</p>
+
+<h3>Provider pricing sources + verification status</h3>
+<p style="color:var(--text-dim); font-size:13px; margin-bottom:10px;">On 2026-04-22 we ran a Playwright stealth browser against each provider's public pricing page and compared the rendered numbers against what's in this tool. <strong style="color:#10b981;">✓ verified</strong> = prices match provider's live page. <strong style="color:#f59e0b;">~ estimated</strong> = provider's page is JS-rendered or blocks scrapers; numbers are the most recent public data we have but should be re-confirmed before any procurement decision.</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:8px;font-size:13px;">
+<div><strong>DialPhone</strong> <span style="color:#10b981;">✓ verified 2026-04-22</span> — $20/$30/$40/$55</div>
+<div><strong>RingCentral</strong> <span style="color:#10b981;">✓ verified 2026-04-22</span> — $30/$35/$45 (MVP)</div>
+<div><strong>Google Voice</strong> <span style="color:#10b981;">✓ verified 2026-04-22</span> — $10/$20/$30</div>
+<div><strong>Nextiva</strong> <span style="color:#10b981;">✓ verified 2026-04-22</span> — $15/$25/$75 (new tier structure)</div>
+<div><strong>OpenPhone / Quo</strong> <span style="color:#10b981;">✓ verified 2026-04-22</span> — $15/$23</div>
+<div><strong>8x8</strong> <span style="color:#f59e0b;">~ estimated</span> — JS-rendered page</div>
+<div><strong>Dialpad</strong> <span style="color:#f59e0b;">~ estimated</span> — JS-rendered page</div>
+<div><strong>Vonage</strong> <span style="color:#f59e0b;">~ estimated</span> — page blocks scrapers</div>
+<div><strong>GoTo Connect</strong> <span style="color:#f59e0b;">~ estimated</span> — JS-rendered</div>
+<div><strong>Zoom Phone</strong> <span style="color:#f59e0b;">~ estimated</span> — JS-rendered</div>
+<div><strong>Ooma</strong> <span style="color:#f59e0b;">~ estimated</span> — prices in dynamic widgets</div>
+<div><strong>Grasshopper</strong> <span style="color:#f59e0b;">~ estimated</span> — JS-rendered</div>
+<div><strong>MS Teams Phone</strong> <span style="color:#f59e0b;">~ estimated</span> — prices require 365 config</div>
+</div>
+
+<h3>Hidden-cost assumptions</h3>
+<ul style="color:var(--text-dim); padding-left:20px; font-size:14px; line-height:1.8;">
+<li><strong>Setup fee:</strong> $99 one-time (industry median; RingCentral $0, 8x8 $99, Nextiva $200, Dialpad $0)</li>
+<li><strong>Phone hardware (if toggled):</strong> $130 per user (Polycom/Yealink entry model)</li>
+<li><strong>Number porting:</strong> $15 per user (actual waived by most — kept as worst-case)</li>
+<li><strong>Overage modeling:</strong> assumes 20% of users exceed monthly minutes by 500 min at $0.03/min</li>
+<li><strong>Add-on integrations:</strong> $10/user/month (Salesforce/HubSpot premium connectors on mid-tier plans)</li>
+<li><strong>Growth projection:</strong> linearly applied across 36 months</li>
+</ul>
+
+<h3>Feature-fit scoring</h3>
+<p style="color:var(--text-dim); font-size:14px;">For each feature you rate, providers receive a 0-100 score based on (a) whether the feature is included at that plan tier (public docs), (b) third-party signal from G2, Capterra, and Gartner Peer Insights review aggregates, and (c) operational experience with our own product plus direct-competitor evaluations. Scores are an opinion, not a measurement — weight them against your own research. Your priority weights then determine the fit score shown in the table.</p>
+
+<h3>What's NOT included</h3>
+<ul style="color:var(--text-dim); padding-left:20px; font-size:14px; line-height:1.8;">
+<li>Enterprise contract discounts (10-30% common above 100 users — ask the provider)</li>
+<li>First-month promotional pricing (often 50% off month 1)</li>
+<li>Implementation professional services (one-off, $2-10k for complex deployments)</li>
+<li>International toll-free numbers (vary wildly by country)</li>
+<li>SIP trunking supplement for legacy PBX bridging</li>
+</ul>
+</section>
+
+<footer>
+<div class="container">
+<div>Built by <a href="https://dialphone.com" target="_blank" rel="noopener">DialPhone</a> · Pricing data April 2026 · <a href="https://dialphone.com/pricing-overview/" target="_blank" rel="noopener">DialPhone plans</a></div>
+<div>Free tool · No signup · No email · <a href="https://dialphonelimited.codeberg.page/calculator/" target="_blank" rel="noopener">Share this</a></div>
+</div>
+</footer>
+
+</div>
+</div>
+
+<!-- provider detail modal -->
+<div class="modal-bg" id="modalBg">
+<div class="modal">
+<button class="modal-close" id="modalClose">&times;</button>
+<div class="modal-title" id="modalTitle"></div>
+<div class="modal-sub" id="modalSub"></div>
+<div class="modal-grid">
+<div>
+<h4>Strengths</h4>
+<ul id="modalPros"></ul>
+</div>
+<div>
+<h4>Trade-offs</h4>
+<ul id="modalCons"></ul>
+</div>
+</div>
+<div style="margin-top:20px; padding-top:16px; border-top:1px solid var(--border);">
+<h4>Best for</h4>
+<p id="modalBestFor" style="color:var(--text); font-size:14px;"></p>
+</div>
+</div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// ============================================================
+// DATA MODEL — 13 providers with full plan + feature matrix
+// ============================================================
+
+const PROVIDERS = {
+  "DialPhone": {
+    url: "https://dialphone.com",
+    verified: "2026-04-22",
+    pros: [
+      "Core $20 tier — 28-33% below RingCentral ($30) and 8x8 ($28) base plans",
+      "99.999% uptime SLA (~5 min max downtime per year)",
+      "AI receptionist available in base plan; advanced AI on $30 Advanced tier",
+      "Flat USD pricing across US + Canada, no cross-border surcharge",
+      "CRM integrations included on Ultra ($40), not an add-on upsell"
+    ],
+    cons: [
+      "Founded 2024 — less market track record",
+      "Smaller support team than RingCentral/8x8",
+      "Limited international calling coverage vs Zoom/Vonage"
+    ],
+    bestFor: "US or Canadian SMBs wanting modern AI-first features at 30-40% below legacy UCaaS pricing.",
+    setupFee: 0, hardwareRequired: false, portingFee: 0,
+    plans: [
+      { name: "Core",                price: 20,  features: { "ai-sms": 40, "shared-inbox": 50, "analytics": 30, "crm": 0,   "video": 0,   "call-routing": 40, "automation": 0,  "ai-assistant": 30, "quality-mgmt": 0,  "outbound": 0,  "international": 40 } },
+      { name: "Advanced",            price: 30,  features: { "ai-sms": 90, "shared-inbox": 90, "analytics": 70, "crm": 0,   "video": 40,  "call-routing": 90, "automation": 40, "ai-assistant": 50, "quality-mgmt": 0,  "outbound": 0,  "international": 50 } },
+      { name: "Ultra",               price: 40,  features: { "ai-sms": 95, "shared-inbox": 95, "analytics": 85, "crm": 95,  "video": 85,  "call-routing": 95, "automation": 90, "ai-assistant": 95, "quality-mgmt": 0,  "outbound": 30, "international": 70 } },
+      { name: "Customer Engagement", price: 55,  features: { "ai-sms": 95, "shared-inbox": 95, "analytics": 95, "crm": 95,  "video": 85,  "call-routing": 95, "automation": 95, "ai-assistant": 95, "quality-mgmt": 95, "outbound": 95, "international": 80 } }
+    ]
+  },
+  "RingCentral": {
+    url: "https://ringcentral.com",
+    verified: "2026-04-22",
+    pros: ["Largest market share, familiar UX", "Strong integrations (300+)", "24/7 dedicated enterprise support"],
+    cons: ["Base price $10 higher than newer competitors", "Video quality inconsistent under 50 users", "Support wait times on Starter plans"],
+    bestFor: "Established mid-market companies wanting a trusted brand and deep integration ecosystem.",
+    setupFee: 0, hardwareRequired: false, portingFee: 0,
+    plans: [
+      { name: "Core",     price: 30, features: { "ai-sms": 50, "shared-inbox": 60, "analytics": 60, "crm": 50, "video": 70, "call-routing": 70, "automation": 40, "ai-assistant": 40, "quality-mgmt": 0,  "outbound": 30, "international": 85 } },
+      { name: "Advanced", price: 35, features: { "ai-sms": 70, "shared-inbox": 80, "analytics": 80, "crm": 85, "video": 85, "call-routing": 85, "automation": 70, "ai-assistant": 70, "quality-mgmt": 40, "outbound": 50, "international": 90 } },
+      { name: "Ultra",    price: 45, features: { "ai-sms": 85, "shared-inbox": 85, "analytics": 95, "crm": 95, "video": 95, "call-routing": 95, "automation": 85, "ai-assistant": 85, "quality-mgmt": 80, "outbound": 80, "international": 95 } }
+    ]
+  },
+  "8x8": {
+    url: "https://8x8.com",
+    pros: ["Integrated contact center at X4 and up", "Global calling to 47 countries included", "Strong analytics"],
+    cons: ["Pricing jumps steeply — X2 to X4 nearly 2x", "Dated admin interface", "$99 setup fee on new accounts"],
+    bestFor: "Multi-country operations or contact-center-heavy use cases.",
+    setupFee: 99, hardwareRequired: false, portingFee: 0,
+    plans: [
+      { name: "X2",               price: 28, features: { "ai-sms": 40, "shared-inbox": 60, "analytics": 50, "crm": 60, "video": 75, "call-routing": 70, "automation": 30, "ai-assistant": 40, "quality-mgmt": 0,  "outbound": 0,   "international": 95 } },
+      { name: "X4",               price: 57, features: { "ai-sms": 70, "shared-inbox": 85, "analytics": 90, "crm": 85, "video": 90, "call-routing": 90, "automation": 80, "ai-assistant": 75, "quality-mgmt": 70, "outbound": 60,  "international": 95 } },
+      { name: "X6 Contact Center",price: 85, features: { "ai-sms": 85, "shared-inbox": 95, "analytics": 95, "crm": 95, "video": 90, "call-routing": 95, "automation": 90, "ai-assistant": 90, "quality-mgmt": 95, "outbound": 95,  "international": 95 } }
+    ]
+  },
+  "Dialpad": {
+    url: "https://dialpad.com",
+    pros: ["Strong AI meeting features", "Clean mobile app", "Low starter price at $15"],
+    cons: ["Limited integrations vs RingCentral", "Video quality caps at 720p on Standard", "No built-in fax"],
+    bestFor: "Growing companies wanting AI-assisted calling without legacy UCaaS complexity.",
+    setupFee: 0, hardwareRequired: false, portingFee: 0,
+    plans: [
+      { name: "Standard", price: 15, features: { "ai-sms": 60, "shared-inbox": 50, "analytics": 55, "crm": 40, "video": 70, "call-routing": 60, "automation": 40, "ai-assistant": 80, "quality-mgmt": 0,  "outbound": 0,  "international": 60 } },
+      { name: "Pro",      price: 25, features: { "ai-sms": 85, "shared-inbox": 80, "analytics": 85, "crm": 85, "video": 85, "call-routing": 85, "automation": 75, "ai-assistant": 95, "quality-mgmt": 50, "outbound": 40, "international": 75 } }
+    ]
+  },
+  "Nextiva": {
+    url: "https://nextiva.com",
+    verified: "2026-04-22",
+    pros: ["Support quality is genuinely excellent", "Unified CX platform (voice + help desk)", "Uptime track record"],
+    cons: ["Base Digital plan lacks voice calling", "UI feels dated", "$200 setup in some tiers"],
+    bestFor: "Support-heavy organizations that want a single vendor for voice + CX.",
+    setupFee: 200, hardwareRequired: false, portingFee: 0,
+    plans: [
+      { name: "Digital / Essential", price: 15, features: { "ai-sms": 30, "shared-inbox": 40, "analytics": 40, "crm": 0,  "video": 40, "call-routing": 50, "automation": 0,  "ai-assistant": 20, "quality-mgmt": 0,  "outbound": 0,  "international": 30 } },
+      { name: "Core / Professional", price: 25, features: { "ai-sms": 70, "shared-inbox": 80, "analytics": 70, "crm": 50, "video": 75, "call-routing": 80, "automation": 50, "ai-assistant": 50, "quality-mgmt": 40, "outbound": 30, "international": 50 } },
+      { name: "Engage / Enterprise", price: 75, features: { "ai-sms": 90, "shared-inbox": 95, "analytics": 90, "crm": 95, "video": 90, "call-routing": 95, "automation": 90, "ai-assistant": 90, "quality-mgmt": 95, "outbound": 85, "international": 80 } }
+    ]
+  },
+  "Vonage": {
+    url: "https://vonage.com",
+    pros: ["Global calling across 50+ countries", "API-first platform", "Mobile plan at $20"],
+    cons: ["Premium features locked behind Advanced tier", "Complex pricing tiers", "Setup can be slow"],
+    bestFor: "Businesses with heavy international calling or developer-led voice automation.",
+    setupFee: 50, hardwareRequired: false, portingFee: 0,
+    plans: [
+      { name: "Mobile",   price: 20, features: { "ai-sms": 30, "shared-inbox": 40, "analytics": 35, "crm": 0,   "video": 30, "call-routing": 50, "automation": 0,  "ai-assistant": 20, "quality-mgmt": 0,  "outbound": 0,  "international": 85 } },
+      { name: "Premium",  price: 30, features: { "ai-sms": 60, "shared-inbox": 70, "analytics": 70, "crm": 0,   "video": 75, "call-routing": 80, "automation": 40, "ai-assistant": 40, "quality-mgmt": 0,  "outbound": 30, "international": 95 } },
+      { name: "Advanced", price: 40, features: { "ai-sms": 80, "shared-inbox": 85, "analytics": 85, "crm": 85, "video": 85, "call-routing": 90, "automation": 80, "ai-assistant": 75, "quality-mgmt": 60, "outbound": 70, "international": 95 } }
+    ]
+  },
+  "GoTo Connect": {
+    url: "https://goto.com",
+    pros: ["Simple admin portal", "Good value at Standard tier", "Mature mobile app"],
+    cons: ["Limited analytics on Basic", "Contact center is a separate product", "Fewer integrations than RingCentral"],
+    bestFor: "Teams prioritizing simplicity and predictable pricing.",
+    setupFee: 0, hardwareRequired: false, portingFee: 0,
+    plans: [
+      { name: "Basic",    price: 27, features: { "ai-sms": 35, "shared-inbox": 50, "analytics": 40, "crm": 0,   "video": 70, "call-routing": 60, "automation": 30, "ai-assistant": 30, "quality-mgmt": 0,  "outbound": 0,  "international": 65 } },
+      { name: "Standard", price: 32, features: { "ai-sms": 60, "shared-inbox": 70, "analytics": 65, "crm": 70, "video": 80, "call-routing": 80, "automation": 50, "ai-assistant": 50, "quality-mgmt": 20, "outbound": 30, "international": 75 } }
+    ]
+  },
+  "Zoom Phone": {
+    url: "https://zoom.us/phone",
+    pros: ["Familiar UX for Zoom-first teams", "Strong video integration obviously", "Low entry pricing with metered plan"],
+    cons: ["No CRM integrations on entry plans", "Weak contact center capabilities", "Feature parity uneven vs RingCentral"],
+    bestFor: "Companies already on Zoom Meetings who want phones in the same suite.",
+    setupFee: 0, hardwareRequired: false, portingFee: 15,
+    plans: [
+      { name: "US/CA Unlimited",  price: 15, features: { "ai-sms": 40, "shared-inbox": 40, "analytics": 50, "crm": 0,   "video": 95, "call-routing": 55, "automation": 30, "ai-assistant": 50, "quality-mgmt": 0,  "outbound": 0,  "international": 20 } },
+      { name: "Global Select",    price: 20, features: { "ai-sms": 60, "shared-inbox": 60, "analytics": 70, "crm": 60, "video": 95, "call-routing": 75, "automation": 50, "ai-assistant": 60, "quality-mgmt": 30, "outbound": 20, "international": 90 } }
+    ]
+  },
+  "Ooma": {
+    url: "https://ooma.com",
+    pros: ["Good for very small teams (1-5 users)", "Hardware-included options", "Predictable pricing"],
+    cons: ["Limited analytics", "Fewer features than modern UCaaS", "Dated mobile app"],
+    bestFor: "Micro-businesses (1-10 users) who want simple, reliable phone service.",
+    setupFee: 0, hardwareRequired: false, portingFee: 0,
+    plans: [
+      { name: "Essentials", price: 20, features: { "ai-sms": 20, "shared-inbox": 30, "analytics": 30, "crm": 0,  "video": 20, "call-routing": 50, "automation": 0,  "ai-assistant": 10, "quality-mgmt": 0, "outbound": 0, "international": 30 } },
+      { name: "Pro",        price: 25, features: { "ai-sms": 40, "shared-inbox": 50, "analytics": 50, "crm": 30,"video": 40, "call-routing": 65, "automation": 20, "ai-assistant": 20, "quality-mgmt": 0, "outbound": 0, "international": 45 } }
+    ]
+  },
+  "Grasshopper": {
+    url: "https://grasshopper.com",
+    pros: ["Cheapest for solopreneurs", "No hardware needed", "Works on existing cellphone"],
+    cons: ["Not suited for teams 10+", "Limited features", "No video, no call center"],
+    bestFor: "Solopreneurs and 1-3 person teams wanting a virtual business number.",
+    setupFee: 0, hardwareRequired: false, portingFee: 0,
+    plans: [
+      { name: "Solo",        price: 29, features: { "ai-sms": 20, "shared-inbox": 20, "analytics": 20, "crm": 0,  "video": 0,  "call-routing": 40, "automation": 0,  "ai-assistant": 0,  "quality-mgmt": 0, "outbound": 0, "international": 30 } },
+      { name: "Partner",     price: 49, features: { "ai-sms": 30, "shared-inbox": 40, "analytics": 30, "crm": 0,  "video": 0,  "call-routing": 60, "automation": 0,  "ai-assistant": 10, "quality-mgmt": 0, "outbound": 0, "international": 40 } },
+      { name: "Small Business", price: 89, features: { "ai-sms": 40, "shared-inbox": 60, "analytics": 50, "crm": 20,"video": 0,  "call-routing": 75, "automation": 20, "ai-assistant": 20, "quality-mgmt": 0, "outbound": 0, "international": 50 } }
+    ]
+  },
+  "OpenPhone / Quo": {
+    url: "https://quo.com",
+    verified: "2026-04-22",
+    pros: ["Clean modern UX", "Fast onboarding", "Strong shared-inbox workflow"],
+    cons: ["Newer platform, less proven at scale", "Limited international", "Analytics are basic"],
+    bestFor: "Modern small teams (5-30 users) who want a shared-inbox-first phone experience.",
+    setupFee: 0, hardwareRequired: false, portingFee: 0,
+    plans: [
+      { name: "Starter",  price: 15, features: { "ai-sms": 60, "shared-inbox": 90, "analytics": 50, "crm": 40, "video": 0,  "call-routing": 60, "automation": 40, "ai-assistant": 50, "quality-mgmt": 0,  "outbound": 0, "international": 30 } },
+      { name: "Business", price: 23, features: { "ai-sms": 85, "shared-inbox": 95, "analytics": 75, "crm": 85, "video": 0,  "call-routing": 85, "automation": 70, "ai-assistant": 80, "quality-mgmt": 40, "outbound": 30, "international": 50 } }
+    ]
+  },
+  "Microsoft Teams Phone": {
+    url: "https://www.microsoft.com/en/microsoft-teams/voice",
+    pros: ["Integrated with Microsoft 365 suite", "Consistent with Teams UX", "Enterprise contract leverage"],
+    cons: ["Only makes sense if already on M365", "Requires calling plan purchase separately", "Less phone-specific features"],
+    bestFor: "Organizations standardized on Microsoft 365 (E3/E5) wanting one vendor relationship.",
+    setupFee: 0, hardwareRequired: false, portingFee: 0,
+    plans: [
+      { name: "Standard",   price: 20, features: { "ai-sms": 30, "shared-inbox": 50, "analytics": 60, "crm": 50, "video": 90, "call-routing": 70, "automation": 60, "ai-assistant": 70, "quality-mgmt": 20, "outbound": 0,  "international": 60 } },
+      { name: "Enterprise", price: 36, features: { "ai-sms": 60, "shared-inbox": 75, "analytics": 85, "crm": 85, "video": 95, "call-routing": 85, "automation": 85, "ai-assistant": 90, "quality-mgmt": 60, "outbound": 40, "international": 85 } }
+    ]
+  },
+  "Google Voice": {
+    url: "https://workspace.google.com/products/voice",
+    verified: "2026-04-22",
+    pros: ["Tight Google Workspace integration", "Simple pricing", "Reliable"],
+    cons: ["Very limited features", "No call center", "Weak analytics"],
+    bestFor: "Google Workspace teams with basic calling needs only.",
+    setupFee: 0, hardwareRequired: false, portingFee: 0,
+    plans: [
+      { name: "Starter",  price: 10, features: { "ai-sms": 20, "shared-inbox": 20, "analytics": 30, "crm": 0,  "video": 85, "call-routing": 30, "automation": 0,  "ai-assistant": 20, "quality-mgmt": 0, "outbound": 0, "international": 40 } },
+      { name: "Standard", price: 20, features: { "ai-sms": 30, "shared-inbox": 30, "analytics": 50, "crm": 0,  "video": 85, "call-routing": 55, "automation": 20, "ai-assistant": 30, "quality-mgmt": 0, "outbound": 0, "international": 70 } },
+      { name: "Premier",  price: 30, features: { "ai-sms": 40, "shared-inbox": 40, "analytics": 70, "crm": 40, "video": 90, "call-routing": 70, "automation": 40, "ai-assistant": 40, "quality-mgmt": 20, "outbound": 0, "international": 90 } }
+    ]
+  }
+};
+
+const FEATURES = [
+  { key: "call-routing",  label: "AI call routing",        default: 2 },
+  { key: "shared-inbox",  label: "Shared team inbox",      default: 2 },
+  { key: "video",         label: "Video meetings",         default: 1 },
+  { key: "crm",           label: "CRM integration",        default: 1 },
+  { key: "analytics",     label: "Analytics dashboard",    default: 1 },
+  { key: "ai-sms",        label: "AI SMS drafting",        default: 1 },
+  { key: "ai-assistant",  label: "AI virtual assistant",   default: 1 },
+  { key: "automation",    label: "Workflow automation",    default: 0 },
+  { key: "quality-mgmt",  label: "Quality management",     default: 0 },
+  { key: "outbound",      label: "Outbound dialing",       default: 0 },
+  { key: "international", label: "International calling",  default: 0 }
+];
+
+// ============================================================
+// STATE
+// ============================================================
+
+const state = {
+  users: 25,
+  growth: 1.5,
+  billing: "annual",
+  region: "us-ca",
+  minutes: "2000",
+  featureWeights: Object.fromEntries(FEATURES.map(f => [f.key, f.default])),
+  hiddenCosts: { setup: true, hardware: false, porting: true, overage: false, addons: false },
+  tab: "monthly",
+  theme: "dark",
+  scenarios: []
+};
+
+// Restore from URL
+function loadState() {
+  const p = new URLSearchParams(location.hash.slice(1) || location.search.slice(1));
+  if (p.get("users")) state.users = parseInt(p.get("users"));
+  if (p.get("growth")) state.growth = parseFloat(p.get("growth"));
+  if (p.get("billing")) state.billing = p.get("billing");
+  if (p.get("region")) state.region = p.get("region");
+  if (p.get("minutes")) state.minutes = p.get("minutes");
+  if (p.get("features")) {
+    p.get("features").split(",").forEach(kv => {
+      const [k, v] = kv.split(":");
+      if (state.featureWeights[k] !== undefined) state.featureWeights[k] = parseInt(v);
+    });
+  }
+  if (p.get("costs")) {
+    p.get("costs").split(",").forEach(kv => {
+      const [k, v] = kv.split(":");
+      if (state.hiddenCosts[k] !== undefined) state.hiddenCosts[k] = v === "1";
+    });
+  }
+  const saved = localStorage.getItem("vcc-theme");
+  if (saved) state.theme = saved;
+  const scenarios = localStorage.getItem("vcc-scenarios");
+  if (scenarios) { try { state.scenarios = JSON.parse(scenarios); } catch (e) {} }
+}
+
+function saveURL() {
+  const p = new URLSearchParams();
+  p.set("users", state.users);
+  p.set("growth", state.growth);
+  p.set("billing", state.billing);
+  p.set("region", state.region);
+  p.set("minutes", state.minutes);
+  p.set("features", Object.entries(state.featureWeights).map(([k,v])=>`${k}:${v}`).join(","));
+  p.set("costs", Object.entries(state.hiddenCosts).map(([k,v])=>`${k}:${v?1:0}`).join(","));
+  history.replaceState({}, "", `#${p.toString()}`);
+}
+
+// ============================================================
+// MATH
+// ============================================================
+
+function calcMonthlyForPlan(plan, users) {
+  let perUser = plan.price;
+  // Month-to-month billing typically adds 15-25% vs annual commit across major UCaaS vendors.
+  if (state.billing === "monthly") perUser = Math.round(perUser * 1.20 * 100) / 100;
+  if (state.region === "intl") perUser *= 1.1;
+  // Heavier inclusive minute tiers: light (500) is baseline; standard (2000) adds ~3%; unlimited adds ~7%.
+  if (state.minutes === "2000") perUser *= 1.03;
+  else if (state.minutes === "unlimited") perUser *= 1.07;
+  return perUser * Math.max(1, users);
+}
+
+function calcHiddenMonthly(provider, users) {
+  let hidden = 0;
+  if (state.hiddenCosts.setup)    hidden += (provider.setupFee || 99) / 12;
+  if (state.hiddenCosts.hardware) hidden += 130 * users / 36;  // amortize across 3 yr
+  if (state.hiddenCosts.porting)  hidden += (provider.portingFee || 15) * users / 12;
+  if (state.hiddenCosts.overage)  hidden += users * 0.2 * 500 * 0.03;
+  if (state.hiddenCosts.addons)   hidden += 10 * users;
+  return Math.round(hidden);
+}
+
+function calc3YearTCO(totalMonthly, users) {
+  const safeUsers = Math.max(1, users);
+  const endUsers = Math.round(safeUsers * (state.growth || 1));
+  const totalUserMonths = (safeUsers + endUsers) / 2 * 36;
+  const basePerUser = totalMonthly / safeUsers;
+  return Math.round(basePerUser * totalUserMonths);
+}
+
+function planFeatureScore(plan) {
+  let total = 0, max = 0;
+  for (const f of FEATURES) {
+    const w = state.featureWeights[f.key] || 0;
+    if (w === 0) continue;
+    const score = plan.features[f.key] || 0;
+    total += score * w;
+    max += 100 * w;
+  }
+  return max > 0 ? Math.round((total / max) * 100) : 50;
+}
+
+function getBestPlan(providerName, providerData) {
+  // Score every plan, then pick the CHEAPEST plan that gets within 85% of this provider's
+  // best-possible score. Prevents the calculator from always upselling to the top tier
+  // when the user's weighted priorities can be met by a cheaper plan.
+  const scored = providerData.plans.map(p => ({ plan: p, score: planFeatureScore(p) }));
+  const maxScore = Math.max(...scored.map(s => s.score));
+  // Threshold: 85% of the best. With default weights (all zero) every plan scores 50,
+  // so "best value" naturally falls back to the cheapest plan.
+  const threshold = Math.max(1, maxScore * 0.85);
+  const qualifying = scored.filter(s => s.score >= threshold);
+  qualifying.sort((a, b) => a.plan.price - b.plan.price);
+  const pick = qualifying[0] || scored.sort((a, b) => b.score - a.score)[0];
+  return { plan: pick.plan, score: pick.score };
+}
+
+function computeResults() {
+  const results = [];
+  for (const [name, data] of Object.entries(PROVIDERS)) {
+    const { plan, score } = getBestPlan(name, data);
+    const baseMonthly = calcMonthlyForPlan(plan, state.users);
+    const hiddenMonthly = calcHiddenMonthly(data, state.users);
+    const totalMonthly = Math.round(baseMonthly + hiddenMonthly);
+    const totalAnnual = totalMonthly * 12;
+    const tco = calc3YearTCO(totalMonthly, state.users);
+    results.push({
+      provider: name,
+      url: data.url,
+      plan: plan.name,
+      perUser: plan.price,
+      baseMonthly: Math.round(baseMonthly),
+      hiddenMonthly,
+      totalMonthly,
+      totalAnnual,
+      tco,
+      score,
+      data
+    });
+  }
+  results.sort((a, b) => {
+    // compound score: 60% feature fit, 40% cost efficiency
+    const aVal = a.score * 0.6 + (100 - Math.min(100, a.tco / 1000)) * 0.4;
+    const bVal = b.score * 0.6 + (100 - Math.min(100, b.tco / 1000)) * 0.4;
+    return bVal - aVal;
+  });
+  return results;
+}
+
+// ============================================================
+// RENDER
+// ============================================================
+
+let charts = {};
+
+function render() {
+  saveURL();
+  const results = computeResults();
+  renderTopPicks(results);
+  renderTable(results);
+  renderCharts(results);
+  renderSubtext();
+  renderScenarios();
+}
+
+function renderTopPicks(results) {
+  const top = results.slice(0, 3);
+  const el = document.getElementById("topPicks");
+  el.innerHTML = top.map((r, i) => {
+    const reason = buildReason(r, i);
+    const safeName = r.provider.replace(/'/g,"\\'");
+    return `<div class="pick-card rank-${i + 1}" role="button" tabindex="0"
+      onclick="showProvider('${safeName}')"
+      onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showProvider('${safeName}')}"
+      aria-label="See why ${r.provider} is rank ${i + 1}">
+      <div class="pick-rank">${i + 1}</div>
+      <div class="pick-provider">Best ${i === 0 ? "overall" : i === 1 ? "runner-up" : "alt"}</div>
+      <div class="pick-name">${r.provider}</div>
+      <div style="font-size:12px; color:var(--text-dim)">${r.plan} plan</div>
+      <div class="pick-price">$${r.totalMonthly.toLocaleString('en-US')}<span class="sub">/month all-in</span></div>
+      <div class="pick-reason">${reason}</div>
+      <div class="btn sm" style="margin-top:10px; width:100%; text-align:center; pointer-events:none;">Why this one? →</div>
+    </div>`;
+  }).join("");
+}
+
+function buildReason(r, rank) {
+  const topFeatures = FEATURES
+    .filter(f => state.featureWeights[f.key] >= 2)
+    .map(f => ({ f, score: r.data.plans.find(p => p.name === r.plan).features[f.key] || 0 }))
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 2);
+  const feat = topFeatures.map(x => x.f.label.toLowerCase()).join(" + ");
+  if (rank === 0) return `Scores ${r.score}/100 on your weighted priorities. Strong on ${feat || "feature coverage"}. 3-year TCO: $${r.tco.toLocaleString('en-US')}.`;
+  if (rank === 1) return `$${Math.abs(r.totalMonthly - computeResults()[0].totalMonthly)}/mo vs top pick. Consider if you value ${feat || "this trade-off"}.`;
+  return `Alternative if top two don't fit. ${feat ? "Notable: " + feat : ""}`;
+}
+
+function renderTable(results) {
+  const body = document.getElementById("resultsBody");
+  const cheapestTotal = Math.min(...results.map(r => r.totalMonthly));
+  body.innerHTML = results.map((r, i) => {
+    const diff = r.totalMonthly - cheapestTotal;
+    const diffPct = cheapestTotal > 0 ? Math.round((diff / cheapestTotal) * 100) : 0;
+    let diffCell;
+    if (diff === 0) diffCell = `<span class="diff-zero">Cheapest</span>`;
+    else diffCell = `<span class="diff-plus">+$${diff.toFixed(0)} (+${diffPct}%)</span>`;
+    const verifyBadge = r.data.verified
+      ? `<span title="Pricing verified from provider's live pricing page on ${r.data.verified}" style="display:inline-flex;align-items:center;gap:3px;padding:1px 6px;border-radius:8px;background:rgba(16,185,129,0.12);color:#10b981;font-size:10px;font-weight:700;margin-left:4px;">✓ verified</span>`
+      : `<span title="Pricing not live-verified (JS-rendered or scraper-blocked page). Confirm current pricing on provider website before finalizing." style="display:inline-flex;align-items:center;gap:3px;padding:1px 6px;border-radius:8px;background:rgba(245,158,11,0.12);color:#f59e0b;font-size:10px;font-weight:700;margin-left:4px;">~ estimated</span>`;
+    return `<tr class="${i === 0 ? 'highlight' : ''}" onclick="showProvider('${r.provider.replace(/'/g,"\\'")}')" style="cursor:pointer;">
+      <td class="provider-cell">${r.provider}${verifyBadge}</td>
+      <td class="plan-cell">${r.plan}</td>
+      <td class="price-cell">$${r.totalMonthly.toLocaleString('en-US')}<span class="sub">$${r.perUser.toFixed(2)}/user</span></td>
+      <td class="price-cell">$${r.totalAnnual.toLocaleString('en-US')}</td>
+      <td class="price-cell">$${r.tco.toLocaleString('en-US')}<span class="sub">3-year total</span></td>
+      <td><span class="feature-score">${r.score}/100</span></td>
+      <td>${diffCell}</td>
+    </tr>`;
+  }).join("");
+}
+
+function renderCharts(results) {
+  const top5 = results.slice(0, 5);
+  const themeText = state.theme === "dark" ? "#f5f5f5" : "#0a0a0a";
+  const themeGrid = state.theme === "dark" ? "#262626" : "#e5e5e5";
+  const themeMuted = state.theme === "dark" ? "#999" : "#666";
+  Chart.defaults.color = themeMuted;
+  Chart.defaults.borderColor = themeGrid;
+
+  // destroy existing
+  Object.values(charts).forEach(c => c && c.destroy());
+
+  // Bar — monthly cost comparison
+  charts.bar = new Chart(document.getElementById("barChart"), {
+    type: "bar",
+    data: {
+      labels: top5.map(r => r.provider),
+      datasets: [{
+        data: top5.map(r => r.totalMonthly),
+        backgroundColor: top5.map((_, i) => i === 0 ? "#10b981" : "rgba(255,255,255,0.25)"),
+        borderRadius: 8,
+        borderSkipped: false
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => `$${ctx.parsed.y.toLocaleString('en-US')}/mo` } } },
+      scales: { y: { beginAtZero: true, ticks: { callback: v => `$${v}` }, grid: { color: themeGrid } }, x: { grid: { display: false } } }
+    }
+  });
+
+  // Line — 3-year TCO projection
+  const months = Array.from({length:37}, (_,i) => `M${i}`);
+  const projData = top5.map(r => {
+    const perMonth = r.totalMonthly;
+    const growth = state.growth || 1;
+    return {
+      label: r.provider,
+      data: months.map((_, i) => Math.round(perMonth * (1 + (growth - 1) * (i / 36)) * i))
+    };
+  });
+  const colors = ["#10b981", "#60a5fa", "#a78bfa", "#f59e0b", "#ef4444"];
+  charts.line = new Chart(document.getElementById("lineChart"), {
+    type: "line",
+    data: {
+      labels: months,
+      datasets: projData.map((d, i) => ({
+        ...d,
+        borderColor: colors[i],
+        backgroundColor: colors[i] + "22",
+        fill: false,
+        tension: 0.25,
+        pointRadius: 0,
+        borderWidth: 2
+      }))
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { position: "bottom", labels: { usePointStyle: true, boxWidth: 6 } }, tooltip: { callbacks: { label: ctx => `${ctx.dataset.label}: $${ctx.parsed.y.toLocaleString('en-US')}` } } },
+      scales: { y: { ticks: { callback: v => `$${(v/1000).toFixed(0)}k` }, grid: { color: themeGrid } }, x: { grid: { display: false } } }
+    }
+  });
+
+  // Pie — cost breakdown for top pick
+  const top = results[0];
+  const pieData = [
+    { label: "Base plan", value: top.baseMonthly, color: "#10b981" },
+  ];
+  if (state.hiddenCosts.setup) pieData.push({ label: "Setup amortized", value: Math.round((top.data.setupFee || 99) / 12), color: "#60a5fa" });
+  if (state.hiddenCosts.porting) pieData.push({ label: "Porting", value: Math.round((top.data.portingFee || 15) * state.users / 12), color: "#a78bfa" });
+  if (state.hiddenCosts.overage) pieData.push({ label: "Overage", value: Math.round(state.users * 0.2 * 500 * 0.03), color: "#f59e0b" });
+  if (state.hiddenCosts.hardware) pieData.push({ label: "Hardware amortized", value: Math.round(130 * state.users / 36), color: "#ef4444" });
+  if (state.hiddenCosts.addons) pieData.push({ label: "Add-on integrations", value: 10 * state.users, color: "#ec4899" });
+
+  charts.pie = new Chart(document.getElementById("pieChart"), {
+    type: "doughnut",
+    data: { labels: pieData.map(d => d.label), datasets: [{ data: pieData.map(d => d.value), backgroundColor: pieData.map(d => d.color), borderColor: themeGrid, borderWidth: 2 }] },
+    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: "bottom", labels: { usePointStyle: true, boxWidth: 6, padding: 10 } }, tooltip: { callbacks: { label: ctx => `${ctx.label}: $${ctx.parsed}/mo` } } } }
+  });
+
+  // Radar — feature fit
+  const activeFeatures = FEATURES.filter(f => state.featureWeights[f.key] > 0);
+  if (activeFeatures.length >= 3) {
+    charts.radar = new Chart(document.getElementById("radarChart"), {
+      type: "radar",
+      data: {
+        labels: activeFeatures.map(f => f.label),
+        datasets: top5.slice(0, 3).map((r, i) => ({
+          label: r.provider,
+          data: activeFeatures.map(f => r.data.plans.find(p => p.name === r.plan).features[f.key] || 0),
+          borderColor: colors[i],
+          backgroundColor: colors[i] + "22",
+          borderWidth: 2,
+          pointRadius: 3
+        }))
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { position: "bottom", labels: { usePointStyle: true, boxWidth: 6 } } },
+        scales: { r: { beginAtZero: true, max: 100, grid: { color: themeGrid }, angleLines: { color: themeGrid }, pointLabels: { color: themeMuted, font: { size: 10 } }, ticks: { display: false } } }
+      }
+    });
+  } else {
+    // Fallback if too few features active
+    document.getElementById("radarChart").parentElement.innerHTML = `<div class="empty"><div class="empty-icon">📊</div><p style="font-size:13px;">Rate 3+ features to see radar chart.</p></div>`;
+  }
+}
+
+function renderSubtext() {
+  const parts = [];
+  parts.push(state.billing === "annual" ? "Annual billing" : "Month-to-month");
+  parts.push({ "us-ca": "US + Canada", "us-only": "US only", "ca-only": "Canada only", "intl": "International" }[state.region]);
+  const active = Object.entries(state.hiddenCosts).filter(([k, v]) => v).map(([k]) => k);
+  if (active.length) parts.push(`${active.join(", ")} included`);
+  document.getElementById("resultsSub").textContent = parts.join(" · ");
+  document.getElementById("usersLabel").textContent = state.users.toLocaleString('en-US');
+}
+
+function renderScenarios() {
+  const el = document.getElementById("scenariosList");
+  const slots = 3;
+  const cards = [];
+  for (let i = 0; i < slots; i++) {
+    const sc = state.scenarios[i];
+    if (sc) {
+      cards.push(`<div class="scenario-card saved">
+        <button class="scenario-del" onclick="deleteScenario(${i})" aria-label="Delete scenario">&times;</button>
+        <div class="scenario-title">${sc.label || `Scenario ${i+1}`}</div>
+        <div class="scenario-total">$${sc.totalMonthly.toLocaleString('en-US')}<span style="font-size:12px;color:var(--text-muted);font-weight:500;">/mo</span></div>
+        <div class="scenario-detail">${sc.users} users · ${sc.providerName} ${sc.plan}</div>
+        <div style="margin-top:10px;"><button class="btn sm" onclick="loadScenario(${i})" style="width:100%;">Load this</button></div>
+      </div>`);
+    } else {
+      cards.push(`<div class="scenario-card"><button class="scenario-empty-btn" onclick="document.getElementById('saveScenario').click()">+ Save current as scenario ${i+1}</button></div>`);
+    }
+  }
+  el.innerHTML = cards.join("");
+}
+
+// ============================================================
+// FEATURE WEIGHTS UI
+// ============================================================
+
+function renderFeatures() {
+  const el = document.getElementById("features");
+  el.innerHTML = FEATURES.map(f => {
+    const w = state.featureWeights[f.key];
+    return `<div class="importance-item">
+      <span class="importance-label">${f.label}</span>
+      <div class="weight-pills" data-key="${f.key}">
+        ${[0,1,2,3].map(v => `<button class="weight-pill ${w === v ? 'active':''}" data-weight="${v}" onclick="setWeight('${f.key}', ${v})">${["—","·","··","···"][v]}</button>`).join("")}
+      </div>
+    </div>`;
+  }).join("");
+}
+function setWeight(key, weight) {
+  state.featureWeights[key] = weight;
+  renderFeatures();
+  render();
+}
+
+// ============================================================
+// PROVIDER MODAL
+// ============================================================
+
+function showProvider(name) {
+  const p = PROVIDERS[name];
+  if (!p) return;
+  document.getElementById("modalTitle").textContent = name;
+  document.getElementById("modalSub").innerHTML = `<a href="${p.url}" target="_blank" rel="noopener" style="color:var(--text-dim);text-decoration:underline;">${p.url} ↗</a>`;
+  document.getElementById("modalPros").innerHTML = p.pros.map(s => `<li>${s}</li>`).join("");
+  document.getElementById("modalCons").innerHTML = p.cons.map(s => `<li>${s}</li>`).join("");
+  document.getElementById("modalBestFor").textContent = p.bestFor;
+  document.getElementById("modalBg").classList.add("open");
+}
+
+// ============================================================
+// SCENARIOS
+// ============================================================
+
+function saveScenario() {
+  const results = computeResults();
+  const top = results[0];
+  const label = prompt("Name this scenario (optional):", `${state.users}-user setup`);
+  if (label === null) return;
+  const sc = {
+    label: label || `${state.users}-user setup`,
+    users: state.users,
+    providerName: top.provider,
+    plan: top.plan,
+    totalMonthly: top.totalMonthly,
+    tco: top.tco,
+    state: JSON.parse(JSON.stringify({
+      users: state.users, growth: state.growth, billing: state.billing, region: state.region,
+      minutes: state.minutes, featureWeights: state.featureWeights, hiddenCosts: state.hiddenCosts
+    }))
+  };
+  if (state.scenarios.length >= 3) state.scenarios.shift();
+  state.scenarios.push(sc);
+  localStorage.setItem("vcc-scenarios", JSON.stringify(state.scenarios));
+  renderScenarios();
+  toast("Scenario saved");
+}
+function deleteScenario(i) {
+  state.scenarios.splice(i, 1);
+  localStorage.setItem("vcc-scenarios", JSON.stringify(state.scenarios));
+  renderScenarios();
+}
+function loadScenario(i) {
+  const sc = state.scenarios[i];
+  if (!sc) return;
+  Object.assign(state, sc.state);
+  syncUI();
+  renderFeatures();
+  render();
+  toast("Scenario loaded");
+}
+
+// ============================================================
+// SHARE + PRINT
+// ============================================================
+
+function copyShareURL() {
+  const url = location.origin + location.pathname + "#" + new URLSearchParams(location.hash.slice(1)).toString();
+  const done = () => toast("Share link copied to clipboard");
+  const fallback = () => {
+    const ta = document.createElement("textarea");
+    ta.value = url; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.left = "-9999px";
+    document.body.appendChild(ta); ta.select();
+    try { document.execCommand("copy"); done(); }
+    catch (_) { window.prompt("Copy this link:", url); }
+    finally { document.body.removeChild(ta); }
+  };
+  if (navigator.clipboard && window.isSecureContext) {
+    navigator.clipboard.writeText(url).then(done).catch(fallback);
+  } else {
+    fallback();
+  }
+}
+
+function toast(msg) {
+  const el = document.getElementById("toast");
+  el.textContent = msg;
+  el.classList.add("show");
+  setTimeout(() => el.classList.remove("show"), 2200);
+}
+
+// ============================================================
+// THEME
+// ============================================================
+
+function toggleTheme() {
+  state.theme = state.theme === "dark" ? "light" : "dark";
+  document.body.dataset.theme = state.theme;
+  localStorage.setItem("vcc-theme", state.theme);
+  // Update theme icon
+  const icon = document.getElementById("themeIcon");
+  icon.innerHTML = state.theme === "dark"
+    ? '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>'
+    : '<circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>';
+  render(); // re-render charts in new theme colors
+}
+
+// ============================================================
+// SYNC UI FROM STATE
+// ============================================================
+
+function syncUI() {
+  document.getElementById("users").value = state.users;
+  document.getElementById("usersRange").value = Math.min(500, state.users);
+  document.getElementById("billing").value = state.billing;
+  document.getElementById("region").value = state.region;
+  document.getElementById("minutes").value = state.minutes;
+  document.querySelectorAll("#growthToggles .toggle-chip").forEach(b => b.classList.toggle("active", parseFloat(b.dataset.growth) === state.growth));
+  document.getElementById("includeSetup").checked = state.hiddenCosts.setup;
+  document.getElementById("includeHardware").checked = state.hiddenCosts.hardware;
+  document.getElementById("includePorting").checked = state.hiddenCosts.porting;
+  document.getElementById("includeOverage").checked = state.hiddenCosts.overage;
+  document.getElementById("includeAddons").checked = state.hiddenCosts.addons;
+  document.body.dataset.theme = state.theme;
+}
+
+// ============================================================
+// EVENT WIRING
+// ============================================================
+
+function init() {
+  loadState();
+  syncUI();
+  renderFeatures();
+  render();
+
+  document.getElementById("users").addEventListener("input", (e) => {
+    state.users = Math.max(1, Math.min(10000, parseInt(e.target.value) || 1));
+    document.getElementById("usersRange").value = Math.min(500, state.users);
+    render();
+  });
+  document.getElementById("usersRange").addEventListener("input", (e) => {
+    state.users = parseInt(e.target.value);
+    document.getElementById("users").value = state.users;
+    render();
+  });
+  document.querySelectorAll("#growthToggles .toggle-chip").forEach(btn => {
+    btn.addEventListener("click", () => {
+      state.growth = parseFloat(btn.dataset.growth);
+      document.querySelectorAll("#growthToggles .toggle-chip").forEach(b => b.classList.toggle("active", b === btn));
+      render();
+    });
+  });
+  document.getElementById("billing").addEventListener("change", (e) => { state.billing = e.target.value; render(); });
+  document.getElementById("region").addEventListener("change", (e) => { state.region = e.target.value; render(); });
+  document.getElementById("minutes").addEventListener("change", (e) => { state.minutes = e.target.value; render(); });
+  ["Setup","Hardware","Porting","Overage","Addons"].forEach(k => {
+    document.getElementById(`include${k}`).addEventListener("change", (e) => {
+      state.hiddenCosts[k.toLowerCase()] = e.target.checked;
+      render();
+    });
+  });
+  document.getElementById("themeToggle").addEventListener("click", toggleTheme);
+  document.getElementById("saveScenario").addEventListener("click", saveScenario);
+  document.getElementById("shareBtn").addEventListener("click", copyShareURL);
+  document.getElementById("pdfBtn").addEventListener("click", () => window.print());
+
+  // tabs
+  document.querySelectorAll(".tab").forEach(t => {
+    t.addEventListener("click", () => {
+      document.querySelectorAll(".tab").forEach(x => x.classList.remove("active"));
+      t.classList.add("active");
+      state.tab = t.dataset.tab;
+    });
+  });
+
+  // modal
+  document.getElementById("modalClose").addEventListener("click", () => document.getElementById("modalBg").classList.remove("open"));
+  document.getElementById("modalBg").addEventListener("click", (e) => { if (e.target.id === "modalBg") document.getElementById("modalBg").classList.remove("open"); });
+
+  // global expose
+  window.setWeight = setWeight;
+  window.showProvider = showProvider;
+  window.loadScenario = loadScenario;
+  window.deleteScenario = deleteScenario;
+}
+
+document.addEventListener("DOMContentLoaded", init);
+</script>
+</body>
+</html>

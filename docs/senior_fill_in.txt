@@ -1,0 +1,134 @@
+# DialPhone — Facts Form for Backlink / Directory Submissions
+# Fill the value after the "=" for each field. Leave blank if unknown.
+# When done, save + send back (or paste back in chat).
+#
+# Lines starting with "#" are comments — ignore / don't delete them.
+#
+# ====================================================================
+# ALREADY HAVE (for reference, don't need to refill)
+# --------------------------------------------------------------------
+# Company name:        DialPhone Limited
+# Product name:        DialPhone
+# Website:             https://dialphone.com
+# Tagline:             elevate every conversation
+# Founded:             2024
+# Employees:           50
+# HQ address:          Level 7, Suite C, World Trust Tower, Hong Kong Central, Hong Kong
+# Compliance:          SOC 2, HIPAA, GDPR, PCI-DSS
+# Integrations:        Salesforce, HubSpot, Pipedrive, Zoho, Zapier
+# Free trial:          14 days, no credit card
+# Logos:               received (PNG monogram + horizontal lockup)
+# Contact email:       commercial@dialphone.com
+# ====================================================================
+
+
+# === CRITICAL (unblocks Phase 1A — 10 directories ready same-hour) ===
+
+# Starting price, annual billing, USD per user/month.
+# e.g. 24  (meaning $24/user/month)
+PRICING_USD_ANNUAL =
+
+# Month-to-month price per user (if different from annual).
+# Leave blank if same price or no monthly option.
+PRICING_USD_MONTHLY =
+
+# Full tier structure — one line per tier.
+# Format: TIER_NAME | ANNUAL_PRICE_USD | WHAT'S_INCLUDED_ONE_LINE
+# Add as many TIER_N lines as needed.
+TIER_1 =
+TIER_2 =
+TIER_3 =
+TIER_4 =
+
+# LinkedIn company page URL.
+# If page doesn't exist, create at https://www.linkedin.com/company/setup/new/
+# Format: https://www.linkedin.com/company/dialphonelimited
+LINKEDIN_URL =
+
+# Real person who will be the signup / contact for directories.
+# e.g. name = John Doe, title = Head of Growth
+SUBMITTER_NAME =
+SUBMITTER_TITLE =
+
+
+# === FOR PHASE 1B (US/Canada local business dirs: BBB, YP, Yelp, etc.) ===
+# Skip for now if you want to launch Phase 1A first.
+
+# US phone number in format: +1 (AAA) PPP-NNNN
+# Can be Google Voice (free) if no real US DID.
+US_PHONE =
+
+# US or Canada mailing address.
+# Virtual mailbox is acceptable: iPostal1 ($10/mo), Earth Class Mail ($19/mo).
+MAILING_ADDRESS_LINE_1 =
+MAILING_ADDRESS_CITY =
+MAILING_ADDRESS_STATE_OR_PROVINCE =
+MAILING_ADDRESS_POSTAL_CODE =
+MAILING_ADDRESS_COUNTRY =
+
+# Support hours shown on directory listings.
+# e.g. Mon-Fri 9am-6pm ET
+SERVICE_HOURS =
+
+
+# === OPTIONAL / GOOD TO HAVE ===
+
+# Uptime SLA — only fill if it's an actual SLA commitment.
+# e.g. 99.9% OR 99.99%. Leave blank if no formal SLA yet.
+UPTIME_SLA =
+
+# Compliance audit status — are the certs ACTUALLY completed, or in progress?
+# "ALL" was asserted, but directory reviewers (G2, Capterra) may ask for audit reports.
+# Options:
+#   - "completed"       = SOC 2 Type II + HIPAA BAAs + GDPR + PCI-DSS all audited
+#   - "in-progress"     = programs in place, audits underway (honest middle ground)
+#   - "self-assessed"   = aligned with standards but no third-party audit yet
+# Pick one per cert, so we can adjust wording in descriptions.
+SOC2_STATUS =
+HIPAA_STATUS =
+GDPR_STATUS =
+PCI_DSS_STATUS =
+
+# Data residency regions — where customer data is actually stored.
+# e.g. US-East (Virginia), Canada-Central (Toronto)
+DATA_REGIONS =
+
+# DUNS number (Dun & Bradstreet) for Crunchbase "verified" badge.
+# Leave blank if not applied — we can still do basic Crunchbase listing.
+DUNS_NUMBER =
+
+
+# === ASSETS NEEDED ===
+# (Save directly to repo or send via file, not here — this is just a checklist)
+#
+# [ ] Monogram SVG (vector version of the DP monogram)
+# [ ] Horizontal lockup SVG (vector version of full logo)
+# [ ] Favicon 32x32 PNG
+# [ ] Product UI screenshot 1 (portal.dialphone.ai dashboard)
+# [ ] Product UI screenshot 2 (call/messaging screen)
+# [ ] Product UI screenshot 3 (CRM integration or analytics)
+# [ ] Demo video URL (YouTube or Vimeo) — only needed for Product Hunt launch
+
+
+# === GOOGLE SEARCH CONSOLE (disavow upload) ===
+# Two options — pick one:
+GSC_METHOD =   # "grant-access"  OR  "senior-uploads-themselves"
+# If grant-access: add commercial@dialphone.com (or your SEO ops email) as Owner
+#   in GSC > Settings > Users and permissions.
+# If senior-uploads: file is ready at output/disavow.txt — upload to
+#   https://search.google.com/search-console/disavow-links
+
+
+# === QUORA PROFILE RENAME ===
+# Current profile name "Dialphone-Limited" needs to change to a real person or clear role.
+# Pick ONE approach + fill in:
+QUORA_RENAME_TO =
+# Examples of what to put:
+#   - Real person name (with their consent):   "John Doe"
+#   - Role-based (safer for privacy):          "DialPhone Team"
+#   - Spokesperson role:                       "Sarah K. — Customer Success at DialPhone"
+
+
+# ====================================================================
+# END — send this back when filled
+# ====================================================================

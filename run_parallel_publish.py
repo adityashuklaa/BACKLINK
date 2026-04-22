@@ -335,6 +335,12 @@ DEVTO_ARTICLES = []  # Must be set before calling run_all with devto_count > 0
 
 def publish_paste_rs(content_idx=0):
     name = "paste.rs"
+    # Pre-publish spam gate — see reports/root_cause_spam.md
+    from core.humanize import source_quality_gate
+    ok, reason = source_quality_gate(name)
+    if not ok:
+        log(name, f"SKIP (gate): {reason}")
+        return [Result(name, "", False, 50, False, "gate_blocked")]
     try:
         r = requests.post("https://paste.rs/", data=PASTE_CONTENTS[content_idx % len(PASTE_CONTENTS)].encode(), timeout=15)
         if r.status_code == 201:
@@ -374,6 +380,11 @@ def publish_dpaste(content_idx=0):
 
 def publish_termbin(content_idx=0):
     name = "termbin.com"
+    from core.humanize import source_quality_gate
+    ok, reason = source_quality_gate(name)
+    if not ok:
+        log(name, f"SKIP (gate): {reason}")
+        return [Result(name, "", False, 45, False, "gate_blocked")]
     try:
         content = PASTE_CONTENTS[content_idx % len(PASTE_CONTENTS)]
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -413,6 +424,11 @@ def publish_termbin(content_idx=0):
 
 def publish_glot(content_idx=0):
     name = "glot.io"
+    from core.humanize import source_quality_gate
+    ok, reason = source_quality_gate(name)
+    if not ok:
+        log(name, f"SKIP (gate): {reason}")
+        return [Result(name, "", False, 55, False, "gate_blocked")]
     try:
         code = CODE_SNIPPETS[content_idx % len(CODE_SNIPPETS)]
         titles = ["VoIP ROI Calculator", "VoIP Network Tester", "VoIP Bandwidth Calculator", "SIP Registration Monitor"]
@@ -440,6 +456,11 @@ def publish_glot(content_idx=0):
 
 def publish_godbolt():
     name = "godbolt.org"
+    from core.humanize import source_quality_gate
+    ok, reason = source_quality_gate(name)
+    if not ok:
+        log(name, f"SKIP (gate): {reason}")
+        return [Result(name, "", False, 60, False, "gate_blocked")]
     try:
         r = requests.post("https://godbolt.org/api/shortener",
                          json={"sessions": [{"id": 1, "language": "python",
@@ -463,6 +484,11 @@ def publish_godbolt():
     return Result(name, "", False, 60, False, "failed")
 
 def publish_friendpaste(content_idx=0):
+    from core.humanize import source_quality_gate
+    ok, reason = source_quality_gate("friendpaste.com")
+    if not ok:
+        log("friendpaste.com", f"SKIP (gate): {reason}")
+        return [Result("friendpaste.com", "", False, 45, False, "gate_blocked")]
     name = "friendpaste.com"
     try:
         page = requests.get("https://friendpaste.com/", timeout=10)
@@ -501,6 +527,37 @@ def publish_devto(articles=None):
     if not articles:
         log(name, "No articles provided")
         return []
+
+    # Concentration gate: CLAUDE.md forbids any single domain exceeding 40% of the clean portfolio
+    try:
+        from core.humanize import concentration_gate
+        ok, reason = concentration_gate("dev.to")
+        if not ok:
+            log(name, f"BLOCKED — {reason}")
+            return []
+        log(name, reason)
+    except Exception as e:
+        log(name, f"Concentration check errored, continuing without it: {e}")
+
+    # Humanize gate: reject drafts with banned AI phrases before publish
+    try:
+        from core.humanize import validate
+        before = len(articles)
+        filtered = []
+        for a in articles:
+            r = validate(a.get("body", ""), "devto")
+            if r.ok:
+                filtered.append(a)
+            else:
+                log(name, f"SKIP (humanize fail): {a['title'][:50]} | " + "; ".join(r.issues[:2]))
+        if len(filtered) < before:
+            log(name, f"Humanize filter: {len(filtered)}/{before} drafts passed")
+        articles = filtered
+        if not articles:
+            log(name, "All drafts failed humanize check — nothing to publish")
+            return []
+    except Exception as e:
+        log(name, f"Humanize check errored, continuing without it: {e}")
 
     # Deduplication: fetch existing titles
     log(name, "Checking for duplicate titles...")

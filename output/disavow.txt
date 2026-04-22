@@ -1,0 +1,159 @@
+# Disavow file for dialphone.com
+# Generated 2026-04-18
+# Upload at: https://search.google.com/search-console/disavow-links
+#
+# RATIONALE — see reports/backlink_seo_audit.md and reports/root_cause_spam.md
+# We built automation on paste/code-dump sites before realising Google devalues them.
+# Total links to disavow: 5 domains + 132 individual URLs
+
+# === WHOLE-DOMAIN DISAVOWS (anonymous pastes, link-farm-pattern UGC) ===
+# friendpaste.com — 130 links, all high-spam-score per internal audit
+domain:friendpaste.com
+# godbolt.org — 6 links, all high-spam-score per internal audit
+domain:godbolt.org
+# ideone.com — 1 links, all high-spam-score per internal audit
+domain:ideone.com
+# paste.rs — 131 links, all high-spam-score per internal audit
+domain:paste.rs
+# termbin.com — 1 links, all high-spam-score per internal audit
+domain:termbin.com
+
+# === URL-LEVEL DISAVOWS (132 URLs) ===
+# These come from domains that ARE legitimate in other contexts but our specific
+# posts damaged the link profile (duplicate content, velocity abuse).
+https://glot.io/snippets/hhlnjhcgan
+https://glot.io/snippets/hhlnrw2096
+https://glot.io/snippets/hhlnt17zus
+https://glot.io/snippets/hhlntzy7ue
+https://glot.io/snippets/hhlnv36p31
+https://glot.io/snippets/hhlo5qx33u
+https://glot.io/snippets/hhlo6ilf22
+https://glot.io/snippets/hhlo7a6use
+https://glot.io/snippets/hhlrt1yygh
+https://glot.io/snippets/hhls75kfm5
+https://glot.io/snippets/hhlyjpt18g
+https://glot.io/snippets/hhlyl8j77f
+https://glot.io/snippets/hhlymo5hnk
+https://glot.io/snippets/hhmmli0w09
+https://glot.io/snippets/hhmmoj7wx9
+https://glot.io/snippets/hhmmpunu3l
+https://glot.io/snippets/hhmnc8len3
+https://glot.io/snippets/hhmnxwlt1l
+https://glot.io/snippets/hhmo9ss5ap
+https://glot.io/snippets/hhmogukftz
+https://glot.io/snippets/hhmoi69b66
+https://glot.io/snippets/hhnsa1drlj
+https://glot.io/snippets/hhnsd87bey
+https://glot.io/snippets/hhnsm64ckd
+https://glot.io/snippets/hhnsovcux4
+https://glot.io/snippets/hhnt6k94y5
+https://glot.io/snippets/hhnt80tvyl
+https://glot.io/snippets/hhntk9wss3
+https://glot.io/snippets/hhntrr52bn
+https://glot.io/snippets/hhntygifcj
+https://glot.io/snippets/hhnu20hwob
+https://glot.io/snippets/hhnu5okwx7
+https://glot.io/snippets/hhnuclmq0q
+https://glot.io/snippets/hhnuffi3y3
+https://glot.io/snippets/hhnumlxrkn
+https://glot.io/snippets/hhnupgz753
+https://glot.io/snippets/hhnv03er0f
+https://glot.io/snippets/hhnv589hxr
+https://glot.io/snippets/hhnv97qqdo
+https://glot.io/snippets/hhnvfhpdsm
+https://glot.io/snippets/hhnvgtxos7
+https://glot.io/snippets/hhnvh3y6d0
+https://glot.io/snippets/hhnvjmcd5h
+https://glot.io/snippets/hhnvo4y16l
+https://glot.io/snippets/hhnwzwuwcc
+https://glot.io/snippets/hhnx1ghrn6
+https://glot.io/snippets/hhnx2whbav
+https://glot.io/snippets/hhnx4kpead
+https://glot.io/snippets/hhnx5thmyg
+https://glot.io/snippets/hhnx86fxk7
+https://glot.io/snippets/hhnx92ee2i
+https://glot.io/snippets/hhnxaew2qa
+https://glot.io/snippets/hhnxbrnhru
+https://glot.io/snippets/hhnxd0uwkn
+https://glot.io/snippets/hhnxe9v106
+https://glot.io/snippets/hhnxedo8fn
+https://glot.io/snippets/hhnxeh4dzz
+https://glot.io/snippets/hhnxf49baz
+https://glot.io/snippets/hhnxf86euj
+https://glot.io/snippets/hhnxff000k
+https://glot.io/snippets/hhnxg30zpz
+https://glot.io/snippets/hho0myv5gi
+https://glot.io/snippets/hho0n289p7
+https://glot.io/snippets/hho0n5pcno
+https://glot.io/snippets/hho0n9523i
+https://glot.io/snippets/hho0nckpsj
+https://glot.io/snippets/hho0ng0o2z
+https://glot.io/snippets/hho0njcbqc
+https://glot.io/snippets/hho0nmogv5
+https://glot.io/snippets/hho0npyxel
+https://glot.io/snippets/hho0ntgwhh
+https://glot.io/snippets/hho0nwrkn0
+https://glot.io/snippets/hho0o037w7
+https://glot.io/snippets/hho0o3h4vg
+https://glot.io/snippets/hho0o6pr5w
+https://glot.io/snippets/hho0oa0fnv
+https://glot.io/snippets/hho0odc9c0
+https://glot.io/snippets/hho0ogpjfg
+https://glot.io/snippets/hho0ojtwx6
+https://glot.io/snippets/hho0on1zjd
+https://glot.io/snippets/hho0oqkvv4
+https://glot.io/snippets/hho0ott9go
+https://glot.io/snippets/hho0ox7tj9
+https://glot.io/snippets/hho0p0kyli
+https://glot.io/snippets/hho0p3tuj5
+https://glot.io/snippets/hho0p76c8t
+https://glot.io/snippets/hho0parl20
+https://glot.io/snippets/hho0pe7f46
+https://glot.io/snippets/hho0phkrlq
+https://glot.io/snippets/hho0pl1txi
+https://glot.io/snippets/hho0pocmae
+https://glot.io/snippets/hho0pwppbp
+https://glot.io/snippets/hho0pzm7et
+https://glot.io/snippets/hho0q2h44s
+https://glot.io/snippets/hho0q5jk5w
+https://glot.io/snippets/hho0q8l3pd
+https://glot.io/snippets/hho0qbmvde
+https://glot.io/snippets/hho0qemv0e
+https://glot.io/snippets/hho0qhkks3
+https://glot.io/snippets/hho0qkt8w7
+https://glot.io/snippets/hho0qnr9x1
+https://glot.io/snippets/hho0qqok9c
+https://glot.io/snippets/hho0qtu2oi
+https://glot.io/snippets/hho0qwzn0c
+https://glot.io/snippets/hho0r01cdi
+https://glot.io/snippets/hho0r312hd
+https://glot.io/snippets/hho0r5yll4
+https://glot.io/snippets/hho0r8w60m
+https://glot.io/snippets/hho0rbanzw
+https://glot.io/snippets/hho0refuj7
+https://glot.io/snippets/hho0rhji0y
+https://glot.io/snippets/hho0rkn2vx
+https://glot.io/snippets/hho0rnngoh
+https://glot.io/snippets/hho0rqo475
+https://glot.io/snippets/hho0rt20mw
+https://glot.io/snippets/hho0rw8ne9
+https://glot.io/snippets/hho0s09fie
+https://glot.io/snippets/hho0s48ygz
+https://glot.io/snippets/hho0s855xp
+https://glot.io/snippets/hho0sbeaoz
+https://glot.io/snippets/hho0sea2cz
+https://glot.io/snippets/hho0sh9ytq
+https://glot.io/snippets/hho0skifub
+https://glot.io/snippets/hho0snm3t8
+https://glot.io/snippets/hho0sqlajn
+https://glot.io/snippets/hho0st0p3i
+https://glot.io/snippets/hho0svx2zl
+https://glot.io/snippets/hho0syy8on
+https://glot.io/snippets/hho0t200p5
+https://glot.io/snippets/hho0t53h0t
+https://glot.io/snippets/hho0t7pu7u
+https://glot.io/snippets/hhp4wrzyq7
+
+# Total links disavowed: 401
+# Total backlinks in CSV: 650
+# Disavow share: 61.7%

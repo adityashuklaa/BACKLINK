@@ -1,0 +1,51 @@
+# DialPhone
+
+> DialPhone is a cloud business phone system built for small and mid-sized teams across the United States and Canada. Unified voice, SMS, video, and AI-powered receptionist on one platform. Pricing starts at $20 per user per month. 99.999% uptime SLA. 14-day free trial, no credit card required.
+
+DialPhone Limited was founded in 2024 and is headquartered at Level 7, Suite C, World Trust Tower, Hong Kong Central, Hong Kong. The company operates with a 50-person team serving business customers across North America. Compliance: SOC 2, HIPAA, GDPR, PCI-DSS. Tagline: "elevate every conversation."
+
+## Product
+
+DialPhone replaces legacy PBX systems with a single cloud platform that unifies voice calls, SMS, video meetings, file sharing, and AI-powered virtual receptionist. The same phone number and extension work across desk softphones, laptop applications, and iOS + Android mobile apps.
+
+Core plan features available in every tier include unlimited US and Canada calling, auto-attendant, voicemail-to-email, team messaging, and mobile + desktop apps. Higher tiers add AI call routing, shared team inboxes, AI SMS drafting, video meetings, CRM integrations, and interaction analytics.
+
+## Pricing (per user / per month, annual billing)
+
+- **Core** — $20 — AI Team Messaging, Basic Call Management, SMS Support, File Sharing, Mobile & Desktop Apps
+- **Advanced** — $30 — Everything in Core plus AI Call Routing, Shared Team Inbox, AI SMS Drafting, Analytics Dashboard
+- **Ultra** — $40 — Everything in Advanced plus AI Virtual Assistant, Advanced Automation, Video Meetings, CRM Integrations
+- **Customer Engagement** — $55 — Everything in Ultra plus AI Interaction Analytics, AI Quality Management, Outbound Dialing, Advanced Reporting
+
+All plans include free number porting (typically 2-5 business days), 14-day free trial with no credit card required, and 24/7 customer support.
+
+## Key integrations
+
+- Salesforce
+- HubSpot
+- Pipedrive
+- Zoho
+- Zapier
+
+## Links
+
+- [Pricing overview](https://dialphone.com/pricing-overview/): Full feature comparison across all four plans.
+- [LinkedIn company page](https://www.linkedin.com/company/dialphone): Company news and updates.
+- [VoIP Cost Calculator](https://dialphonelimited.gitlab.io/voip-cost-calculator/): Free tool comparing DialPhone pricing against RingCentral, 8x8, Dialpad, Nextiva, and other competitors.
+
+## Typical customers
+
+- Professional services firms (law, accounting, consulting) with distributed teams
+- E-commerce brands running inbound customer service and outbound sales
+- Real estate teams coordinating in-office administrators and field agents
+- Healthcare practices needing HIPAA-eligible patient communication
+- North American subsidiaries of international companies needing local US and Canadian phone numbers
+
+## Common competitor evaluations
+
+RingCentral, 8x8, Dialpad, GoTo Connect, Vonage Business, Nextiva, Zoom Phone, Ooma Office.
+
+## Contact
+
+- Sales and commercial: commercial@dialphone.com
+- US phone: +1 (914) 431-7523

@@ -1,0 +1,305 @@
+[
+  {
+    "provider": "DialPhone",
+    "url": "https://dialphone.com/pricing-overview/",
+    "expected_prices_in_calculator": [
+      20,
+      30,
+      40,
+      55
+    ],
+    "scraped_at": "2026-04-22T17:51:54.289925",
+    "status": "verified",
+    "prices_found_precise": [
+      20.0,
+      30.0,
+      40.0,
+      55.0
+    ],
+    "prices_found_broad": [
+      20.0,
+      30.0,
+      40.0,
+      55.0
+    ],
+    "text_length": 2808,
+    "notes": "",
+    "matched_expected": [
+      20,
+      30,
+      40,
+      55
+    ],
+    "match_ratio": 1.0
+  },
+  {
+    "provider": "RingCentral",
+    "url": "https://www.ringcentral.com/office/plansandpricing.html",
+    "expected_prices_in_calculator": [
+      30,
+      35,
+      45
+    ],
+    "scraped_at": "2026-04-22T17:52:13.136756",
+    "status": "verified",
+    "prices_found_precise": [
+      5.0,
+      5.99,
+      14.99,
+      30.0,
+      35.0,
+      39.0,
+      45.0,
+      65.0,
+      75.0,
+      99.0
+    ],
+    "prices_found_broad": [
+      5.0,
+      5.99,
+      14.99,
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      39.0,
+      45.0,
+      60.0,
+      65.0,
+      75.0,
+      99.0
+    ],
+    "text_length": 8322,
+    "notes": "",
+    "matched_expected": [
+      30,
+      35,
+      45
+    ],
+    "match_ratio": 1.0
+  },
+  {
+    "provider": "8x8",
+    "url": "https://www.8x8.com/products/all-products/8x8-work-pricing",
+    "expected_prices_in_calculator": [
+      28,
+      57,
+      85
+    ],
+    "scraped_at": "2026-04-22T17:52:24.143798",
+    "status": "no_prices_found",
+    "prices_found_precise": [],
+    "prices_found_broad": [],
+    "text_length": 2713,
+    "notes": "",
+    "matched_expected": [],
+    "match_ratio": 0.0
+  },
+  {
+    "provider": "Dialpad",
+    "url": "https://www.dialpad.com/pricing/",
+    "expected_prices_in_calculator": [
+      15,
+      25
+    ],
+    "scraped_at": "2026-04-22T17:52:39.701372",
+    "status": "no_prices_found",
+    "prices_found_precise": [],
+    "prices_found_broad": [],
+    "text_length": 2412,
+    "notes": "",
+    "matched_expected": [],
+    "match_ratio": 0.0
+  },
+  {
+    "provider": "Nextiva",
+    "url": "https://www.nextiva.com/pricing",
+    "expected_prices_in_calculator": [
+      21,
+      26,
+      37
+    ],
+    "scraped_at": "2026-04-22T17:52:50.450224",
+    "status": "rendered_but_prices_differ",
+    "prices_found_precise": [
+      15.0,
+      25.0,
+      75.0
+    ],
+    "prices_found_broad": [
+      15.0,
+      23.0,
+      25.0,
+      50.0,
+      75.0
+    ],
+    "text_length": 4608,
+    "notes": "",
+    "matched_expected": [],
+    "match_ratio": 0.0
+  },
+  {
+    "provider": "Vonage",
+    "url": "https://www.vonage.com/unified-communications/pricing/",
+    "expected_prices_in_calculator": [
+      20,
+      30,
+      40
+    ],
+    "scraped_at": "2026-04-22T17:53:02.240527",
+    "status": "blocked_or_empty",
+    "prices_found_precise": [],
+    "prices_found_broad": [],
+    "text_length": 0,
+    "notes": ""
+  },
+  {
+    "provider": "GoTo Connect",
+    "url": "https://www.goto.com/connect/pricing",
+    "expected_prices_in_calculator": [
+      27,
+      32
+    ],
+    "scraped_at": "2026-04-22T17:53:12.527643",
+    "status": "no_prices_found",
+    "prices_found_precise": [],
+    "prices_found_broad": [],
+    "text_length": 7368,
+    "notes": "",
+    "matched_expected": [],
+    "match_ratio": 0.0
+  },
+  {
+    "provider": "Zoom Phone",
+    "url": "https://zoom.us/en/pricing/phone-plans.html",
+    "expected_prices_in_calculator": [
+      10,
+      15,
+      20
+    ],
+    "scraped_at": "2026-04-22T17:53:25.256316",
+    "status": "no_prices_found",
+    "prices_found_precise": [],
+    "prices_found_broad": [],
+    "text_length": 1559,
+    "notes": "",
+    "matched_expected": [],
+    "match_ratio": 0.0
+  },
+  {
+    "provider": "Ooma",
+    "url": "https://www.ooma.com/business-phone-service/",
+    "expected_prices_in_calculator": [
+      20,
+      25
+    ],
+    "scraped_at": "2026-04-22T17:53:40.971899",
+    "status": "no_prices_found",
+    "prices_found_precise": [],
+    "prices_found_broad": [],
+    "text_length": 25333,
+    "notes": "",
+    "matched_expected": [],
+    "match_ratio": 0.0
+  },
+  {
+    "provider": "Grasshopper",
+    "url": "https://grasshopper.com/pricing/",
+    "expected_prices_in_calculator": [
+      29,
+      49,
+      89
+    ],
+    "scraped_at": "2026-04-22T17:53:55.458430",
+    "status": "no_prices_found",
+    "prices_found_precise": [],
+    "prices_found_broad": [],
+    "text_length": 618,
+    "notes": "",
+    "matched_expected": [],
+    "match_ratio": 0.0
+  },
+  {
+    "provider": "OpenPhone / Quo",
+    "url": "https://www.quo.com/pricing",
+    "expected_prices_in_calculator": [
+      19,
+      33
+    ],
+    "scraped_at": "2026-04-22T17:54:08.610540",
+    "status": "rendered_but_prices_differ",
+    "prices_found_precise": [
+      5.0,
+      15.0,
+      23.0,
+      25.0,
+      35.0,
+      48.0,
+      49.0,
+      99.0,
+      120.0,
+      144.0,
+      199.0
+    ],
+    "prices_found_broad": [
+      5.0,
+      15.0,
+      19.5,
+      23.0,
+      25.0,
+      35.0,
+      48.0,
+      49.0,
+      99.0,
+      120.0,
+      144.0,
+      180.0,
+      199.0
+    ],
+    "text_length": 13649,
+    "notes": "",
+    "matched_expected": [],
+    "match_ratio": 0.0
+  },
+  {
+    "provider": "Microsoft Teams Phone",
+    "url": "https://www.microsoft.com/en-us/microsoft-teams/voice",
+    "expected_prices_in_calculator": [
+      20,
+      36
+    ],
+    "scraped_at": "2026-04-22T17:54:21.519950",
+    "status": "no_prices_found",
+    "prices_found_precise": [],
+    "prices_found_broad": [],
+    "text_length": 1398,
+    "notes": "",
+    "matched_expected": [],
+    "match_ratio": 0.0
+  },
+  {
+    "provider": "Google Voice",
+    "url": "https://workspace.google.com/products/voice/",
+    "expected_prices_in_calculator": [
+      10,
+      20,
+      30
+    ],
+    "scraped_at": "2026-04-22T17:54:34.375385",
+    "status": "verified",
+    "prices_found_precise": [],
+    "prices_found_broad": [
+      10.0,
+      20.0,
+      30.0
+    ],
+    "text_length": 5933,
+    "notes": "",
+    "matched_expected": [
+      10,
+      20,
+      30
+    ],
+    "match_ratio": 1.0
+  }
+]

@@ -1,0 +1,91 @@
+// SIP response codes — RFC 3261 + later RFCs that added codes (3262, 4412, 5031, 6228, 6665, 6764, 6878, etc.)
+// Each entry: code, name, class, retryable, rfc, description
+// This is the canonical dataset. Keep it sorted by code and cited against an RFC.
+
+module.exports = Object.freeze({
+  // 1xx — Provisional
+  100: { code: 100, name: "Trying", class: "provisional", retryable: false, rfc: "RFC 3261 §21.1.1", description: "Extended search being performed, may take significant time." },
+  180: { code: 180, name: "Ringing", class: "provisional", retryable: false, rfc: "RFC 3261 §21.1.2", description: "User agent has located a possible location and alerting the user." },
+  181: { code: 181, name: "Call Is Being Forwarded", class: "provisional", retryable: false, rfc: "RFC 3261 §21.1.3", description: "Server is forwarding the call to another destination." },
+  182: { code: 182, name: "Queued", class: "provisional", retryable: false, rfc: "RFC 3261 §21.1.4", description: "Called party is temporarily unavailable; call has been queued." },
+  183: { code: 183, name: "Session Progress", class: "provisional", retryable: false, rfc: "RFC 3261 §21.1.5", description: "Information about the progress of the call (e.g., early media)." },
+  199: { code: 199, name: "Early Dialog Terminated", class: "provisional", retryable: false, rfc: "RFC 6228", description: "Early dialog has been terminated before final response." },
+
+  // 2xx — Success
+  200: { code: 200, name: "OK", class: "success", retryable: false, rfc: "RFC 3261 §21.2.1", description: "Request succeeded." },
+  202: { code: 202, name: "Accepted", class: "success", retryable: false, rfc: "RFC 3265 (obsoleted by 6665)", description: "Request accepted for processing; result not yet known. Used by SUBSCRIBE/REFER." },
+  204: { code: 204, name: "No Notification", class: "success", retryable: false, rfc: "RFC 5839", description: "Request fulfilled and no NOTIFY will be sent." },
+
+  // 3xx — Redirection
+  300: { code: 300, name: "Multiple Choices", class: "redirection", retryable: true, rfc: "RFC 3261 §21.3.1", description: "Address in request resolved to several choices." },
+  301: { code: 301, name: "Moved Permanently", class: "redirection", retryable: true, rfc: "RFC 3261 §21.3.2", description: "User can no longer be found at this address." },
+  302: { code: 302, name: "Moved Temporarily", class: "redirection", retryable: true, rfc: "RFC 3261 §21.3.3", description: "Client should retry at the addresses in Contact." },
+  305: { code: 305, name: "Use Proxy", class: "redirection", retryable: true, rfc: "RFC 3261 §21.3.4", description: "Requested resource must be accessed through the proxy given in Contact." },
+  380: { code: 380, name: "Alternative Service", class: "redirection", retryable: true, rfc: "RFC 3261 §21.3.5", description: "Call was not successful but alternative services are possible." },
+
+  // 4xx — Request failure (client error)
+  400: { code: 400, name: "Bad Request", class: "client_error", retryable: false, rfc: "RFC 3261 §21.4.1", description: "Request could not be understood due to malformed syntax." },
+  401: { code: 401, name: "Unauthorized", class: "client_error", retryable: true, rfc: "RFC 3261 §21.4.2", description: "Request requires user authentication." },
+  402: { code: 402, name: "Payment Required", class: "client_error", retryable: false, rfc: "RFC 3261 §21.4.3", description: "Reserved for future use." },
+  403: { code: 403, name: "Forbidden", class: "client_error", retryable: false, rfc: "RFC 3261 §21.4.4", description: "Server understood the request but refuses to fulfill it." },
+  404: { code: 404, name: "Not Found", class: "client_error", retryable: false, rfc: "RFC 3261 §21.4.5", description: "Server has definitive information that the user does not exist at the domain." },
+  405: { code: 405, name: "Method Not Allowed", class: "client_error", retryable: false, rfc: "RFC 3261 §21.4.6", description: "Method in Request-Line is not allowed for the address in Request-URI." },
+  406: { code: 406, name: "Not Acceptable", class: "client_error", retryable: false, rfc: "RFC 3261 §21.4.7", description: "Resource is only capable of generating response bodies unacceptable to client." },
+  407: { code: 407, name: "Proxy Authentication Required", class: "client_error", retryable: true, rfc: "RFC 3261 §21.4.8", description: "Client must first authenticate with the proxy." },
+  408: { code: 408, name: "Request Timeout", class: "client_error", retryable: true, rfc: "RFC 3261 §21.4.9", description: "Server could not produce a response within a suitable time." },
+  410: { code: 410, name: "Gone", class: "client_error", retryable: false, rfc: "RFC 3261 §21.4.10", description: "Resource is no longer available at the server and no forwarding address is known." },
+  412: { code: 412, name: "Conditional Request Failed", class: "client_error", retryable: false, rfc: "RFC 3903", description: "Precondition given in request evaluated to false." },
+  413: { code: 413, name: "Request Entity Too Large", class: "client_error", retryable: false, rfc: "RFC 3261 §21.4.11", description: "Server is refusing request because message body is larger than server is willing to process." },
+  414: { code: 414, name: "Request-URI Too Long", class: "client_error", retryable: false, rfc: "RFC 3261 §21.4.12", description: "Request-URI is longer than the server is willing to interpret." },
+  415: { code: 415, name: "Unsupported Media Type", class: "client_error", retryable: false, rfc: "RFC 3261 §21.4.13", description: "Server is refusing to service request because message body is in a format not supported." },
+  416: { code: 416, name: "Unsupported URI Scheme", class: "client_error", retryable: false, rfc: "RFC 3261 §21.4.14", description: "Server cannot process request because the scheme of the URI is unknown to the server." },
+  417: { code: 417, name: "Unknown Resource-Priority", class: "client_error", retryable: false, rfc: "RFC 4412", description: "Resource-Priority header field contains a priority value that the server does not understand." },
+  420: { code: 420, name: "Bad Extension", class: "client_error", retryable: false, rfc: "RFC 3261 §21.4.15", description: "Server did not understand protocol extension specified in Proxy-Require or Require header." },
+  421: { code: 421, name: "Extension Required", class: "client_error", retryable: true, rfc: "RFC 3261 §21.4.16", description: "Server requires a specific extension not listed in Supported header." },
+  422: { code: 422, name: "Session Interval Too Small", class: "client_error", retryable: true, rfc: "RFC 4028", description: "Session-Expires value is smaller than Min-SE." },
+  423: { code: 423, name: "Interval Too Brief", class: "client_error", retryable: true, rfc: "RFC 3261 §21.4.17", description: "Expiration time of the resource is too short." },
+  424: { code: 424, name: "Bad Location Information", class: "client_error", retryable: false, rfc: "RFC 6442", description: "Request's location content was malformed or could not be satisfied." },
+  428: { code: 428, name: "Use Identity Header", class: "client_error", retryable: true, rfc: "RFC 4474 (obsoleted by 8224)", description: "Server requires an Identity header." },
+  429: { code: 429, name: "Provide Referrer Identity", class: "client_error", retryable: true, rfc: "RFC 3892", description: "Server did not receive a valid Referred-By token on the REFER." },
+  430: { code: 430, name: "Flow Failed", class: "client_error", retryable: true, rfc: "RFC 5626", description: "Indicates that a specific flow to a user agent has failed." },
+  433: { code: 433, name: "Anonymity Disallowed", class: "client_error", retryable: false, rfc: "RFC 5079", description: "Request was rejected because it was anonymous." },
+  436: { code: 436, name: "Bad Identity-Info", class: "client_error", retryable: false, rfc: "RFC 4474 (obsoleted by 8224)", description: "Identity-Info header contains a URI that cannot be dereferenced." },
+  437: { code: 437, name: "Unsupported Certificate", class: "client_error", retryable: false, rfc: "RFC 4474 (obsoleted by 8224)", description: "Server was unable to validate the certificate for the domain that signed the request." },
+  438: { code: 438, name: "Invalid Identity Header", class: "client_error", retryable: false, rfc: "RFC 4474 (obsoleted by 8224)", description: "Server obtained a valid certificate used to sign a request but was unable to verify the signature." },
+  439: { code: 439, name: "First Hop Lacks Outbound Support", class: "client_error", retryable: false, rfc: "RFC 5626", description: "First outbound proxy the user is attempting to register through does not support outbound." },
+  440: { code: 440, name: "Max-Breadth Exceeded", class: "client_error", retryable: false, rfc: "RFC 5393", description: "Max-Breadth limit was exceeded during parallel forking." },
+  469: { code: 469, name: "Bad Info Package", class: "client_error", retryable: false, rfc: "RFC 6086", description: "INFO request contained an Info Package that the remote UA did not support." },
+  470: { code: 470, name: "Consent Needed", class: "client_error", retryable: false, rfc: "RFC 5360", description: "Request could not be fulfilled because consent was not given by all necessary parties." },
+  480: { code: 480, name: "Temporarily Unavailable", class: "client_error", retryable: true, rfc: "RFC 3261 §21.4.18", description: "Callee is currently unavailable; retry later." },
+  481: { code: 481, name: "Call/Transaction Does Not Exist", class: "client_error", retryable: false, rfc: "RFC 3261 §21.4.19", description: "Server received a request that does not match any existing dialog or transaction." },
+  482: { code: 482, name: "Loop Detected", class: "client_error", retryable: false, rfc: "RFC 3261 §21.4.20", description: "Server has detected a loop." },
+  483: { code: 483, name: "Too Many Hops", class: "client_error", retryable: false, rfc: "RFC 3261 §21.4.21", description: "Max-Forwards reached zero before reaching the destination." },
+  484: { code: 484, name: "Address Incomplete", class: "client_error", retryable: false, rfc: "RFC 3261 §21.4.22", description: "Request-URI was incomplete." },
+  485: { code: 485, name: "Ambiguous", class: "client_error", retryable: true, rfc: "RFC 3261 §21.4.23", description: "Request-URI was ambiguous." },
+  486: { code: 486, name: "Busy Here", class: "client_error", retryable: true, rfc: "RFC 3261 §21.4.24", description: "Callee is busy at this location; try another." },
+  487: { code: 487, name: "Request Terminated", class: "client_error", retryable: false, rfc: "RFC 3261 §21.4.25", description: "Request was terminated by a BYE or CANCEL." },
+  488: { code: 488, name: "Not Acceptable Here", class: "client_error", retryable: false, rfc: "RFC 3261 §21.4.26", description: "Some aspect of the session description (e.g., codecs) is not acceptable at this endpoint." },
+  489: { code: 489, name: "Bad Event", class: "client_error", retryable: false, rfc: "RFC 6665", description: "Server did not understand the event package specified in an Event header." },
+  491: { code: 491, name: "Request Pending", class: "client_error", retryable: true, rfc: "RFC 3261 §21.4.27", description: "Server has a pending request within the same dialog." },
+  493: { code: 493, name: "Undecipherable", class: "client_error", retryable: false, rfc: "RFC 3261 §21.4.28", description: "Request contained an encrypted MIME body that the recipient can not decrypt." },
+  494: { code: 494, name: "Security Agreement Required", class: "client_error", retryable: true, rfc: "RFC 3329", description: "Server requires that the client negotiate a security agreement." },
+
+  // 5xx — Server error
+  500: { code: 500, name: "Server Internal Error", class: "server_error", retryable: true, rfc: "RFC 3261 §21.5.1", description: "Server encountered an unexpected condition that prevented it from fulfilling the request." },
+  501: { code: 501, name: "Not Implemented", class: "server_error", retryable: false, rfc: "RFC 3261 §21.5.2", description: "Server does not support the functionality required to fulfill the request." },
+  502: { code: 502, name: "Bad Gateway", class: "server_error", retryable: true, rfc: "RFC 3261 §21.5.3", description: "Server, while acting as gateway or proxy, received an invalid response from downstream server." },
+  503: { code: 503, name: "Service Unavailable", class: "server_error", retryable: true, rfc: "RFC 3261 §21.5.4", description: "Server is temporarily unable to process the request due to overloading or maintenance." },
+  504: { code: 504, name: "Server Time-out", class: "server_error", retryable: true, rfc: "RFC 3261 §21.5.5", description: "Server did not receive a timely response from external server it was accessing." },
+  505: { code: 505, name: "Version Not Supported", class: "server_error", retryable: false, rfc: "RFC 3261 §21.5.6", description: "Server does not support the SIP protocol version used in the request." },
+  513: { code: 513, name: "Message Too Large", class: "server_error", retryable: false, rfc: "RFC 3261 §21.5.7", description: "Request message length exceeded server's capabilities." },
+  555: { code: 555, name: "Push Notification Service Not Supported", class: "server_error", retryable: false, rfc: "RFC 8599", description: "Server does not support the push notification service identified in a pn-provider header parameter." },
+  580: { code: 580, name: "Precondition Failure", class: "server_error", retryable: false, rfc: "RFC 3312", description: "Server is unable or unwilling to meet some constraints specified in the offer." },
+
+  // 6xx — Global failure
+  600: { code: 600, name: "Busy Everywhere", class: "global_error", retryable: false, rfc: "RFC 3261 §21.6.1", description: "Callee's end system was contacted successfully but callee is busy everywhere." },
+  603: { code: 603, name: "Decline", class: "global_error", retryable: false, rfc: "RFC 3261 §21.6.2", description: "Callee's machine was contacted but the user declined to participate." },
+  604: { code: 604, name: "Does Not Exist Anywhere", class: "global_error", retryable: false, rfc: "RFC 3261 §21.6.3", description: "Server has authoritative information that the user does not exist anywhere." },
+  606: { code: 606, name: "Not Acceptable", class: "global_error", retryable: false, rfc: "RFC 3261 §21.6.4", description: "User's agent contacted successfully but some aspects of the session description were not acceptable." },
+  607: { code: 607, name: "Unwanted", class: "global_error", retryable: false, rfc: "RFC 8197", description: "Called party does not want communication from the calling party (spam rejection)." },
+  608: { code: 608, name: "Rejected", class: "global_error", retryable: false, rfc: "RFC 8688", description: "Intermediary rejected the call due to local policy, typically anti-abuse." },
+});

@@ -1,0 +1,44 @@
+{
+  "name": "sip-response-codes",
+  "version": "1.0.0",
+  "description": "Complete reference for SIP (RFC 3261) response codes with structured metadata — class, retryable, spec reference, and human description for every 1xx/2xx/3xx/4xx/5xx/6xx response.",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node test/index.test.js",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "sip",
+    "voip",
+    "response-codes",
+    "rfc3261",
+    "telephony",
+    "status-codes",
+    "session-initiation-protocol",
+    "pbx",
+    "telecom",
+    "asterisk",
+    "freeswitch",
+    "kamailio"
+  ],
+  "author": "Bhavesh Shukla <bhavesh@dialphone.com> (https://dialphone.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dialphonelimited/sip-response-codes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dialphonelimited/sip-response-codes/issues"
+  },
+  "homepage": "https://github.com/dialphonelimited/sip-response-codes#readme",
+  "engines": {
+    "node": ">=14"
+  }
+}

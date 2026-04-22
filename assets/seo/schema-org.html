@@ -1,0 +1,212 @@
+<!--
+DROP-IN SCHEMA.ORG MARKUP for dialphone.com
+============================================
+
+Where to place each block:
+  - ORGANIZATION block: homepage (/) — in <head> or footer
+  - SOFTWARE APPLICATION block: homepage (/) and /pricing-overview/ — in <head>
+  - PRODUCT + OFFERS block: /pricing-overview/ — in <head>
+  - FAQ block: homepage (/) or /faq/ — replace placeholder answers with your real FAQ
+  - BREADCRUMB block: any deep page (/pricing-overview/, /products/, etc.)
+  - ARTICLE block: blog posts only — replace placeholders per post
+
+All blocks are JSON-LD, Google's preferred format (per 2025+ guidelines).
+Paste each <script> tag directly into the <head> of the appropriate page.
+Each block can be used independently.
+-->
+
+<!-- ============================================================ -->
+<!-- 1. ORGANIZATION — place on homepage (/)                        -->
+<!-- ============================================================ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://dialphone.com/#organization",
+  "name": "DialPhone Limited",
+  "alternateName": ["DialPhone", "DialPhone AI Pro"],
+  "url": "https://dialphone.com",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://dialphone.com/logo.png",
+    "width": 400,
+    "height": 400
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/dialphone",
+    "https://dialphonevoip.hashnode.dev",
+    "https://gitlab.com/dialphonelimited",
+    "https://github.com/dialphonelimited"
+  ],
+  "description": "DialPhone is a cloud business phone system for US and Canadian small and mid-sized businesses. Unified voice, SMS, video, and AI-powered receptionist starting at $20 per user per month.",
+  "slogan": "elevate every conversation",
+  "foundingDate": "2024",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Level 7, Suite C, World Trust Tower",
+    "addressLocality": "Hong Kong Central",
+    "addressCountry": "HK"
+  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+1-914-431-7523",
+      "contactType": "Sales",
+      "email": "commercial@dialphone.com",
+      "areaServed": ["US", "CA"],
+      "availableLanguage": ["English"]
+    }
+  ],
+  "numberOfEmployees": { "@type": "QuantitativeValue", "minValue": 11, "maxValue": 50 }
+}
+</script>
+
+<!-- ============================================================ -->
+<!-- 2. SOFTWARE APPLICATION — homepage + /pricing-overview/       -->
+<!-- ============================================================ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "@id": "https://dialphone.com/#software",
+  "name": "DialPhone",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Business Phone System, VoIP, UCaaS",
+  "operatingSystem": "Web, iOS, Android, Windows, macOS",
+  "url": "https://dialphone.com",
+  "description": "Cloud business phone system unifying voice calls, SMS, video meetings, and AI-powered virtual receptionist. Built for US and Canadian small and mid-sized businesses. 99.999% uptime SLA. 14-day free trial.",
+  "image": "https://dialphone.com/logo.png",
+  "publisher": { "@id": "https://dialphone.com/#organization" },
+  "featureList": [
+    "Unlimited US and Canada calling",
+    "AI Team Messaging",
+    "SMS Support",
+    "Auto-Attendant / IVR",
+    "Call Recording with Searchable Transcripts",
+    "Voicemail-to-Email",
+    "HD Video Meetings",
+    "AI Virtual Receptionist",
+    "AI SMS Drafting",
+    "AI Call Routing",
+    "Shared Team Inbox",
+    "Salesforce Integration",
+    "HubSpot Integration",
+    "Pipedrive Integration",
+    "Zoho Integration",
+    "Zapier Integration",
+    "Mobile Apps for iOS and Android",
+    "Desktop Apps for Windows and macOS",
+    "Free Number Porting"
+  ],
+  "offers": [
+    { "@type": "Offer", "name": "Core",                "price": "20.00", "priceCurrency": "USD", "eligibleDuration": { "@type": "QuantitativeValue", "value": 1, "unitCode": "MON" } },
+    { "@type": "Offer", "name": "Advanced",            "price": "30.00", "priceCurrency": "USD", "eligibleDuration": { "@type": "QuantitativeValue", "value": 1, "unitCode": "MON" } },
+    { "@type": "Offer", "name": "Ultra",               "price": "40.00", "priceCurrency": "USD", "eligibleDuration": { "@type": "QuantitativeValue", "value": 1, "unitCode": "MON" } },
+    { "@type": "Offer", "name": "Customer Engagement", "price": "55.00", "priceCurrency": "USD", "eligibleDuration": { "@type": "QuantitativeValue", "value": 1, "unitCode": "MON" } }
+  ]
+}
+</script>
+
+<!-- ============================================================ -->
+<!-- 3. FAQ — homepage or /faq/ — REPLACE PLACEHOLDER ANSWERS      -->
+<!-- ============================================================ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does DialPhone cost per user per month?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DialPhone runs four plans on annual billing: Core at $20 per user per month, Advanced at $30 per user per month, Ultra at $40 per user per month, and Customer Engagement at $55 per user per month. A 14-day free trial is available on every plan with no credit card required."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does DialPhone offer a free trial?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Every DialPhone plan includes a 14-day free trial with no credit card required at signup. The trial includes full access to the platform's features on whichever tier is selected."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is DialPhone's uptime SLA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DialPhone commits to 99.999% uptime in its service-level agreement. This translates to a maximum of approximately 5 minutes of unplanned downtime per year."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is DialPhone HIPAA compliant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DialPhone maintains compliance alignment with SOC 2, HIPAA, GDPR, and PCI-DSS standards. Business Associate Agreements (BAAs) are available for customers operating under HIPAA. All traffic is encrypted in transit with TLS 1.2 or higher, and data at rest uses AES-256 encryption."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which CRMs integrate with DialPhone?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DialPhone includes native CRM integrations with Salesforce, HubSpot, Pipedrive, and Zoho. Zapier is also supported for connecting to additional applications. CRM integrations are available starting on the Ultra tier ($40 per user per month)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does number porting take with DialPhone?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Number porting with DialPhone is free and typically completes in 2 to 5 business days. The porting process is managed through a white-glove service that migrates your existing phone numbers with zero service interruption."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does DialPhone serve customers outside the United States and Canada?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DialPhone is primarily built for small and mid-sized businesses across the United States and Canada. North American subsidiaries of international companies can also use DialPhone to obtain local US and Canadian phone numbers with local business-hours support."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- ============================================================ -->
+<!-- 4. BREADCRUMB — per-page, adjust items per URL                -->
+<!-- ============================================================ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home",    "item": "https://dialphone.com" },
+    { "@type": "ListItem", "position": 2, "name": "Pricing", "item": "https://dialphone.com/pricing-overview/" }
+  ]
+}
+</script>
+
+<!-- ============================================================ -->
+<!-- 5. ARTICLE — blog posts only; replace placeholders            -->
+<!-- ============================================================ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "REPLACE: post title",
+  "description": "REPLACE: post meta description (150-160 chars)",
+  "image": "REPLACE: https://dialphone.com/blog/image.jpg",
+  "datePublished": "REPLACE: 2026-04-21T08:00:00+00:00",
+  "dateModified": "REPLACE: 2026-04-21T08:00:00+00:00",
+  "author": {
+    "@type": "Person",
+    "name": "REPLACE: author name",
+    "url": "REPLACE: https://dialphone.com/author/slug"
+  },
+  "publisher": { "@id": "https://dialphone.com/#organization" },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "REPLACE: https://dialphone.com/blog/post-slug/" }
+}
+</script>

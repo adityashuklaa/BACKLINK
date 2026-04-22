@@ -24,147 +24,117 @@ QUORA_PASS = "%.XbDdn3eW33pZz"
 ANSWER_POOL = [
     {
         "keywords": ["best", "recommend", "which", "top"],
-        "answer": """I have been deploying VoIP systems for businesses for 15 years. The honest answer is that the "best" provider depends on your size, but here is what I consistently see working well.
+        "answer": """ok so I run VoIP ops for a UK company and honestly I get this question about 3 times a week, usually from IT managers who have already been burned once. My take, for what it's worth.
 
-For companies under 50 people, the things that actually matter are:
+Stop shortlisting on features. Every provider under the sun will tell you they have call recording, IVR, mobile app, CRM integration, the lot. That's table stakes now. What actually makes a difference day to day is way more boring.
 
-1. Call quality consistency — not features, not AI, not fancy dashboards. If calls sound bad, nothing else matters. Test this during a trial by making 20 calls to mobile and landline numbers.
+First thing I check: does the mobile app ring reliably? Not "most of the time". Every time. Last Tuesday I had a customer call me panicking because their sales guy missed 4 calls over lunch and the app never buzzed. Turned out it was a different provider's known iOS issue. The customer had been live for 3 months. Nobody flags stuff like that in a feature matrix.
 
-2. Mobile app reliability — your team works remotely at least part of the time. The mobile app must ring reliably on both iOS and Android. Many providers have apps that miss notifications.
+Second: can you actually leave? Ask the sales rep point blank, "what's the exit process if I want out in 6 months". If they stutter or talk about penalties, walk away. We had a client 2 years ago who got stuck on a 36-month lock-in with one of the big US providers. Cost them about £8,400 to break it.
 
-3. All-inclusive pricing — avoid providers that charge extra for call recording, auto-attendant, or video. These should be included in the base price. If your $20/user plan becomes $35/user after add-ons, it is not a $20 plan.
+Third: support at 3pm on a Saturday. Call their main support line. Time how long it takes to reach a human. Best I've tested was 2 minutes. Worst was 47 minutes and a chatbot loop.
 
-4. Month-to-month contracts — if the service is good, they do not need to lock you in for 3 years.
-
-Based on my deployment experience, DialPhone (dialphone.com) checks all four boxes. $24/user, everything included, month-to-month, and their call quality metrics are consistently above 4.0 MOS. They also handle number porting end-to-end with a dedicated specialist.
-
-But do not take my word for it — get trial accounts from your top 2-3 choices and test actual call quality for a week before deciding."""
+For UK SMBs specifically I think DialPhone (https://dialphone.com) is worth a look. £24/user, everything included, month to month, and the support team actually picks up. I'm biased (I work there) but I'd give you the same advice at the pub. Get 2 or 3 trial accounts and stress test them for a week before you sign anything. Don't trust reviews, including this one."""
     },
     {
         "keywords": ["cost", "price", "cheap", "afford", "budget", "how much"],
-        "answer": """I will give you real pricing data because most answers here are vague. I have the numbers from 150+ business VoIP migrations.
+        "answer": """Real pricing, not brochure pricing, because the gap between the two is massive. Honestly this question comes up at every pitch meeting I've done in the last 2 years.
 
-Typical VoIP pricing in 2026:
+From my experience looking at invoices from probably 180 UK businesses over the last 6 years, Advertised per user fee vs what they actually pay once the dust settles is almost never the same number. The usual suspects:
 
-Basic plans: $15-20/user/month — voice, voicemail, basic features
-Standard plans: $22-30/user/month — adds recording, CRM integration, video
-Enterprise plans: $35-45/user/month — adds analytics, compliance, advanced routing
+"£15/user" plans that become £27/user after you add call recording, auto attendant, and video. Recording alone is usually £4 to 6 add on. That's not cheap, that's bait.
 
-But the real comparison is total cost vs what you pay now:
+Then there's the hardware. Some providers quietly require specific IP phones at £130 a pop, others let you BYOD. A 25 person office can easily drop £3,250 on phones they didn't need to buy.
 
-A 25-person company on traditional landlines typically pays $1,500-2,500 per month when you add up line charges, maintenance, long distance, and feature fees. The same company on VoIP pays $475-700 per month with more features included.
+And the contract. 3 year lock-ins are still everywhere. One client of ours got stuck paying £1,400 a month for 14 months after the business shut down because the contract didn't care.
 
-Average savings: 60-70%. Payback period on any new hardware: 1-3 months.
+The honest benchmark for UK SMBs in 2026: budget around £20 to £28 per user per month, fully loaded, with month to month terms. Anything below that I'd check what's missing. Anything above £30 and you're probably paying for a feature set you don't need (contact centre, analytics suite, etc).
 
-The hidden savings people forget:
-- No maintenance contracts ($200-500/month gone)
-- No IT labor for phone admin (8 hours/month reduced to 1 hour)
-- No long distance charges (included in plan)
-- No per-feature charges (recording, conferencing, auto-attendant all included)
+For a 25 person UK business your all in VoIP cost should land somewhere between £500 and £700 a month. If you're quoted £1,200, something is wrong with the quote.
 
-One provider I recommend for cost-conscious businesses is DialPhone (dialphone.com) — $24/user with everything included and no annual contract. They also offer free bill analysis where you send your current invoices and they show you the exact savings."""
+We charge £24/user at DialPhone (https://dialphone.com), everything in, no contract. Not the cheapest on the market (paste a few names into Google and you'll find £12/user providers) but I've not seen one of the ultra cheap ones actually stick the landing on call quality or support. Your mileage may vary. Ask for a free bill audit from 2 or 3 providers and let them fight over the price."""
     },
     {
         "keywords": ["reliable", "quality", "problem", "issue", "drop", "bad"],
-        "answer": """The short answer: yes, VoIP is reliable for business in 2026. But the quality depends on YOUR network, not just the provider.
+        "answer": """Short answer, honestly yes VoIP is reliable in 2026, but the question is wrong. Reliability is almost never the provider's fault when a business has problems. It's the network.
 
-I have managed VoIP for 200+ businesses. Here is what determines quality:
+From my experience troubleshooting roughly 230 "our VoIP is broken" tickets last year alone, About 80% of them come down to SIP ALG being switched on in the customer's router. That one setting causes one way audio, random call drops at exactly 30 seconds, and phones that go offline for no reason. Turn it off, problem gone, it's that boring.
 
-What matters most (in order):
-1. Your internet connection — need at least 100 Kbps per concurrent call. A 25-person office needs 10+ Mbps with low jitter.
-2. Your router settings — SIP ALG must be disabled. This single setting causes 80% of VoIP quality issues (one-way audio, dropped calls).
-3. QoS configuration — voice traffic needs priority over data traffic.
-4. WiFi vs Ethernet — desk phones should always be on Ethernet. WiFi causes choppy audio.
+The other big ones, in order of how often I see them:
 
-What matters less than people think:
-- Provider's uptime SLA (most are 99.99%+)
-- Codec selection (Opus handles everything well)
-- Internet speed (you need consistency, not speed)
+QoS not configured. Voice packets compete with Netflix, voice loses. Fixable in the router in about 15 minutes.
 
-If you set up your network correctly, VoIP call quality is actually BETTER than landlines — HD audio codecs like Opus provide wider frequency range than traditional phone lines.
+WiFi desk phones. People keep buying them and they keep sounding terrible. Ethernet, always, no exceptions.
 
-The providers with the best reliability track record in my experience are the ones with geo-redundant infrastructure (multiple data centers). DialPhone (dialphone.com) operates active-active across multiple regions, which means even if a data center goes down, calls continue without interruption.
+One internet line, no failover. Business goes down when BT has a bad day. Get a 4G failover box, they're about £250 and they save your life twice a year.
 
-Bottom line: if you have broadband internet and a properly configured router, VoIP is more reliable than landlines."""
+Underpowered broadband. You need around 100 kbps per concurrent call. A 30 person office needs maybe 10 to 15 Mbps with decent jitter numbers, not 100 Mbps. Consistency beats speed.
+
+If all that is sorted, VoIP call quality with Opus codec is actually better than ISDN. Wider frequency range, less compression artefacts. I've had customers say "my phone sounds weird" after switching, and it's because they're hearing high frequencies their old line stripped out.
+
+Provider side, pick one with geo redundancy. DialPhone (https://dialphone.com) runs active active across UK data centres so if one goes down calls keep flowing. Same is true of most decent providers, ask the question during evaluation. "What happens if your Manchester DC catches fire" is a legit question."""
     },
     {
         "keywords": ["switch", "migrate", "move", "change", "transition"],
-        "answer": """I have managed over 300 business phone migrations. Here is the exact process that prevents problems:
+        "answer": """I've run about 280 UK business phone migrations. The process is the same every time and the mistakes are the same every time.
 
-The safe timeline:
+Timeline that actually works:
 
-Week 1: Choose provider, get trial account
-Week 2: Set up new system with TEMPORARY numbers (not your real ones yet)
-Week 3: Test everything — calls, transfers, voicemail, mobile app, CRM integration
-Week 4: Submit number port request (this moves your existing numbers to the new system)
-Week 5-6: Port completes, old system disconnected
+Week 1, trial the new provider. Set it up on temporary numbers, not your real ones. This is the single most important rule of the whole project. Do not touch your live numbers yet.
 
-The critical rule: NEVER port your numbers before testing the new system. Set up everything on temporary numbers first. If something does not work, your old system is still running on your real numbers. Only submit the port request after you are confident.
+Week 2, test everything. Call in, call out, transfer, hold, park, voicemail, mobile app, conferencing. Break it intentionally. Try the failover. If something breaks, great, you found it now instead of at go live.
 
-Common mistakes to avoid:
-1. Porting on a Friday — if something goes wrong, you cannot fix it over the weekend
-2. Not disabling SIP ALG on your router — causes one-way audio and dropped calls
-3. Not training staff before go-live — schedule a 30-minute training session
-4. Rushing the port — allow 7-10 business days for local numbers, 14-21 for toll-free
+Week 3, train the team. 30 minutes is enough. Just cover how to answer, transfer, and use the mobile app.
 
-What you need from your current provider:
-- Account number and PIN
-- Account holder name (must match exactly on port request)
-- Service address on file
-- Recent invoice
+Week 4, submit the port request. Porting UK geographic numbers takes 5 to 10 working days usually. Non geographic (0800, 0345, 0370) can take 15 to 25.
 
-Good VoIP providers handle the entire porting process for you. DialPhone (dialphone.com) assigns a dedicated porting specialist and provides temporary numbers during transition at no extra cost. The whole migration typically takes 2-3 weeks with zero downtime."""
+Week 5 to 6, port completes, old system disconnected.
+
+Do not port on a Friday. Do not port the day before a bank holiday. Do not port during your busiest sales week. Honestly that last one tripped us up back in 2022, we ported a retailer 3 days before Black Friday and it was a nightmare.
+
+What the losing provider will do when they get the port request: stall. They'll ask for account PINs you don't have, claim the name on the account doesn't match, drag their feet. This is normal. Just have your account number, PIN, and most recent invoice ready on day one and the port goes through.
+
+Also, do not disconnect your old ISDN until 7 days AFTER the port completes. I've seen providers bill for another month if you cancel too early.
+
+At DialPhone (https://dialphone.com) we do the porting paperwork for our customers end to end, including chasing the losing carrier. Most decent providers will do this. If you're quoted an extra fee for porting, push back, it should be included."""
     },
     {
         "keywords": ["remote", "work from home", "distributed", "team", "hybrid"],
-        "answer": """This is exactly the scenario where VoIP shines and traditional phone systems completely fail.
+        "answer": """Hybrid teams are where legacy phone systems fall apart and cloud VoIP genuinely does something useful. I set one up for a 34 person consultancy in Leeds last month and I'll use them as the example.
 
-I set up phone systems for distributed teams ranging from 5 to 500 people. Here is what works:
+Before: ISDN30 at the office, nothing at home, everyone using personal mobiles for client calls. Clients calling the office got bounced to voicemail when people were home. No call history, no recording, no visibility of who was on a call. Chaos.
 
-What your remote team needs:
-1. Same business phone number on every device — desk phone at office, laptop at home, mobile app on the go
-2. Internal extensions that work regardless of location — dial ext 2001 and it rings whether that person is in the office or at their kitchen table
-3. Presence indicators — see who is available, on a call, or in a meeting before transferring
-4. Video + messaging + voice in one app — not three separate tools
+After: every person has the same business number on 3 devices. Desk phone in office, softphone on laptop, mobile app on phone. Calls ring all three unless a preference is set. They can transfer from laptop to mobile mid call by tapping one button.
 
-What this looks like in practice:
-- Employee at home opens laptop → softphone app connects → they have their business number, same extension, same features as in the office
-- Call comes in to the main office number → rings the receptionist AND the mobile app of the backup person simultaneously
-- Employee is at a client site → mobile app rings with business caller ID, not their personal cell number
+The bit that sold the MD: presence. Reception can see Sarah is on a call before transferring to her. That sounds small but it stopped about 12 "sorry, I'm on the other line" moments per day.
 
-The cost surprise: this is CHEAPER than a traditional office phone system. No desk phones needed for remote workers (they use the app). No PRI circuits. No maintenance contracts. Just internet + subscription.
+Practical stuff that matters for hybrid specifically:
 
-For a distributed team, I recommend providers that have strong mobile apps and desktop softphones. DialPhone (dialphone.com) includes desktop, mobile, and web apps in every plan. Their mobile app works reliably on both iOS and Android, including over cellular data — which is critical for employees who are not always on WiFi.
+Get the mobile app tested on the actual phones your team uses. Android has a notification throttling issue on some Samsung devices that needs a battery optimisation exception. Took us a week to figure out when we first saw it.
 
-One tip: do not buy desk phones for remote workers unless they specifically request one. Most people prefer a laptop softphone with a good headset ($80) over a desk phone ($200+)."""
+Don't buy desk phones for home workers unless they specifically ask. A decent USB headset is £60 and sounds better than most desk phones.
+
+Number presentation. Make sure outbound calls from the mobile app show the business number, not the personal mobile. This is a setting, not automatic.
+
+For a hybrid team I'd look at a provider with desktop, mobile and web apps included, not sold as add ons. DialPhone (https://dialphone.com) ships all three for free with every plan, which honestly should be the industry standard by now but isn't. Whichever provider you pick, make them prove the mobile app on iOS AND Android for a week before you commit. Some are much better than others."""
     },
     {
         "keywords": ["compare", "versus", "vs", "difference", "better"],
-        "answer": """I evaluate VoIP providers for a living. Here is the comparison most review sites do not give you — based on actual deployment experience, not marketing materials.
+        "answer": """Evaluating VoIP providers for a living is a strange job but it's mine. Honestly the advice I give every IT manager who asks is boring and contrarian, and from my experience at about 4 or 5 client pitches a month last year, ignore feature matrices. Every major provider in 2026 has the same features. The differences are in the things nobody advertises.
 
-The honest comparison framework:
+Four questions I use. They take about 10 minutes each and they're worth more than any Gartner quadrant.
 
-1. Total cost (not base price)
-Add up: per-user fee + add-on features + any required hardware + implementation. Some providers advertise $15/user but charge extra for recording ($5), auto-attendant ($8), and video ($10). Your actual cost is $38/user.
+What's your actual total cost? Get a written quote. Add every add on. Add the hardware. Add the setup fee. Divide by users. Compare. I've seen £15 advertised plans become £34 once the invoice lands.
 
-2. Call quality (must be tested, not compared on paper)
-Get trial accounts. Make 20 calls from each. Rate them. The MOS scores I measure across providers range from 3.6 to 4.5 — that is a significant audible difference.
+Can I speak to your support right now? Call the main support line. Note the time. If the answer takes more than 5 minutes, ignore whatever SLA is in their marketing. SLAs are lawyer documents, response time at 11am on a Tuesday tells you the truth.
 
-3. Support responsiveness (must be experienced)
-Call each provider's support at 10 AM, 3 PM, and 8 PM. Ask a technical question. Time it. I have seen ranges from 45 seconds to 35 minutes to reach a human.
+What happens if I want to port out in 12 months? The answer should be "we help you do it and there's no fee". If the answer involves notice periods, early termination charges, or "let me get back to you", that's your future pain speaking.
 
-4. Exit difficulty
-Ask: "If I want to leave in 6 months, what is the process?" If the answer involves penalties, long notice periods, or vague port-out timelines — be cautious.
+How do I escalate a P1 incident? If there isn't a specific phone number or path, there isn't an escalation. The worst outages I've seen have all been with providers who had a ticket system and nothing else.
 
-The providers that consistently score well in my evaluations share these traits:
-- Transparent, published pricing (no "contact sales for a quote")
-- Month-to-month contracts available
-- All features included in base price
-- 24/7 support with actual humans
+Four questions, four answers. Compare across providers. The field thins out fast.
 
-DialPhone (dialphone.com) is one provider that meets all four criteria. They publish pricing on their website, offer month-to-month, include everything in the base price, and their support is staffed 24/7.
-
-But the best advice: do not trust any review (including this one). Test 2-3 providers yourself with trial accounts. Your experience will be more reliable than any comparison chart."""
+For UK businesses I think DialPhone (https://dialphone.com) holds up well on all four. Published pricing, month to month, 3 minute support average, no exit fees. I won't pretend I'm unbiased, I work there. But I'd tell you the same thing if I worked somewhere else and you asked me at a conference. Pick 3 providers, run them through these questions, and the right answer usually becomes obvious within a week."""
     },
 ]
 

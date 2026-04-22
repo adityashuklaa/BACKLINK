@@ -1,0 +1,54 @@
+tier,domain,type,approx_da,why_relevant,outreach_angle,contact_path
+gold,uctoday.com,industry publication,78,Dedicated UCaaS/CCaaS coverage; reviews every major VoIP vendor,"New entrant pitch: ""You've covered RingCentral/8x8/Dialpad — DialPhone is a 2024 entrant with $20 base plan, 99.999% SLA, AI receptionist in base tier. Happy to provide demo + quotes for your next comparison piece.""",editors@uctoday.com / contributor form on site
+gold,nojitter.com,industry publication,72,No Jitter covers UC; TechTarget-owned,"Pitch original research: ""State of SMB Business Phone 2026"" data study",Contributor application: nojitter.com/contribute
+gold,getvoip.com,review aggregator,55,Writes buyer-guide VoIP comparisons,"Product listing pitch + ""add DialPhone to your 2026 comparison""",tips@getvoip.com
+gold,whichvoip.com,review aggregator,48,Publishes VoIP provider reviews,"Product review pitch (free demo account)",info@whichvoip.com
+gold,commsbusiness.co.uk,industry publication,50,UK comms industry but US-friendly coverage,"Guest post on AI receptionist trends",editor@commsbusiness.co.uk
+gold,rcrwireless.com,industry publication,65,Wireless + communications,"Expert commentary on UCaaS consolidation trends",news@rcrwireless.com
+gold,telecompetitor.com,industry publication,62,Telecom industry news,"Industry analysis guest post",news@telecompetitor.com
+gold,crn.com,tech news + channel,82,Covers channel partners + SaaS,"Pitch: DialPhone partner program angle (if exists) or expert quotes on UCaaS",contact form + editor search
+gold,techtarget.com,enterprise tech,86,SearchUnifiedCommunications sub-site,"TechTarget expert contributor network: offer subject matter expert articles",contributor.techtarget.com
+gold,zdnet.com,mainstream tech news,92,Reviews business software,"HARO-style expert quote requests",pitches@zdnet.com
+gold,forbes.com,business + tech,95,Forbes Advisor reviews business software,"Forbes Advisor: pitch DialPhone for ""best VoIP for small business"" updates",forbesadvisor@forbes.com
+gold,businessnewsdaily.com,SMB news,80,Reviews business phone systems for SMBs,"Pitch their comparison article writers for inclusion",content@businessnewsdaily.com
+gold,entrepreneur.com,SMB content,91,Entrepreneur magazine reviews tools,"Expert contributor applications",entrepreneur.com/be-a-writer
+gold,inc.com,SMB content,90,Inc magazine covers startup tools,"Expert quotes + data study pitches",editors@inc.com
+gold,techradar.com,consumer + business tech,91,Reviews business software,"TechRadar Pro product listings + reviews",techradarpro@futurenet.com
+gold,pcmag.com,consumer + business tech,94,Reviews business software,"PCMag editorial pitches",pitches@pcmag.com
+gold,softwareadvice.com,review aggregator,85,Gartner-owned; feeds Capterra + GetApp,"Vendor signup + review invites",vendors.softwareadvice.com/signup
+gold,capterra.com,review aggregator,93,Largest software review site,"Vendor signup",vendors.capterra.com/signup
+gold,g2.com,review aggregator,90,Major B2B review platform,"Vendor product listing",sell.g2.com/signup
+gold,trustradius.com,review aggregator,82,B2B review platform,"Vendor signup + review campaign",trustradius.com/vendor
+gold,trustpilot.com,review platform,94,General review platform,"Claim domain + review campaign",business.trustpilot.com/signup
+silver,business.com,SMB content,75,Reviews business services,"Product reviews pitch",business.com/contact
+silver,smallbiztrends.com,SMB content,72,SMB-focused content,"Guest post + product features",smallbiztrends.com/contact
+silver,startupnation.com,startup content,60,Startup + SMB content,"Entrepreneur angle guest post",startupnation.com/contact
+silver,thebalancesmb.com,SMB content,78,Small business guides,"Comparison article inclusions",contact form
+silver,softwaresuggest.com,review aggregator,60,B2B software reviews,"Vendor profile",softwaresuggest.com/sell
+silver,goodfirms.co,B2B services review,72,Services + software reviews,"Claim profile",goodfirms.co/submit-listing
+silver,crozdesk.com,review aggregator,60,Software comparison,"Claim profile",crozdesk.com/contact
+silver,financesonline.com,review aggregator,70,B2B software directory,"Listing request",financesonline.com/contact-us
+silver,saasgenius.com,review aggregator,45,SaaS reviews,"Listing + editorial pitch",saasgenius.com/contact
+silver,saashub.com,alternatives directory,60,SaaS alternatives,"Submit product",saashub.com/submit
+silver,alternativeto.net,alternatives directory,89,Software alternatives,"Submit app",alternativeto.net/account
+silver,slant.co,tech recommendations,65,Crowdsourced recommendations,"Add DialPhone to VoIP comparison",slant.co (sign up + add)
+silver,stackshare.io,tech stack catalog,72,Companies list their stacks,"Add DialPhone as a tool option",stackshare.io/tools/new
+silver,producthunt.com,product launches,92,Product discovery,"Submit/launch",producthunt.com/posts/new
+silver,betalist.com,startup launches,65,Startup launch coverage,"Submit for featured",betalist.com/submit
+silver,launchingnext.com,startup launches,55,Startup coverage,"Submit",launchingnext.com/submit
+silver,indiehackers.com,founder community,79,Indie SaaS community,"Founder story post + product listing",indiehackers.com (signup + post)
+silver,voipreview.org,voip-specific review,55,VoIP-specific reviews,"Provider listing",voipreview.org/submit-provider
+silver,voipmechanic.com,voip-specific,45,VoIP troubleshooting + reviews,"Contributor + product feature",voipmechanic.com/contact
+silver,voipblog.com,voip-specific,40,VoIP industry blog,"Guest post pitch",voipblog.com/contact
+silver,tmcnet.com,telecom media,65,TMC produces industry events + content,"Speaker + editorial pitches",tmcnet.com/contact
+silver,techaeris.com,consumer tech,52,Tech reviews,"Product review pitch",techaeris.com/contact
+bronze,upcity.com,service provider reviews,62,B2B services directory,"Claim profile",upcity.com
+bronze,expertmarket.com,SMB buyer guide,55,SMB software comparison,"Submit for inclusion",expertmarket.com
+bronze,thetechpanda.com,small tech publication,45,Tech news + reviews,"Guest post",thetechpanda.com/contact
+bronze,readwrite.com,tech + startup content,72,Startup + SaaS content,"Contributor pitches",readwrite.com/contribute
+bronze,techrepublic.com,IT tech content,80,IT decision-maker content,"IT-focused guest post",techrepublic.com/pro/contributors
+bronze,devops.com,devops focus,70,DevOps/SRE audience,"Dev-focused VoIP API content",devops.com/contact
+bronze,thenewstack.io,dev tech news,70,Developer news,"Dev content pitch",thenewstack.io/contact
+bronze,infoq.com,enterprise dev,72,Enterprise software content,"Enterprise UC content",infoq.com
+bronze,theregister.com,enterprise tech,85,Cynical enterprise tech coverage,"News-style pitch (product launches)",tip off via thereg tip form
+bronze,smallbusiness.co.uk,UK SMB,55,UK SMB but accepts US content,"Guest post on VoIP for SMB",smallbusiness.co.uk/contact

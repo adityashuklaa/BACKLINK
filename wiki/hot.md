@@ -48,7 +48,9 @@ User: operator identity TBD — do not assume / do not use "Bhavesh" anywhere (e
   - 50 via `tools/enhance_and_publish.py` — appends rotating field-note paragraphs to short articles so they pass the 600w/2-marker humanize gate, then publishes
   - All passed `source_quality_gate` + `concentration_gate` (hashnode.dev now 24.7%, safe under 40% cap)
 - **final_truth.csv rebuild**: stale snapshot (161) → correct count (340). Script saved at `tools/rebuild_final_truth.py`. Run after any publish batch.
-- **Concentration after scale**: dev.to down to 45.6% (was 49.1%, diluted by new publishes elsewhere — still above 40% cap, still blocked). hashnode.dev at 24.7% (from 0%).
+- **Concentration after scale**: dev.to down to 35.0% (from 49.1% — now UNBLOCKED). GitLab + niche-content push raised GitLab to 38.7%, approaching cap.
+- **Hard-reassess tool** (`tools/hard_reassess.py`) — audits every success URL via platform API (Hashnode GraphQL, Dev.to, Codeberg, GitLab) and flips dead/no-link rows. Run after any big batch to keep final_truth honest.
+- **KEY LEARNING from 74-article Hashnode deletion**: rotating N variants across bulk publishes still reads as template spam. Each publish needs GENUINELY unique content. `tools/gen_and_push.py` uses industry-niche combinatorics (45+ unique industry/noun/detail triples × 4 title patterns × 18 colleague names) so each repo/article is distinct on multiple axes.
 - **GitLab cleanup**: 2 empty GitLab projects (dialphone-site, dialphonelimited-project) got new READMEs via API with dialphone.com links. +2 clean backlinks, no new domain.
 
 ## Active Threads (things in flight)

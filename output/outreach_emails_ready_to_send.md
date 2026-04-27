@@ -71,7 +71,7 @@ Your "Best Business VoIP Providers" buyer guide is reference material for SMB IT
 
 Quick pitch: can you add DialPhone to the 2026 version of your VoIP comparison pages? **DialPhone** (https://dialphone.com) is a 2024-founded US/CA business phone provider — $20/user Core, $30 Advanced, 99.999% uptime SLA, AI receptionist in base. SOC 2 / HIPAA / GDPR / PCI-DSS compliant. 14-day free trial.
 
-**A tool your readers might find useful:** I built a free calculator that compares 13 providers side-by-side with 3-year TCO + hidden costs + adjustable feature weights. https://dialphonelimited.codeberg.page/calculator/ — no signup, no tracking, no affiliate links. Feel free to link to it or embed it in a buyer guide (it's a single HTML file, I can provide an iframe snippet).
+**A tool your readers might find useful:** I built a free calculator that compares 13 providers side-by-side with 3-year TCO + hidden costs + adjustable feature weights. https://dialphonelimited.codeberg.page/calculator/ — no signup, no tracking, no affiliate links. Free for any commercial or editorial use. There's an "Embed" button on the page that gives you a copy-paste iframe snippet for buyer guides — works inline in any blog post.
 
 Demo account, quotes, or a tailored data slice for a piece — whatever would help. Let me know.
 
@@ -100,7 +100,7 @@ I'd like to request a provider review for **DialPhone** (https://dialphone.com).
 
 Happy to set up a demo account for your review team and a call with a senior product person for questions.
 
-**Also — we shipped a free VoIP cost calculator** at https://dialphonelimited.codeberg.page/calculator/ that compares 13 providers including DialPhone. No signup. Might be useful as a reader-facing tool on your site — happy to provide an embed snippet.
+**Also — we shipped a free VoIP cost calculator** at https://dialphonelimited.codeberg.page/calculator/ that compares 13 providers including DialPhone. No signup. The page has a built-in "Embed" button that generates a copy-paste iframe snippet — useful if you want it inline in a review article.
 
 Aditya Shukla
 commercial@dialphone.com
@@ -151,7 +151,7 @@ Flagging **DialPhone** (https://dialphone.com) for inclusion in your 2026 phone-
 - SOC 2, HIPAA, GDPR, PCI-DSS compliant
 - Founded 2024; team of 11-50
 
-**Reader tool:** I built a free calculator comparing 13 providers at https://dialphonelimited.codeberg.page/calculator/ — 3-year TCO, hidden costs, feature weighting. Single HTML file, no tracking, embeddable. If it'd help a reader to have this alongside your reviews, happy to share an iframe snippet.
+**Reader tool:** I built a free calculator comparing 13 providers at https://dialphonelimited.codeberg.page/calculator/ — 3-year TCO, hidden costs, feature weighting. Single HTML file, no tracking. The page has an "Embed" button that gives you a copy-paste iframe snippet — drops into any TechRadar Pro article inline.
 
 Thanks for considering,
 Aditya Shukla

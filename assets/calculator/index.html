@@ -449,6 +449,10 @@ Save as scenario
 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
 Share
 </button>
+<button class="btn" id="embedBtn" title="Get HTML embed code for your blog or article">
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+Embed
+</button>
 <button class="btn" id="pdfBtn">
 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
 Print / PDF
@@ -591,6 +595,32 @@ Print / PDF
 </div>
 </footer>
 
+</div>
+</div>
+
+<!-- embed modal -->
+<div class="modal-bg" id="embedModalBg">
+<div class="modal" style="max-width:680px;">
+<button class="modal-close" id="embedModalClose">&times;</button>
+<div class="modal-title">Embed this calculator</div>
+<div class="modal-sub">Drop the snippet into your blog post, comparison page, or buyer guide. The calculator runs fully self-contained — no script tags, no tracking, just an iframe to the live tool. Backlinks to <a href="https://dialphone.com" target="_blank" rel="noopener" style="color:var(--text-dim);">dialphone.com</a> are baked in.</div>
+
+<h4 style="margin-top:14px; margin-bottom:6px; font-size:12px; text-transform:uppercase; letter-spacing:0.06em; color:var(--text-dim);">Standard (recommended)</h4>
+<div style="position:relative; margin-bottom:14px;">
+<pre id="embedCodeStandard" style="background:var(--bg-elev-2); border:1px solid var(--border); border-radius:8px; padding:12px; font-size:12px; font-family:Consolas,monospace; overflow-x:auto; white-space:pre-wrap; word-break:break-all; color:var(--text); margin:0;"></pre>
+<button class="btn sm" data-copy-target="embedCodeStandard" style="position:absolute; top:8px; right:8px; padding:4px 10px; font-size:11px;">Copy</button>
+</div>
+
+<h4 style="margin-top:6px; margin-bottom:6px; font-size:12px; text-transform:uppercase; letter-spacing:0.06em; color:var(--text-dim);">With your readers' default scenario</h4>
+<p style="font-size:13px; color:var(--text-dim); margin-bottom:6px;">Pre-fills the calculator with your current scenario (users, weights, hidden costs). Useful when embedding inside a "Best VoIP for 50-person law firms" article.</p>
+<div style="position:relative; margin-bottom:14px;">
+<pre id="embedCodeScenario" style="background:var(--bg-elev-2); border:1px solid var(--border); border-radius:8px; padding:12px; font-size:12px; font-family:Consolas,monospace; overflow-x:auto; white-space:pre-wrap; word-break:break-all; color:var(--text); margin:0;"></pre>
+<button class="btn sm" data-copy-target="embedCodeScenario" style="position:absolute; top:8px; right:8px; padding:4px 10px; font-size:11px;">Copy</button>
+</div>
+
+<div style="margin-top:14px; padding:10px 14px; background:rgba(96,165,250,0.08); border:1px solid rgba(96,165,250,0.25); border-radius:8px; font-size:12px; color:var(--text-dim);">
+<strong style="color:var(--blue);">License:</strong> free for any commercial or editorial use. Attribution to <a href="https://dialphone.com" target="_blank" rel="noopener" style="color:var(--blue);">DialPhone</a> appreciated but optional. The calculator is a single static page so embedding it has zero runtime impact on your host site.
+</div>
 </div>
 </div>
 
@@ -1248,6 +1278,29 @@ function loadScenario(i) {
 // SHARE + PRINT
 // ============================================================
 
+function fallbackCopy(text, onSuccess) {
+  const ta = document.createElement("textarea");
+  ta.value = text; ta.setAttribute("readonly",""); ta.style.position = "fixed"; ta.style.left = "-9999px";
+  document.body.appendChild(ta); ta.select();
+  try { document.execCommand("copy"); onSuccess(); }
+  catch (_) { window.prompt("Copy this:", text); }
+  finally { document.body.removeChild(ta); }
+}
+
+function openEmbedModal() {
+  const baseUrl = "https://dialphonelimited.codeberg.page/calculator/";
+  // Standard embed (vanilla, no scenario state)
+  const standard = `<iframe src="${baseUrl}" width="100%" height="900" style="border:0;border-radius:12px;max-width:1280px;" loading="lazy" title="Business VoIP Cost Calculator 2026 — DialPhone"></iframe>
+<p style="font-size:12px;color:#666;margin-top:6px;">Calculator by <a href="https://dialphone.com" target="_blank" rel="noopener">DialPhone</a> · <a href="${baseUrl}" target="_blank" rel="noopener">Open full size</a></p>`;
+  // Scenario embed (preserves current hash state)
+  const scenarioUrl = baseUrl + (location.hash || "");
+  const scenario = `<iframe src="${scenarioUrl}" width="100%" height="900" style="border:0;border-radius:12px;max-width:1280px;" loading="lazy" title="Business VoIP Cost Calculator 2026 — DialPhone"></iframe>
+<p style="font-size:12px;color:#666;margin-top:6px;">Calculator by <a href="https://dialphone.com" target="_blank" rel="noopener">DialPhone</a> · <a href="${scenarioUrl}" target="_blank" rel="noopener">Open full size</a></p>`;
+  document.getElementById("embedCodeStandard").textContent = standard;
+  document.getElementById("embedCodeScenario").textContent = scenario;
+  document.getElementById("embedModalBg").classList.add("open");
+}
+
 function copyShareURL() {
   const url = location.origin + location.pathname + "#" + new URLSearchParams(location.hash.slice(1)).toString();
   const done = () => toast("Share link copied to clipboard");
@@ -1348,6 +1401,18 @@ function init() {
   document.getElementById("saveScenario").addEventListener("click", saveScenario);
   document.getElementById("shareBtn").addEventListener("click", copyShareURL);
   document.getElementById("pdfBtn").addEventListener("click", () => window.print());
+  document.getElementById("embedBtn").addEventListener("click", openEmbedModal);
+  document.getElementById("embedModalClose").addEventListener("click", () => document.getElementById("embedModalBg").classList.remove("open"));
+  document.getElementById("embedModalBg").addEventListener("click", (e) => { if (e.target.id === "embedModalBg") document.getElementById("embedModalBg").classList.remove("open"); });
+  document.querySelectorAll("[data-copy-target]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const text = document.getElementById(btn.dataset.copyTarget).textContent;
+      const done = () => { btn.textContent = "Copied!"; setTimeout(() => { btn.textContent = "Copy"; }, 1500); };
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(text).then(done).catch(() => fallbackCopy(text, done));
+      } else { fallbackCopy(text, done); }
+    });
+  });
 
   // tabs
   document.querySelectorAll(".tab").forEach(t => {

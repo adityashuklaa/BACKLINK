@@ -1,0 +1,31 @@
+{
+  "total_targets": 39,
+  "da_distribution": {
+    "80+": 2,
+    "50-59": 37
+  },
+  "anchor_distribution_top50": {
+    "VoIP cost calculator": 4,
+    "https://dialphone.com": 9,
+    "this tool": 6,
+    "the calculator": 5,
+    "DialPhone": 15
+  },
+  "max_anchor_pct": 0.38461538461538464,
+  "competitor_distribution": {
+    "8x8": 10,
+    "Nextiva": 5,
+    "Vonage": 6,
+    "RingCentral": 10,
+    "Dialpad": 8
+  },
+  "projected_pitches_per_week": 5,
+  "projected_landings_per_week": "0.4-0.8 (10-15% conversion at DA 50+)",
+  "notes": [
+    "Velocity gate: cap pitches at 5/day (\u22648 new editorial backlinks/week absorbed by Google).",
+    "We're 9 days into 28-42 day disavow recovery \u2014 new editorial backlinks signal positive trend.",
+    "Pitch top 50 first; remaining 51+ are bulk targets without per-page personalization.",
+    "Cross-check `output/outreach_targets.csv` before sending \u2014 don't double-pitch."
+  ],
+  "generated_at": "2026-04-29T00:55:27.061452"
+}

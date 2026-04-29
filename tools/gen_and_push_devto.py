@@ -11,6 +11,7 @@ sys.path.insert(0, ".")
 sys.stdout.reconfigure(encoding="utf-8")
 
 from core.humanize import validate, concentration_gate
+from core.safety import pre_publish_check, log_publish, jitter_sleep, is_rest_day
 from tools.gen_and_push import NICHES, make_article, slugify
 
 CFG = json.load(open("config.json"))
@@ -77,13 +78,19 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--count", type=int, default=10)
     ap.add_argument("--sleep", type=int, default=35, help="Dev.to rate limit is ~30s; keep >=35 to be safe")
+    ap.add_argument("--ignore-rest-day", action="store_true", help="Override Sunday rest day")
+    ap.add_argument("--ignore-velocity-cap", action="store_true", help="DANGEROUS: bypass safety velocity gate")
     args = ap.parse_args()
 
     ok, reason = concentration_gate("dev.to")
     if not ok:
-        print(f"ABORT: {reason}")
+        print(f"ABORT (concentration): {reason}")
         return 1
-    print(f"dev.to: {reason}")
+    print(f"dev.to concentration: {reason}")
+
+    if is_rest_day() and not args.ignore_rest_day:
+        print(f"ABORT: today is Sunday (rest day). Use --ignore-rest-day to override.")
+        return 1
 
     seen = existing_devto_titles()
     print(f"[info] {len(seen)} existing Dev.to articles")
@@ -91,6 +98,7 @@ def main():
     pushed = 0
     skipped = 0
     failed = 0
+    velocity_blocked = 0
 
     for industry, noun, detail in NICHES:
         if pushed >= args.count:
@@ -99,11 +107,22 @@ def main():
         if title.lower().strip() in seen:
             skipped += 1
             continue
-        # Humanize check — niche content should pass
+        # Humanize check
         r = validate(body, "devto")
         if not r.ok:
             print(f"  [humanize fail] {title[:60]} — {r.issues[:2]}")
             failed += 1
+            continue
+
+        # SAFETY GATE — velocity + similarity check before each publish
+        check = pre_publish_check("dev.to", body, respect_rest_day=False)
+        if not check.ok and not args.ignore_velocity_cap:
+            print(f"  [safety BLOCK] {title[:60]} — {check.issues[0][:120]}")
+            velocity_blocked += 1
+            if "24h cap" in check.issues[0]:
+                # 24h velocity exhausted — stop the whole batch
+                print(f"  STOPPING: 24h velocity cap hit. Resume tomorrow.")
+                break
             continue
 
         print(f"\n[{pushed+1}/{args.count}] {title[:75]}")
@@ -113,10 +132,11 @@ def main():
                 url = resp.json().get("url", "")
                 print(f"  ✓ {url}")
                 csv_log(f"DevTo-niche-{slugify(title)[:40]}", url, "success", "DA 77 DOFOLLOW — niche content")
+                log_publish("dev.to", url, body[:200], strategy="devto-niche")
                 pushed += 1
                 seen.add(title.lower().strip())
             elif resp.status_code == 429:
-                print(f"  rate-limited, waiting 60s")
+                print(f"  rate-limited, backing off")
                 time.sleep(60)
                 failed += 1
             else:
@@ -127,11 +147,13 @@ def main():
             failed += 1
 
         if pushed < args.count:
-            time.sleep(args.sleep)
+            actual_sleep = jitter_sleep(args.sleep, variance_pct=0.4)
+            print(f"  (slept {actual_sleep:.0f}s with jitter)")
 
     print(f"\n=== DONE ===")
-    print(f"Pushed:  {pushed}")
-    print(f"Skipped: {skipped}")
+    print(f"Pushed:           {pushed}")
+    print(f"Skipped (dup):    {skipped}")
+    print(f"Velocity blocked: {velocity_blocked}")
     print(f"Failed:  {failed}")
     return 0
 

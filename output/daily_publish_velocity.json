@@ -1,0 +1,5707 @@
+[
+  {
+    "ts": "2026-04-12T04:36:21.103982",
+    "platform": "github.com",
+    "url": "https://github.com/dialphonelimited/voip-compliance-framework",
+    "strategy": "content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-12T04:37:42.952026",
+    "platform": "github.com",
+    "url": "https://github.com/dialphonelimited/business-phone-roi-calculator",
+    "strategy": "content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-12T04:39:02.150599",
+    "platform": "github.com",
+    "url": "https://github.com/dialphonelimited/voip-network-requirements",
+    "strategy": "content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-12T05:16:31.668838",
+    "platform": "github.com",
+    "url": "https://github.com/dialphonelimited/voip-disaster-recovery",
+    "strategy": "content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-12T05:17:48.504347",
+    "platform": "github.com",
+    "url": "https://github.com/dialphonelimited/voip-integration-guide",
+    "strategy": "content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-13T22:39:33.944065",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/i-migrated-200-business-phone-systems-to-voip-here-are-the-5-mistakes-everyone-makes-1fgf",
+    "strategy": "keyword-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-13T22:39:44.964157",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-real-cost-of-running-a-business-phone-system-in-2026-450i",
+    "strategy": "keyword-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-13T22:40:10.326389",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/why-we-switched-voip-providers-twice-and-what-we-finally-got-right-33h7",
+    "strategy": "keyword-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-13T22:42:08.015181",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/voip-security-in-2026-what-your-it-team-needs-to-know-2al7",
+    "strategy": "keyword-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-13T22:42:48.907179",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/setting-up-a-phone-system-for-your-remote-team-a-practical-guide-5278",
+    "strategy": "keyword-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-13T23:18:38.082530",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/we-analyzed-500-business-phone-bills-the-average-company-wastes-847-per-month-23e5",
+    "strategy": "keyword-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-13T23:19:19.543768",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/i-built-phone-systems-for-15-years-here-is-the-one-question-nobody-asks-4mdi",
+    "strategy": "keyword-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-13T23:20:00.629903",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-voip-migration-playbook-lessons-from-300-enterprise-deployments-42fk",
+    "strategy": "keyword-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-13T23:31:14.967942",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/what-nobody-tells-you-about-switching-to-voip-o0",
+    "strategy": "keyword-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-13T23:31:56.373554",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/voip-quality-troubleshooting-a-sysadmins-field-guide-17m",
+    "strategy": "keyword-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-13T23:32:36.650030",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/how-we-reduced-our-clients-telecom-spend-by-67-without-changing-providers-3nci",
+    "strategy": "keyword-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-13T23:33:17.575679",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/building-a-multi-office-phone-system-that-actually-works-2egi",
+    "strategy": "keyword-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-13T23:33:58.848703",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-developers-guide-to-sip-protocols-headers-and-debugging-2aa7",
+    "strategy": "keyword-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-13T23:34:40.715829",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/choosing-between-microsoft-teams-phone-and-standalone-voip-4dpj",
+    "strategy": "keyword-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-13T23:35:22.120503",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/call-center-metrics-that-actually-matter-and-the-ones-that-dont-338k",
+    "strategy": "keyword-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-13T23:36:02.977279",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/voip-for-retail-how-to-handle-10x-call-volume-during-holidays-5920",
+    "strategy": "keyword-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-13T23:36:44.735622",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/why-your-business-phone-system-should-be-boring-obe",
+    "strategy": "keyword-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-13T23:37:26.990036",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/from-pbx-to-cloud-a-ctos-honest-migration-diary-1apk",
+    "strategy": "keyword-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T00:04:47.418598",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/how-to-audit-your-business-phone-bill-in-15-minutes-36b8",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T00:05:28.515845",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/voip-codec-deep-dive-why-opus-beats-everything-else-3jb2",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T00:06:09.404160",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-complete-guide-to-number-porting-for-businesses-1g8c",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T00:06:50.277954",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/disaster-recovery-for-business-phone-systems-a-practical-plan-4mde",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T00:07:31.100558",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/why-small-businesses-get-better-voip-deals-than-enterprises-22dp",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T00:08:11.969222",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/integrating-voip-with-your-crm-what-actually-works-2h58",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T00:08:57.341971",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/what-happens-to-your-calls-when-the-internet-goes-down-jg6",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T01:30:16.579119",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/sip-alg-the-router-setting-that-breaks-every-voip-system-ip3",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T01:30:57.529508",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/i-tested-8-voip-codecs-side-by-side-here-is-what-i-found-5blk",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T01:31:38.077168",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/building-a-multi-office-phone-system-without-buying-hardware-1b0c",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T01:32:18.535344",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-voip-monitoring-stack-i-wish-i-had-set-up-from-day-one-b16",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T01:32:59.441086",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/number-porting-horror-stories-and-how-to-avoid-them-4dnm",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T17:59:09.796806",
+    "platform": "ideone.com",
+    "url": "https://ideone.com/ar6McY",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T17:59:59.916846",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/why-your-office-wifi-is-killing-your-voip-calls-48pe",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T18:00:42.047617",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-hidden-costs-of-free-voip-services-for-business-5c46",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T18:01:22.392905",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/voip-for-law-firms-compliance-recording-and-billing-integration-5b9i",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T18:02:02.722246",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/i-replaced-our-3200month-phone-system-with-a-480month-cloud-solution-4j23",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T18:02:43.449294",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/sip-trunking-explained-what-it-is-how-it-works-and-who-needs-it-4c4f",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T18:40:20.395775",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/how-to-set-up-a-business-phone-system-for-under-500-11m4",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T18:41:00.931863",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-it-managers-complete-voip-deployment-checklist-4ehb",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T18:41:41.908995",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/why-call-quality-matters-more-than-features-5g1k",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T18:42:22.857062",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/comparing-sip-providers-what-the-spec-sheets-dont-tell-you-4i15",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T18:43:04.173825",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/voip-troubleshooting-10-problems-i-see-every-week-and-how-to-fix-them-37df",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T18:51:04.602295",
+    "platform": "github.com",
+    "url": "https://github.com/dialphonelimited/voip-troubleshooting-guide",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T18:51:44.020563",
+    "platform": "github.com",
+    "url": "https://github.com/dialphonelimited/phone-system-comparison-2026",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T19:27:06.674812",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/nxz5dv5TY",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T19:27:08.492585",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-5-minute-voip-health-check-every-it-manager-should-run-weekly-3mi5",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T19:27:49.138509",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/how-we-handle-500-concurrent-calls-without-dropping-a-single-one-2pfh",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T19:35:34.943853",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/nxz5dv5TY",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T19:35:37.580437",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-5-minute-voip-health-check-every-it-manager-should-run-weekly-39no",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T19:36:18.147066",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/how-we-handle-500-concurrent-calls-without-dropping-a-single-one-o5c",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T19:36:44.182690",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/nxz5dv5TY",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T19:36:47.038296",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-real-difference-between-ucaas-ccaas-and-cpaas-jjd",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T19:37:27.672330",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/i-audited-10-voip-providers-security-practices-only-3-passed-21mj",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T19:37:41.593899",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/nxz5dv5TY",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T19:37:46.249767",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/why-your-voip-providers-data-center-location-actually-matters-4en6",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T19:38:26.638276",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/desk-phones-are-dead-here-is-what-replaced-them-1bfn",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T19:38:48.474125",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/nxz5dv5TY",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T19:38:50.631060",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-complete-guide-to-e911-for-voip-what-every-business-must-know-358k",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T19:39:30.972698",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/i-benchmarked-voip-call-quality-across-5-internet-connection-types-46f6",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T19:49:32.903109",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/WssT43vdK",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T19:49:35.373794",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/i-have-deployed-400-voip-systems-here-are-the-7-questions-nobody-asks-before-signing-a-contract-k2e",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T19:50:15.853327",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/we-lost-47000-to-voip-toll-fraud-in-one-weekend-here-is-how-to-prevent-it-39id",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T19:50:19.093725",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/nxz5dv5TY",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T19:50:21.777161",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-sip-packet-capture-that-saved-a-2m-deal-34c9",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T19:51:02.257073",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/what-15-years-of-voip-deployments-taught-me-about-change-management-44lk",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T19:51:05.083932",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/nxz5dv5TY",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T19:51:08.076454",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-telecom-bill-audit-that-found-340000-in-annual-waste-5coh",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T19:51:48.964453",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/what-i-learned-running-voip-over-starlink-for-6-months-4m9o",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T20:39:01.669029",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/voip-compliance-framework",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T20:39:10.574065",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/business-phone-roi-calculator",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T20:39:21.368439",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/voip-network-requirements",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T20:39:30.831185",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/voip-disaster-recovery",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T20:39:40.203695",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/voip-integration-guide",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T20:40:21.314277",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/voip-troubleshooting-guide",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T20:40:26.788464",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/phone-system-comparison-2026",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T22:01:53.538451",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/nxz5dv5TY",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T22:01:55.638871",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/how-to-evaluate-a-voip-provider-in-30-minutes-the-procurement-checklist-mj",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T22:02:35.593895",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-3-voip-metrics-your-cfo-actually-cares-about-250m",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T22:03:27.382114",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/voip-solutions-guide",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T22:03:32.924734",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/awesome-business-phone",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T22:03:38.099925",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/sip-trunking-guide",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T22:16:06.353224",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/evzKfc3q8",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T22:59:52.044152",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/voip-compliance-framework",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T23:00:01.491979",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/business-phone-roi-calculator",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T23:00:18.343401",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/voip-network-requirements",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T23:00:32.580158",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/voip-disaster-recovery",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T23:00:43.310437",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/voip-integration-guide",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T23:00:55.721200",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/voip-troubleshooting-guide",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-14T23:01:08.470780",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/phone-system-comparison-2026",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T02:06:24.737908",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/evzKfc3q8",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T02:06:28.487583",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-phone-system-migration-nobody-talks-about-moving-from-one-voip-to-another-4j24",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T02:07:09.299804",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/i-measured-the-actual-productivity-impact-of-voip-vs-landlines-over-12-months-4fd2",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T02:07:56.642488",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/evzKfc3q8",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T02:07:59.788347",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/why-90-of-voip-quality-complaints-are-actually-network-problems-4pig",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T02:08:40.775037",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-real-story-behind-voip-911-failures-and-why-your-business-is-liable-5bjj",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T02:09:23.318023",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/evzKfc3q8",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T02:09:26.449266",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-voip-features-nobody-uses-and-the-5-that-actually-matter-2gce",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T02:10:07.719413",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/how-we-cut-a-200-person-call-centers-hold-times-from-8-minutes-to-45-seconds-5648",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T16:38:56.911338",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/evzKfc3q8",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T16:39:00.020630",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-voip-implementation-that-paid-for-itself-in-11-days-jo3",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T16:39:41.469247",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/stop-buying-voip-based-on-feature-lists-here-is-what-actually-matters-5d57",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T16:39:52.561389",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/What-are-the-best-VoIP-services-for-small-and-medium-sized-business/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T16:41:05.824503",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/Why-and-how-should-I-switch-from-PSTN-to-VoIP/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T16:41:59.237627",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/evzKfc3q8",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T16:42:01.698119",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/what-happens-when-your-voip-provider-gets-acquired-a-survival-guide-1p51",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T16:42:43.092900",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-network-engineers-honest-opinion-on-microsoft-teams-phone-vs-dedicated-voip-hb9",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T16:43:19.015162",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/evzKfc3q8",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T16:43:22.458483",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/i-tested-every-free-voip-service-for-business-use-here-is-why-they-all-failed-5gn9",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T16:44:02.844822",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/voip-in-healthcare-the-hipaa-compliance-checklist-nobody-gave-you-5h65",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T17:05:52.856365",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/evzKfc3q8",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T17:05:56.421054",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-voip-migration-mistakes-that-cost-one-company-87000-2cjg",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T17:06:37.670029",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/why-i-tell-every-client-to-record-every-business-call-and-how-to-do-it-legally-4fbf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T17:27:43.421160",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/evzKfc3q8",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T17:27:46.599967",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-phone-system-red-flags-i-see-in-every-due-diligence-audit-4k5d",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T17:28:27.622861",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/how-to-build-a-phone-system-for-a-company-that-does-not-exist-yet-2ndi",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T17:37:00.562478",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/Is-VoIP-reliable-enough-to-use-for-business-phone-calls/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T17:39:42.323221",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/evzKfc3q8",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T17:39:45.058212",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-4-numbers-that-predict-whether-a-voip-migration-will-succeed-or-fail-15k3",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T17:40:26.869018",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/what-your-voip-provider-is-not-telling-you-about-international-calling-3i0b",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T17:41:57.464264",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/How-much-does-it-cost-to-switch-from-a-traditional-landline-phone-to-an-internet-based-VoIP-voice-over-IP-service/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T17:46:00.944776",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/What-is-the-best-virtual-phone-system-for-a-remote-sales-team-in-2025/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T17:46:48.023367",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/evzKfc3q8",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T17:46:51.799848",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-receptionist-test-how-i-evaluate-voip-systems-before-recommending-them-56i5",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T17:47:32.309069",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-honest-truth-about-voip-uptime-claims-18j0",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-15T17:48:08.535530",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/evzKfc3q8",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T17:51:08.311533",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T17:54:20.892565",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T17:54:23.604626",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/why-we-built-dialphone-the-business-phone-problem-nobody-was-solving-16od",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T17:55:05.234845",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-small-business-phone-system-buyers-guide-for-2026-5e7i",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:03:20.914621",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:03:24.745580",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/how-dialphone-saved-a-45-person-law-firm-4100-per-month-on-phone-costs-55ab",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:04:05.837410",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-3-voip-mistakes-that-cost-uk-businesses-the-most-money-46c3",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:06:04.794975",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:06:08.750829",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/what-nobody-tells-you-about-voip-number-porting-in-the-uk-2kjg",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:06:49.196379",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/dialphone-vs-ringcentral-vs-8x8-an-honest-comparison-by-someone-who-deploys-all-three-5cjc",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:07:25.018682",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/How-much-does-Vonage-Business-VOIP-cost/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:11:01.276114",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/Is-VoIP-reliable-enough-to-use-for-business-phone-calls/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:14:46.731525",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/How-much-does-it-cost-to-switch-from-a-traditional-landline-phone-to-an-internet-based-VoIP-voice-over-IP-service/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:18:55.506480",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/What-is-the-best-virtual-phone-system-for-a-remote-sales-team-in-2025/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:23:54.636004",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:23:57.936703",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/why-70-of-voip-migrations-fail-in-the-first-week-and-how-to-be-in-the-30-5c9l",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:24:39.260055",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-real-cost-of-running-a-contact-centre-on-the-wrong-phone-system-ocm",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:25:22.017019",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:25:26.712295",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/i-compared-voip-call-quality-across-6-uk-internet-providers-1hhb",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:26:07.933700",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/how-dialphone-handles-9999-uptime-the-architecture-behind-the-scenes-224",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:37:43.694523",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:37:47.527666",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/i-spent-3-months-measuring-voip-call-quality-at-50-uk-businesses-here-is-what-actually-determines-jbp",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:38:28.330356",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-procurement-directors-guide-to-buying-a-business-phone-system-without-getting-burned-2oh1",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:45:15.584954",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:45:18.424879",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-ps12000-phone-bill-audit-that-every-finance-director-should-read-4iia",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:45:58.829854",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/what-happens-in-the-first-72-hours-after-switching-to-dialphone-2gf9",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:52:01.726398",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:52:04.515702",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/we-tracked-every-business-call-for-6-months-these-5-patterns-surprised-us-1b7f",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:52:45.426329",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-it-directors-90-day-plan-for-replacing-a-legacy-phone-system-4gf9",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:55:35.979126",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:55:39.150836",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/why-your-receptionist-should-choose-your-phone-system-not-your-it-team-2234",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:56:19.977249",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-complete-guide-to-voip-for-multi-site-uk-businesses-4cd3",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:59:17.808276",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T18:59:21.163731",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-hidden-cost-of-free-phone-features-that-every-business-should-calculate-12n7",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:00:01.990035",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/how-to-evaluate-voip-providers-without-talking-to-a-single-sales-rep-3k39",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:06:16.197782",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:06:19.257448",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-7-questions-every-nhs-trust-should-ask-before-choosing-a-phone-system-145d",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:06:59.904929",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/we-analysed-500-uk-business-phone-bills-the-average-company-wastes-ps847-per-month-267b",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:09:07.254265",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:09:09.941641",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/i-interviewed-50-office-managers-about-their-phone-systems-these-were-the-top-10-complaints-1jmo",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:09:50.507292",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-mathematical-proof-that-voip-saves-money-for-sceptics-who-want-hard-numbers-1cnn",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:16:21.539293",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:16:25.520209",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-5-voip-disasters-i-cleaned-up-last-year-and-how-each-one-was-preventable-ed6",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:17:06.821105",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/dialphones-approach-to-voip-security-what-we-do-that-most-providers-dont-1klj",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:19:14.353929",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:19:18.256548",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-voip-features-that-actually-drive-revenue-not-the-ones-providers-market-1ffo",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:19:59.219255",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/what-uk-businesses-get-wrong-about-gdpr-and-phone-calls-3pbg",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:29:57.845462",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:29:59.254690",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-accountants-guide-to-telecom-expense-management-for-uk-businesses-pe5",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:30:39.551540",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/how-dialphone-handles-your-worst-day-our-incident-response-process-2oag",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:33:55.916042",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited-group/dialphonelimited-project",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:33:55.916380",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/sip-trunking-guide",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:33:55.916481",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/awesome-business-phone",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:33:55.916549",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/voip-solutions-guide",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:33:55.916606",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/phone-system-comparison-2026",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:33:55.916682",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/voip-troubleshooting-guide",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:33:55.916737",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/voip-integration-guide",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:33:55.916789",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/voip-disaster-recovery",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:33:55.916839",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/voip-network-requirements",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:33:55.916895",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/business-phone-roi-calculator",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:33:55.916978",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/voip-compliance-framework",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:33:55.917087",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/business-phone-roi-calculator",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:33:55.917291",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/phone-system-comparison-2026",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:33:55.917425",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/voip-compliance-framework",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:33:55.917490",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/voip-disaster-recovery",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:33:55.917545",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/voip-integration-guide",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:33:55.917596",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/voip-network-requirements",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:33:55.917649",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/voip-troubleshooting-guide",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:35:07.461271",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:35:10.257851",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-it-manager-who-saved-his-company-ps340000-by-asking-one-question-4gm",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:35:52.134253",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-definitive-guide-to-choosing-between-on-premise-and-cloud-voip-in-2026-32gi",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:39:08.554259",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:39:11.506166",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/why-every-uk-estate-agency-needs-voip-and-what-happens-when-they-dont-28oa",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:39:52.104643",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-ctos-honest-assessment-when-not-to-choose-dialphone-2gp",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:45:28.248566",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:45:31.704460",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-complete-voip-glossary-50-terms-every-business-buyer-should-know-1f1e",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:46:13.350117",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/how-a-12-person-recruitment-agency-doubled-their-placements-after-switching-phone-systems-2685",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:46:49.822178",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:47:05.184853",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:49:37.181450",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:49:40.829892",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-voip-pricing-tricks-that-cost-uk-businesses-millions-every-year-b6i",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:50:22.409949",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/i-asked-100-uk-business-owners-what-they-hate-most-about-their-phone-provider-l35",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:54:10.273014",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:54:13.739542",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-10-minute-voip-security-audit-every-uk-business-should-run-today-108k",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:54:54.531000",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/from-landline-to-cloud-in-7-days-a-step-by-step-diary-of-a-real-uk-migration-42hl",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:58:13.718344",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-uk-smb-phone-system-comparison-dialphone-vs-bt-cloud-voice-vs-gamma-horizon-1aac",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T19:58:56.964326",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/how-to-move-your-business-phone-system-to-the-cloud-without-any-downtime-aeu-the-definitive-uk-guide-29n1",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:28:44.307427",
+    "platform": "dialphonelimited.gitlab.io",
+    "url": "https://dialphonelimited.gitlab.io/dialphone-site",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:31:21.914480",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/voip-buyers-guide",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:31:44.732222",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/uk-telecom-costs",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:32:01.527384",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/business-phone-migration",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:32:06.241837",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/voip-buyers-guide-uk",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:32:12.481316",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/uk-business-phone-costs",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:32:16.986840",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/voip-security-framework",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:36:17.551903",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/we-tracked-what-happens-to-businesses-that-ignore-their-phone-system-aeu-the-5-year-data-14a0",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:36:59.109522",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/every-voip-term-your-sales-rep-uses-to-confuse-you-translated-to-plain-english-31k5",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:40:08.043359",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-phone-system-checklist-for-uk-businesses-opening-a-second-office-38cc",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:40:48.994588",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-voip-bandwidth-calculator-every-uk-it-manager-needs-j3o",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:42:19.477327",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:42:22.736460",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/what-your-business-insurance-company-wants-to-know-about-your-phone-system-433d",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:43:03.852030",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-15-questions-i-ask-before-deploying-voip-at-any-uk-business-2jc4",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:43:52.989281",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:43:55.166666",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-uk-solicitors-guide-to-compliant-call-recording-in-2026-3c4e",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:44:36.329410",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/how-dialphone-reduced-a-50-person-companys-phone-bill-from-aps3800-to-aps1200-in-one-weekend-3il7",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:45:20.264709",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:45:23.232843",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/how-to-run-a-voip-proof-of-concept-that-actually-proves-something-1im4",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:46:03.981108",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-surprising-link-between-phone-system-quality-and-employee-retention-399o",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:47:01.416417",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:47:04.499888",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-uk-accountancy-firm-phone-system-guide-fca-compliance-client-calls-and-cost-control-1kd0",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:47:45.060557",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-real-reason-your-voip-provider-wants-a-3-year-contract-and-why-you-should-refuse-44h2",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:48:16.648118",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:48:19.451356",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-voip-roi-calculator-enter-your-numbers-see-your-savings-2lio",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:49:00.260455",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/why-the-first-48-hours-after-a-voip-migration-determine-everything-186a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:50:38.781360",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:50:42.441164",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-phone-system-that-pays-for-itself-12-real-uk-case-studies-with-hard-numbers-34j7",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:51:23.066220",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-complete-voip-deployment-timeline-for-uk-businesses-week-by-week-14fk",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:51:32.792471",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:51:35.552984",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/dialphone-vs-vonage-vs-goto-connect-which-one-wins-for-uk-smbs-3n74",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:52:15.690922",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/what-3-years-of-running-a-voip-company-taught-me-about-what-businesses-actually-need-3pgg",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:52:54.164100",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:52:57.675439",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-uk-dental-practice-phone-system-guide-nhs-private-and-mixed-practices-512f",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:53:38.229359",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-uncomfortable-truth-about-voip-provider-churn-rates-and-what-they-tell-you-n6",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:54:16.420405",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:54:19.100779",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/how-to-negotiate-your-voip-contract-like-a-procurement-professional-5aee",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:55:00.349022",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-it-directors-voip-vendor-shortlisting-template-download-and-use-today-1ooc",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:55:32.240622",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:55:35.810619",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-phone-system-features-that-uk-employees-actually-want-based-on-500-survey-responses-1hic",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:56:16.766101",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-final-word-on-voip-for-uk-small-businesses-everything-you-need-to-know-in-one-article-3524",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:56:47.805249",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:56:53.374750",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:56:58.760788",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:57:38.254267",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:57:44.775484",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:57:56.113331",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T20:58:37.947271",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/8f5eT5T7a",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T21:21:35.960636",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/How-much-does-Vonage-Business-VOIP-cost/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T21:30:03.537298",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/How-much-does-it-cost-to-switch-from-a-traditional-landline-phone-to-an-internet-based-VoIP-voice-over-IP-service/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T21:34:40.406758",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/What-is-the-best-virtual-phone-system-for-a-remote-sales-team-in-2025/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:48:28.922704",
+    "platform": "github.com",
+    "url": "https://github.com/dialphonelimited/voip-uk-guide",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:49:18.879067",
+    "platform": "github.com",
+    "url": "https://github.com/dialphonelimited/uk-business-phone-hub",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:50:09.783605",
+    "platform": "github.com",
+    "url": "https://github.com/dialphonelimited/sip-knowledge-base",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:52:04.793678",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/voip-uk-resources",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:52:09.470221",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/dialphone-best-practices",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:52:14.118385",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/phone-system-faq-uk",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:52:23.841337",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/voip-uk-resources",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:52:33.467622",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/dialphone-best-practices",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:52:42.988738",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/phone-system-faq-uk",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:54:24.412327",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:54:29.431437",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:54:35.227197",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:54:40.157340",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:54:46.132579",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:54:50.729754",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/How-much-does-Vonage-Business-VOIP-cost/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:54:52.019902",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:54:58.371406",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:55:01.101910",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/voip-roi-calculator-uk",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:55:03.033044",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:55:05.634262",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/business-phone-toolkit",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:55:08.466306",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:55:10.242527",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/voip-migration-planner",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:55:14.465715",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:55:15.771301",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/uk-telecom-benchmark",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:55:20.495318",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:55:20.788479",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/phone-system-security-framework",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:55:25.324955",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:55:25.695468",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/voip-quality-toolkit",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:55:30.202708",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/sip-trunk-configuration-guide",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:55:31.619627",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:55:34.715970",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/voip-network-readiness",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:55:37.098731",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:55:40.137353",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/phone-system-cost-analysis",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:55:42.374174",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:55:45.355938",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/voip-uk-compliance-guide",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:55:47.743163",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:55:53.408928",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:55:55.297940",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/voip-roi-calculator-uk",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:55:58.356038",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:56:04.606420",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:56:04.850252",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/business-phone-toolkit",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:56:09.789178",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:56:10.188674",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-uk-logistics-company-that-saved-aps52000-on-phone-costs-in-year-one-2jg7",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:56:14.838568",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/voip-migration-planner",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:56:15.604587",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:56:21.176880",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:56:24.018787",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/uk-telecom-benchmark",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:56:27.030635",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:56:32.831541",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:56:33.160144",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/phone-system-security-framework",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:56:38.722832",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:56:43.656605",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:56:43.703654",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/voip-quality-toolkit",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:56:49.631291",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:56:51.157645",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-one-thing-every-uk-business-should-test-before-choosing-a-voip-provider-2k50",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:56:52.602716",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/sip-trunk-configuration-guide",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:56:55.255185",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:57:00.996900",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:57:02.620551",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/voip-network-readiness",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:57:06.679216",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:57:12.870952",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/phone-system-cost-analysis",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:57:21.414585",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:57:24.488614",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/voip-uk-compliance-guide",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:57:25.449531",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:57:30.529893",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:57:35.397153",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:57:40.695464",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:57:46.117829",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:57:51.260722",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:57:53.562096",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/voip-cost-calculator",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:57:56.006920",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:57:58.164901",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/sip-configuration-templates",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:58:00.910889",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:58:03.115750",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/phone-system-evaluation-kit",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:58:06.273612",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:58:08.544046",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/uk-voip-market-research",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:58:11.369278",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:58:13.653974",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/business-phone-buying-guide",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:58:16.275921",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:58:18.061975",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/voip-deployment-playbook",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:58:21.689227",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:58:22.768862",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/telephone-system-audit",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:58:26.466715",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:58:27.249190",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/voip-network-diagnostics",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:58:31.797203",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:58:31.859600",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/cloud-phone-comparison",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:58:36.523866",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:58:36.608921",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/uk-voip-regulations",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:58:41.838228",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:58:45.459184",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/voip-cost-calculator",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:58:45.548489",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:58:51.167979",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:58:54.187597",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/sip-configuration-templates",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:58:56.161249",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:59:01.943507",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:59:03.797375",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/phone-system-evaluation-kit",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:59:06.342344",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:59:11.617431",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:59:13.071564",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/uk-voip-market-research",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:59:15.807669",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:59:22.052802",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:59:23.054996",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/business-phone-buying-guide",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:59:28.282173",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:59:34.222235",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/voip-deployment-playbook",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:59:34.614644",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:59:41.703507",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:59:44.648306",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/telephone-system-audit",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:59:46.508434",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:59:51.329828",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:59:53.500081",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/voip-network-diagnostics",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T22:59:57.069986",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T23:00:01.622200",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T23:00:06.277082",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/cloud-phone-comparison",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T23:00:06.914018",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T23:00:11.843834",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T23:00:16.037454",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T23:00:18.662956",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/uk-voip-regulations",
+    "strategy": "dofollow-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T23:00:20.892606",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T23:00:25.965011",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T23:00:31.857992",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T23:00:37.111698",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-16T23:00:40.498936",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/xb8vxzaGf",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-17T16:39:13.537497",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/How-much-does-Vonage-Business-VOIP-cost/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-17T16:43:30.232847",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/How-much-does-Vonage-Business-VOIP-cost/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-17T16:44:51.322463",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/Is-VoIP-reliable-enough-to-use-for-business-phone-calls/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-17T16:46:31.022334",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/How-much-does-Vonage-Business-VOIP-cost/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-17T16:48:12.124876",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/Is-VoIP-reliable-enough-to-use-for-business-phone-calls/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-17T16:49:03.123736",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/How-much-does-Vonage-Business-VOIP-cost/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-17T16:50:10.221925",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/How-much-does-it-cost-to-switch-from-a-traditional-landline-phone-to-an-internet-based-VoIP-voice-over-IP-service/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-17T16:51:08.503819",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/Is-VoIP-reliable-enough-to-use-for-business-phone-calls/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-17T16:54:05.933758",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/Is-VoIP-reliable-enough-to-use-for-business-phone-calls/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-17T16:55:05.467007",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/What-is-the-best-virtual-phone-system-for-a-remote-sales-team-in-2025/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-17T16:56:16.651207",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/How-much-does-Vonage-Business-VOIP-cost/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-17T16:56:18.575938",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/How-much-does-it-cost-to-switch-from-a-traditional-landline-phone-to-an-internet-based-VoIP-voice-over-IP-service/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-17T16:57:15.163759",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/What-is-the-best-virtual-phone-system-for-a-remote-sales-team-in-2025/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-17T16:58:39.737112",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/How-much-does-it-cost-to-switch-from-a-traditional-landline-phone-to-an-internet-based-VoIP-voice-over-IP-service/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-17T16:58:44.530309",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/How-much-does-Vonage-Business-VOIP-cost/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-17T17:01:16.552893",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/Is-VoIP-reliable-enough-to-use-for-business-phone-calls/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-17T17:01:41.578199",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/What-is-the-best-virtual-phone-system-for-a-remote-sales-team-in-2025/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-17T17:02:25.391262",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/What-is-the-best-virtual-phone-system-for-a-remote-sales-team-in-2025/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-17T17:09:35.706996",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/What-is-the-best-virtual-phone-system-for-a-remote-sales-team-in-2025/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-17T17:12:52.228611",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/What-is-the-best-virtual-phone-system-for-a-remote-sales-team-in-2025/answer/Dialphone-Limited",
+    "strategy": "quora-answer",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-17T23:15:28.313531",
+    "platform": "godbolt.org",
+    "url": "https://godbolt.org/z/daerT9G81",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-17T23:19:05.438743",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-uk-phone-bill-autopsy-a-line-by-line-walkthrough-of-what-you-are-actually-paying-for-3aog",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-17T23:19:46.852088",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/i-tested-9-uk-voip-mobile-apps-for-notification-reliability-only-3-passed-2n4g",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-17T23:20:28.204383",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/how-long-does-a-uk-number-port-actually-take-data-from-480-real-ports-1f0c",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-18T20:11:00.560908",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/how-to-actually-configure-qos-for-voip-on-a-uk-business-network-with-real-config-examples-1n17",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-18T20:11:42.106791",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/a-uk-hospitality-phone-system-guide-hotels-restaurants-and-the-operational-reality-40mk",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-18T20:12:23.747992",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/what-actually-happens-during-a-uk-voip-contact-centre-deployment-not-the-brochure-version-fp8",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-18T21:19:54.963320",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/i-tested-voicemail-transcription-accuracy-across-6-uk-voip-providers-the-spread-was-wider-than-274f",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-18T21:20:36.817633",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-real-cost-of-sip-trunks-in-the-uk-2026-per-channel-vs-concurrent-call-models-explained-13pd",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-18T21:21:18.422321",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/a-uk-law-firm-phone-system-guide-sra-recording-rules-client-confidentiality-and-what-actually-22i0",
+    "strategy": "parallel-publish",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T22:37:31.480604",
+    "platform": "hashnode.dev",
+    "url": "https://dialphonevoip.hashnode.dev/pbx-to-cloud-cto-migration-diary",
+    "strategy": "hashnode-api",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T22:37:31.480656",
+    "platform": "hashnode.dev",
+    "url": "https://dialphonevoip.hashnode.dev/business-phone-system-should-be-boring",
+    "strategy": "hashnode-api",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T22:37:31.480693",
+    "platform": "hashnode.dev",
+    "url": "https://dialphonevoip.hashnode.dev/voip-retail-holiday-call-volume",
+    "strategy": "hashnode-api",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T22:37:31.480752",
+    "platform": "hashnode.dev",
+    "url": "https://dialphonevoip.hashnode.dev/call-center-metrics-that-actually-matter",
+    "strategy": "hashnode-api",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T22:37:31.480789",
+    "platform": "hashnode.dev",
+    "url": "https://dialphonevoip.hashnode.dev/microsoft-teams-phone-vs-standalone-voip",
+    "strategy": "hashnode-api",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T22:37:31.480820",
+    "platform": "hashnode.dev",
+    "url": "https://dialphonevoip.hashnode.dev/developers-guide-sip-protocols-headers",
+    "strategy": "hashnode-api",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T22:37:31.480853",
+    "platform": "hashnode.dev",
+    "url": "https://dialphonevoip.hashnode.dev/multi-office-phone-system-guide",
+    "strategy": "hashnode-api",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T22:37:31.480883",
+    "platform": "hashnode.dev",
+    "url": "https://dialphonevoip.hashnode.dev/reduced-telecom-spend-67-percent",
+    "strategy": "hashnode-api",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T22:37:31.480914",
+    "platform": "hashnode.dev",
+    "url": "https://dialphonevoip.hashnode.dev/voip-quality-troubleshooting-sysadmin-guide",
+    "strategy": "hashnode-api",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T22:37:31.480946",
+    "platform": "hashnode.dev",
+    "url": "https://dialphonevoip.hashnode.dev/what-nobody-tells-you-switching-voip",
+    "strategy": "hashnode-api",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T22:50:11.452279",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/dialphone-site",
+    "strategy": "gitlab-api",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T22:50:11.453333",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited-group/dialphonelimited-project",
+    "strategy": "gitlab-api",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:55:09.211197",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/why-we-built-dialphone-the-business-phone-problem",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:55:16.777736",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/why-we-built-dialphone-the-business-phone-problem",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:55:24.256370",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-small-business-phone-system-buyers-guide-for-2",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:55:31.119161",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-small-business-phone-system-buyers-guide-for-2",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:55:38.118443",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-hidden-cost-of-free-phone-features-that-every",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:55:44.838322",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-hidden-cost-of-free-phone-features-that-every",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:55:53.136436",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/how-to-evaluate-voip-providers-without-talking-to",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:55:59.892195",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/how-to-evaluate-voip-providers-without-talking-to",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:56:08.086794",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-7-questions-every-nhs-trust-should-ask-before",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:56:14.942467",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-7-questions-every-nhs-trust-should-ask-before",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:56:22.930228",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/we-analysed-500-us-business-phone-bills-the-averag",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:56:30.608090",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/we-analysed-500-us-business-phone-bills-the-averag",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:56:37.675947",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/i-interviewed-50-office-managers-about-their-phone",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:56:44.125892",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/i-interviewed-50-office-managers-about-their-phone",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:56:52.439583",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-mathematical-proof-that-voip-saves-money-for-s",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:56:58.975114",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-mathematical-proof-that-voip-saves-money-for-s",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:57:09.414826",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-5-voip-disasters-i-cleaned-up-last-year-and-ho",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:57:16.281464",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-5-voip-disasters-i-cleaned-up-last-year-and-ho",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:57:24.381846",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/dialphones-approach-to-voip-security-what-we-do-th",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:57:31.231711",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/dialphones-approach-to-voip-security-what-we-do-th",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:57:38.703547",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-voip-features-that-actually-drive-revenue-not",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:57:45.259535",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-voip-features-that-actually-drive-revenue-not",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:57:53.657380",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/what-us-businesses-get-wrong-about-gdpr-and-phone",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:58:00.211467",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/what-us-businesses-get-wrong-about-gdpr-and-phone",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:58:10.345305",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-accountants-guide-to-telecom-expense-managemen",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:58:17.207119",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-accountants-guide-to-telecom-expense-managemen",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:58:26.833708",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/how-dialphone-handles-your-worst-day-our-incident",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:58:33.590463",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/how-dialphone-handles-your-worst-day-our-incident",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:58:41.480827",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-it-manager-who-saved-his-company-340000-by-ask",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:58:47.830055",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-it-manager-who-saved-his-company-340000-by-ask",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:58:54.789162",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-definitive-guide-to-choosing-between-on-premis",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:59:02.278488",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-definitive-guide-to-choosing-between-on-premis",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:59:10.768306",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/why-every-us-estate-agency-needs-voip-and-what-hap",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:59:18.068286",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/why-every-us-estate-agency-needs-voip-and-what-hap",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:59:25.517023",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-ctos-honest-assessment-when-not-to-choose-dial",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:59:32.574308",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-ctos-honest-assessment-when-not-to-choose-dial",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:59:43.123078",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-complete-voip-glossary-50-terms-every-business",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:59:50.499237",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-complete-voip-glossary-50-terms-every-business",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-20T23:59:59.098432",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/how-a-12-person-recruitment-agency-doubled-their-p",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:00:06.878978",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/how-a-12-person-recruitment-agency-doubled-their-p",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:00:22.442272",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-voip-pricing-tricks-that-cost-us-businesses-mi",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:00:29.713403",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-voip-pricing-tricks-that-cost-us-businesses-mi",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:00:41.292874",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/i-asked-100-us-business-owners-what-they-hate-most",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:00:48.948259",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/i-asked-100-us-business-owners-what-they-hate-most",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:00:58.894428",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/how-dialphone-saved-a-45-person-law-firm-4100-per",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:01:05.859672",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/how-dialphone-saved-a-45-person-law-firm-4100-per",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:01:14.977880",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-3-voip-mistakes-that-cost-us-businesses-the-mo",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:01:23.371306",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-3-voip-mistakes-that-cost-us-businesses-the-mo",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:01:35.048131",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-10-minute-voip-security-audit-every-us-busines",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:01:42.210931",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-10-minute-voip-security-audit-every-us-busines",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:02:21.942110",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/from-landline-to-cloud-in-7-days-a-step-by-step-di",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:02:28.088692",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/from-landline-to-cloud-in-7-days-a-step-by-step-di",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:02:44.060623",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-us-smb-phone-system-comparison-dialphone-vs-bt",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:02:50.513889",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-us-smb-phone-system-comparison-dialphone-vs-bt",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:02:58.710506",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/how-to-move-your-business-phone-system-to-the-clou",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:03:04.850339",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/how-to-move-your-business-phone-system-to-the-clou",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:03:12.937664",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/we-tracked-what-happens-to-businesses-that-ignore",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:03:19.319648",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/we-tracked-what-happens-to-businesses-that-ignore",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:03:26.356884",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/every-voip-term-your-sales-rep-uses-to-confuse-you",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:03:32.502649",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/every-voip-term-your-sales-rep-uses-to-confuse-you",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:03:39.974582",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-phone-system-checklist-for-us-businesses-openi",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:03:46.417723",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-phone-system-checklist-for-us-businesses-openi",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:03:56.973426",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-voip-bandwidth-calculator-every-us-it-manager",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:04:03.320625",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-voip-bandwidth-calculator-every-us-it-manager",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:04:11.409868",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/what-your-business-insurance-company-wants-to-know",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:04:17.751924",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/what-your-business-insurance-company-wants-to-know",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:04:25.955720",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-15-questions-i-ask-before-deploying-voip-at-an",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:04:32.810164",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-15-questions-i-ask-before-deploying-voip-at-an",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:04:41.306455",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-us-solicitors-guide-to-compliant-call-recordin",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:04:47.968092",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-us-solicitors-guide-to-compliant-call-recordin",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:04:56.364846",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/how-dialphone-reduced-a-50-person-companys-phone-b",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:05:03.226252",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/how-dialphone-reduced-a-50-person-companys-phone-b",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:05:11.508764",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/how-to-run-a-voip-proof-of-concept-that-actually-p",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:05:17.970316",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/how-to-run-a-voip-proof-of-concept-that-actually-p",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:05:25.139985",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-surprising-link-between-phone-system-quality-a",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:05:31.593489",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-surprising-link-between-phone-system-quality-a",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:05:40.906089",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-us-accountancy-firm-phone-system-guide-fca-com",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:05:47.469291",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-us-accountancy-firm-phone-system-guide-fca-com",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:05:55.965068",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-real-reason-your-voip-provider-wants-a-3-year",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:06:02.211393",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-real-reason-your-voip-provider-wants-a-3-year",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:06:09.580967",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-voip-roi-calculator-enter-your-numbers-see-you",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:06:15.931493",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-voip-roi-calculator-enter-your-numbers-see-you",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:06:22.588660",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/why-the-first-48-hours-after-a-voip-migration-dete",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:06:28.726294",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/why-the-first-48-hours-after-a-voip-migration-dete",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:06:35.078940",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-phone-system-that-pays-for-itself-12-real-us-c",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:06:41.329042",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-phone-system-that-pays-for-itself-12-real-us-c",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:06:48.080997",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-complete-voip-deployment-timeline-for-us-busin",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:06:54.328672",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-complete-voip-deployment-timeline-for-us-busin",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:07:01.903269",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/what-nobody-tells-you-about-voip-number-porting-in",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:07:08.149635",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/what-nobody-tells-you-about-voip-number-porting-in",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:07:14.808073",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/dialphone-vs-ringcentral-vs-8x8-an-honest-comparis",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:07:20.852064",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/dialphone-vs-ringcentral-vs-8x8-an-honest-comparis",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:07:27.507557",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/dialphone-vs-vonage-vs-goto-connect-which-one-wins",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:07:33.961340",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/dialphone-vs-vonage-vs-goto-connect-which-one-wins",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:07:40.302652",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/what-3-years-of-running-a-voip-company-taught-me-a",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:07:46.554144",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/what-3-years-of-running-a-voip-company-taught-me-a",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:07:53.730295",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-us-dental-practice-phone-system-guide-nhs-priv",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:07:59.660078",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-us-dental-practice-phone-system-guide-nhs-priv",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:08:11.433925",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-uncomfortable-truth-about-voip-provider-churn",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:08:17.822414",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-uncomfortable-truth-about-voip-provider-churn",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:08:25.975088",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/how-to-negotiate-your-voip-contract-like-a-procure",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:08:32.633973",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/how-to-negotiate-your-voip-contract-like-a-procure",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:08:42.257545",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-it-directors-voip-vendor-shortlisting-template",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:08:49.526681",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-it-directors-voip-vendor-shortlisting-template",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:08:57.005623",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-phone-system-features-that-us-employees-actual",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:09:03.564504",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-phone-system-features-that-us-employees-actual",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:09:10.425119",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-final-word-on-voip-for-us-small-businesses-eve",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:09:17.588783",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-final-word-on-voip-for-us-small-businesses-eve",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:09:24.959798",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-us-logistics-company-that-saved-52000-on-phone",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:09:35.097909",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-us-logistics-company-that-saved-52000-on-phone",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:10:18.721388",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-one-thing-every-us-business-should-test-before",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:10:26.193428",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-one-thing-every-us-business-should-test-before",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:10:35.723656",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/we-migrated-a-sheffield-manufacturing-firm-off-leg",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:10:42.473887",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/we-migrated-a-sheffield-manufacturing-firm-off-leg",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:10:49.334591",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/a-realistic-look-at-voip-call-recording-compliance",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:10:55.376800",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/a-realistic-look-at-voip-call-recording-compliance",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:11:03.469725",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-us-phone-bill-autopsy-a-line-by-line-walkthrou",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:11:09.817932",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-us-phone-bill-autopsy-a-line-by-line-walkthrou",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:11:22.102619",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/i-tested-9-us-voip-mobile-apps-for-notification-re",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:11:29.992530",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/i-tested-9-us-voip-mobile-apps-for-notification-re",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:11:40.023825",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/how-long-does-a-us-number-port-actually-take-data",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:11:46.520383",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/how-long-does-a-us-number-port-actually-take-data",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:11:55.791192",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/how-to-actually-configure-qos-for-voip-on-a-us-bus",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:12:02.554124",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/how-to-actually-configure-qos-for-voip-on-a-us-bus",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:12:11.771150",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/a-us-hospitality-phone-system-guide-hotels-restaur",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:12:17.874854",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/a-us-hospitality-phone-system-guide-hotels-restaur",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:12:24.945968",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/what-actually-happens-during-a-us-voip-contact-cen",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:12:32.452475",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/what-actually-happens-during-a-us-voip-contact-cen",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:12:42.193000",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/i-tested-voicemail-transcription-accuracy-across-6",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:12:48.793554",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/i-tested-voicemail-transcription-accuracy-across-6",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:12:58.779250",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphonelimited/the-real-cost-of-sip-trunks-in-the-us-2026-per-cha",
+    "strategy": "codeberg-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:13:05.734356",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-real-cost-of-sip-trunks-in-the-us-2026-per-cha",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:13:16.076655",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/a-us-law-firm-phone-system-guide-hipaa-recording-r",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:13:27.627076",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/why-70-of-voip-migrations-fail-in-the-first-week-a",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:13:37.476076",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-real-cost-of-running-a-contact-centre-on-the-w",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:13:47.625679",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/i-compared-voip-call-quality-across-6-us-internet",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:13:59.518053",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/how-dialphone-handles-9999-uptime-the-architecture",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:14:11.170243",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/i-spent-3-months-measuring-voip-call-quality-at-50",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:14:19.873439",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-procurement-directors-guide-to-buying-a-busine",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:14:29.602240",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-12000-phone-bill-audit-that-every-finance-dire",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:14:38.945293",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/what-happens-in-the-first-72-hours-after-switching",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:14:48.440838",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/we-tracked-every-business-call-for-6-months-these",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:14:58.271551",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-it-directors-90-day-plan-for-replacing-a-legac",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:15:07.691000",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/why-your-receptionist-should-choose-your-phone-sys",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:15:17.320919",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-complete-guide-to-voip-for-multi-site-us-busin",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:15:27.358811",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-phone-system-migration-nobody-talks-about-movi",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:15:36.779290",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/i-measured-the-actual-productivity-impact-of-voip",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:15:45.891381",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/why-90-of-voip-quality-complaints-are-actually-net",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:15:55.007053",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-real-story-behind-voip-911-failures-and-why-yo",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:16:04.010906",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-voip-features-nobody-uses-and-the-5-that-actua",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:16:13.231551",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/how-we-cut-a-200-person-call-centers-hold-times-fr",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:20:07.485901",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-voip-implementation-that-paid-for-itself-in-11",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:20:20.389834",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/stop-buying-voip-based-on-feature-lists-here-is-wh",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:20:32.470550",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/what-happens-when-your-voip-provider-gets-acquired",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:20:44.763118",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-network-engineers-honest-opinion-on-microsoft",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:20:57.840711",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/i-tested-every-free-voip-service-for-business-use",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:21:11.172275",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/voip-in-healthcare-the-hipaa-compliance-checklist",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:21:24.486759",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-voip-migration-mistakes-that-cost-one-company",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:21:37.181164",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/why-i-tell-every-client-to-record-every-business-c",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:21:49.571451",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-phone-system-red-flags-i-see-in-every-due-dili",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:22:02.165031",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/how-to-build-a-phone-system-for-a-company-that-doe",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:22:16.179245",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-4-numbers-that-predict-whether-a-voip-migratio",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:22:27.768026",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/what-your-voip-provider-is-not-telling-you-about-i",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:22:39.957723",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-receptionist-test-how-i-evaluate-voip-systems",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-21T00:22:52.003523",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-honest-truth-about-voip-uptime-claims",
+    "strategy": "gitlab-article",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:39:49.388131",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/dental-practice-phone-workflows-appointment-flow-withou",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:39:56.559026",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/law-firm-phone-workflows-client-intake-without-the-pain",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:40:03.785821",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-ticket-to-voice-round-robin-playbook-for-modern-msp",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:40:11.369826",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-january-overflow-staffing-playbook-for-modern-accou",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:40:18.418589",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-sms-reminder-cadence-playbook-for-modern-real-estat",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:40:25.438673",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/how-home-healthcare-agency-teams-handle-visit-verificat",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:40:32.193536",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/how-pest-control-company-teams-handle-route-dispatch-in",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:40:39.112995",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-room-by-room-sms-workflow-playbook-for-modern-movin",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:40:46.504723",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/a-practical-phone-system-guide-for-electrician-after-ho",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:40:53.588810",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/how-plumber-teams-handle-rebook-flow-in-2026",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:41:01.030299",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-90-day-outbound-cadence-playbook-for-modern-insuran",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:41:08.184237",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-247-tenant-routing-playbook-for-modern-property-man",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:41:15.518090",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/hvac-contractor-phone-workflows-seasonal-dispatch-witho",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:41:23.860618",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-urgent-vs-routine-separation-playbook-for-modern-ve",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:41:31.196935",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/a-practical-phone-system-guide-for-physiotherapy-clinic",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:41:38.180997",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/auto-repair-shop-phone-workflows-estimate-callbacks-wit",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:41:45.219955",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-first-consult-conversion-playbook-for-modern-weddin",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:41:52.320713",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/saas-customer-support-phone-workflows-tier-2-escalation",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:41:59.590544",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/e-commerce-returns-phone-workflows-rma-phone-line-witho",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:42:06.810862",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/a-practical-phone-system-guide-for-logistics-dispatcher",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:42:13.792205",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/commercial-cleaning-phone-workflows-job-confirmations-w",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:42:21.621090",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/how-staffing-agency-teams-handle-candidate-screening-in",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:42:28.542692",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/title-company-phone-workflows-closing-coordination-with",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:42:35.923034",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/a-practical-phone-system-guide-for-chiropractor-insuran",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:42:42.950884",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-credit-pull-permission-capture-playbook-for-modern",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:43:47.683288",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/a-practical-phone-system-guide-for-dental-practice-the",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:43:54.052651",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/how-law-firm-teams-handle-client-intake-in-2026",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:44:00.341699",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/a-practical-phone-system-guide-for-msp-ticket-to-voice",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:44:06.231493",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/accounting-firm-phone-workflows-tax-season-surge-withou",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:44:12.268859",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/home-healthcare-agency-phone-workflows-visit-verificati",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:44:18.324292",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-field-tech-check-in-loops-playbook-for-modern-pest",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:44:24.542845",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/moving-company-phone-workflows-quote-intake-without-the",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:44:30.721850",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/plumber-phone-workflows-rebook-flow-without-the-pain",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:44:36.851388",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-peak-demand-queue-spillover-playbook-for-modern-hva",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:44:42.690971",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/veterinary-clinic-phone-workflows-intake-triage-without",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:44:48.800486",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/how-physiotherapy-clinic-teams-handle-cancellation-fill",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:44:55.118523",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/a-practical-phone-system-guide-for-wedding-photographer",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:45:01.305121",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/a-practical-phone-system-guide-for-saas-customer-suppor",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:45:07.530688",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/a-practical-phone-system-guide-for-e-commerce-returns-p",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:45:14.506423",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-rolling-fleet-status-playbook-for-modern-logistics",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:48:04.866445",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/a-practical-phone-system-guide-for-dental-practice-the-7-minute-patient-check-in-1coc",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:48:46.361442",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/how-law-firm-teams-handle-client-intake-in-2026-4b13",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:49:29.965718",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/msp-phone-workflows-dispatch-desk-without-the-pain-4f7h",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:50:11.428423",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-january-overflow-staffing-playbook-for-modern-accounting-firm-23g3",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T15:50:52.517711",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/real-estate-brokerage-phone-workflows-showing-confirmations-without-the-pain-13l9",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T17:06:23.427230",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/voip-cost-calculator",
+    "strategy": "linkable-asset",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T17:13:56.398746",
+    "platform": "codeberg.page",
+    "url": "https://dialphonelimited.codeberg.page/calculator/",
+    "strategy": "linkable-asset",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T21:25:12.910874",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/i-scraped-13-voip-pricing-pages-with-playwright-heres-what-the-anti-bot-tells-you-about-the-1ppm",
+    "strategy": "devto-announce-asset",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-22T22:33:05.615834",
+    "platform": "hashnode.dev",
+    "url": "https://dialphonevoip.hashnode.dev/building-a-free-voip-comparison-tool-with-vanilla-js-chartjs-13-vendors-3-year-tco-no-backend",
+    "strategy": "hashnode-announce-asset",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:00:10.753429",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-the-7-minute-patient-check-in-playbook-for-modern-dental-practice-4jmb",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:00:46.904810",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/how-msp-teams-handle-dispatch-desk-in-2026-5fdd",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:01:23.669995",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/a-practical-phone-system-guide-for-accounting-firm-january-overflow-staffing-3cfb",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:03:37.480735",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/dental-practice-phone-workflows-appointment-flow-without-the-pain-5e9e",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:04:14.016360",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-first-call-conflict-screening-playbook-for-modern-law-firm-1e4k",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:04:40.224607",
+    "platform": "hashnode.dev",
+    "url": "https://dialphonevoip.hashnode.dev/the-flat-pricing-trap-what-us-canada-cross-border-voip-costs-really-look-like-in-2026",
+    "strategy": "hashnode-data-piece",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:04:50.167372",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/a-practical-phone-system-guide-for-msp-ticket-to-voice-round-robin-2ck8",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:06:03.018134",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/how-home-healthcare-agency-teams-handle-visit-verification-in-2026-862",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:06:39.512564",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/pest-control-company-phone-workflows-route-dispatch-without-the-pain-3ad9",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:20:58.947149",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/dental-practice-phone-workflows-appointment-flow-without-the-pain-53kp",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:21:35.605017",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-first-call-conflict-screening-playbook-for-modern-law-firm-c90",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:22:12.405349",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/how-msp-teams-handle-dispatch-desk-in-2026-3lao",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:22:28.675298",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-research/voip-dental-practice-notes-1",
+    "strategy": "codeberg-orgs-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:22:36.292232",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-research/voip-law-firm-notes-2",
+    "strategy": "codeberg-orgs-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:22:43.375142",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-research/voip-msp-notes-3",
+    "strategy": "codeberg-orgs-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:22:48.931205",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/how-accounting-firm-teams-handle-tax-season-surge-in-2026-4iip",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:22:50.445752",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-research/voip-accounting-firm-notes-4",
+    "strategy": "codeberg-orgs-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:22:57.577251",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-research/voip-real-estate-brokerage-notes-5",
+    "strategy": "codeberg-orgs-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:23:01.451086",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-runbooks",
+    "strategy": "codeberg-orgs-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:23:08.836665",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-runbooks/voip-home-healthcare-agency-notes-1",
+    "strategy": "codeberg-orgs-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:23:17.070629",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-runbooks/voip-pest-control-company-notes-2",
+    "strategy": "codeberg-orgs-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:23:24.274567",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-runbooks/voip-moving-company-notes-3",
+    "strategy": "codeberg-orgs-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:23:25.406006",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-evv-compliant-call-tracking-playbook-for-modern-home-healthcare-agency-26e2",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:23:31.467001",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-runbooks/voip-electrician-notes-4",
+    "strategy": "codeberg-orgs-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:23:38.750073",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-runbooks/voip-plumber-notes-5",
+    "strategy": "codeberg-orgs-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:23:42.408787",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-vertical-notes",
+    "strategy": "codeberg-orgs-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:23:49.435535",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-vertical-notes/voip-insurance-broker-notes-1",
+    "strategy": "codeberg-orgs-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:23:56.572109",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-vertical-notes/voip-property-management-notes-2",
+    "strategy": "codeberg-orgs-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:24:01.888185",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-field-tech-check-in-loops-playbook-for-modern-pest-control-company-39m3",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:24:03.821264",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-vertical-notes/voip-hvac-contractor-notes-3",
+    "strategy": "codeberg-orgs-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:24:10.935988",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-vertical-notes/voip-veterinary-clinic-notes-4",
+    "strategy": "codeberg-orgs-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:24:18.041302",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-vertical-notes/voip-physiotherapy-clinic-notes-5",
+    "strategy": "codeberg-orgs-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:24:22.058906",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-comparison",
+    "strategy": "codeberg-orgs-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:24:29.719610",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-comparison/voip-auto-repair-shop-notes-1",
+    "strategy": "codeberg-orgs-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:24:38.439091",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/a-practical-phone-system-guide-for-moving-company-room-by-room-sms-workflow-1p5",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:24:38.660393",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-comparison/voip-wedding-photographer-notes-2",
+    "strategy": "codeberg-orgs-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:24:46.519685",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-comparison/voip-saas-customer-support-notes-3",
+    "strategy": "codeberg-orgs-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:24:53.954230",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-comparison/voip-e-commerce-returns-notes-4",
+    "strategy": "codeberg-orgs-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:25:01.712493",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-comparison/voip-logistics-dispatcher-notes-5",
+    "strategy": "codeberg-orgs-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:25:05.427579",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-compliance",
+    "strategy": "codeberg-orgs-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:25:12.596095",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-compliance/voip-commercial-cleaning-notes-1",
+    "strategy": "codeberg-orgs-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:25:16.066743",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/a-practical-phone-system-guide-for-electrician-after-hours-triage-tree-1o52",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:25:19.778838",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-compliance/voip-staffing-agency-notes-2",
+    "strategy": "codeberg-orgs-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:25:27.444771",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-compliance/voip-title-company-notes-3",
+    "strategy": "codeberg-orgs-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:25:34.749007",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-compliance/voip-chiropractor-notes-4",
+    "strategy": "codeberg-orgs-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:25:42.168887",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-compliance/voip-mortgage-broker-notes-5",
+    "strategy": "codeberg-orgs-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:25:52.548553",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/a-practical-phone-system-guide-for-plumber-same-day-service-recovery-238p",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:26:29.244765",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/a-practical-phone-system-guide-for-insurance-broker-90-day-outbound-cadence-5931",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:27:05.767373",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/a-practical-phone-system-guide-for-property-management-247-tenant-routing-2f5a",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:27:09.402484",
+    "platform": "codeberg.page",
+    "url": "https://dialphone-research.codeberg.page/",
+    "strategy": "codeberg-pages-subdomain",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:27:09.404248",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-research/pages",
+    "strategy": "codeberg-pages-subdomain",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:27:16.633824",
+    "platform": "codeberg.page",
+    "url": "https://dialphone-runbooks.codeberg.page/",
+    "strategy": "codeberg-pages-subdomain",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:27:16.635423",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-runbooks/pages",
+    "strategy": "codeberg-pages-subdomain",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:27:24.091727",
+    "platform": "codeberg.page",
+    "url": "https://dialphone-vertical-notes.codeberg.page/",
+    "strategy": "codeberg-pages-subdomain",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:27:24.093501",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-vertical-notes/pages",
+    "strategy": "codeberg-pages-subdomain",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:27:31.615714",
+    "platform": "codeberg.page",
+    "url": "https://dialphone-comparison.codeberg.page/",
+    "strategy": "codeberg-pages-subdomain",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:27:31.616841",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-comparison/pages",
+    "strategy": "codeberg-pages-subdomain",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:27:39.003239",
+    "platform": "codeberg.page",
+    "url": "https://dialphone-compliance.codeberg.page/",
+    "strategy": "codeberg-pages-subdomain",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:27:39.004373",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-compliance/pages",
+    "strategy": "codeberg-pages-subdomain",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:27:42.510909",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/how-hvac-contractor-teams-handle-seasonal-dispatch-in-2026-2nfk",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:29:18.077597",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-research/voip-tutoring-center-vol2-1",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:29:25.540734",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-research/voip-gym-chain-vol2-2",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:29:32.180503",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-research/voip-solar-installer-vol2-3",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:29:38.715867",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-research/voip-restaurant-group-vol2-4",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:29:44.978159",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-research/voip-catering-company-vol2-5",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:29:51.855015",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-runbooks/voip-personal-training-vol2-1",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:29:58.066051",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-runbooks/voip-photographer-studio-vol2-2",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:30:10.204915",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-runbooks/voip-event-planner-vol2-3",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:30:18.081869",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-runbooks/voip-franchise-consultant-vol2-4",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:30:25.721120",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-runbooks/voip-medical-billing-firm-vol2-5",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:30:33.160520",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-vertical-notes/voip-child-care-center-vol2-1",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:30:40.889991",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-vertical-notes/voip-adult-day-care-vol2-2",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:30:48.201441",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-vertical-notes/voip-pharmacy-delivery-vol2-3",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:31:00.896946",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-vertical-notes/voip-mobile-notary-vol2-4",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:31:12.330862",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-vertical-notes/voip-funeral-home-vol2-5",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:31:19.925511",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-comparison/voip-retail-ops-vol2-1",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:31:27.509771",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-comparison/voip-franchise-multi-unit-vol2-2",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:31:34.644936",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-comparison/voip-auto-dealer-service-vol2-3",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:31:42.362010",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-comparison/voip-construction-gc-vol2-4",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:31:51.397043",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-comparison/voip-legal-deposition-vol2-5",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:31:58.797302",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-compliance/voip-architecture-firm-vol2-1",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:32:08.984791",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-compliance/voip-engineering-consultancy-vol2-2",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:32:17.965855",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-compliance/voip-appraisal-services-vol2-3",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:32:26.538690",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-compliance/voip-home-inspection-vol2-4",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:32:36.605604",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-compliance/voip-pest-inspection-vol2-5",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:33:39.698336",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/how-msp-teams-handle-dispatch-desk-in-2026",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:34:07.897434",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/a-practical-phone-system-guide-for-real-estate-brokerag",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:34:22.625951",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-research/voip-security-monitoring-vol3-1",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:34:29.784306",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-research/voip-locksmith-service-vol3-2",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:34:36.023237",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/a-practical-phone-system-guide-for-home-healthcare-agen",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:34:37.065679",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-research/voip-tree-service-vol3-3",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:34:44.325200",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-research/voip-interior-designer-vol3-4",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:34:52.001003",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-research/voip-music-teacher-studio-vol3-5",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:34:58.906385",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-runbooks/voip-language-school-vol3-1",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:35:04.135505",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/a-practical-phone-system-guide-for-moving-company-room",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:35:09.330064",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-runbooks/voip-driving-school-vol3-2",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:35:17.359458",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-runbooks/voip-it-consulting-vol3-3",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:35:26.087323",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-runbooks/voip-solar-panel-cleaning-vol3-4",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:35:32.314349",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-after-hours-triage-tree-playbook-for-modern-electri",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:35:34.363992",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-runbooks/voip-pool-service-vol3-5",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:35:41.170483",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-vertical-notes/voip-courier-service-vol3-1",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:35:48.832922",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-vertical-notes/voip-freight-forwarding-vol3-2",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:35:55.561212",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-vertical-notes/voip-bookkeeping-service-vol3-3",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:36:02.486853",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/how-veterinary-clinic-teams-handle-intake-triage-in-202",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:36:04.924763",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-vertical-notes/voip-private-practice-therapist-vol3-4",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:36:11.890064",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-vertical-notes/voip-wellness-coach-vol3-5",
+    "strategy": "codeberg-orgs-round2",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:36:30.547542",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/the-photo-to-quote-turnaround-playbook-for-modern-auto",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:36:58.714675",
+    "platform": "gitlab.com",
+    "url": "https://gitlab.com/dialphonelimited/wedding-photographer-phone-workflows-booking-funnel-wit",
+    "strategy": "gitlab-niche-content",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:53:18.205342",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/how-dental-practice-teams-handle-appointment-flow-in-2026-153g",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:53:55.351497",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-first-call-conflict-screening-playbook-for-modern-law-firm-4p32",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:54:31.929060",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/accounting-firm-phone-workflows-tax-season-surge-without-the-pain-20jh",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:54:32.725437",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/voip-buyer-notes",
+    "strategy": "codeberg-orgs-r4",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:54:39.554631",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/voip-buyer-notes/voip-home-healthcare-agency-r4-1",
+    "strategy": "codeberg-orgs-r4",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:54:45.964833",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/voip-buyer-notes/voip-pest-control-company-r4-2",
+    "strategy": "codeberg-orgs-r4",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:54:52.318616",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/voip-buyer-notes/voip-moving-company-r4-3",
+    "strategy": "codeberg-orgs-r4",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:54:59.031806",
+    "platform": "codeberg.page",
+    "url": "https://voip-buyer-notes.codeberg.page/",
+    "strategy": "codeberg-orgs-r4",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:54:59.033979",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/voip-buyer-notes/pages",
+    "strategy": "codeberg-orgs-r4",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:55:00.782050",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/smb-telephony-lab",
+    "strategy": "codeberg-orgs-r4",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:55:08.524790",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-sms-reminder-cadence-playbook-for-modern-real-estate-brokerage-27p5",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:55:08.988421",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/smb-telephony-lab/voip-electrician-r4-1",
+    "strategy": "codeberg-orgs-r4",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:55:15.300082",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/smb-telephony-lab/voip-plumber-r4-2",
+    "strategy": "codeberg-orgs-r4",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:55:21.618958",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/smb-telephony-lab/voip-insurance-broker-r4-3",
+    "strategy": "codeberg-orgs-r4",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:55:28.203625",
+    "platform": "codeberg.page",
+    "url": "https://smb-telephony-lab.codeberg.page/",
+    "strategy": "codeberg-orgs-r4",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:55:28.205593",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/smb-telephony-lab/pages",
+    "strategy": "codeberg-orgs-r4",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:55:29.956050",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/ucaas-data-points",
+    "strategy": "codeberg-orgs-r4",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:55:36.963746",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/ucaas-data-points/voip-property-management-r4-1",
+    "strategy": "codeberg-orgs-r4",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:55:43.360593",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/ucaas-data-points/voip-hvac-contractor-r4-2",
+    "strategy": "codeberg-orgs-r4",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:55:45.138861",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/home-healthcare-agency-phone-workflows-visit-verification-without-the-pain-4iep",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:55:49.657951",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/ucaas-data-points/voip-veterinary-clinic-r4-3",
+    "strategy": "codeberg-orgs-r4",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:55:56.371006",
+    "platform": "codeberg.page",
+    "url": "https://ucaas-data-points.codeberg.page/",
+    "strategy": "codeberg-orgs-r4",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:55:56.372408",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/ucaas-data-points/pages",
+    "strategy": "codeberg-orgs-r4",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:56:22.463175",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-the-7-minute-patient-check-in-playbook-for-modern-dental-practice-5b6c",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:56:59.036621",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/law-firm-phone-workflows-client-intake-without-the-pain-3b7o",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:57:24.694350",
+    "platform": "hashnode.dev",
+    "url": "https://dialphonevoip.hashnode.dev/hallucination-tolerance-is-the-underrated-metric-for-ai-receptionists-in-2026",
+    "strategy": "hashnode-ai-piece",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:57:35.121190",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-ticket-to-voice-round-robin-playbook-for-modern-msp-5429",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:58:11.948422",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/how-accounting-firm-teams-handle-tax-season-surge-in-2026-3n95",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T16:58:48.034372",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/a-practical-phone-system-guide-for-real-estate-brokerage-sms-reminder-cadence-54k",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:04:50.246984",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/how-dental-practice-teams-handle-appointment-flow-in-2026-567m",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:05:26.337141",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-first-call-conflict-screening-playbook-for-modern-law-firm-1coc",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:05:56.885022",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-research/voip-dental-practice-procurement-1",
+    "strategy": "codeberg-vol4-procurement",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:06:02.851940",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/a-practical-phone-system-guide-for-msp-ticket-to-voice-round-robin-3pf7",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:06:03.806678",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-research/voip-law-firm-procurement-2",
+    "strategy": "codeberg-vol4-procurement",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:06:10.692566",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-research/voip-msp-procurement-3",
+    "strategy": "codeberg-vol4-procurement",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:06:20.104637",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-runbooks/voip-accounting-firm-procurement-1",
+    "strategy": "codeberg-vol4-procurement",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:06:26.093999",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-runbooks/voip-real-estate-brokerage-procurement-2",
+    "strategy": "codeberg-vol4-procurement",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:06:32.051413",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-runbooks/voip-home-healthcare-agency-procurement-3",
+    "strategy": "codeberg-vol4-procurement",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:06:39.226895",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-vertical-notes/voip-pest-control-company-procurement-1",
+    "strategy": "codeberg-vol4-procurement",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:06:39.643373",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-sms-reminder-cadence-playbook-for-modern-real-estate-brokerage-p2m",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:06:45.126898",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-vertical-notes/voip-moving-company-procurement-2",
+    "strategy": "codeberg-vol4-procurement",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:06:51.374626",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-vertical-notes/voip-electrician-procurement-3",
+    "strategy": "codeberg-vol4-procurement",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:06:58.575814",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-comparison/voip-plumber-procurement-1",
+    "strategy": "codeberg-vol4-procurement",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:07:05.095410",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-comparison/voip-insurance-broker-procurement-2",
+    "strategy": "codeberg-vol4-procurement",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:07:11.927100",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-comparison/voip-property-management-procurement-3",
+    "strategy": "codeberg-vol4-procurement",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:07:15.693375",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/home-healthcare-agency-phone-workflows-visit-verification-without-the-pain-583o",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:07:18.365427",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-compliance/voip-hvac-contractor-procurement-1",
+    "strategy": "codeberg-vol4-procurement",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:07:24.401440",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-compliance/voip-veterinary-clinic-procurement-2",
+    "strategy": "codeberg-vol4-procurement",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:07:31.380396",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/dialphone-compliance/voip-physiotherapy-clinic-procurement-3",
+    "strategy": "codeberg-vol4-procurement",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:07:37.554343",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/voip-buyer-notes/voip-auto-repair-shop-procurement-1",
+    "strategy": "codeberg-vol4-procurement",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:07:43.500995",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/voip-buyer-notes/voip-wedding-photographer-procurement-2",
+    "strategy": "codeberg-vol4-procurement",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:07:49.907485",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/voip-buyer-notes/voip-saas-customer-support-procurement-3",
+    "strategy": "codeberg-vol4-procurement",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:07:52.251872",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/how-pest-control-company-teams-handle-route-dispatch-in-2026-5495",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:07:56.299207",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/smb-telephony-lab/voip-e-commerce-returns-procurement-1",
+    "strategy": "codeberg-vol4-procurement",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:08:03.501262",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/smb-telephony-lab/voip-logistics-dispatcher-procurement-2",
+    "strategy": "codeberg-vol4-procurement",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:08:10.358294",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/smb-telephony-lab/voip-commercial-cleaning-procurement-3",
+    "strategy": "codeberg-vol4-procurement",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:08:16.614045",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/ucaas-data-points/voip-staffing-agency-procurement-1",
+    "strategy": "codeberg-vol4-procurement",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:08:23.039331",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/ucaas-data-points/voip-title-company-procurement-2",
+    "strategy": "codeberg-vol4-procurement",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:08:29.162264",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-room-by-room-sms-workflow-playbook-for-modern-moving-company-i65",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:08:29.214948",
+    "platform": "codeberg.org",
+    "url": "https://codeberg.org/ucaas-data-points/voip-chiropractor-procurement-3",
+    "strategy": "codeberg-vol4-procurement",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:09:05.743088",
+    "platform": "dev.to",
+    "url": "https://dev.to/dialphonelimited/the-after-hours-triage-tree-playbook-for-modern-electrician-25lg",
+    "strategy": "devto-niche",
+    "content_excerpt": ""
+  },
+  {
+    "ts": "2026-04-29T17:21:41.503287",
+    "platform": "hashnode.dev",
+    "url": "https://dialphonevoip.hashnode.dev/voip-number-porting-in-2026-the-5-21-day-reality-vs-the-3-7-day-vendor-quote",
+    "strategy": "hashnode-porting-piece",
+    "content_excerpt": ""
+  }
+]

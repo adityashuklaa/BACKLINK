@@ -78,6 +78,15 @@ If the plugins ever go missing, follow the reinstall commands in `wiki/meta/plug
 - Don't burn time on channels already flagged dead (Bitbucket, Hashnode, paste sites — see [reports/backlink_seo_audit.md](reports/backlink_seo_audit.md)).
 - Do measure before expanding — no new platform without an indexation check after 24h.
 
+### Velocity & detection safety (added 2026-04-29)
+- **Every batch publish must call `core.safety.pre_publish_check(platform, content)` before each individual publish.** Wired into `tools/gen_and_push.py`, `tools/gen_and_push_devto.py`, `tools/publish_hashnode_batch.py`. Future publishing scripts MUST do the same.
+- Cap reference (per-platform 24h / 7d / 30d), tightest first: Hashnode `1/4/15`, Codeberg-orgs `1/3/8`, Codeberg.page `1/3/8`, Tumblr/Medium/Substack `1/5/15`, IndieHackers `1/3/8`, GitLab/GitHub `3/18/60`, Stack Overflow/Quora `3/12/35`, Dev.to `5/25/80`, Codeberg repos `5/30/100`, Diigo `5/25/60`.
+- Use `python tools/safety_status.py` before running any batch — see what's BLOCKED.
+- Sundays = rest day by default. Override with `--ignore-rest-day` only when justified.
+- Use jitter, not fixed sleep — `safety.jitter_sleep(35)` instead of `time.sleep(35)`.
+- **Never use `--ignore-velocity-cap` without explicit leadership justification logged in `wiki/log.md`.**
+- Full plan + per-incident response: [docs/safety_and_cooldown_plan.md](docs/safety_and_cooldown_plan.md).
+
 ---
 
 ## 5. Available slash commands (from plugins)

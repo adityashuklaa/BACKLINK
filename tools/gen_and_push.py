@@ -265,10 +265,25 @@ def csv_log(site, url, status, notes):
 
 
 def main():
+    # Safety imports — must come from project root
+    try:
+        sys.path.insert(0, ".")
+        from core.safety import pre_publish_check, log_publish, jitter_sleep, is_rest_day
+        SAFETY_ENABLED = True
+    except ImportError:
+        print("  WARN: core.safety not available; running without velocity gates")
+        SAFETY_ENABLED = False
+
     ap = argparse.ArgumentParser()
     ap.add_argument("--count", type=int, default=25)
     ap.add_argument("--sleep", type=int, default=4)
+    ap.add_argument("--ignore-rest-day", action="store_true")
+    ap.add_argument("--ignore-velocity-cap", action="store_true", help="DANGEROUS")
     args = ap.parse_args()
+
+    if SAFETY_ENABLED and is_rest_day() and not args.ignore_rest_day:
+        print(f"ABORT: today is Sunday (rest day). Use --ignore-rest-day to override.")
+        return 1
 
     existing = gl_list()
     print(f"GitLab existing repos: {len(existing)}")
@@ -276,6 +291,7 @@ def main():
     pushed = 0
     skipped = 0
     failed = 0
+    velocity_blocked = 0
 
     for industry, noun, detail in NICHES:
         if pushed >= args.count:
@@ -287,6 +303,17 @@ def main():
         if slug in existing:
             skipped += 1
             continue
+
+        # Safety gate
+        if SAFETY_ENABLED:
+            check = pre_publish_check("gitlab.com", body, respect_rest_day=False)
+            if not check.ok and not args.ignore_velocity_cap:
+                print(f"  [safety BLOCK] {slug[:60]} — {check.issues[0][:120]}")
+                velocity_blocked += 1
+                if "24h cap" in check.issues[0]:
+                    print(f"  STOPPING: 24h velocity cap hit. Resume tomorrow.")
+                    break
+                continue
 
         print(f"[{pushed+1}/{args.count}] {slug}")
         try:
@@ -300,6 +327,8 @@ def main():
             if ok:
                 url = r.json()["web_url"]
                 csv_log(f"GitLab-{slug[:40]}", url, "success", "DA 92 dofollow — niche content (generated)")
+                if SAFETY_ENABLED:
+                    log_publish("gitlab.com", url, body[:200], strategy="gitlab-niche")
                 print(f"  ✓ {url}")
                 pushed += 1
                 existing.add(slug)
@@ -309,12 +338,16 @@ def main():
         except Exception as e:
             print(f"  EXC: {e}")
             failed += 1
-        time.sleep(args.sleep)
+        if SAFETY_ENABLED:
+            jitter_sleep(args.sleep, variance_pct=0.5)
+        else:
+            time.sleep(args.sleep)
 
     print(f"\n=== DONE ===")
-    print(f"Pushed:  {pushed}")
-    print(f"Skipped: {skipped}")
-    print(f"Failed:  {failed}")
+    print(f"Pushed:           {pushed}")
+    print(f"Skipped (dup):    {skipped}")
+    print(f"Velocity blocked: {velocity_blocked}")
+    print(f"Failed:           {failed}")
     return 0
 
 

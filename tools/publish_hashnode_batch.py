@@ -26,6 +26,11 @@ sys.path.insert(0, ".")
 sys.stdout.reconfigure(encoding="utf-8")
 
 from core.humanize import validate, source_quality_gate, concentration_gate
+try:
+    from core.safety import pre_publish_check, log_publish, jitter_sleep, is_rest_day
+    SAFETY_ENABLED = True
+except ImportError:
+    SAFETY_ENABLED = False
 
 CFG = json.load(open("config.json"))
 TOKEN = CFG["api_keys"]["hashnode"]
@@ -241,6 +246,17 @@ def main():
             failed += 1
             continue
 
+        # Safety gate — velocity cap + content similarity
+        if SAFETY_ENABLED:
+            check = pre_publish_check("hashnode.dev", new_body, respect_rest_day=False)
+            if not check.ok:
+                print(f"[safety BLOCK] {new_title[:70]} — {check.issues[0][:120]}")
+                if "24h cap" in check.issues[0]:
+                    print(f"STOPPING: 24h velocity cap hit on Hashnode (cap is 1/day given 74-deletion incident).")
+                    break
+                failed += 1
+                continue
+
         print(f"\n[{published + 1}/{args.count}] batch#{batch_idx} — {new_title[:80]}")
 
         if args.dry_run:
@@ -264,6 +280,8 @@ def main():
             ok, vreason = verify_via_api(slug)
             if ok:
                 csv_log(f"Hashnode-{slug[:40]}", url, "success", f"DA 85 dofollow — API batch #{batch_idx}")
+                if SAFETY_ENABLED:
+                    log_publish("hashnode.dev", url, new_body[:200], strategy="hashnode-batch")
                 print(f"  ✓ {url}")
                 published += 1
                 seen.add(new_title.strip().lower())

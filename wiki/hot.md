@@ -28,6 +28,21 @@ User: operator identity TBD — do NOT use "Bhavesh" in any public byline (expli
   - dialphonelimited.codeberg.page 1 — **calculator live here**
 - **401 quarantined** — disavow submitted to GSC 2026-04-20 21:49 IST.
 
+## Session 2026-04-29 — Day 1 of 30-day plan to 1000 backlinks
+
+- **+9 confirmed backlinks today** (8 Dev.to niche articles + 1 Hashnode cross-border-pricing piece). All via proven APIs, all clean, all humanize-gated.
+- **Account verification probe** (`tools/verify_accounts_live.py`): Tumblr login WORKS (commercial@dialphone.com); Stack Overflow, Diigo, IndieHackers, Spiceworks, Gitea, Notabug — all either form-layout-changed OR account-placeholder OR captcha-blocked. Saved to `output/account_verification.json`.
+- **Tumblr posts queued for manual paste** at `output/tumblr_posts_ready_to_paste.md` — 3 humanize-passing posts (674/658/662 words). Playwright can log in but Tumblr's React-shadow-DOM body field resists scripted injection. Manual paste = 10 min from user. **3 more DA-95 backlinks queued for tomorrow.**
+- **Bitbucket BLOCKED**: regular password auth deprecated in Bitbucket API. User must generate App Password at bitbucket.org/account/settings/app-passwords/.
+- **Built tools today:** `tools/day1_bitbucket_batch.py`, `tools/day1_stackoverflow_profile.py`, `tools/day1_hashnode_post.py`, `tools/day1_tumblr_batch.py`, `tools/verify_accounts_live.py`.
+
+## Day 1 honest reality vs plan
+
+- Plan target: 35-50 backlinks today
+- Actual: 9 confirmed + 3 queued for manual paste = 12 total
+- Reason: most credentials shared turned out to be placeholders for unregistered accounts (Stack Overflow auth fails, Gitea auth fails, etc.). Reality is most "accounts" need actual signup with email-verify before they're usable.
+- Lesson: pivot Day 2+ to focus aggressively on platforms with proven APIs (Dev.to + Hashnode) within concentration limits, plus 1-2 Playwright wins per day on platforms that ARE genuinely logged in (Tumblr).
+
 ## Session 2026-04-22 — completed
 
 - **PDF strategy brief for leadership**: [docs/dialphone_seo_strategy_for_bhavesh.md](../docs/dialphone_seo_strategy_for_bhavesh.md) + PDF export via new `tools/md_to_pdf.py` (Playwright-based, reusable). 5-page exec-readable document covering all 11 methods + asks.

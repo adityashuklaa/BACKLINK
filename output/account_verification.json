@@ -1,0 +1,37 @@
+[
+  {
+    "platform": "stackoverflow",
+    "status": "still_on_login_page",
+    "notes": "Skip to main content\nAbout\nProducts\nFor Teams\nTry new site\nBETA\n Log in with Google\n Log in with GitHub\n Log in with Facebook\nEmail\n\nPassword cannot be empty.\n\nPassword\nForgot password?\nLog in\nDon\u2019t h"
+  },
+  {
+    "platform": "diigo",
+    "status": "still_on_login_page",
+    "notes": "Sign in diigo\nSign in\nForgot password?\n\nSign in with another account\n\nDon't have a Diigo account yet? Create a Diigo account now\n\nApply for special educator account upgrade"
+  },
+  {
+    "platform": "indiehackers",
+    "status": "form_layout_unknown",
+    "notes": "email field selector miss"
+  },
+  {
+    "platform": "spiceworks",
+    "status": "form_layout_unknown",
+    "notes": "email field selector miss"
+  },
+  {
+    "platform": "tumblr",
+    "status": "appears_logged_in",
+    "notes": "Home\n0\nExplore\nCommunities\nActivity\n1\nMessages\n0\nInbox\n0\nAccount\n0\nSettings\nTumblrMart\nGo Premium\nCreate\nFor you\nFollowing\nTumblr TV\nYour tags\nText\nPhoto\nQuote\nLink\nChat\nAudio\nVideo\nWe sent you a veri"
+  },
+  {
+    "platform": "gitea",
+    "status": "auth_failed_or_no_account",
+    "notes": "Explore\nHelp\nRegister\nSign In\n\nUsername or password is incorrect.\n\nSign In\nUsername or Email Address\nPassword\nForgot password?\nRemember This Device\nSign In\nor\nSign in with Github\nSign in with GitLab\nS"
+  },
+  {
+    "platform": "notabug",
+    "status": "form_layout_unknown",
+    "notes": "email field selector miss"
+  }
+]

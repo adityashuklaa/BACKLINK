@@ -15,15 +15,15 @@ Working dir: `c:\Users\Dev\Desktop\backlink`
 Company: **DialPhone Limited — Hong Kong registered. Buyer market = US + Canada.** Skip UK dirs.
 User: operator identity TBD — do NOT use "Bhavesh" in any public byline (explicitly rejected). Company contact: `commercial@dialphone.com`. Leadership contact: `bhavesh@dialphone.com` (internal comms only).
 
-## Current State (verified 2026-04-22)
+## Current State (verified 2026-04-29)
 
-- **460 verified clean backlinks** across **7 referring domains** (source: `output/backlinks_final_truth.csv`, rebuilt after session work).
+- **469 verified clean backlinks** across **7 referring domains** (source: `output/backlinks_final_truth.csv`, rebuilt after Day 1 of May plan).
 - Domain breakdown:
-  - gitlab.com 177 (38.5%) — **at cap**, ≤8 more safe
-  - dev.to 161 (35.0%) — +1 from calculator announcement (scraping-stealth build-log)
-  - codeberg.org 99 (21.5%) — API soft-limit hit, cannot create more repos
-  - dialphonevoip.hashnode.dev 11 (2.4%) — +1 from calculator announcement (build-log angle, different from Dev.to)
-  - github.com 10 (2.2%) — blocked on GitHub PAT
+  - gitlab.com 177 (37.7%) — **at cap**, ≤8 more safe
+  - dev.to 169 (36.0%) — +8 today (8 niche articles, 9 spaced over the day)
+  - codeberg.org 99 (21.1%) — API soft-limit hit, cannot create more repos
+  - dialphonevoip.hashnode.dev 12 (2.6%) — +1 today (cross-border pricing piece)
+  - github.com 10 (2.1%) — blocked on GitHub PAT
   - dialphonelimited.gitlab.io 1 — Pages subdomain
   - dialphonelimited.codeberg.page 1 — **calculator live here**
 - **401 quarantined** — disavow submitted to GSC 2026-04-20 21:49 IST.
